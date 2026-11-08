@@ -1,0 +1,20 @@
+{
+  "fonte": "https://www.confaz.fazenda.gov.br/legislacao/convenios/2018/CV142_18",
+  "obtido_em": "2026-11-08T13:41:01+00:00",
+  "sha256_pagina": "ae6540b124d1be3653d8ec46ce98be0de93c07d8cd457f1107d0cafe90f0d23a",
+  "data_referencia_situacao": "2026-11-08",
+  "redacoes": 1220,
+  "por_situacao": {
+    "vigente": 1043,
+    "anterior": 136,
+    "revogada": 12,
+    "sem_efeitos": 29
+  },
+  "cests_vigentes": 1043,
+  "segmentos": 25,
+  "itens_anexo_xxvii": 222,
+  "notas_nao_associadas": 0,
+  "linhas_repetidas_na_pagina": 0,
+  "divergencias_da_fonte": 5,
+  "avisos_validacao": []
+}

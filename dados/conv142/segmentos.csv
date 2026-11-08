@@ -1,0 +1,26 @@
+codigo,segmento,anexo
+01,Autopeças,II
+02,"Bebidas alcoólicas, exceto cerveja e chope",III
+03,"Cervejas, chopes, refrigerantes, águas e outras bebidas",IV
+04,Cigarros e outros produtos derivados do fumo,V
+05,Cimentos,VI
+06,Combustíveis e lubrificantes,VII
+07,Energia elétrica,VIII
+08,Ferramentas,IX
+09,"Lâmpadas, reatores e “starter”",X
+10,Materiais de construção e congêneres,XI
+11,Materiais de limpeza,XII
+12,Materiais elétricos,XIII
+13,Medicamentos de uso humano e outros produtos farmacêuticos para uso humano ou veterinário,XIV
+14,"Papéis, plásticos, produtos cerâmicos e vidros",XV
+16,"Pneumáticos, câmaras de ar e protetores de borracha",XVI
+17,Produtos alimentícios,XVII
+19,Produtos de papelaria,XVIII
+20,Produtos de perfumaria e de higiene pessoal e cosméticos,XIX
+21,"Produtos eletrônicos, eletroeletrônicos e eletrodomésticos",XX
+22,Rações para animais domésticos,XXI
+23,Sorvetes e preparados para fabricação de sorvetes em máquinas,XXII
+24,Tintas e vernizes,XXIII
+25,Veículos automotores,XXIV
+26,Veículos de duas e três rodas motorizados,XXV
+28,Venda de mercadorias pelo sistema porta a porta,XXVI
