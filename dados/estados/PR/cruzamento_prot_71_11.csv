@@ -1,0 +1,55 @@
+item_protocolo,ncm_sh,descricao,cests_pr,mva_pr,situacao
+1,39.16,Revestimentos de PVC e outros plásticos;,10.005.00,"73,16",mva_unica
+2,39.16,"Forro, sancas e afins de PVC, para uso na construção civil",10.005.00,"73,16",mva_unica
+3,39.17,"Tubos e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na",10.006.00,"56,46",mva_unica
+4,39.18,Revestimento de pavimento de PVC e outros plásticos,10.007.00,"50,49",mva_unica
+5,39.19 39.20 39.21,"Veda rosca, lona plástica, fitas isolantes e afins (exceto produtos da posição 3921.90.20)",10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,"113,64;57,76;58,78;63,85;75",varias_mvas
+6,39.22,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixa",10.013.00,"79,53",mva_unica
+7,3925.90.00 3925.10.00,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",10.015.00;10.016.00,"49,95;62,58",varias_mvas
+8,3925.20.00,"Portas, janelas e afins, de plástico",10.018.00,"69,05",mva_unica
+10,3926.90,"Outras obras de plástico, para uso na construção civil",10.020.00,"77,03",mva_unica
+13,4016.93.00,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",,,sem_mva_no_pr
+17,48.14,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,10.021.00,"92,29",mva_unica
+19,57.03,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confecci",,,sem_mva_no_pr
+27,68.11,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocim",10.024.00,"78,04",mva_unica
+29,69.10,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictóri",10.031.00,"52,41",mva_unica
+30,69.07 69.08,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",10.030.00,"68,59",mva_unica
+38,7214.20.00 7308.90.10,"Barras próprias para construções, exceto os vergalhões de ferro",10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,"20,31;45;46,44;47,99;95,39",varias_mvas
+39,7214.20.00,Vergalhões,10.040.00;10.042.00,"20,31;46,44",varias_mvas
+40,7217.10.90 73.12,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados)",10.044.00,"60,29",mva_unica
+41,7217.20.90,"Outros fios de ferro ou aço, não ligados, galvanizados",10.045.01,"56,47",mva_unica
+42,73.07,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",10.046.00,"53,59",mva_unica
+43,7308.30.00,"Portas e janelas e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",10.047.00,"61,68",mva_unica
+44,7308.40.00 7308.90,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, ",10.041.00;10.041.01;10.048.00;10.049.00,"38,48;45;47,99;95,39",varias_mvas
+45,7313.00.00,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tip",10.052.00,"39,93",mva_unica
+46,73.14,"Telas metálicas, grades e redes, de fios de ferro ou aço",10.053.00,"35,45",mva_unica
+47,7315.82.00,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",10.056.00,"95,36",mva_unica
+48,7317.00,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de fe",10.057.00,"76,51",mva_unica
+49,73.18,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavi",10.058.00,"61,53",mva_unica
+50,73.26,Abraçadeiras,10.062.00,"89,91",mva_unica
+51,74.07,Barras de cobre,10.063.00,"46,76",mva_unica
+53,74.12,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para ",10.065.00,"55,59",mva_unica
+54,74.15,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabe",10.066.00,"78,84",mva_unica
+55,7418.20.00,Artefatos de higiene/toucador de cobre,10.067.00,"56,42",mva_unica
+56,7607.19.90,Manta de subcobertura aluminizada,10.068.00,75,mva_unica
+57,7609.00.00,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na co",10.070.00,"75,04",mva_unica
+58,76.10,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, coluna",10.071.00,"41,40",mva_unica
+59,7615.20.00,Artefatos de higiene/toucador de alumínio,10.072.00,"86,18",mva_unica
+60,76.16,"Outras obras de alumínio, próprias para construções, incluídas as persianas",10.073.00,"55,38",mva_unica
+61,76.16 8302.4,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive pux",10.073.00;10.074.00,"55,38;78,63",varias_mvas
+62,83.01,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as",10.075.00,"74,96",mva_unica
+63,8302.10.00,"Dobradiças de metais comuns, de qualquer tipo",10.076.00,"58,91",mva_unica
+65,83.07,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",10.077.00,"91,65",mva_unica
+66,83.11,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos m",10.078.00,"54,78",mva_unica
+68,84.81,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhante",10.079.00,"68,05",mva_unica
+71,3214.90.00 3826.00.1 3824.50.00,"Argamassas, seladoras e massas para revestimento",10.002.00;10.003.00,"58,17;70,49",varias_mvas
+72,39.19,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo e",10.008.00;10.009.00,"58,78;63,85",varias_mvas
+73,39.21,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",10.009.00;10.010.00;10.011.00;10.012.00,"113,64;57,76;58,78;75",varias_mvas
+74,39.24,Artefatos de higiene / toucador de plástico,10.014.00,"92,29",mva_unica
+79,6912.00.00,Artefatos de higiene/toucador de cerâmica,10.032.00,"92,29",mva_unica
+80,73.10,"Caixas diversas (tais como caixas de correio, de entrada de água, de energia, de instalação) de ferr",10.051.00,"76,78",mva_unica
+81,7315.11.00,"Correntes de rolos, de ferro fundido, ferro ou aço",10.054.00,75,mva_unica
+82,7315.12.90,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",10.055.00,"57,69",mva_unica
+83,73.23,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de fe",10.059.01,"46,15",mva_unica
+84,73.24,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, t",10.060.00,"79,19",mva_unica
+85,73.25,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",10.061.00,"96,75",mva_unica

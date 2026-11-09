@@ -197,6 +197,33 @@ A fonte é a versão consolidada sem histórico publicada pela SEF/MG, que traz
 só a redação vigente; as datas das mudanças passam a vir do monitor, que guarda
 cada versão da página.
 
+## Paraná: MVA original com vigência
+
+O quarto conjunto, em `dados/estados/PR/`, lê a Resolução SEFA 571/2019
+consolidada (PDF de cerca de 590 páginas no SEFANET), que fixa a MVA original de
+23 segmentos: **817 redações, 592 vigentes**, cada uma com início e fim de
+vigência. Exemplo do segmento de construção (art. 16): a Resolução SEFA
+1.245/2025 trocou a tabela inteira em 01/04/2026, e a abraçadeira passou de 75%
+para 89,91%; os dois valores estão no histórico, com as datas.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `mva_historico.csv` / `mva_vigente.csv` | Seção, segmento, artigo, item, CEST, descrição (do Convênio 142, pelo CEST), NCM/SH, MVA, vigência e a nota de alteração |
+| `cruzamento_prot_71_11.csv` | Cada item do Prot. ICMS 71/11 (SP -> PR) com a MVA que o PR fixa para ele |
+| `avisos.txt` | O que o leitor não conseguiu resolver sozinho |
+
+No PDF a MVA fica centralizada na célula e o texto corrido embaralha as
+colunas; a leitura usa a posição de cada palavra na página (item, CEST e MVA
+ficam na mesma altura). Em 09/11/2026: dos 54 itens do Prot. 71/11, 43 têm MVA
+única no PR, 9 casam com mais de um CEST (a descrição decide) e 2 (juntas de
+borracha e tapetes) não têm MVA no artigo de construção. Os avisos se
+concentram em bebidas e alimentos, onde um mesmo CEST aparece com MVAs por
+condição; o segmento de construção sai sem aviso.
+
+```bash
+.venv/Scripts/python scripts/estado_pr.py   # baixa do SEFANET e grava em dados/estados/PR
+```
+
 ```bash
 .venv/Scripts/python scripts/estado_mg.py   # baixa da SEF/MG e grava em dados/estados/MG
 ```
@@ -205,7 +232,7 @@ cada versão da página.
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
 Os próximos são os protocolos dos demais segmentos e origens e as listas e
-MVAs dos outros estados (PR, RS, BA e AP/PA, que completam as MVAs que os
+MVAs dos outros estados (RS, BA e AP/PA, que completam as MVAs que os
 protocolos com SP não fixam).
 
 ## Licença
@@ -239,3 +266,7 @@ A third dataset reads Minas Gerais' own ST list (RICMS/2023, Annex VII, Part 2:
 1,032 items with MVA and the states each item applies to) and cross-checks the
 construction chapter against the SP -> MG protocol, flagging four real conflicts
 between the state law and the protocol.
+
+A fourth dataset extracts Paraná's original MVA table (SEFA Resolution 571/2019,
+a ~590-page PDF) with effective dates for every wording, reading words by their
+position on the page because the plain text scrambles the columns.

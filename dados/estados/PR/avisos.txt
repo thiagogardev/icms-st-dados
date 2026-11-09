@@ -1,0 +1,100 @@
+art. 3, CEST 03.024.00: 2 redações vigentes ao mesmo tempo
+art. 3, CEST 03.025.00: 2 redações vigentes ao mesmo tempo
+art. 3, CEST 03.011.01: 3 redações vigentes ao mesmo tempo
+art. 3, CEST 03.012.01: 2 redações vigentes ao mesmo tempo
+art. 4, CEST 21.064.00: 2 redações vigentes ao mesmo tempo
+art. 7, CEST 19.010.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.005.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.008.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.006.02: 3 redações vigentes ao mesmo tempo
+art. 22, CEST 17.007.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.021.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.031.00: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.031.01: 2 redações vigentes ao mesmo tempo
+art. 22, CEST 17.079.07: 3 redações vigentes ao mesmo tempo
+art. 22, CEST 17.079.08: 4 redações vigentes ao mesmo tempo
+art. 24, CEST 21.053.01: 2 redações vigentes ao mesmo tempo
+art. 3, CEST 03.024.00 (p. 4): sem MVA numérica
+art. 3, CEST 03.025.00 (p. 4): sem MVA numérica
+art. 3, CEST 03.024.00 (p. 5): sem MVA numérica
+art. 3, CEST 03.025.00 (p. 5): sem MVA numérica
+art. 3, CEST 03.011.01 (p. 8): sem MVA numérica
+art. 3, CEST 03.010.02 (p. 9): sem MVA numérica
+art. 3, CEST 03.011.01 (p. 9): sem MVA numérica
+art. 3, CEST 03.010.00 (p. 10): sem MVA numérica
+art. 3, CEST 03.011.01 (p. 10): sem MVA numérica
+art. 3, CEST 03.012.01 (p. 11): sem MVA numérica
+art. 3, CEST 03.012.01 (p. 12): sem MVA numérica
+art. 4, CEST 21.053.01 (p. 22): sem MVA numérica
+art. 4, CEST 21.063.00 (p. 22): sem MVA numérica
+art. 4, CEST 21.064.00 (p. 23): sem MVA numérica
+art. 4, CEST 21.064.00 (p. 23): sem MVA numérica
+art. 4, CEST 21.053.00 (p. 24): sem MVA numérica
+art. 4, CEST 21.053.01 (p. 24): sem MVA numérica
+art. 4, CEST 21.064.00 (p. 25): sem MVA numérica
+art. 4, CEST 21.063.00 (p. 25): sem MVA numérica
+art. 7, CEST 19.010.00 (p. 35): sem MVA numérica
+art. 12, CEST 20.027.01 (p. 67): sem MVA numérica
+art. 12, CEST 20.029.01 (p. 68): sem MVA numérica
+art. 12, CEST 20.034.00 (p. 71): sem MVA numérica
+art. 12, CEST 20.034.01 (p. 71): sem MVA numérica
+art. 12, CEST 20.034.01 (p. 71): sem MVA numérica
+art. 12, CEST 20.048.01 (p. 77): sem MVA numérica
+art. 13, CEST 08.005.00 (p. 113): sem MVA numérica
+art. 13, CEST 08.006.00 (p. 113): sem MVA numérica
+art. 13, CEST 08.012.00 (p. 117): sem MVA numérica
+art. 13, CEST 08.015.00 (p. 118): sem MVA numérica
+art. 16, CEST 10.010.00 (p. 130): sem MVA numérica
+art. 16, CEST 10.011.00 (p. 130): sem MVA numérica
+art. 17, CEST 21.110.00 (p. 200): sem MVA numérica
+art. 17, CEST 21.127.00 (p. 200): sem MVA numérica
+art. 17, CEST 21.124.00 (p. 210): sem MVA numérica
+art. 17, CEST 21.125.00 (p. 210): sem MVA numérica
+art. 18, CEST 11.005.00 (p. 220): sem MVA numérica
+art. 19, CEST 08.019.01 (p. 222): sem MVA numérica
+art. 21, CEST 16.005.00 (p. 260): sem MVA numérica
+art. 21, CEST 16.007.01 (p. 261): sem MVA numérica
+art. 21, CEST 16.009.00 (p. 262): sem MVA numérica
+art. 22, CEST 17.005.00 (p. 263): sem MVA numérica
+art. 22, CEST 17.005.00 (p. 264): sem MVA numérica
+art. 22, CEST 17.008.00 (p. 265): sem MVA numérica
+art. 22, CEST 17.008.00 (p. 265): sem MVA numérica
+art. 22, CEST 17.006.02 (p. 270): sem MVA numérica
+art. 22, CEST 17.007.00 (p. 270): sem MVA numérica
+art. 22, CEST 17.006.02 (p. 271): sem MVA numérica
+art. 22, CEST 17.007.00 (p. 271): sem MVA numérica
+art. 22, CEST 17.006.02 (p. 273): sem MVA numérica
+art. 22, CEST 03.007.00 (p. 277): sem MVA numérica
+art. 22, CEST 17.110.00 (p. 277): sem MVA numérica
+art. 22, CEST 17.022.00 (p. 282): sem MVA numérica
+art. 22, CEST 17.021.00 (p. 282): sem MVA numérica
+art. 22, CEST 17.031.01 (p. 284): sem MVA numérica
+art. 22, CEST 17.031.02 (p. 284): sem MVA numérica
+art. 22, CEST 17.031.00 (p. 285): sem MVA numérica
+art. 22, CEST 17.031.01 (p. 285): sem MVA numérica
+art. 22, CEST 17.079.07 (p. 442): sem MVA numérica
+art. 22, CEST 17.079.08 (p. 442): sem MVA numérica
+art. 22, CEST 17.079.06 (p. 443): sem MVA numérica
+art. 22, CEST 17.079.07 (p. 443): sem MVA numérica
+art. 22, CEST 17.079.08 (p. 444): sem MVA numérica
+art. 22, CEST 17.079.08 (p. 445): sem MVA numérica
+art. 22, CEST 17.079.08 (p. 447): sem MVA numérica
+art. 22, CEST 17.079.07 (p. 449): sem MVA numérica
+art. 22, CEST 17.080.01 (p. 451): sem MVA numérica
+art. 22, CEST 17.081.00 (p. 451): sem MVA numérica
+art. 22, CEST 17.107.01 (p. 515): sem MVA numérica
+art. 22, CEST 17.109.00 (p. 515): sem MVA numérica
+art. 22, CEST 17.108.01 (p. 516): sem MVA numérica
+art. 24, CEST 21.009.00 (p. 524): sem MVA numérica
+art. 24, CEST 21.013.00 (p. 524): sem MVA numérica
+art. 24, CEST 21.012.00 (p. 526): sem MVA numérica
+art. 24, CEST 21.098.00 (p. 526): sem MVA numérica
+art. 24, CEST 21.049.00 (p. 545): sem MVA numérica
+art. 24, CEST 21.050.00 (p. 545): sem MVA numérica
+art. 24, CEST 21.053.01 (p. 546): sem MVA numérica
+art. 24, CEST 21.053.00 (p. 546): sem MVA numérica
+art. 24, CEST 21.053.01 (p. 546): sem MVA numérica
+art. 24, CEST 21.071.00 (p. 561): sem MVA numérica
+art. 24, CEST 21.072.00 (p. 561): sem MVA numérica
+art. 24, CEST 21.088.01 (p. 570): sem MVA numérica
+art. 24, CEST 21.098.01 (p. 575): sem MVA numérica

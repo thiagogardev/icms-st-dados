@@ -1,0 +1,18 @@
+{
+  "fonte": "SEFA/PR, Resolução SEFA 571/2019, texto consolidado (SEFANET)",
+  "url": "https://www.sefanet.pr.gov.br/dados/SEFADOCUMENTOS/101201900571.pdf",
+  "sha256": "af53bf64313fefa45e5ed490fdd7ca57e7b2d87116f2f74a1ba1ae0cff874a5d",
+  "obtido_em": "2026-11-09T23:37:36+00:00",
+  "data_referencia": "2026-11-09",
+  "contagens": {
+    "redacoes": 817,
+    "vigentes": 592,
+    "segmentos": 23,
+    "avisos": 100,
+    "cruzamento_prot_71_11": {
+      "mva_unica": 43,
+      "varias_mvas": 9,
+      "sem_mva_no_pr": 2
+    }
+  }
+}
