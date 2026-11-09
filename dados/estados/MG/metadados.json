@@ -1,0 +1,31 @@
+{
+  "fonte": "SEF/MG, RICMS/2023, Anexo VII, Parte 2 (versão consolidada sem histórico)",
+  "fontes": [
+    {
+      "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/ricms_2023_seco/anexovii2023_4.html",
+      "sha256": "a076cd3414e9462a5a218db1b7ebc74839311fb5ab977c16d20c77c8d77be8fb"
+    },
+    {
+      "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/ricms_2023_seco/anexovii2023_5.html",
+      "sha256": "3b1b2c4735f04ba9bed5df792604d6df6f06d25c86a99ceaa3a0e8fa1c6f4bff"
+    },
+    {
+      "url": "https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/ricms_2023_seco/anexovii2023_6.html",
+      "sha256": "df550c43380b4d73e44ad111a568a8c7ad48fe408a469a0493cab6849d68434f"
+    }
+  ],
+  "obtido_em": "2026-11-09T23:29:15+00:00",
+  "data_referencia": "2026-11-09",
+  "contagens": {
+    "capitulos": 25,
+    "itens": 1032,
+    "itens_com_mva_numerica": 948,
+    "itens_com_ambito_desconhecido": 0,
+    "cruzamento": {
+      "coerente": 69,
+      "protocolo_sim_mg_nao": 4,
+      "mg_sim_protocolo_nao": 2,
+      "so_ncm_coincide": 1
+    }
+  }
+}

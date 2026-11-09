@@ -165,11 +165,48 @@ nunca foi editado; e SP tira os materiais de construção da sua ST interna em
 .venv/Scripts/python scripts/protocolos.py --ref 2027-01-01 # situação em outra data
 ```
 
+## Minas Gerais: lista estadual e MVA
+
+O terceiro conjunto, em `dados/estados/MG/`, lê o RICMS/MG 2023, Anexo VII,
+Parte 2: os 25 capítulos com tabela (um por segmento), **1.032 itens**, com
+CEST, NCM/SH, descrição, MVA original e o âmbito de cada um, ou seja, de
+quais estados a mercadoria chega a MG com a ST já retida.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens.csv` | Um item por linha: capítulo, CEST, NCM/SH, descrição, âmbito como está na norma, `st_interna`, `ufs_origem_com_st` (já com as exceções do item aplicadas) e `mva_original` |
+| `ambitos.csv` | Os âmbitos de cada capítulo ("10.1 Interno e nas seguintes unidades da Federação: ...") com os estados e protocolos lidos |
+| `cruzamento_prot_32_09.csv` | Capítulo 10 (materiais de construção) comparado, item a item, com a matriz do Prot. ICMS 32/09 (SP -> MG) |
+| `metadados.json` | URLs, hashes e contagens |
+
+Em 09/11/2026 o cruzamento deu 69 itens coerentes e 7 para conferência. Quatro
+são conflitos reais entre a lei de MG e o protocolo:
+
+- **telhas de concreto (CEST 10.022.00) e acessórios de cobre (10.065.00):** o
+  Prot. ICMS 32/09 deixou de listá-los (Prot. 63/25 e 75/26), mas o RICMS/MG
+  ainda diz que a ST vale para mercadoria vinda de SP;
+- **ladrilhos de cerâmica (10.030.00) e tubos de cobre (10.064.00):** o
+  protocolo ainda os lista, mas MG os trata só na operação interna ou com
+  "Exceção: SP".
+
+Os outros três (10.017.00, 10.030.01 e 10.050.00) casam com o protocolo só
+pelo NCM, porque o protocolo não traz CEST, e precisam de leitura da
+descrição.
+
+A fonte é a versão consolidada sem histórico publicada pela SEF/MG, que traz
+só a redação vigente; as datas das mudanças passam a vir do monitor, que guarda
+cada versão da página.
+
+```bash
+.venv/Scripts/python scripts/estado_mg.py   # baixa da SEF/MG e grava em dados/estados/MG
+```
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
-Os próximos são os protocolos dos demais segmentos e origens, e as listas e
-MVAs estaduais.
+Os próximos são os protocolos dos demais segmentos e origens e as listas e
+MVAs dos outros estados (PR, RS, BA e AP/PA, que completam as MVAs que os
+protocolos com SP não fixam).
 
 ## Licença
 
@@ -197,3 +234,8 @@ by São Paulo: every item with its effective dates and a São Paulo -> destinati
 matrix (12 states) telling whether the seller in SP must withhold the tax. It
 handles both list models (own NCM list, or a reference to Annex XI of Convênio
 142 minus excluded CEST codes) and is checked against 34 hand-verified cases.
+
+A third dataset reads Minas Gerais' own ST list (RICMS/2023, Annex VII, Part 2:
+1,032 items with MVA and the states each item applies to) and cross-checks the
+construction chapter against the SP -> MG protocol, flagging four real conflicts
+between the state law and the protocol.

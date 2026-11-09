@@ -71,6 +71,8 @@ def norma_prot(s: str) -> str | None:
 def separar_ncms(s: str) -> list[str]:
     """'2514.00.00, 6802, 6803' e '3214.90.00 3816.00.1 3824.50.00' -> lista de códigos sem pontos."""
     s = re.sub(r"\b(?:e|ex)\b", " ", s, flags=re.I)
+    # códigos grudados na fonte: "72.137214.20.00" (Prot. 32/09, item 48) = "72.13" e "7214.20.00"
+    s = re.sub(r"(\d{2}\.\d{2})(?=\d{4}\.)", r"\1 ", s)
     return [c.replace(".", "") for c in re.findall(r"\d{2}(?:\.?\d{1,2}){0,3}", s)]
 
 
