@@ -1,0 +1,71 @@
+{
+  "fonte": "Confaz, textos consolidados dos protocolos ICMS",
+  "fontes": [
+    {
+      "protocolo": "Prot. ICMS 11/08",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt011_08",
+      "sha256": "ad258a2b187eec353481935c0d06d11647f9d642a4a9fbd5dba51f67d9d0a972"
+    },
+    {
+      "protocolo": "Prot. ICMS 20/13",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2013/pt020_13",
+      "sha256": "e6a5ee43366571027a256bc9401829a6aac949ea57ae8492c4f9b1f4abe12001"
+    },
+    {
+      "protocolo": "Prot. ICMS 25/11",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt025_11",
+      "sha256": "fda435725be2da2c4c4eb3ece682694cc0f7e311630eee3a887c76ffbeedce53"
+    },
+    {
+      "protocolo": "Prot. ICMS 32/09",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt032_09",
+      "sha256": "5aaf8fba2d855e1e71fe968c51a79eaf5ad14d6ed07a2be771834c71e5489ad5"
+    },
+    {
+      "protocolo": "Prot. ICMS 32/14",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt032_14",
+      "sha256": "63a58c2f013e7aa18f96afdb699c6d710ddb75ca610d9b50f022f5f1dcda4795"
+    },
+    {
+      "protocolo": "Prot. ICMS 60/11",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt060_11",
+      "sha256": "9dfeaf8db3efdf28cb5cb73068cf3e70edf36991b3fbb2f66afb9ff8f2014729"
+    },
+    {
+      "protocolo": "Prot. ICMS 71/11",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt071_11",
+      "sha256": "6f0b2d88d1368fc7df3c5fe15ddc2d4fd15262bd5ff20fa9eac14f50074b5c0a"
+    },
+    {
+      "protocolo": "Prot. ICMS 92/09",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt092_09",
+      "sha256": "2c81c1f4e8286dffc337348b97abb7f1aa50bad952e2aa623af32d7d8aa8cdaa"
+    },
+    {
+      "protocolo": "Prot. ICMS 104/08",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt104_08",
+      "sha256": "0f3fddb8ecadc41dbd510299e917ccdfcacc1f67d1f7d90c89e75c832dbcb59a"
+    },
+    {
+      "protocolo": "Prot. ICMS 104/09",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt104_09",
+      "sha256": "3d57f00b2c8f9dd925525e61d809ccd50deafb70429183bf3398d0b344c52140"
+    },
+    {
+      "protocolo": "Prot. ICMS 128/10",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2010/pt128_10",
+      "sha256": "7a7284d2914d71c4ef605c9681a3fccf8e1aacaf51db15a9b9e4f4d7cb6be6c1"
+    }
+  ],
+  "obtido_em": "2026-11-09T22:49:46+00:00",
+  "data_referencia": "2026-11-09",
+  "escopo": "materiais de construção, protocolos com SP; matriz no sentido SP -> destino",
+  "contagens": {
+    "protocolos": 11,
+    "redacoes": 2290,
+    "itens_vigentes": 486,
+    "linhas_matriz": 672,
+    "divergencias_da_fonte": 3,
+    "notas_nao_associadas": 0
+  }
+}

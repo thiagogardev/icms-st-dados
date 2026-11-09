@@ -109,11 +109,67 @@ python -m venv .venv
 - A data de referência da coluna `situacao` está em `metadados.json`; para
   outra data, rode o script com `--ref`.
 
+## Protocolos de materiais de construção com SP
+
+O segundo conjunto, em `dados/protocolos/`, responde a uma pergunta prática:
+**vendendo de São Paulo para outro estado, o remetente retém a ST deste
+produto?** Ele lê os 11 protocolos de materiais de construção, acabamento,
+bricolagem ou adorno de que SP é signatário (Prot. ICMS 11/08, 20/13, 25/11,
+32/09, 32/14, 60/11, 71/11, 92/09, 104/08, 104/09 e 128/10), com a vigência de
+cada item, e monta a matriz SP -> destino.
+
+> Situação em 09/11/2026: 11 protocolos, 2.290 redações no histórico,
+> 486 itens vigentes e 672 linhas na matriz (12 destinos: AL, AP, BA, DF, ES,
+> MG, MT, PA, PE, PR, RJ, RS).
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `matriz_sp_destino.csv` | Uma linha por item vigente e estado de destino: protocolo, item, NCM/SH, descrição, MVA original (quando o protocolo a fixa) e os CESTs prováveis do Convênio 142 |
+| `itens_historico.csv` / `itens_vigentes.csv` | Todas as redações dos anexos, com início e fim de vigência, ou só as vigentes |
+| `protocolos.csv` | Cada protocolo: signatários, destinos a partir de SP, modelo de lista, CESTs excluídos e quantos itens trazem MVA |
+| `divergencias_da_fonte.csv` | Inconsistências das próprias páginas do Confaz |
+| `metadados.json` | URL e hash SHA-256 de cada página lida, data de referência e contagens |
+
+O que este levantamento mostrou:
+
+- **Dois modelos de lista.** Nove protocolos têm lista própria de NCMs. RS
+  (Prot. 92/09, desde 01/01/2026) e AP/PA (Prot. 60/11) passaram a valer para
+  todo o Anexo XI do Convênio 142, menos os CESTs que a cláusula primeira
+  exclui. Quem procura o item na lista antiga do protocolo do RS não acha nada,
+  e quem lê só "Anexo Único revogado" conclui, errado, que a ST acabou.
+- **A MVA nem sempre está no protocolo.** Em 6 dos 11 (MT, MG, AP/PA, PR, RS e
+  BA) ela vem da legislação do estado de destino. A matriz deixa a coluna vazia
+  nesses casos; o valor tem de vir da norma estadual.
+- **A limpeza de 2025/2026.** Em 01/01/2026 os protocolos perderam dezenas de
+  itens (Prot. ICMS 61/25 a 70/25 e 86/25), e em 01/08/2026 outros (Prot. 44/26 a
+  78/26). Exemplo: a abraçadeira (NCM 7326.19.00) saiu do protocolo SP-MT, e
+  uma base comercial consultada em 09/11/2026 ainda o listava.
+- **Três erros nas páginas**, registrados em `divergencias_da_fonte.csv`: no
+  Prot. 32/09, a nota que revoga o item 69 está seguida da linha
+  "80. REVOGADO"; em dois itens (32/09 item 69 e 20/13 item 41), a data final
+  da redação anterior não fecha com a data da revogação.
+
+Validação: `tests/gabarito_protocolos.csv` tem 34 casos de NCM x destino
+conferidos à mão no texto do protocolo e numa base comercial de referência;
+o teste exige acerto em todos (presença do protocolo e, quando fixada, a MVA).
+
+Limites próprios deste conjunto: o enquadramento é por NCM **e** descrição (o
+Prot. 11/08 traz "8481 metais hidrossanitários", que não alcança uma válvula
+industrial de mesmo NCM); a matriz só cobre o sentido SP -> destino, porque a
+aplicação nas entradas em SP de vários desses protocolos depende de ato que
+nunca foi editado; e SP tira os materiais de construção da sua ST interna em
+01/02/2027 (Portaria SRE 52/2026), o que não muda os protocolos.
+
+```bash
+.venv/Scripts/python scripts/protocolos.py                  # baixa os 11 protocolos e grava em dados/protocolos
+.venv/Scripts/python scripts/protocolos.py --ref 2027-01-01 # situação em outra data
+```
+
 ## Próximos conjuntos
 
-Este é o primeiro conjunto de um projeto maior de monitoramento da legislação
-de ICMS ST. Os próximos são a matriz de protocolos e convênios entre estados
-(quais pares de UF têm ST em cada segmento) e as listas e MVAs estaduais.
+Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
+Os próximos são os protocolos dos demais segmentos e origens, e as listas e
+MVAs estaduais.
 
 ## Licença
 
@@ -135,3 +191,9 @@ applies today, what applied before, and which agreement changed it. As of
 the history. The parser is tolerant to the free-text notes, logs every
 inconsistency found in the source, and is validated against São Paulo's state
 list. Data under CC BY 4.0, code under MIT.
+
+A second dataset covers the 11 ICMS protocols on construction materials signed
+by São Paulo: every item with its effective dates and a São Paulo -> destination
+matrix (12 states) telling whether the seller in SP must withhold the tax. It
+handles both list models (own NCM list, or a reference to Annex XI of Convênio
+142 minus excluded CEST codes) and is checked against 34 hand-verified cases.

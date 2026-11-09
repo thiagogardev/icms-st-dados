@@ -1,0 +1,673 @@
+origem,destino,protocolo,item,ncm_sh,ncms,descricao,mva_original,cests_provaveis,vigencia_inicio
+SP,AP,Prot. ICMS 60/11,CEST 10.001.00,2522,2522,Cal,,10.001.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.001.00,2522,2522,Cal,,10.001.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.002.00,3816.00.1 3824.50.00,3816001;38245000,Argamassas,,10.002.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.002.00,3816.00.1 3824.50.00,3816001;38245000,Argamassas,,10.002.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.003.00,3214.90.00,32149000,Outras argamassas,,10.003.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.003.00,3214.90.00,32149000,Outras argamassas,,10.003.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.004.00,3910.00,391000,"Silicones em formas primárias, para uso na construção",,10.004.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.004.00,3910.00,391000,"Silicones em formas primárias, para uso na construção",,10.004.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.005.00,3916,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção",,10.005.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.005.00,3916,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção",,10.005.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.006.00,3917,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção",,10.006.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.006.00,3917,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção",,10.006.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.007.00,3918,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.007.00,3918,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.008.00,3919,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em rolos, para uso na construção",,10.008.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.008.00,3919,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em rolos, para uso na construção",,10.008.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.009.00,3919 3920 3921,3919;3920;3921,"Veda rosca, lona plástica para uso na construção, fitas isolantes e afins",,10.009.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.009.00,3919 3920 3921,3919;3920;3921,"Veda rosca, lona plástica para uso na construção, fitas isolantes e afins",,10.009.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.010.00,3921,3921,"Telha de plástico, mesmo reforçada com fibra de vidro",,10.010.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.010.00,3921,3921,"Telha de plástico, mesmo reforçada com fibra de vidro",,10.010.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.011.00,3921,3921,"Cumeeira de plástico, mesmo reforçada com fibra de vidro",,10.011.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.011.00,3921,3921,"Cumeeira de plástico, mesmo reforçada com fibra de vidro",,10.011.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.012.00,3921,3921,"Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00 e 10.011.00",,10.012.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.012.00,3921,3921,"Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00 e 10.011.00",,10.012.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.013.00,3922,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",,10.013.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.013.00,3922,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",,10.013.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.014.00,3924,3924,"Artefatos de higiene/toucador de plástico, para uso na construção",,10.014.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.014.00,3924,3924,"Artefatos de higiene/toucador de plástico, para uso na construção",,10.014.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.015.00,3925.10.00,39251000,"Caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.015.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.015.00,3925.10.00,39251000,"Caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.015.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.016.00,3925.90,392590,"Outras telhas, cumeeira e caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.016.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.016.00,3925.90,392590,"Outras telhas, cumeeira e caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.016.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.018.00,3925.20.00,39252000,"Portas, janelas e seus caixilhos, alizares e soleiras",,10.018.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.018.00,3925.20.00,39252000,"Portas, janelas e seus caixilhos, alizares e soleiras",,10.018.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.020.00,3926.90,392690,"Outras obras de plástico, para uso na construção",,10.020.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.020.00,3926.90,392690,"Outras obras de plástico, para uso na construção",,10.020.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.021.00,4814,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,,10.021.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.021.00,4814,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,,10.021.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.022.00,6810.19.00,68101900,Telhas de concreto,,10.022.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.022.00,6810.19.00,68101900,Telhas de concreto,,10.022.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.024.00,6811,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.",,10.024.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.024.00,6811,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.",,10.024.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.029.00,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",,10.029.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.029.00,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",,10.029.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.030.00,6907,6907,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.030.00,6907,6907,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.031.00,6910,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.031.00,6910,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.032.00,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.032.00,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.040.00,7214.20.00,72142000,"Barras próprias para construções, exceto vergalhões",,10.040.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.040.00,7214.20.00,72142000,"Barras próprias para construções, exceto vergalhões",,10.040.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.041.00,7308.90.10,73089010,"Outras barras próprias para construções, exceto vergalhões",,10.041.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.041.00,7308.90.10,73089010,"Outras barras próprias para construções, exceto vergalhões",,10.041.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.041.01,7308.90.10,73089010,Outros vergalhões,,10.041.01,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.041.01,7308.90.10,73089010,Outros vergalhões,,10.041.01,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.042.00,7214.20.00,72142000,Vergalhões,,10.042.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.042.00,7214.20.00,72142000,Vergalhões,,10.042.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.043.00,7213,7213,Outros vergalhões,,10.043.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.043.00,7213,7213,Outros vergalhões,,10.043.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.044.00,7217.10.90 7312,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos; cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.044.00,7217.10.90 7312,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos; cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.045.00,7217.20.10,72172010,"Outros fios de ferro ou aço, não ligados, galvanizados com teor de carbono superior ou igual a 0,6%, em peso",,10.045.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.045.00,7217.20.10,72172010,"Outros fios de ferro ou aço, não ligados, galvanizados com teor de carbono superior ou igual a 0,6%, em peso",,10.045.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.045.01,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.045.01,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.046.00,7307,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.046.00,7307,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.047.00,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.047.00,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.048.00,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",,10.048.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.048.00,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",,10.048.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.049.00,7308.40.00,73084000,Treliças de aço,,10.049.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.049.00,7308.40.00,73084000,Treliças de aço,,10.049.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.051.00,7310,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro fundido, ferro ou aço; próprias para a construção",,10.051.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.051.00,7310,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro fundido, ferro ou aço; próprias para a construção",,10.051.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.052.00,7313.00.00,73130000,"Arame farpado, de ferro ou aço, arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.052.00,7313.00.00,73130000,"Arame farpado, de ferro ou aço, arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.053.00,7314,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.053.00,7314,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.054.00,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.054.00,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.055.00,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.055.00,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.056.00,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.056.00,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.057.00,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.057.00,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.059.00,7323,7323,"Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.059.00,7323,7323,"Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.059.01,7323,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.01,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.059.01,7323,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.01,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.060.00,7324,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção",,10.060.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.060.00,7324,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção",,10.060.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.061.00,7325,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção",,10.061.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.061.00,7325,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção",,10.061.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.062.00,7326,7326,Abraçadeiras,,10.062.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.062.00,7326,7326,Abraçadeiras,,10.062.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.065.00,7412,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção",,10.065.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.065.00,7412,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção",,10.065.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.066.00,7415,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",,10.066.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.066.00,7415,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",,10.066.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.067.00,7418.20.00,74182000,"Artefatos de higiene/toucador de cobre, para uso na construção",,10.067.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.067.00,7418.20.00,74182000,"Artefatos de higiene/toucador de cobre, para uso na construção",,10.067.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.068.00,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.068.00,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.069.00,7608,7608,"Tubos de alumínio e suas ligas, para refrigeração e ar condicionado, para uso na construção",,10.069.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.069.00,7608,7608,"Tubos de alumínio e suas ligas, para refrigeração e ar condicionado, para uso na construção",,10.069.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.070.00,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção",,10.070.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.070.00,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção",,10.070.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.071.00,7610,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",,10.071.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.071.00,7610,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",,10.071.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.072.00,7615.20.00,76152000,"Artefatos de higiene/toucador de alumínio, para uso na construção",,10.072.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.072.00,7615.20.00,76152000,"Artefatos de higiene/toucador de alumínio, para uso na construção",,10.072.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.074.00,8302.41.00,83024100,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores.",,10.074.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.074.00,8302.41.00,83024100,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores.",,10.074.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.075.00,8301,8301,"Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns; exceto os de uso automotivo",,10.075.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.075.00,8301,8301,"Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns; exceto os de uso automotivo",,10.075.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.076.00,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",,10.076.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.076.00,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",,10.076.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.077.00,8307,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção",,10.077.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.077.00,8307,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção",,10.077.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.078.00,8311,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.078.00,8311,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,2026-08-01
+SP,AP,Prot. ICMS 60/11,CEST 10.079.00,8481,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,2026-08-01
+SP,PA,Prot. ICMS 60/11,CEST 10.079.00,8481,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.001.00,2522,2522,Cal,,10.001.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.002.00,3816.00.1 3824.50.00,3816001;38245000,Argamassas,,10.002.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.003.00,3214.90.00,32149000,Outras argamassas,,10.003.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.004.00,3910.00,391000,"Silicones em formas primárias, para uso na construção",,10.004.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.005.00,3916,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção",,10.005.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.006.00,3917,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção",,10.006.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.007.00,3918,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.008.00,3919,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em rolos, para uso na construção",,10.008.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.009.00,3919 3920 3921,3919;3920;3921,"Veda rosca, lona plástica para uso na construção, fitas isolantes e afins",,10.009.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.010.00,3921,3921,"Telha de plástico, mesmo reforçada com fibra de vidro",,10.010.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.012.00,3921,3921,"Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00 e 10.011.00",,10.012.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.013.00,3922,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",,10.013.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.014.00,3924,3924,"Artefatos de higiene/toucador de plástico, para uso na construção",,10.014.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.015.00,3925.10.00,39251000,"Caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.015.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.016.00,3925.90,392590,"Outras telhas, cumeeira e caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",,10.016.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.018.00,3925.20.00,39252000,"Portas, janelas e seus caixilhos, alizares e soleiras",,10.018.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.020.00,3926.90,392690,"Outras obras de plástico, para uso na construção",,10.020.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.021.00,4814,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,,10.021.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.022.00,6810.19.00,68101900,Telhas de concreto,,10.022.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.024.00,6811,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto.",,10.024.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.029.00,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",,10.029.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.030.00,6907,6907,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.031.00,6910,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.032.00,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.040.00,7214.20.00,72142000,"Barras próprias para construções, exceto vergalhões",,10.040.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.041.00,7308.90.10,73089010,"Outras barras próprias para construções, exceto vergalhões",,10.041.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.041.01,7308.90.10,73089010,Outros vergalhões,,10.041.01,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.042.00,7214.20.00,72142000,Vergalhões,,10.042.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.043.00,7213,7213,Outros vergalhões,,10.043.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.044.00,7217.10.90 7312,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos; cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.045.01,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.046.00,7307,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.047.00,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.048.00,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",,10.048.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.049.00,7308.40.00,73084000,Treliças de aço,,10.049.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.051.00,7310,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro fundido, ferro ou aço; próprias para a construção",,10.051.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.052.00,7313.00.00,73130000,"Arame farpado, de ferro ou aço, arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.053.00,7314,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.054.00,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.055.00,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.056.00,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.057.00,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.059.00,7323,7323,"Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.059.01,7323,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",,10.059.01,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.060.00,7324,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço, para uso na construção",,10.060.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.061.00,7325,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção",,10.061.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.062.00,7326,7326,Abraçadeiras,,10.062.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.065.00,7412,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção",,10.065.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.066.00,7415,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",,10.066.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.067.00,7418.20.00,74182000,"Artefatos de higiene/toucador de cobre, para uso na construção",,10.067.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.068.00,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.070.00,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção",,10.070.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.071.00,7610,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções pré-fabricadas da posição 9406; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",,10.071.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.072.00,7615.20.00,76152000,"Artefatos de higiene/toucador de alumínio, para uso na construção",,10.072.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.074.00,8302.41.00,83024100,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores.",,10.074.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.075.00,8301,8301,"Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns; exceto os de uso automotivo",,10.075.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.076.00,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",,10.076.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.077.00,8307,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção",,10.077.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.078.00,8311,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,2026-08-01
+SP,RS,Prot. ICMS 92/09,CEST 10.079.00,8481,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,2026-08-01
+SP,MT,Prot. ICMS 11/08,1,32149000,32149000,ARGAMASSA /REJUNTAMENTO/GRAUTH,,10.003.00,
+SP,MT,Prot. ICMS 11/08,2,3917,3917,"TUBOS, MANGUEIRAS EM GERAL, REGISTROS, BOLSAS, SPUDS, GRELHAS, TORNEIRAS e CONDUÍTES (ELETRODUTOS), TODOS DE PLÁSTICO.",,10.006.00,
+SP,MT,Prot. ICMS 11/08,3,3917,3917,"CONEXÕES, SIFÕES (INCLUSIVE CAIXAS SIFONADAS), VÁLVULAS, ADAPTADORES, BUCHAS, CAPS, COLARES, CONECTORES, CURVAS, FLANGES, JOELHOS, JUNÇÕES, LUVAS, JUNTAS, NIPLES, VÁLVULAS, PLUGUES, PONTEIRAS, PROLONGAMENTOS, REDUÇÕES, TES, CACHIMBOS, CRUZETAS, UNIÕES, ENGATES e KIT'S CAVALETES, TODOS DE PLÁSTICO (ACESSÓRIOS)",,10.006.00,
+SP,MT,Prot. ICMS 11/08,4,39201000,39201000,"TIRA E PELICULA, DE PLASTICOS NÃO ALVEOLARES LONA PLASTICA",,10.009.00,
+SP,MT,Prot. ICMS 11/08,5,39211900,39211900,MANTA PARA ISOLACAO TERMICA,,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,MT,Prot. ICMS 11/08,6,3922,3922,"BIDÊS, BANHEIRAS, SANITÁRIOS, BACIAS SANITÁRIAS, LAVATÓRIOS, ASSENTOS, TAMPAS, MICTÓRIOS, COLUNAS, CAIXAS DE DESCARGA, TANQUES, TODOS DE PLÁSTICO",,10.013.00,
+SP,MT,Prot. ICMS 11/08,7,39249000,39249000,CAIXA TERMICA/GARRAFA TERMICA,,10.014.00,
+SP,MT,Prot. ICMS 11/08,8,39259000,39259000,"CONEXOES P/CANALETA DE FIO, BOCAL P/ PVC P/ CALHA D'AGUA, CABECEIRA PVC P/ CALHA D'AGUA, EMENDA PVC P/ CALHA D'AGUA, SUPORTE PVC P/ CALHA D'AGUA E COTOVELO PVC P/ CALHA D'AGUA",,10.016.00;10.017.00,
+SP,MT,Prot. ICMS 11/08,9,39269090,39269090,PLACA P/ INTERRUPTOR LUZ ESPACADOR PLASTICO P/ BLOCO VIDRO BANDEJA PLASTICA,,10.020.00,
+SP,MT,Prot. ICMS 11/08,10,6910,6910,"PIAS, LAVATÓRIOS, BACIAS, CUBAS, COLUNAS, BANHEIRAS, BIDÊS, SANITÁRIOS, TAMPAS, CAIXAS DE DESCARGA, MICTÓRIOS, CONJUNTOS, PAPELEIRAS, SABONETEIRAS e TANQUES, TODOS DE CERÂMICA",,10.031.00,
+SP,MT,Prot. ICMS 11/08,11,6912,6912,"LOUÇAS e OUTROS ARTIGOS DE USO DOMÉSTICO E ARTIGOS DE HIGIENE OU DE TOUCADOR (ACESSÓRIOS, CABIDES, LAVATÓRIOS, PAPELEIRAS), TODOS DE CERÂMICA",,10.032.00,
+SP,MT,Prot. ICMS 11/08,12,70169000,70169000,BLOCO VIDRO/TIJOLO DE VIDRO/TELHA DE VIDRO,,10.039.00,
+SP,MT,Prot. ICMS 11/08,13,72142000,72142000,"FERRO C-60, CA-50 VER OUTROS",,10.040.00;10.042.00,
+SP,MT,Prot. ICMS 11/08,14,72171090,72171090,ARAME RECOZIDO,,10.044.00,
+SP,MT,Prot. ICMS 11/08,15,72172090,72172090,ARAME GALVANIZADO,,10.045.01,
+SP,MT,Prot. ICMS 11/08,16,73063000,73063000,TUBO GALVANIZADO,,,
+SP,MT,Prot. ICMS 11/08,17,73071910,73071910,CONEXOES GALVANIZADAS,,10.046.00,
+SP,MT,Prot. ICMS 11/08,18,73102190,73102190,CUBAS INOX,,10.051.00,
+SP,MT,Prot. ICMS 11/08,19,73241000,73241000,"CUBAS INOX, MICTORIO INOX, PIAS INOX, TANQUES INOX",,10.060.00,
+SP,MT,Prot. ICMS 11/08,21,74111090,74111090,TUBO LIGAÇAO DE METAL,,,
+SP,MT,Prot. ICMS 11/08,22,74112110,74112110,TUBO LIGACAO P/ BACIA AJUST'AVEL,,,
+SP,MT,Prot. ICMS 11/08,23,7308,7308,"PORTAS, PORTAIS, POSTIGOS, JANELAS, VITRÔS, VENEZIANAS e ARCOS, TODOS DE FERRO OU AÇO",,10.041.00;10.041.01;10.047.00;10.048.00;10.049.00;10.050.00,
+SP,MT,Prot. ICMS 11/08,24,74122000,74122000,"VALVULA P/ LAVATORIO, P/ PIA, P/ TANQUE, SIFAO METALICO, ANEL BORRACHA P/ SIFAO ECONEXOES DE COBRE",,10.065.00,
+SP,MT,Prot. ICMS 11/08,25,74153200,74153200,PARAFUSOS P/ FIXAÇAO,,10.066.00,
+SP,MT,Prot. ICMS 11/08,26,74182000,74182000,"SOBONETEIRAS METAL, PAPELEIRAS DE METAL, PRATELEIRAS DE METAL, TOALHEIROS DE METAL, ALÇA APOIO DE METAL, CHUVEIRO DUCHA DE METAL, DUCHA DE METAL C/ REGISTRO, DUCHA METAL S/ REGISTRO KIT ACESSORIOS",,10.067.00,
+SP,MT,Prot. ICMS 11/08,27,83011000,83011000,CADEADOS,,10.075.00,
+SP,MT,Prot. ICMS 11/08,28,83014000,83014000,FECHADURAS E TRAVAS,,10.075.00,
+SP,MT,Prot. ICMS 11/08,29,83016000,83016000,MAÇANETAS,,10.075.00,
+SP,MT,Prot. ICMS 11/08,30,83021000,83021000,DOBRADIÇAS FIXADOR P/ PORTA,,10.076.00,
+SP,MT,Prot. ICMS 11/08,31,8307900,8307900,TUBO LIGAÇÃO FLEXIVEL,,10.077.00,
+SP,MT,Prot. ICMS 11/08,32,8481,8481,"METAIS HIDRO-SANITÁRIOS: TORNEIRAS, SIFÕES, VÁLVULAS, REGISTROS, MISTURADORES, ENGATES, DUCHAS FRIAS E CUBAS",,10.079.00,
+SP,MT,Prot. ICMS 11/08,33,73089090,73089090,OUTROS,,10.048.00;10.050.00,
+SP,MT,Prot. ICMS 11/08,34,73262000,73262000,ALÇAS / LAÇOS / EMENDAS SECCIONADORAS,,10.062.00,
+SP,MT,Prot. ICMS 11/08,35,76090000,76090000,CAIXA S/ ROSCA / TAMPA / REDUÇÃO,,10.070.00,
+SP,MT,Prot. ICMS 11/08,36,7616909999,76169099;99,CAIXA,,10.073.00,
+SP,MT,Prot. ICMS 11/08,37,73071920,73071920,LUVA FERRO ZINCADA E CURVAS,,10.046.00,
+SP,MT,Prot. ICMS 11/08,38,76169900,76169900,ESCADA RESIDENCIAL,,10.073.00,
+SP,MT,Prot. ICMS 11/08,39,39173229,39173229,DUTO FLEX - MANGUEIRAS,,10.006.00,
+SP,MT,Prot. ICMS 11/08,40,39173300,39173300,DUTO FLEX,,10.006.00,
+SP,MT,Prot. ICMS 11/08,41,39174010,39174010,DUTO FLEX,,10.006.00,
+SP,MT,Prot. ICMS 11/08,42,39174090,39174090,DUTO FLEX,,10.006.00,
+SP,MT,Prot. ICMS 11/08,43,39269090,39269090,TSO ABRAÇADEIRA,,10.020.00,
+SP,ES,Prot. ICMS 20/13,1,3214.90.00 3816.00.1 3824.50.00,32149000;3816001;38245000,"Argamassas, seladoras e massas para revestimento",37,10.002.00;10.003.00,
+SP,ES,Prot. ICMS 20/13,2,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",44,10.005.00,
+SP,ES,Prot. ICMS 20/13,3,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",33,10.006.00,
+SP,ES,Prot. ICMS 20/13,4,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,38,10.007.00,
+SP,ES,Prot. ICMS 20/13,5,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil.",39,10.008.00;10.009.00,
+SP,ES,Prot. ICMS 20/13,6,39.19 39.20 39.21,3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",28,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,ES,Prot. ICMS 20/13,7,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",42,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,ES,Prot. ICMS 20/13,8,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos.",41,10.013.00,
+SP,ES,Prot. ICMS 20/13,9,39.24,3924,Artefatos de higiene / toucador de plástico,52,10.014.00,
+SP,ES,Prot. ICMS 20/13,10,"3925.10.00, 3925.90.00",39251000;39259000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",40,10.015.00;10.016.00;10.017.00,
+SP,ES,Prot. ICMS 20/13,11,3925.20.00,39252000,"Portas, janelas e afins, de plástico",37,10.018.00,
+SP,ES,Prot. ICMS 20/13,12,3926.90,392690,"Outras obras de plástico, para uso na construção civil",36,10.020.00,
+SP,ES,Prot. ICMS 20/13,13,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida, para uso não automotivo",47,,
+SP,ES,Prot. ICMS 20/13,14,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais.,51,10.021.00,
+SP,ES,Prot. ICMS 20/13,15,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",49,,
+SP,ES,Prot. ICMS 20/13,16,68.11,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto",39,10.024.00,
+SP,ES,Prot. ICMS 20/13,17,69.07 69.08,6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",39,10.030.00;10.030.01,
+SP,ES,Prot. ICMS 20/13,18,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,10.031.00,
+SP,ES,Prot. ICMS 20/13,19,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,54,10.032.00,
+SP,ES,Prot. ICMS 20/13,20,70.16,7016,"Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo armado, para construção; cubos, pastilhas e outros artigos semelhantes",61.2,10.039.00,
+SP,ES,Prot. ICMS 20/13,21,72.13 7214.20.00 7308.90.10,7213;72142000;73089010,Vergalhões,33,10.040.00;10.041.00;10.041.01;10.042.00;10.043.00;10.048.00,
+SP,ES,Prot. ICMS 20/13,22,"7214.20.00, 7308.90.10",72142000;73089010,"Barras próprias para construções, exceto os vergalhões",40,10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,
+SP,ES,Prot. ICMS 20/13,23,7217.10.90 73.12,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",42,10.044.00,
+SP,ES,Prot. ICMS 20/13,24,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",40,10.045.01,
+SP,ES,Prot. ICMS 20/13,25,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",33,10.046.00,
+SP,ES,Prot. ICMS 20/13,26,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",34,10.047.00,
+SP,ES,Prot. ICMS 20/13,27,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção",39,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,ES,Prot. ICMS 20/13,28,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; de ferro fundido, ferro ou aço",59,10.051.00,
+SP,ES,Prot. ICMS 20/13,29,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",42,10.052.00,
+SP,ES,Prot. ICMS 20/13,30,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",33,10.053.00,
+SP,ES,Prot. ICMS 20/13,31,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",69.43,10.054.00,
+SP,ES,Prot. ICMS 20/13,32,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",69.43,10.055.00,
+SP,ES,Prot. ICMS 20/13,33,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",42,10.056.00,
+SP,ES,Prot. ICMS 20/13,34,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",41,10.057.00,
+SP,ES,Prot. ICMS 20/13,35,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",46,10.058.00,
+SP,ES,Prot. ICMS 20/13,36,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",69.43,10.059.00;10.059.01,
+SP,ES,Prot. ICMS 20/13,37,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",57,10.060.00,
+SP,ES,Prot. ICMS 20/13,38,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",57,10.061.00,
+SP,ES,Prot. ICMS 20/13,39,73.26,7326,Abraçadeiras,52,10.062.00,
+SP,ES,Prot. ICMS 20/13,40,74.07,7407,Barra de cobre,38,10.063.00,
+SP,ES,Prot. ICMS 20/13,42,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",31,10.065.00,
+SP,ES,Prot. ICMS 20/13,43,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",37,10.066.00,
+SP,ES,Prot. ICMS 20/13,44,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,44,10.067.00,
+SP,ES,Prot. ICMS 20/13,45,7607.19.90,76071990,Manta de subcobertura aluminizada,34,10.068.00,
+SP,ES,Prot. ICMS 20/13,46,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",40,10.070.00,
+SP,ES,Prot. ICMS 20/13,47,76.10,7610,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas, e estruturas de box), de alumínio, exceto as construções, pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",32,10.071.00,
+SP,ES,Prot. ICMS 20/13,48,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,46,10.072.00,
+SP,ES,Prot. ICMS 20/13,49,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",37,10.073.00,
+SP,ES,Prot. ICMS 20/13,50,8302.4 76.16,83024;7616,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores",36,10.073.00;10.074.00,
+SP,ES,Prot. ICMS 20/13,51,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",41,10.075.00,
+SP,ES,Prot. ICMS 20/13,52,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo.",46,10.076.00,
+SP,ES,Prot. ICMS 20/13,53,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",37,10.077.00,
+SP,ES,Prot. ICMS 20/13,54,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",41,10.078.00,
+SP,ES,Prot. ICMS 20/13,55,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",34,10.079.00,
+SP,DF,Prot. ICMS 25/11,1,3214.90.00,32149000,Argamassas,37,10.003.00,
+SP,DF,Prot. ICMS 25/11,2,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC",44,10.005.00,
+SP,DF,Prot. ICMS 25/11,3,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",33,10.006.00,
+SP,DF,Prot. ICMS 25/11,4,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,38,10.007.00,
+SP,DF,Prot. ICMS 25/11,5,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",39,10.008.00;10.009.00,
+SP,DF,Prot. ICMS 25/11,6,39.19 39.20 39.21,3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",28,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,DF,Prot. ICMS 25/11,7,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",42,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,DF,Prot. ICMS 25/11,8,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos.",41,10.013.00,
+SP,DF,Prot. ICMS 25/11,9,39.24,3924,Artefatos de higiene / toucador de plástico,52,10.014.00,
+SP,DF,Prot. ICMS 25/11,10,3925.20.00,39252000,"Portas, janelas e afins, de plástico",37,10.018.00,
+SP,DF,Prot. ICMS 25/11,12,3926.90,392690,"Outras obras de plástico, para uso na construção civil",36,10.020.00,
+SP,DF,Prot. ICMS 25/11,16,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida, para uso não automotivo",47,,
+SP,DF,Prot. ICMS 25/11,22,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais.,51,10.021.00,
+SP,DF,Prot. ICMS 25/11,23,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",49,,
+SP,DF,Prot. ICMS 25/11,32,69.07 69.08,6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",39,10.030.00;10.030.01,
+SP,DF,Prot. ICMS 25/11,33,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,10.031.00,
+SP,DF,Prot. ICMS 25/11,34,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,54,10.032.00,
+SP,DF,Prot. ICMS 25/11,43,7214.20.00,72142000,Vergalhões,33,10.040.00;10.042.00,
+SP,DF,Prot. ICMS 25/11,44,7308.90.10,73089010,"Barras próprias para construções, exceto os vergalhões.",40,10.041.00;10.041.01;10.048.00,
+SP,DF,Prot. ICMS 25/11,45,7217.10.90 73.12,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos, cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos.",42,10.044.00,
+SP,DF,Prot. ICMS 25/11,46,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados.",40,10.045.01,
+SP,DF,Prot. ICMS 25/11,47,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço.",33,10.046.00,
+SP,DF,Prot. ICMS 25/11,48,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",34,10.047.00,
+SP,DF,Prot. ICMS 25/11,49,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção civil, exceto treliças de aço.",39,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,DF,Prot. ICMS 25/11,50,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço próprias para construção civil; de ferro fundido, ferro ou aço, próprias para a construção civil.",59,10.051.00,
+SP,DF,Prot. ICMS 25/11,51,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",42,10.052.00,
+SP,DF,Prot. ICMS 25/11,52,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",33,10.053.00,
+SP,DF,Prot. ICMS 25/11,53,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",69.43,10.054.00,
+SP,DF,Prot. ICMS 25/11,54,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",69.43,10.055.00,
+SP,DF,Prot. ICMS 25/11,55,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",42,10.056.00,
+SP,DF,Prot. ICMS 25/11,56,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",41,10.057.00,
+SP,DF,Prot. ICMS 25/11,57,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",46,10.058.00,
+SP,DF,Prot. ICMS 25/11,58,7323,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço.",69.13,10.059.00;10.059.01,
+SP,DF,Prot. ICMS 25/11,59,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",57,10.060.00,
+SP,DF,Prot. ICMS 25/11,60,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",57,10.061.00,
+SP,DF,Prot. ICMS 25/11,61,73.26,7326,Abraçadeiras,52,10.062.00,
+SP,DF,Prot. ICMS 25/11,62,7411.10.10,74111010,"Tubos de cobre e suas ligas, para instalações de água quente e gás",32,10.064.00,
+SP,DF,Prot. ICMS 25/11,63,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil.",31,10.065.00,
+SP,DF,Prot. ICMS 25/11,64,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",37,10.066.00,
+SP,DF,Prot. ICMS 25/11,65,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,44,10.067.00,
+SP,DF,Prot. ICMS 25/11,66,7607.19.90,76071990,Manta de subcobertura aluminizada,34,10.068.00,
+SP,DF,Prot. ICMS 25/11,67,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil.",40,10.070.00,
+SP,DF,Prot. ICMS 25/11,68,76.10,7610,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas, e estruturas de box), de alumínio, exceto as construções, pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construção civil",32,10.071.00,
+SP,DF,Prot. ICMS 25/11,69,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,46,10.072.00,
+SP,DF,Prot. ICMS 25/11,70,76.16,7616,"Outras obras de alumínio, próprias para construção civil, incluídas as persianas",37,10.073.00,
+SP,DF,Prot. ICMS 25/11,71,8302.4 76.16,83024;7616,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construção civil, inclusive puxadores, exceto persianas de alumínio constantes do item 72.",36,10.073.00;10.074.00,
+SP,DF,Prot. ICMS 25/11,72,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns, excluídos os de uso automotivo",41,10.075.00,
+SP,DF,Prot. ICMS 25/11,73,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo.",46,10.076.00,
+SP,DF,Prot. ICMS 25/11,75,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil.",37,10.077.00,
+SP,DF,Prot. ICMS 25/11,76,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",41,10.078.00,
+SP,DF,Prot. ICMS 25/11,78,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",34,10.079.00,
+SP,MG,Prot. ICMS 32/09,1,3214.90.00 3816.00.1 3824.50.00,32149000;3816001;38245000,"Argamassas, seladoras e massas para revestimento",,10.002.00;10.003.00,
+SP,MG,Prot. ICMS 32/09,3,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",,10.005.00,
+SP,MG,Prot. ICMS 32/09,4,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",,10.006.00,
+SP,MG,Prot. ICMS 32/09,5,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,
+SP,MG,Prot. ICMS 32/09,6,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil.",,10.008.00;10.009.00,
+SP,MG,Prot. ICMS 32/09,7,39.19 39.20 39.21,3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,MG,Prot. ICMS 32/09,8,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,MG,Prot. ICMS 32/09,9,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos.",,10.013.00,
+SP,MG,Prot. ICMS 32/09,10,39.24,3924,Artefatos de higiene / toucador de plástico,,10.014.00,
+SP,MG,Prot. ICMS 32/09,11,"3925.10.00, 3925.90.00",39251000;39259000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",,10.015.00;10.016.00;10.017.00,
+SP,MG,Prot. ICMS 32/09,12,3925.20.00,39252000,"Portas, janelas e afins, de plástico",,10.018.00,
+SP,MG,Prot. ICMS 32/09,14,3926.90,392690,"Outras obras de plástico, para uso na construção civil",,10.020.00,
+SP,MG,Prot. ICMS 32/09,24,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais.,,10.021.00,
+SP,MG,Prot. ICMS 32/09,25,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",,,
+SP,MG,Prot. ICMS 32/09,35,68.11,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto",,10.024.00,
+SP,MG,Prot. ICMS 32/09,36,69.07 69.08,6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00;10.030.01,
+SP,MG,Prot. ICMS 32/09,37,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,
+SP,MG,Prot. ICMS 32/09,38,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,
+SP,MG,Prot. ICMS 32/09,46,70.16,7016,"Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo armado, para construção; cubos, pastilhas e outros artigos semelhantes",,10.039.00,
+SP,MG,Prot. ICMS 32/09,48,72.137214.20.00 7308.90.10,72137214;2000;73089010,Vergalhões,,10.041.00;10.041.01;10.043.00;10.048.00,
+SP,MG,Prot. ICMS 32/09,49,"7214.20.00, 7308.90.10",72142000;73089010,"Barras próprias para construções, exceto os vergalhões",,10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,
+SP,MG,Prot. ICMS 32/09,50,7217.10.90 73.12,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmopolidos, cordas, cabos, tranças (entrançados), lingas eartefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,
+SP,MG,Prot. ICMS 32/09,51,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,
+SP,MG,Prot. ICMS 32/09,52,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,
+SP,MG,Prot. ICMS 32/09,53,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,
+SP,MG,Prot. ICMS 32/09,54,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,2015-06-01
+SP,MG,Prot. ICMS 32/09,54.1,7308.40.00,73084000,Treliças de aço,,10.048.00;10.049.00,2015-06-01
+SP,MG,Prot. ICMS 32/09,55,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; de ferro fundido, ferro ou aço",,10.051.00,
+SP,MG,Prot. ICMS 32/09,56,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,
+SP,MG,Prot. ICMS 32/09,57,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,
+SP,MG,Prot. ICMS 32/09,58,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,
+SP,MG,Prot. ICMS 32/09,59,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,
+SP,MG,Prot. ICMS 32/09,60,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,
+SP,MG,Prot. ICMS 32/09,61,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,
+SP,MG,Prot. ICMS 32/09,62,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",,10.058.00,
+SP,MG,Prot. ICMS 32/09,63,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",,10.059.00;10.059.01,
+SP,MG,Prot. ICMS 32/09,64,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",,10.060.00,
+SP,MG,Prot. ICMS 32/09,65,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",,10.061.00,
+SP,MG,Prot. ICMS 32/09,66,73.26,7326,Abraçadeiras,,10.062.00,
+SP,MG,Prot. ICMS 32/09,67,74.07,7407,Barra de cobre,,10.063.00,
+SP,MG,Prot. ICMS 32/09,68,7411.10.10,74111010,"Tubos de cobre e suas ligas, para instalações de água quente e gás, de uso na construção civil",,10.064.00,
+SP,MG,Prot. ICMS 32/09,70,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",,10.066.00,
+SP,MG,Prot. ICMS 32/09,71,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,,10.067.00,
+SP,MG,Prot. ICMS 32/09,72,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,
+SP,MG,Prot. ICMS 32/09,73,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",,10.070.00,
+SP,MG,Prot. ICMS 32/09,74,76.10,7610,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas, e estruturas de box), de alumínio, exceto as construções, pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",,10.071.00,
+SP,MG,Prot. ICMS 32/09,75,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,,10.072.00,
+SP,MG,Prot. ICMS 32/09,76,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",,10.073.00,
+SP,MG,Prot. ICMS 32/09,77,8302.4 76.16,83024;7616,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio constantes do item 76.",,10.073.00;10.074.00,
+SP,MG,Prot. ICMS 32/09,78,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",,10.075.00,
+SP,MG,Prot. ICMS 32/09,79,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo.",,10.076.00,
+SP,MG,Prot. ICMS 32/09,81,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",,10.077.00,
+SP,MG,Prot. ICMS 32/09,82,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,
+SP,MG,Prot. ICMS 32/09,84,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,
+SP,RJ,Prot. ICMS 32/14,2,25.22,2522,Cal para construção civil,43,10.001.00,
+SP,RJ,Prot. ICMS 32/14,3,3214.90.00,32149000,"Argamassas, exceto as constantes no Convênio ICMS 74/94",41,10.003.00,
+SP,RJ,Prot. ICMS 32/14,4,3910.00,391000,"Silicones em formas primárias, para uso na construção civil",57,10.004.00,
+SP,RJ,Prot. ICMS 32/14,5,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",57,10.005.00,
+SP,RJ,Prot. ICMS 32/14,6,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",36,10.006.00,
+SP,RJ,Prot. ICMS 32/14,7,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,56,10.007.00,
+SP,RJ,Prot. ICMS 32/14,8,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",58,10.008.00;10.009.00,
+SP,RJ,Prot. ICMS 32/14,9,"39.19, 39.20, 39.21",3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",52,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,RJ,Prot. ICMS 32/14,10,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",53,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,RJ,Prot. ICMS 32/14,11,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",49,10.013.00,
+SP,RJ,Prot. ICMS 32/14,12,39.24,3924,Artefatos de higiene / toucador de plástico,80,10.014.00,
+SP,RJ,Prot. ICMS 32/14,13,"3925.10.00, 3925.90",39251000;392590,"Artefatos para apetrechamento de construções, de plásticos, não especificados nem compreendidos em outras posições, incluindo persianas, sancas, molduras, apliques e rosetas, telhas, cumeeiras, caixas d""água, caixilhos de polietileno e outros plásticos",46,10.015.00;10.016.00;10.017.00,
+SP,RJ,Prot. ICMS 32/14,14,3925.20.00,39252000,"Portas, janelas e afins, de plástico",43,10.018.00,
+SP,RJ,Prot. ICMS 32/14,16,3926.90,392690,"Outras obras de plástico, para uso na construção civil",45,10.020.00,
+SP,RJ,Prot. ICMS 32/14,20,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",74,,
+SP,RJ,Prot. ICMS 32/14,27,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,79,10.021.00,
+SP,RJ,Prot. ICMS 32/14,28,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",54,,
+SP,RJ,Prot. ICMS 32/14,36,6810.19.00,68101900,Telhas de concreto,36,10.022.00,
+SP,RJ,Prot. ICMS 32/14,37,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - COM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",41,10.024.00,
+SP,RJ,Prot. ICMS 32/14,37.1,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - SEM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",56,10.024.00,
+SP,RJ,Prot. ICMS 32/14,42,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",91,10.029.00,
+SP,RJ,Prot. ICMS 32/14,43,"69.07, 69.08",6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",53,10.030.00;10.030.01,
+SP,RJ,Prot. ICMS 32/14,44,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,10.031.00,
+SP,RJ,Prot. ICMS 32/14,45,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,83,10.032.00,
+SP,RJ,Prot. ICMS 32/14,53,7308.90.10,73089010,"Barras próprias para construções, exceto vergalhões",39,10.041.00;10.041.01;10.048.00,
+SP,RJ,Prot. ICMS 32/14,53.1,7214.20.00,72142000,Vergalhões,41,10.040.00;10.042.00,
+SP,RJ,Prot. ICMS 32/14,54,"7217.10.90, 7312",72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",44,10.044.00,
+SP,RJ,Prot. ICMS 32/14,55,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",42,10.045.01,
+SP,RJ,Prot. ICMS 32/14,56,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",37,10.046.00,
+SP,RJ,Prot. ICMS 32/14,57,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",40,10.047.00,
+SP,RJ,Prot. ICMS 32/14,58,"7308.40.00, 7308.90",73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",65,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,RJ,Prot. ICMS 32/14,58.1,7308.40.00,73084000,Treliças de aço,38,10.048.00;10.049.00,
+SP,RJ,Prot. ICMS 32/14,59,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil",89,10.051.00,
+SP,RJ,Prot. ICMS 32/14,60,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",39,10.052.00,
+SP,RJ,Prot. ICMS 32/14,61,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",39,10.053.00,
+SP,RJ,Prot. ICMS 32/14,62,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",101,10.054.00,
+SP,RJ,Prot. ICMS 32/14,63,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",101,10.055.00,
+SP,RJ,Prot. ICMS 32/14,64,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",68,10.056.00,
+SP,RJ,Prot. ICMS 32/14,65,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",44,10.057.00,
+SP,RJ,Prot. ICMS 32/14,66,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",51,10.058.00,
+SP,RJ,Prot. ICMS 32/14,67,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",101,10.059.00;10.059.01,
+SP,RJ,Prot. ICMS 32/14,68,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",62,10.060.00,
+SP,RJ,Prot. ICMS 32/14,69,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",86,10.061.00,
+SP,RJ,Prot. ICMS 32/14,70,73.26,7326,Abraçadeiras,80,10.062.00,
+SP,RJ,Prot. ICMS 32/14,72,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",33,10.065.00,
+SP,RJ,Prot. ICMS 32/14,73,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",2,10.066.00,
+SP,RJ,Prot. ICMS 32/14,74,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,46,10.067.00,
+SP,RJ,Prot. ICMS 32/14,75,7607.19.90,76071990,Manta de subcobertura aluminizada,59,10.068.00,
+SP,RJ,Prot. ICMS 32/14,75-A,7608,7608,"Tubos de alumínio e suas ligas, para refrigeração e ar condicionado, de uso na construção civil",44.53,10.069.00,
+SP,RJ,Prot. ICMS 32/14,76,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",66,10.070.00,
+SP,RJ,Prot. ICMS 32/14,77,76.10,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções préfabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",38,10.071.00,
+SP,RJ,Prot. ICMS 32/14,78,7615.20.00,76152000,Artefatos de higiene / toucador de alumínio,73,10.072.00,
+SP,RJ,Prot. ICMS 32/14,79,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",45,10.073.00,
+SP,RJ,Prot. ICMS 32/14,80,"76.16, 8302.4",7616;83024,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio constantes do item 79",47,10.073.00;10.074.00,
+SP,RJ,Prot. ICMS 32/14,81,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",54,10.075.00,
+SP,RJ,Prot. ICMS 32/14,82,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",58,10.076.00,
+SP,RJ,Prot. ICMS 32/14,84,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",62,10.077.00,
+SP,RJ,Prot. ICMS 32/14,85,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",60,10.078.00,
+SP,RJ,Prot. ICMS 32/14,87,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",47,10.079.00,
+SP,PR,Prot. ICMS 71/11,1,39.16,3916,Revestimentos de PVC e outros plásticos;,,10.005.00,
+SP,PR,Prot. ICMS 71/11,2,39.16,3916,"Forro, sancas e afins de PVC, para uso na construção civil",,10.005.00,
+SP,PR,Prot. ICMS 71/11,3,39.17,3917,"Tubos e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",,10.006.00,
+SP,PR,Prot. ICMS 71/11,4,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,
+SP,PR,Prot. ICMS 71/11,5,39.19 39.20 39.21,3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins (exceto produtos da posição 3921.90.20)",,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,PR,Prot. ICMS 71/11,6,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",,10.013.00,
+SP,PR,Prot. ICMS 71/11,7,3925.90.00 3925.10.00,39259000;39251000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",,10.015.00;10.016.00;10.017.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,8,3925.20.00,39252000,"Portas, janelas e afins, de plástico",,10.018.00,
+SP,PR,Prot. ICMS 71/11,10,3926.90,392690,"Outras obras de plástico, para uso na construção civil",,10.020.00,
+SP,PR,Prot. ICMS 71/11,13,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",,,
+SP,PR,Prot. ICMS 71/11,17,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,,10.021.00,
+SP,PR,Prot. ICMS 71/11,19,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",,,
+SP,PR,Prot. ICMS 71/11,27,68.11,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - COM frete incluso na BC da Retenção (exceto os produtos classificados nas posições 6811.10",,10.024.00,
+SP,PR,Prot. ICMS 71/11,29,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,
+SP,PR,Prot. ICMS 71/11,30,69.07 69.08,6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00;10.030.01,
+SP,PR,Prot. ICMS 71/11,38,7214.20.00 7308.90.10,72142000;73089010,"Barras próprias para construções, exceto os vergalhões de ferro",,10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,
+SP,PR,Prot. ICMS 71/11,39,7214.20.00,72142000,Vergalhões,,10.040.00;10.042.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,40,7217.10.90 73.12,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,
+SP,PR,Prot. ICMS 71/11,41,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,
+SP,PR,Prot. ICMS 71/11,42,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,
+SP,PR,Prot. ICMS 71/11,43,7308.30.00,73083000,"Portas e janelas e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,
+SP,PR,Prot. ICMS 71/11,44,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção",,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,PR,Prot. ICMS 71/11,45,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,
+SP,PR,Prot. ICMS 71/11,46,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,
+SP,PR,Prot. ICMS 71/11,47,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,
+SP,PR,Prot. ICMS 71/11,48,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,
+SP,PR,Prot. ICMS 71/11,49,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",,10.058.00,
+SP,PR,Prot. ICMS 71/11,50,73.26,7326,Abraçadeiras,,10.062.00,
+SP,PR,Prot. ICMS 71/11,51,74.07,7407,Barras de cobre,,10.063.00,
+SP,PR,Prot. ICMS 71/11,53,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",,10.065.00,
+SP,PR,Prot. ICMS 71/11,54,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes de cobre",,10.066.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,55,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,,10.067.00,
+SP,PR,Prot. ICMS 71/11,56,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,
+SP,PR,Prot. ICMS 71/11,57,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",,10.070.00,
+SP,PR,Prot. ICMS 71/11,58,76.10,7610,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas, e estruturas de box), de alumínio",,10.071.00,
+SP,PR,Prot. ICMS 71/11,59,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,,10.072.00,
+SP,PR,Prot. ICMS 71/11,60,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",,10.073.00,
+SP,PR,Prot. ICMS 71/11,61,76.16 8302.4,7616;83024,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio",,10.073.00;10.074.00,
+SP,PR,Prot. ICMS 71/11,62,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",,10.075.00,
+SP,PR,Prot. ICMS 71/11,63,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",,10.076.00,
+SP,PR,Prot. ICMS 71/11,65,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",,10.077.00,
+SP,PR,Prot. ICMS 71/11,66,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fio e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,68,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,
+SP,PR,Prot. ICMS 71/11,71,3214.90.00 3826.00.1 3824.50.00,32149000;3826001;38245000,"Argamassas, seladoras e massas para revestimento",,10.002.00;10.003.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,72,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",,10.008.00;10.009.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,73,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",,10.009.00;10.010.00;10.011.00;10.012.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,74,39.24,3924,Artefatos de higiene / toucador de plástico,,10.014.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,79,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,80,73.10,7310,"Caixas diversas (tais como caixas de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; de ferro fundido, ferro ou aço,",,10.051.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,81,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,82,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,83,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",,10.059.00;10.059.01,2012-08-01
+SP,PR,Prot. ICMS 71/11,84,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",,10.060.00,2012-08-01
+SP,PR,Prot. ICMS 71/11,85,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",,10.061.00,2012-08-01
+SP,AL,Prot. ICMS 104/08,2,25.22,2522,Cal para construção civil,43,10.001.00,
+SP,AL,Prot. ICMS 104/08,3,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",57,10.005.00,
+SP,AL,Prot. ICMS 104/08,4,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",36,10.006.00,
+SP,AL,Prot. ICMS 104/08,5,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,56,10.007.00,
+SP,AL,Prot. ICMS 104/08,6,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",58,10.008.00;10.009.00,
+SP,AL,Prot. ICMS 104/08,7,"39.19, 39.20,  39.21",3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",52,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,AL,Prot. ICMS 104/08,8,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",53,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,AL,Prot. ICMS 104/08,9,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",49,10.013.00,
+SP,AL,Prot. ICMS 104/08,10,39.24,3924,Artefatos de higiene / toucador de plástico,80,10.014.00,
+SP,AL,Prot. ICMS 104/08,11,"3925.10.00, 3925.90.00",39251000;39259000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",46,10.015.00;10.016.00;10.017.00,
+SP,AL,Prot. ICMS 104/08,12,3925.20.00,39252000,"Portas, janelas e afins, de plástico",43,10.018.00,
+SP,AL,Prot. ICMS 104/08,14,3926.90,392690,"Outras obras de plástico, para uso na construção civil",45,10.020.00,
+SP,AL,Prot. ICMS 104/08,18,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",74,,
+SP,AL,Prot. ICMS 104/08,25,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,79,10.021.00,
+SP,AL,Prot. ICMS 104/08,26,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",54,,
+SP,AL,Prot. ICMS 104/08,35,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - COM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",41,10.024.00,
+SP,AL,Prot. ICMS 104/08,35.1,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - SEM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",56,10.024.00,
+SP,AL,Prot. ICMS 104/08,40,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",91,10.029.00,
+SP,AL,Prot. ICMS 104/08,41,"69.07, 69.08",6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",53,10.030.00;10.030.01,
+SP,AL,Prot. ICMS 104/08,42,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,10.031.00,
+SP,AL,Prot. ICMS 104/08,43,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,83,10.032.00,
+SP,AL,Prot. ICMS 104/08,51.1,7214.20.00,72142000,Vergalhões,41,10.040.00;10.042.00,
+SP,AL,Prot. ICMS 104/08,52,"7217.10.90, 7312",72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",44,10.044.00,
+SP,AL,Prot. ICMS 104/08,53,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",42,10.045.01,
+SP,AL,Prot. ICMS 104/08,54,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",37,10.046.00,
+SP,AL,Prot. ICMS 104/08,55,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",40,10.047.00,
+SP,AL,Prot. ICMS 104/08,56,"7308.40.00, 7308.90",73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",65,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,AL,Prot. ICMS 104/08,56.1,7308.40.00,73084000,Treliças de aço,38,10.048.00;10.049.00,
+SP,AL,Prot. ICMS 104/08,57,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",89,10.051.00,
+SP,AL,Prot. ICMS 104/08,58,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",46,10.052.00,
+SP,AL,Prot. ICMS 104/08,59,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",39,10.053.00,
+SP,AL,Prot. ICMS 104/08,60,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",101,10.054.00,
+SP,AL,Prot. ICMS 104/08,61,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",101,10.055.00,
+SP,AL,Prot. ICMS 104/08,62,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",68,10.056.00,
+SP,AL,Prot. ICMS 104/08,63,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",44,10.057.00,
+SP,AL,Prot. ICMS 104/08,64,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",51,10.058.00,
+SP,AL,Prot. ICMS 104/08,65,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",101,10.059.00;10.059.01,
+SP,AL,Prot. ICMS 104/08,66,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço",62,10.060.00,
+SP,AL,Prot. ICMS 104/08,67,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",86,10.061.00,
+SP,AL,Prot. ICMS 104/08,68,73.26,7326,Abraçadeiras,80,10.062.00,
+SP,AL,Prot. ICMS 104/08,69,7411.10.10,74111010,"Tubos de cobre e suas ligas, para instalações de água quente e gás, de uso na construção civil",35,10.064.00,
+SP,AL,Prot. ICMS 104/08,70,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",33,10.065.00,
+SP,AL,Prot. ICMS 104/08,71,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",62,10.066.00,
+SP,AL,Prot. ICMS 104/08,72,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,46,10.067.00,
+SP,AL,Prot. ICMS 104/08,73,7607.19.90,76071990,Manta de subcobertura aluminizada,59,10.068.00,
+SP,AL,Prot. ICMS 104/08,74,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",66,10.070.00,
+SP,AL,Prot. ICMS 104/08,75,76.10,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções préfabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",38,10.071.00,
+SP,AL,Prot. ICMS 104/08,76,7615.20.00,76152000,Artefatos de higiene / toucador de alumínio,73,10.072.00,
+SP,AL,Prot. ICMS 104/08,77,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",45,10.073.00,
+SP,AL,Prot. ICMS 104/08,78,"76.16, 8302.4 83.01",7616;83024;8301,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio constantes do item 81",47,10.073.00;10.074.00;10.075.00,
+SP,AL,Prot. ICMS 104/08,80,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",58,10.076.00,
+SP,AL,Prot. ICMS 104/08,82,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",62,10.077.00,
+SP,AL,Prot. ICMS 104/08,83,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",60,10.078.00,
+SP,AL,Prot. ICMS 104/08,85,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",47,10.079.00,
+SP,BA,Prot. ICMS 104/09,2,25.22,2522,Cal para construção civil,,10.001.00,
+SP,BA,Prot. ICMS 104/09,3,"3214.90.00, 3816.00.1, 3824.40.00, 3824.50.00",32149000;3816001;38244000;38245000,"Argamassas, seladoras, massas para revestimento, aditivos para argamassas e afins",,10.002.00;10.003.00,
+SP,BA,Prot. ICMS 104/09,4,3910.00,391000,"Silicones em formas primárias, para uso na construção civil",,10.004.00,
+SP,BA,Prot. ICMS 104/09,5,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",,10.005.00,
+SP,BA,Prot. ICMS 104/09,6,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",,10.006.00,
+SP,BA,Prot. ICMS 104/09,7,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,,10.007.00,
+SP,BA,Prot. ICMS 104/09,8,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",,10.008.00;10.009.00,
+SP,BA,Prot. ICMS 104/09,9,"39.19, 39.20, 39.21",3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,BA,Prot. ICMS 104/09,10,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,BA,Prot. ICMS 104/09,11,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",,10.013.00,
+SP,BA,Prot. ICMS 104/09,12,39.24,3924,Artefatos de higiene/toucador de plástico,,10.014.00,
+SP,BA,Prot. ICMS 104/09,13,"3925.10.00, 3925.90.00",39251000;39259000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",,10.015.00;10.016.00;10.017.00,
+SP,BA,Prot. ICMS 104/09,14,3925.20.00,39252000,"Portas, janelas e afins, de plástico",,10.018.00,
+SP,BA,Prot. ICMS 104/09,16,3926.90,392690,"Outras obras de plástico, para uso na construção civil",,10.020.00,
+SP,BA,Prot. ICMS 104/09,20,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",,,
+SP,BA,Prot. ICMS 104/09,27,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,,10.021.00,
+SP,BA,Prot. ICMS 104/09,28,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",,,
+SP,BA,Prot. ICMS 104/09,38,68.11,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - COM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",,10.024.00,
+SP,BA,Prot. ICMS 104/09,38.1,68.11,6811,"Caixas d’água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - SEM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",,10.024.00,
+SP,BA,Prot. ICMS 104/09,43,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",,10.029.00,
+SP,BA,Prot. ICMS 104/09,44,"69.07, 69.08",6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",,10.030.00;10.030.01,
+SP,BA,Prot. ICMS 104/09,45,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",,10.031.00,
+SP,BA,Prot. ICMS 104/09,46,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,,10.032.00,
+SP,BA,Prot. ICMS 104/09,54,"7214.20.00, 7308.90.10",72142000;73089010,"Barras próprias para construções, exceto vergalhões",,10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,
+SP,BA,Prot. ICMS 104/09,54.1,"7214.20.00, 7308.90.10",72142000;73089010,Vergalhões,,10.040.00;10.041.00;10.041.01;10.042.00;10.048.00,
+SP,BA,Prot. ICMS 104/09,55,"7217.10.90, 7312",72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",,10.044.00,
+SP,BA,Prot. ICMS 104/09,56,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",,10.045.01,
+SP,BA,Prot. ICMS 104/09,57,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",,10.046.00,
+SP,BA,Prot. ICMS 104/09,58,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",,10.047.00,
+SP,BA,Prot. ICMS 104/09,59,"7308.40.00, 7308.90",73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção",,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,
+SP,BA,Prot. ICMS 104/09,60,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",,10.051.00,
+SP,BA,Prot. ICMS 104/09,61,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",,10.052.00,
+SP,BA,Prot. ICMS 104/09,62,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",,10.053.00,
+SP,BA,Prot. ICMS 104/09,63,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",,10.054.00,
+SP,BA,Prot. ICMS 104/09,64,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",,10.055.00,
+SP,BA,Prot. ICMS 104/09,65,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",,10.056.00,
+SP,BA,Prot. ICMS 104/09,66,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",,10.057.00,
+SP,BA,Prot. ICMS 104/09,67,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e arte-fatos semelhantes, de ferro fundido, ferro ou aço",,10.058.00,
+SP,BA,Prot. ICMS 104/09,68,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",,10.059.00;10.059.01,
+SP,BA,Prot. ICMS 104/09,69,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço",,10.060.00,
+SP,BA,Prot. ICMS 104/09,70,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",,10.061.00,
+SP,BA,Prot. ICMS 104/09,71,73.26,7326,Abraçadeiras,,10.062.00,
+SP,BA,Prot. ICMS 104/09,72,7407.10,740710,Barra de cobre,,10.063.00,
+SP,BA,Prot. ICMS 104/09,74,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",,10.065.00,
+SP,BA,Prot. ICMS 104/09,75,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",,10.066.00,
+SP,BA,Prot. ICMS 104/09,76,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,,10.067.00,
+SP,BA,Prot. ICMS 104/09,77,7607.19.90,76071990,Manta de subcobertura aluminizada,,10.068.00,
+SP,BA,Prot. ICMS 104/09,78,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",,10.070.00,
+SP,BA,Prot. ICMS 104/09,79,76.10,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções préfabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",,10.071.00,
+SP,BA,Prot. ICMS 104/09,80,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,,10.072.00,
+SP,BA,Prot. ICMS 104/09,81,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",,10.073.00,
+SP,BA,Prot. ICMS 104/09,82,"76.16, 8302.4",7616;83024,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio constantes do item 81",,10.073.00;10.074.00,
+SP,BA,Prot. ICMS 104/09,83,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",,10.075.00,
+SP,BA,Prot. ICMS 104/09,84,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",,10.076.00,
+SP,BA,Prot. ICMS 104/09,85,8302.50.00,83025000,"Pateras, porta-chapéus, cabides, e artigos semelhantes de metais comuns",,,
+SP,BA,Prot. ICMS 104/09,86,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",,10.077.00,
+SP,BA,Prot. ICMS 104/09,87,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",,10.078.00,
+SP,BA,Prot. ICMS 104/09,88,8419.1,84191,"Aquecedores de água não elétricos, de aquecimento instantâneo ou de acumulação",,,
+SP,BA,Prot. ICMS 104/09,89,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",,10.079.00,
+SP,BA,Prot. ICMS 104/09,90,"8515.1, 8515.2, 8515.90.00",85151;85152;85159000,Partes de máquinas e aparelhos para soldadura forte ou fraca e de máquinas e aparelhos para soldar metais por resistência,,,
+SP,BA,Prot. ICMS 104/09,91,90.19,9019,Banheira de hidromassagem,,,
+SP,PE,Prot. ICMS 128/10,2,25.22,2522,Cal para construção civil,43,10.001.00,
+SP,PE,Prot. ICMS 128/10,3,3214.90.00,32149000,Argamassas.,41,10.003.00,
+SP,PE,Prot. ICMS 128/10,4,3910.00,391000,"Silicones em formas primárias, para uso na construção civil",57,10.004.00,
+SP,PE,Prot. ICMS 128/10,5,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",57,10.005.00,
+SP,PE,Prot. ICMS 128/10,6,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso na construção civil",36,10.006.00,
+SP,PE,Prot. ICMS 128/10,7,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,56,10.007.00,
+SP,PE,Prot. ICMS 128/10,8,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos, para uso na construção civil",58,10.008.00;10.009.00,
+SP,PE,Prot. ICMS 128/10,9,"39.19, 39.20, 39.21",3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",52,10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,
+SP,PE,Prot. ICMS 128/10,10,39.21,3921,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",53,10.009.00;10.010.00;10.011.00;10.012.00,
+SP,PE,Prot. ICMS 128/10,11,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos",49,10.013.00,
+SP,PE,Prot. ICMS 128/10,12,39.24,3924,Artefatos de higiene / toucador de plástico,80,10.014.00,
+SP,PE,Prot. ICMS 128/10,13,"3925.10.00, 3925.90.00",39251000;39259000,"Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",46,10.015.00;10.016.00;10.017.00,
+SP,PE,Prot. ICMS 128/10,14,3925.20.00,39252000,"Portas, janelas e afins, de plástico",43,10.018.00,
+SP,PE,Prot. ICMS 128/10,16,3926.90,392690,"Outras obras de plástico, para uso na construção civil",45,10.020.00,
+SP,PE,Prot. ICMS 128/10,20,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",74,,
+SP,PE,Prot. ICMS 128/10,27,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,79,10.021.00,
+SP,PE,Prot. ICMS 128/10,28,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",54,,
+SP,PE,Prot. ICMS 128/10,38,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - COM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",41,10.024.00,
+SP,PE,Prot. ICMS 128/10,38.1,68.11,6811,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocimento, cimento-celulose ou semelhantes, contendo ou não amianto - SEM FRETE INCLUÍDO NA BASE DE CÁLCULO DE RETENÇÃO",56,10.024.00,
+SP,PE,Prot. ICMS 128/10,43,6906.00.00,69060000,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",91,10.029.00,
+SP,PE,Prot. ICMS 128/10,44,"69.07, 69.08",6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",53,10.030.00;10.030.01,
+SP,PE,Prot. ICMS 128/10,45,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,10.031.00,
+SP,PE,Prot. ICMS 128/10,46,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,83,10.032.00,
+SP,PE,Prot. ICMS 128/10,54,7308.90.10,73089010,"Barras próprias para construções, exceto vergalhões",39,10.041.00;10.041.01;10.048.00,
+SP,PE,Prot. ICMS 128/10,54.1,7214.20.00,72142000,Vergalhões,41,10.040.00;10.042.00,
+SP,PE,Prot. ICMS 128/10,55,"7217.10.90, 7312",72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",44,10.044.00,
+SP,PE,Prot. ICMS 128/10,56,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",42,10.045.01,
+SP,PE,Prot. ICMS 128/10,57,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",37,10.046.00,
+SP,PE,Prot. ICMS 128/10,58,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",40,10.047.00,
+SP,PE,Prot. ICMS 128/10,59,"7308.40.00, 7308.90",73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção, exceto treliças de aço",65,10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,2025-06-01
+SP,PE,Prot. ICMS 128/10,59.1,7308.40.00,73084000,Treliças de aço,38,10.048.00;10.049.00,
+SP,PE,Prot. ICMS 128/10,60,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço, próprias para a construção civil; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",89,10.051.00,
+SP,PE,Prot. ICMS 128/10,61,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",46,10.052.00,
+SP,PE,Prot. ICMS 128/10,62,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",39,10.053.00,
+SP,PE,Prot. ICMS 128/10,63,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",101,10.054.00,
+SP,PE,Prot. ICMS 128/10,64,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",101,10.055.00,
+SP,PE,Prot. ICMS 128/10,65,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",68,10.056.00,
+SP,PE,Prot. ICMS 128/10,66,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",44,10.057.00,
+SP,PE,Prot. ICMS 128/10,67,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",51,10.058.00,
+SP,PE,Prot. ICMS 128/10,68,73.23,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto as esponjas de lã de aço ou ferro para limpeza doméstica, classificadas na posição 7323.10.00 da NCM/SH",101,10.059.00;10.059.01,
+SP,PE,Prot. ICMS 128/10,69,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço",62,10.060.00,
+SP,PE,Prot. ICMS 128/10,70,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",86,10.061.00,
+SP,PE,Prot. ICMS 128/10,71,73.26,7326,Abraçadeiras,80,10.062.00,
+SP,PE,Prot. ICMS 128/10,73,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para uso na construção civil",33,10.065.00,
+SP,PE,Prot. ICMS 128/10,74,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",62,10.066.00,
+SP,PE,Prot. ICMS 128/10,75,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,46,10.067.00,
+SP,PE,Prot. ICMS 128/10,76,7607.19.90,76071990,Manta de subcobertura aluminizada,59,10.068.00,
+SP,PE,Prot. ICMS 128/10,77,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção civil",66,10.070.00,
+SP,PE,Prot. ICMS 128/10,78,76.10,7610,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas), de alumínio, exceto as construções préfabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construções",38,10.071.00,
+SP,PE,Prot. ICMS 128/10,79,7615.20.00,76152000,Artefatos de higiene / toucador de alumínio,73,10.072.00,
+SP,PE,Prot. ICMS 128/10,80,76.16,7616,"Outras obras de alumínio, próprias para construções, incluídas as persianas",45,10.073.00,
+SP,PE,Prot. ICMS 128/10,81,"76.16, 8302.4",7616;83024,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores, exceto persianas de alumínio constantes do item 81",47,10.073.00;10.074.00,
+SP,PE,Prot. ICMS 128/10,82,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns excluídos os de uso automotivo",54,10.075.00,
+SP,PE,Prot. ICMS 128/10,83,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo",58,10.076.00,
+SP,PE,Prot. ICMS 128/10,85,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",62,10.077.00,
+SP,PE,Prot. ICMS 128/10,86,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",60,10.078.00,
+SP,PE,Prot. ICMS 128/10,88,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",47,10.079.00,
