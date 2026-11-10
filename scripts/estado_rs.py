@@ -186,6 +186,8 @@ def main(argv: list[str] | None = None) -> int:
         ctx = ssl.create_default_context(cafile=certifi.where())
         for pem in sorted((RAIZ / "certs").glob("*.pem")):
             ctx.load_verify_locations(cafile=str(pem))
+        # A raiz "GoDaddy TLS Root CA - R1" ainda não está no certifi: o intermediário vale como âncora.
+        ctx.verify_flags |= ssl.VERIFY_X509_PARTIAL_CHAIN
         r = httpx.get(URL, headers={"User-Agent": USER_AGENT}, timeout=300, follow_redirects=True, verify=ctx)
         r.raise_for_status()
         bruto = r.content
