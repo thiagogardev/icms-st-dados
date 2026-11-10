@@ -2519,3 +2519,294 @@ protocolo,item,ncm_sh,ncms,descricao,mva_original,origem,vigencia_inicio,vigenci
 41/08,,8716.90.90,87169090,Reboques e semi-reboques,,anexo_anterior,2008-06-01,2023-01-31,False,,,,"Revogado o Anexo II pelo Prot. ICMS 49/08, efeitos a partir de 01.06.08.",anterior
 41/08,,7322.1,73221,Radiadores e suas partes de uso automotivo,,anexo_anterior,2008-06-01,2023-01-31,False,,,,"Revogado o Anexo II pelo Prot. ICMS 49/08, efeitos a partir de 01.06.08.",anterior
 41/08,,7311.00.00,73110000,Reservatório de ar comprimido para veículos automotores,,anexo_anterior,2008-06-01,2023-01-31,False,,,,"Revogado o Anexo II pelo Prot. ICMS 49/08, efeitos a partir de 01.06.08.",anterior
+34/14,1,"2828.90.11, 2828.90.19, 3206.41.00, 3808.94.19",28289011;28289019;32064100;38089419,"água sanitária, branqueador ou alvejante",57.6,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,2,"3307.41.00, 3307.49.00, 3307.90.00, 3808.94.19",33074100;33074900;33079000;38089419,odorizantes / desodorizantes de ambiente e superfície,55.57,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,3,3401.19.00,34011900,"sabões em barras, pedaços ou figuras moldados",39.59,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,4,"3401.20.90, 3402.20.00",34012090;34022000,"sabões ou detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes",20.9,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,5,3402.20.00,34022000,"detergentes líquidos, exceto para lavar roupa",27.91,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,6,3402.20.00,34022000,detergente líquido para lavar roupa,28.27,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,7,3402,3402,"outros agentes orgânicos de superfície (exceto sabões); preparações tensoativas, preparações para lavagem (incluídas as preparações auxiliares para lavagem) e preparações para limpeza (inclusive multiuso e limpadores), mesmo contendo sabão, exceto as da posição 34.01 e os produtos descritos nos itens 4 a 6",29.87,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,8,3405.10.00,34051000,"pomadas, cremes e preparações semelhantes, para calçados ou para couros",67.5,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,9,3405.40.00,34054000,"pastas, pós, saponáceos e outras preparações para arear",56.74,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,10,"3505.10.00, 3506.91.20, 3809.91.90, 3905.12.00",35051000;35069120;38099190;39051200,facilitadores e goma para passar roupa,68.04,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,11,"3808.50.10, 3808.91, 3808.92.1, 3808.99",38085010;380891;3808921;380899,"inseticidas, rodenticidas, fungicidas, raticidas, repelentes e outros produtos semelhantes, apresentados em formas ou embalagens exclusivamente para uso domissanitário direto",30.93,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,12,3808.94,380894,desinfetantes apresentados em quaisquer formas ou embalagens,42.71,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,13,3809.91.90,38099190,amaciante / suavizante,35.53,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,14,"3924.10.00, 3924.90.00, 6805.30.10, 6805.30.90",39241000;39249000;68053010;68053090,esponjas para limpeza,57.41,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,15,2207,2207,álcool etílico para limpeza,38.86,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,16,2710.12.90,27101290,óleo para conservação e limpeza de móveis e outros artigos de madeira,73.9,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,17,"2801.10.00, 2828.10.00, 28.28, 2933.69.11, 2933.69.19, 3808.94",28011000;28281000;2828;29336911;29336919;380894,"dicloro estabilizado; ácido tricloro isocianúrico; hipocloritos, hipoclorito de cálcio comercial, cloritos, hipobromitos, nas formas líquida, sólida, gasosa, pó, granulado, pastilhas ou em tabletes e demais desinfetantes para uso em piscinas; cloradores flutuantes de qualquer tipo, tamanho ou composição",57.94,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,18,2803.00.90,28030090,carbonato de sódio 99%,87.01,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,19,2806.10.20,28061020,"cloreto de hidrogênio (ácido clorídrico); ácido clossulfúrico, em solução aquosa",82.12,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,20,28.15,2815,limpador abrasivo e/ou soda cáustica em forma ou embalagem para uso direto de conteúdo igual ou inferior a 25 litros ou 25 kg,70.33,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,21,2827.20.90,28272090,desumidificador de ambiente,56.82,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,22,"2827.32.00, 2827.49.21, 2833.22.00, 2924.1",28273200;28274921;28332200;29241,"floculantes clarificantes, decantadores à base de cloretos, oxicloretos, hidrocloretos; sulfatos de alumínio e outros sais de alumínio; todos na forma líquida, granulada, em pó, pastilhas, tabletes, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg",66.7,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,23,"2832.20.00, 2901.10.00",28322000;29011000,tira-manchas e produtos para pré-lavagem de roupas,67.42,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,24,"2836.20.10, 2836.30.00, 2836.50.00",28362010;28363000;28365000,"barrilha leve, carbonatos de sódio, carbonato de cálcio; hidrogeno carbonato de sódio ou bicarbonado de sódio; todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 kg",62.4,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,25,2902.90.20,29029020,naftalina,57.3,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,26,2917.11.10,29171110,antiferrugem,58.48,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,27,2923.90.90,29239090,clarificante em embalagem de conteúdo igual ou inferior a 25 litros,64.71,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,28,"2931.00.79, 2931.90.79",29310079;29319079,controlador de metais em embalagem de conteúdo igual ou inferior a 25 litros,54.07,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,29,2933.69.19,29336919,flutuador 4x1,57.94,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,30,3402.90.39,34029039,limpa-bordas em embalagem de conteúdo igual ou inferior a 25 litros,65.1,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,31,34.03,3403,"preparações lubrificantes e preparações dos tipos utilizados para lubrificar e amaciar matérias têxteis, para untar couros, peleteria e outras matérias",68.73,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,32,38.02,3802,neutralizador / eliminador de odor,70.7,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,33,"2815.30.00, 2842.10.90, 2922.13, 2923.90.90, 3808.92, 3808.93, 3808.94, 3808.99",28153000;28421090;292213;29239090;380892;380893;380894;380899,"algicidas; removedores de gordura e oleosidade, à base de sais, peróxido-sulfato de sódio ou potássio; todos utilizados em piscinas e em embalagens de conteúdo igual ou inferior a 25 litros",68.82,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,34,3822.00.90,38220090,"kit teste ph / cloro, fita-teste",62.7,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,35,3824.90.49,38249049,produtos para limpeza pesada em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg,63.33,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,36,"2806.10.20, 2807.00.10, 2809.20.1, 3824.90.79",28061020;28070010;2809201;38249079,"redutor de pH: produtos em solução aquosa ou não, de ácidos clorídricos, sulfúrico, fosfórico, e outros redutores de pH da posição 3824.90.79, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 5 litros",54.89,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,37,3923.2,39232,sacos de lixo de conteúdo igual ou inferior a 100 litros,52.97,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,38,6307.10.00,63071000,"rodilhas, esfregões, panos de prato ou de cozinha, flanelas e artefatos de limpeza semelhantes",69.09,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,39,"8424.89, 8516.79.90",842489;85167990,"aparelhos mecânicos ou elétricos odorizantes, desinfetantes e afins",67.6,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,40,9603.10.00,96031000,"vassouras e escovas, constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",71.98,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+34/14,41,9603.90.00,96039000,"vassouras, rodos, cabos e afins",59.91,anexo_anterior,,2026-07-31,False,2026-08-01,Prot. ICMS 74/26,,,revogada
+77/14,1,4016.99.90,40169990,Ferramentas de borracha vulcanizada não endurecida,48,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,2,4417.00.10 e 4417.00.90,44170010;44170090,"Ferramentas, armações e cabos de ferramentas, de madeira",55,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,3,6804,6804,"Mós e artefatos semelhantes, sem armação, para moer, desfibrar, triturar, amolar, polir, retificar ou cortar; pedras para amolar ou para polir, manualmente, e suas partes, de pedras naturais, de abrasivos naturais ou artificiais aglomerados ou de cerâmica, mesmo com partes de outras matérias",53,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,4,8201,8201,"Pás, alviões, picaretas, enxadas, sachos, forcados e forquilhas, ancinhos e raspadeiras; machados, podões e ferramentas semelhantes com gume; tesouras de podar de todos os tipos; foices e foicinhas, facas para feno ou para palha, tesouras para sebes, cunhas e outras ferramentas manuais para agricultura, horticultura ou silvicultura",44,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,5,8202,8202,Serras manuais; folhas de serras de todos os tipos (incluídas as fresas-serras e as folhas não dentadas para serrar),49,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,6,8203,8203,"Limas, grosas, alicates (mesmo cortantes), tenazes, pinças, cisalhas para metais, corta-tubos, corta-pinos, saca-bocados e ferramentas semelhantes, manuais",48,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,7,8204,8204,"Chaves de porcas, manuais (incluídas as chaves dinamométricas); chaves de caixa intercambiáveis, mesmo com cabos",56,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,8,8205,8205,"Ferramentas manuais (incluídos os diamantes de vidraceiro) não especificadas nem compreendidas em outras posições, lamparinas ou lâmpadas de soldar (maçaricos) e semelhantes; tornos de apertar, sargentos e semelhantes, exceto os acessórios ou partes de máquinas-ferramentas; bigornas; forjas-portáteis; mós com armação, manuais ou de pedal",60,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,9,8206,8206,"Ferramentas de pelo menos duas das posições 82.02 a 82.05, acondicionadas em sortidos para venda a retalho",52,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,10,8207,8207,"Ferramentas intercambiáveis para ferramentas manuais, mesmo mecânicas, ou para máquinasferramentas (por exemplo: de embutir, estampar, puncionar, roscar, furar, mandrilar, brochar, fresar, tornear, aparafusar), incluídas as fieiras de estiragem ou de extrusão, para metais, e as ferramentas de perfuração ou de sondagem, exceto forma ou gabarito de produtos em epoxy",55,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,11,8208,8208,"Facas e lâminas cortantes, para máquinas ou para aparelhos mecânicos",52,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,12,8209,8209,"Plaquetas, varetas, pontas e objetos semelhantes para ferramentas, não montados, de ceramais (""cermets"")",67,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,13,8211,8211,"Facas (exceto as da posição 82.08) de lâmina cortante ou serrilhada, incluídas as podadeiras de lâmina móvel, e suas lâminas, exceto as de uso doméstico",49,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,14,8213,8213,Tesouras e suas lâminas,54,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,15,9015,9015,"Instrumentos e aparelhos de geodésia, topografia, agrimensura, nivelamento, fotogrametria, hidrografia, oceanografia, hidrologia, meteorologia ou de geofísica, exceto bussolas; telêmetros",46,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,16,"9017.20.00, 9017.30, 9017.80 e 9017.90.90",90172000;901730;901780;90179090,"Instrumentos de desenho, de traçado ou de cálculo; metros, micrômetros, paquímetros, calibres e semelhantes; partes e acessórios",56,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,17,9025.11.90 e 9025.90.90,90251190;90259090,"Termômetros, exceto os clínicos, suas partes e acessórios",66,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,18,9025.19 e 9025.90.90,902519;90259090,"Pirômetros, suas partes e acessórios",67,vigente_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 112/26,,,revogada
+77/14,19,8467,8467,"Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual, exceto o descrito no CEST 08.019.01",48.14,vigente_no_texto,2026-08-01,2026-09-30,False,2026-10-01,Prot. ICMS 67/26,"Acrescido o Item 19 pelo Prot. ICMS 67/26, efeitos a partir de 01.08.26.",,revogada
+104/12,1,1211.90.90,12119090,Henna (embalagens de conteúdo igual ou inferior a 200g),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,2,2712.10.00,27121000,Vaselina,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,3,2814.20.00,28142000,Amoníaco em solução aquosa (amônia),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,4,2847.00.00,28470000,Peróxido de hidrogênio (embalagens de conteúdo igual ou inferior a 500 ml,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,5,2914.11.00,29141100,Acetona (embalagens de conteúdo igual ou inferior a 500 ml),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,6,3006.70.00,30067000,Lubrificação íntima,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,7,3301,3301,Óleos essenciais (embalagens de conteúdo igual ou inferior a 500 ml),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,8,3303.00.10,33030010,Perfumes (extratos),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,9,3303.00.20,33030020,Águas-de-colônia,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,10,3304.10.00,33041000,Produtos de maquilagem para os lábios,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,11,3304.20.10,33042010,"Sombra, delineador, lápis para sobrancelhas e rímel",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,12,3304.20.90,33042090,Outros produtos de maquilagem para os olhos,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,13,3304.30.00,33043000,Preparações para manicuros e pedicuros,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,14,3304.91.00,33049100,"Pós, incluídos os compactos",,vigente_no_texto,2019-02-01,2026-03-31,False,2026-04-01,Prot. ICMS 77/18," Nova redação dada ao item 14 pelo Prot. ICMS 77/18, efeitos a partir de 01.02.2019.",,revogada
+104/12,14,3304.91.00,33049100,"Pós, incluídos os compactos, para maquilagem",,anterior_no_texto,,2019-01-31,False,,,," Redação anterior, efeitos até 31.01.2019.",anterior
+104/12,15,3304.99.10,33049910,"Cremes de beleza, cremes nutritivos e loções tônicas",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,16,3304.99.90,33049990,Outros produtos de beleza ou de maquilagem preparados e preparações para conservação ou cuidados da pele,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,17,3305.10.00,33051000,Xampus para o cabelo,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,18,3305.20.00,33052000,"Preparações para ondulação ou alisamento, permanentes, dos cabelos",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,19,3305.30.00,33053000,Laquês para o cabelo,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,20,3305.90.00,33059000,Outras preparações capilares,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,21,3305.90.00,33059000,Tintura para o cabelo,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,22,3306.10.00,33061000,Dentifrícios,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,23,3306.20.00,33062000,Fios utilizados para limpar os espaços interdentais (fio dental),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,24,3306.90.00,33069000,Outras preparações para higiene bucal ou dentária,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,25,3307.10.00,33071000,"Preparações para barbear (antes, durante ou após)",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,26,3307.20.10,33072010,"Desodorantes corporais e antiperspirantes, líquidos",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,27,3307.20.90,33072090,Outros desodorantes corporais e antiperspirantes,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,28,3307.30.00,33073000,Sais perfumados e outras preparações para banhos,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,29,3307.90.00,33079000,Outros produtos de perfumaria ou de toucador preparados,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,30,3307.90.00,33079000,Soluções para lentes de contato ou para olhos artificiais,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,31,3401.11.90,34011190,"Sabões de toucador em barras, pedaços ou figuras moldados",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,32,3401.19.00,34011900,"Outros sabões, produtos e preparações, em barras, pedaços ou figuras moldados, inclusive lenços umedecidos",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,33,3401.20.10,34012010,Sabões de toucador sob outras formas,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,34,3401.30.00,34013000,"Produtos e preparações orgânicos tensoativos para lavagem da pele, na forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,35,4014.90.10,40149010,Bolsa para gelo ou para água quente,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,36,4014.90.90,40149090,Chupetas e bicos para mamadeiras e chupetas,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,37,4202.1,42021,Malas e maletas de toucador,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,38,4818.10.00,48181000,Papel higiênico - folha simples,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,39,4818.10.00,48181000,Papel higiênico - folha dupla e tripla,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,40,4818.20.00,48182000,Lenços (incluídos os de maquilagem) e toalhas de mão,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,41,4818.20.00,48182000,Papel toalha de uso institucional do tipo comercializado em rolos igual ou superior a 80 metros e do tipo comercializado em folhas intercaladas,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,42,4818.30.00,48183000,Toalhas e guardanapos de mesa,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,43,4818.90.90,48189090,Toalhas de cozinha,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,44,9619.00.00,96190000,Fraldas,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,45,9619.00.00,96190000,Tampões higiênicos,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,46,9619.00.00,96190000,Absorventes higiênicos externos,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,47,5601.21.90,56012190,Hastes flexíveis (uso não medicinal),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,48,5603.92.90,56039290,"Sutiã descartável, assemelhados e papel para depilação",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,49,8203.20.90,82032090,Pinças para sobrancelhas,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,50,8214.10.00,82141000,Espátulas (artigos de cutelaria),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,51,8214.20.00,82142000,Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas),,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,52,9025.11.10 9025.19.90,90251110;90251990,"Termômetros, inclusive o digital",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,53,9603.2,96032,"Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas, incluídas as que sejam partes de aparelhos, exceto escovas de dentes",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,54,9603.21.00,96032100,"Escovas de dentes, incluídas as escovas para dentaduras",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,55,9603.30.00,96033000,Pincéis para aplicação de produtos cosméticos,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,56,9605.00.00,96050000,"Sortidos de viagem, para toucador de pessoas para costura ou para limpeza de calçado ou de roupas",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,57,9615,9615,"Pentes, travessas para cabelo e artigos semelhantes; grampos (alfinetes) para cabelo; pinças (pinceguiches), onduladores, bobes (rolos) e artefatos semelhantes para penteados, e suas partes, exceto os da posição 8516 e suas partes",,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,58,9616.20.00,96162000,Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,59,3923.30.00 3924.90.00 3924.10.00 4014.90.90 7010.20.00,39233000;39249000;39241000;40149090;70102000,Mamadeiras,,vigente_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,1,1211.90.90,12119090,Henna (embalagens de conteúdo igual ou inferior a 200g),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,,2712.10.00,27121000,Vaselina,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,3,2814.20.00,28142000,Amoníaco em solução aquosa (amônia),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,4,2847.00.00,28470000,Peróxido de hidrogênio (embalagens de conteúdo igual ou inferior a 500 ml,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,5,2914.11.00,29141100,Acetona (embalagens de conteúdo igual ou inferior a 500 ml),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,6,3006.70.00,30067000,Lubrificação íntima,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,7,3301,3301,Óleos essenciais (embalagens de conteúdo igual ou inferior a 500 ml),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,8,3303.00.10,33030010,Perfumes (extratos),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,9,3303.00.20,33030020,Águas-de-colônia,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,10,3304.10.00,33041000,Produtos de maquilagem para os lábios,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,11,3304.20.10,33042010,"Sombra, delineador, lápis para sobrancelhas e rímel",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,12,3304.20.90,33042090,Outros produtos de maquilagem para os olhos,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,13,3304.30.00,33043000,Preparações para manicuros e pedicuros,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,14,3304.91.00,33049100,"Pós, incluídos os compactos, para maquilagem",,anterior_no_texto,,2019-01-31,False,,,,,anterior
+104/12,15,3304.99.10,33049910,"Cremes de beleza, cremes nutritivos e loções tônicas",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,16,3304.99.90,33049990,Outros produtos de beleza ou de maquilagem preparados e preparações para conservação ou cuidados da pele,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,17,3305.10.00,33051000,Xampus para o cabelo,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,18,3305.20.00,33052000,"Preparações para ondulação ou alisamento, permanentes, dos cabelos",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,19,3305.30.00,33053000,Laquês para o cabelo,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,20,3305.90.00,33059000,Outras preparações capilares,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,21,3305.90.00,33059000,Tintura para o cabelo,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,22,3306.10.00,33061000,Dentifrícios,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,23,3306.20.00,33062000,Fios utilizados para limpar os espaços interdentais (fio dental),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,24,3306.90.00,33069000,Outras preparações para higiene bucal ou dentária,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,25,3307.10.00,33071000,"Preparações para barbear (antes, durante ou após)",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,26,3307.20.10,33072010,"Desodorantes corporais e antiperspirantes, líquidos",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,27,3307.20.90,33072090,Outros desodorantes corporais e antiperspirantes,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,28,3307.30.00,33073000,Sais perfumados e outras preparações para banhos,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,29,3307.90.00,33079000,Outros produtos de perfumaria ou de toucador preparados,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,30,3307.90.00,33079000,Soluções para lentes de contato ou para olhos artificiais,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,31,3401.11.90,34011190,"Sabões de toucador em barras, pedaços ou figuras moldados",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,32,3401.19.00,34011900,"Outros sabões, produtos e preparações, em barras, pedaços ou figuras moldados, inclusive lenços umedecidos",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,33,3401.20.10,34012010,Sabões de toucador sob outras formas,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,34,3401.30.00,34013000,"Produtos e preparações orgânicos tensoativos para lavagem da pele, na forma de líquido ou de creme, acondicionados para venda a retalho, mesmo contendo sabão",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,35,4014.90.10,40149010,Bolsa para gelo ou para água quente,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,36,4014.90.90,40149090,Chupetas e bicos para mamadeiras e chupetas,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,37,4202.1,42021,Malas e maletas de toucador,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,38,4818.10.00,48181000,Papel higiênico - folha simples,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,39,4818.10.00,48181000,Papel higiênico - folha dupla e tripla,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,40,4818.20.00,48182000,Lenços (incluídos os de maquilagem) e toalhas de mão,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,41,4818.20.00,48182000,Papel toalha de uso institucional do tipo comercializado em rolos igual ou superior a 80 metros e do tipo comercializado em folhas intercaladas,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,42,4818.30.00,48183000,Toalhas e guardanapos de mesa,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,43,4818.90.90,48189090,Toalhas de cozinha,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,44,9619.00.00,96190000,Fraldas,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,45,9619.00.00,96190000,Tampões higiênicos,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,46,9619.00.00,96190000,Absorventes higiênicos externos,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,47,5601.21.90,56012190,Hastes flexíveis (uso não medicinal),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,48,5603.92.90,56039290,"Sutiã descartável, assemelhados e papel para depilação",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,49,8203.20.90,82032090,Pinças para sobrancelhas,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,50,8214.10.00,82141000,Espátulas (artigos de cutelaria),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,51,8214.20.00,82142000,Utensílios e sortidos de utensílios de manicuros ou de pedicuros (incluídas as limas para unhas),,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,52,9025.11.10 9025.19.90,90251110;90251990,"Termômetros, inclusive o digital",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,53,9603.2,96032,"Escovas e pincéis de barba, escovas para cabelos, para cílios ou para unhas e outras escovas de toucador de pessoas, incluídas as que sejam partes de aparelhos, exceto escovas de dentes",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,54,9603.21.00,96032100,"Escovas de dentes, incluídas as escovas para dentaduras",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,55,9603.30.00,96033000,Pincéis para aplicação de produtos cosméticos,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,56,9605.00.00,96050000,"Sortidos de viagem, para toucador de pessoas para costura ou para limpeza de calçado ou de roupas",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,57,9615,9615,"Pentes, travessas para cabelo e artigos semelhantes; grampos (alfinetes) para cabelo; pinças (pinceguiches), onduladores, bobes (rolos) e artefatos semelhantes para penteados, e suas partes, exceto os da posição 8516 e suas partes",,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,58,9616.20.00,96162000,Borlas ou esponjas para pós ou para aplicação de outros cosméticos ou de produtos de toucador,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+104/12,59,3923.30.00 3924.90.00 3924.10.00 4014.90.90 7010.20.00,39233000;39249000;39241000;40149090;70102000,Mamadeiras,,anterior_no_texto,,2026-03-31,False,2026-04-01,Prot. ICMS 21/26,,,revogada
+136/13,1,7321.11.00 7321.81.00 7321.90.00,73211100;73218100;73219000,Fogões de cozinha de uso doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,2,8418.10.00,84181000,"Combinações de refrigeradores e congeladores (""freezers""), munidos de portas exteriores separadas",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,3,8418.21.00,84182100,"Refrigeradores do tipo doméstico, de compressão",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,4,8418.29.00,84182900,Outros refrigeradores do tipo doméstico,,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,5,8418.30.00,84183000,"Congeladores (""freezers"") horizontais tipo arca, de capacidade não superior a 800 litros",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,6,8418.40.00,84184000,"Congeladores (""freezers"") verticais tipo armário, de capacidade não superior a 900 litros",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,7,8418.50.10 8418.50.90,84185010;84185090,"Outros congeladores (""freezers"")",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,8,8418.69.9,8418699,Mini Adega e similares,,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,9,8418.69.99,84186999,Máquinas para produção de gelo,,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,10,8418.99.00,84189900,"Partes dos Refrigeradores, Congeladores e Mini Adegas, descritos nos itens 8418.10.00, 8418.21.00, 8418.29.00, 8418.30.00, 8418.40.00, 8418.50.10, 8418.50.90, 8418.69.9 e 8418.69.99",,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogados os itens 2 a 10 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,11,8421.12,842112,Secadoras de roupa de uso doméstico,,anterior_no_texto,,2026-07-31,False,2026-07-31,Prot. ICMS 64/26,"Item 11 revogado pelo Prot. ICMS 64/26, efeitos a partir de 31.07.26.","Redação original, efeitos até 31.07.26.",revogada
+136/13,12,8421.19.90,84211990,Outras secadoras de roupas e centrífugas para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,13,8418.69.31,84186931,Bebedouros refrigerados para água,,vigente_no_texto,,,False,,,,,vigente
+136/13,14,8421.9,84219,"Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nas subposições 8421.12, 8421.19.90 e 8418.69.31",,vigente_no_texto,,,False,,,,,vigente
+136/13,15,8422.11.00 8422.90.10,84221100;84229010,Máquinas de lavar louça do tipo doméstico e suas partes,,anterior_no_texto,,2026-09-30,False,2026-10-01,Prot. ICMS 104/26,"Revogado o item 15 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.","Redação original, efeitos até 30.09.26.",revogada
+136/13,16,8443.31,844331,"Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+136/13,17,8443.32,844332,"Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+136/13,18,8443.99,844399,"Outras máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, suas partes e acessórios",,vigente_no_texto,,,False,,,,,vigente
+136/13,19,8450.11.00,84501100,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade não superior a 10 kg, em peso de roupa seca, inteiramente automáticas",,vigente_no_texto,,,False,,,,,vigente
+136/13,20,8450.12.00,84501200,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, com secador centrífugo incorporado",,vigente_no_texto,,,False,,,,,vigente
+136/13,21,8450.19.00,84501900,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+136/13,22,8450.20,845020,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade superior a 10 kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+136/13,23,8450.90,845090,"Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+136/13,24,8451.21.00,84512100,"Máquinas de secar de uso doméstico, de capacidade não superior a 10kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+136/13,25,8451.29.90,84512990,Outras máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,26,8451.90,845190,Partes de máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,27,8452.10.00,84521000,Máquinas de costura de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,28,8471.30,847130,"Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela",,vigente_no_texto,,,False,,,,,vigente
+136/13,29,8471.4,84714,Outras máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+136/13,30,8471.50.10,84715010,"Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49.00, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída; baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (""slots""), e valor FOB inferior ou igual a US$ 12.500,00, por unidade",,vigente_no_texto,,,False,,,,,vigente
+136/13,31,8471.60.5,8471605,"Unidades de entrada, exceto as das subposições 8471.60.54",,vigente_no_texto,,,False,,,,,vigente
+136/13,32,8471.60.90,84716090,"Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória",,vigente_no_texto,,,False,,,,,vigente
+136/13,33,8471.70,847170,Unidades de memória,,vigente_no_texto,,,False,,,,,vigente
+136/13,34,8471.90,847190,"Outras máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições.",,vigente_no_texto,,,False,,,,,vigente
+136/13,35,8473.30,847330,Partes e acessórios das máquinas da posição 84.71,,vigente_no_texto,,,False,,,,,vigente
+136/13,36,8504.3,85043,"Outros transformadores, exceto os produtos classificados nas subposições 8504.33.00 e 8504.34.00",,vigente_no_texto,,,False,,,,,vigente
+136/13,37,8504.40.10,85044010,Carregadores de acumuladores,,vigente_no_texto,,,False,,,,,vigente
+136/13,38,8504.40.40,85044040,"Equipamentos de alimentação ininterrupta de energia (UPS ou ""no break"")",,vigente_no_texto,,,False,,,,,vigente
+136/13,39,8508,8508,Aspiradores,,vigente_no_texto,,,False,,,,,vigente
+136/13,40,8509,8509,"Aparelhos eletromecânicos de motor elétrico incorporado, de uso doméstico e suas partes",,vigente_no_texto,,,False,,,,,vigente
+136/13,41,8509.80.10,85098010,Enceradeiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,42,8516.10.00,85161000,Chaleiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+136/13,43,8516.40.00,85164000,Ferros elétricos de passar,,vigente_no_texto,,,False,,,,,vigente
+136/13,44,8516.50.00,85165000,Fornos de micro-ondas,,vigente_no_texto,,,False,,,,,vigente
+136/13,45,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, exceto os portáteis",,vigente_no_texto,,,False,,,,,vigente
+136/13,46,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, portáteis",,vigente_no_texto,,,False,,,,,vigente
+136/13,47,8516.71.00,85167100,Outros aparelhos eletrotérmicos para uso doméstico – Cafeteiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,48,8516.72.00,85167200,Outros aparelhos eletrotérmicos para uso doméstico – Torradeiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,49,8516.79,851679,Outros aparelhos eletrotérmicos para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,50,8516.90.00,85169000,"Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos itens 8516.10.00, 8516.40.00, 8516.50.00, 8516.60.00, 8516.71.00, 8516.72.00 e 8516.79",,vigente_no_texto,,,False,,,,,vigente
+136/13,51,8517.11.00,85171100,Aparelhos telefônicos por fio com unidade auscultador-microfone sem fio,,vigente_no_texto,,,False,,,,,vigente
+136/13,52,8517.12,851712,"Telefones para redes celulares e para outras redes sem fio, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,53,8517.18.9,8517189,Outros aparelhos telefônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,54,8517.62.5,8517625,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os das subposições 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+136/13,55,8518,8518,"Microfones e seus suportes; alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofreqüência, aparelhos elétricos de amplificação de som; suas partes e acessórios. Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,56,8519 8522 8527.1,8519;8522;85271,Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo. Aparelhos de radiodifusão suscetíveis de funcionarem sem fonte externa de energia.,,vigente_no_texto,,,False,,,,,vigente
+136/13,57,8519.81.90,85198190,Outros aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,58,8521.90.90,85219090,"Aparelhos videofônicos de gravação ou reprodução, exceto de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,59,8523.51.10,85235110,"Cartões de memória (""memory cards"")",,vigente_no_texto,,,False,,,,,vigente
+136/13,60,8523.52.00,85235200,Cartões inteligentes (“smart cards”),,vigente_no_texto,,,False,,,,,vigente
+136/13,61,8525.80.29,85258029,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,62,8527,8527,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na subposição 8527.2 que sejam de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,63,8528.49.29 8528.59.20 8528.61.00 8528.69,85284929;85285920;85286100;852869,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+136/13,64,8528.51.20,85285120,"Outros monitores dos tipos utilizados exclusiva ou principalmente com uma máquina automática para processamento de dados da posição 84.71, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+136/13,65,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de ráios catódicos)",,vigente_no_texto,,,False,,,,,vigente
+136/13,66,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de LCD (Display de Cristal Líquido)",,vigente_no_texto,,,False,,,,,vigente
+136/13,67,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",,vigente_no_texto,,,False,,,,,vigente
+136/13,68,8528.7,85287,Outros,,vigente_no_texto,,,False,,,,,vigente
+136/13,69,9006.10,900610,Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão,,vigente_no_texto,,,False,,,,,vigente
+136/13,70,9006.40.00,90064000,Câmeras fotográficas para filmes de revelação e copiagem instantâneas,,vigente_no_texto,,,False,,,,,vigente
+136/13,71,9018.90.50,90189050,Aparelhos de diatermia,,vigente_no_texto,,,False,,,,,vigente
+136/13,72,9019.10.00,90191000,Aparelhos de massagem,,vigente_no_texto,,,False,,,,,vigente
+136/13,73,9032.89.11,90328911,Reguladores de voltagem eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,74,9504.50.00,95045000,Jogos de vídeo dos tipos utilizáveis com receptor de televisão,,vigente_no_texto,,,False,,,,,vigente
+136/13,75,8517.62.1,8517621,Multiplexadores e concentradores,,vigente_no_texto,,,False,,,,,vigente
+136/13,76,8517.62.22,85176222,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",,vigente_no_texto,,,False,,,,,vigente
+136/13,77,8517.62.39,85176239,Outros aparelhos para comutação,,vigente_no_texto,,,False,,,,,vigente
+136/13,78,8517.62.4,8517624,"Roteadores digitais, em redes com ou sem fio",,vigente_no_texto,,,False,,,,,vigente
+136/13,79,8517.62.62,85176262,"Aparelhos emissores com receptor incorporado de sistema troncalizado (""trunking""), de tecnologia celular",,vigente_no_texto,,,False,,,,,vigente
+136/13,80,8517.62.9,8517629,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",,vigente_no_texto,,,False,,,,,vigente
+136/13,81,8517.70.21,85177021,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",,vigente_no_texto,,,False,,,,,vigente
+136/13,82,8214.90 e 8510,821490;8510,"Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, e suas partes",,vigente_no_texto,2014-09-01,,False,,Prot. ICMS 31/14,"Itens 82 a 97 acrescidos pelo Prot. ICMS 31/14, efeitos a partir de 01.09.14",,vigente
+136/13,83,8414.5,84145,"Ventiladores, exceto os destinados à sustentação de silos (armazéns) infláveis, desde que as saídas, ocorram simultaneamente e em conjunto com compressores de ar e coifas (exaustores)",,vigente_no_texto,,,False,,,,,vigente
+136/13,84,8414.60.00,84146000,Coifas com dimensão horizontal máxima não superior a 120 cm,,vigente_no_texto,,,False,,,,,vigente
+136/13,85,8414.90.20,84149020,Partes de ventiladores ou coifas aspirantes,,vigente_no_texto,,,False,,,,,vigente
+136/13,86,8415.10 e 8415.8,841510;84158,"Máquinas e aparelhos de ar condicionado contendo um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluídos as máquinas e aparelhos em que a umidade não seja regulável separadamente e suas partes e peças",,vigente_no_texto,,,False,,,,,vigente
+136/13,87,8415.10.11,84151011,Aparelhos de ar-condicionado tipo Split System (sistema com elementos separados) com unidade externa e interna,,vigente_no_texto,,,False,,,,,vigente
+136/13,88,8415.10.19,84151019,Aparelhos de ar-condicionado com capacidade inferior ou igual a 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+136/13,89,8415.10.90,84151090,Aparelhos de ar-condicionado com capacidade acima de 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+136/13,90,8415.90.10,84159010,"Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+136/13,91,8415.90.20,84159020,"Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+136/13,92,8421.21.00,84212100,Aparelhos elétricos para filtrar ou depurar água (purificadores de água refrigerados),,vigente_no_texto,,,False,,,,,vigente
+136/13,93,"8424.30.10, 8424.30.90 e 8424.90.90",84243010;84243090;84249090,Lavadora de alta pressão e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,94,8467.21.00,84672100,Furadeiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+136/13,95,8516.2,85162,Aparelhos elétricos para aquecimento de ambientes,,vigente_no_texto,,,False,,,,,vigente
+136/13,96,8516.31.00,85163100,Secadores de cabelo,,vigente_no_texto,,,False,,,,,vigente
+136/13,97,8516.32.00,85163200,Outros aparelhos para arranjos do cabelo,,vigente_no_texto,,,False,,,,,vigente
+136/13,98,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio, tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo, os classificados nos códigos NCM/SH 8517.62.51, 8517.62.52 e 8517.62.53 e no código CEST 21.127.00",,vigente_no_texto,2026-10-01,,False,,Prot. ICMS 104/26,"Acrescidos os itens 98 a 112 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.",,vigente
+136/13,99,8517,8517,"Interfones, seus acessórios, tomadas e plugs",,vigente_no_texto,,,False,,,,,vigente
+136/13,100,8529,8529,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528; exceto as de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,101,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio); exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.",,vigente_no_texto,,,False,,,,,vigente
+136/13,102,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,103,8531.80.00,85318000,Outros aparelhos de sinalização acústica ou visual - exceto os produtos de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,104,8534.00.00,85340000,Circuitos impressos - exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,105,8541.41.11 8541.41.21,85414111;85414121,Diodos emissores de luz (LED) - exceto diodos “laser”,,vigente_no_texto,,,False,,,,,vigente
+136/13,106,8543.70.92,85437092,Eletrificadores de cercas eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,107,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador - exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,108,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",,vigente_no_texto,,,False,,,,,vigente
+136/13,109,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",,vigente_no_texto,,,False,,,,,vigente
+136/13,110,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00",,vigente_no_texto,,,False,,,,,vigente
+136/13,111,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+136/13,112,9405.2 9405.9,94052;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",,vigente_no_texto,,,False,,,,,vigente

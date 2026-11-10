@@ -135,6 +135,26 @@ retenção pelo 41/08. O Prot. 97/10, o outro de autopeças, não tem SP entre o
 signatários. Os destinos lidos da cláusula são conferidos contra a configuração
 em teste, e o gabarito ganhou 7 casos de autopeças.
 
+**Outros segmentos com SP (10/11/2026).** Fora de construção e autopeças, SP
+assinava seis protocolos bilaterais com o RJ. O leitor agora lê a revogação do
+protocolo inteiro no cabeçalho da página ("Revogado pelo Prot. ICMS 112/26,
+efeitos a partir de 01.10.26") e tira da matriz o que foi revogado. Cinco dos
+seis caíram em 2026:
+
+| Protocolo | Segmento | Situação |
+| --- | --- | --- |
+| 29/14 | Bebidas alcoólicas, exceto cerveja | revogado desde 01/01/2026 (Prot. 58/25) |
+| 76/14 | Produtos farmacêuticos, soros e vacinas | revogado desde 01/01/2026 (Prot. 77/25) |
+| 104/12 | Cosméticos, perfumaria e higiene | revogado desde 01/04/2026 (Prot. 21/26) |
+| 34/14 | Materiais de limpeza (Anexo XII do Conv. 142) | revogado desde 01/08/2026 (Prot. 74/26) |
+| 77/14 | Ferramentas | revogado desde 01/10/2026 (Prot. 112/26) |
+| 136/13 | Eletrônicos, eletroeletrônicos e eletrodomésticos | **vigente**, 101 itens; refrigeradores (itens 2 a 10) saíram em 01/10/2026 e secadoras (item 11) em 31/07/2026 |
+
+Na matriz isso dá, por exemplo: vendendo de SP para o RJ, uma furadeira
+elétrica (8467.21.00) continua com retenção pelo 136/13, mas um alicate (8203)
+não tem mais, porque o protocolo de ferramentas caiu. A matriz tem 2.648 linhas,
+e o gabarito tem 44 casos.
+
 | Arquivo | Conteúdo |
 | --- | --- |
 | `matriz_sp_destino.csv` | Uma linha por item vigente e estado de destino: protocolo, item, NCM/SH, descrição, MVA original (quando o protocolo a fixa) e os CESTs prováveis do Convênio 142 |

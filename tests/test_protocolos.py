@@ -154,3 +154,20 @@ def test_destinos_configurados_batem_com_a_clausula_nos_multilaterais():
         for r in csv.DictReader(f):
             if r["destinos_na_clausula"] and r["protocolo"] == "Prot. ICMS 41/08":
                 assert r["destinos_na_clausula"] == r["destinos_de_sp"], r
+
+
+def test_revogacao_do_protocolo_inteiro():
+    cab = ("PROTOCOLO ICMS 77/14 Publicado no DOU de 11.12.14. Alterado pelos Prots. ICMS 20/15 e 67/26. "
+           "Revogado pelo Prot. ICMS 112/26, efeitos a partir de 01.10.26. Dispõe sobre a substituição tributária")
+    assert p.revogacao_total(cab) == (date(2026, 10, 1), "Prot. ICMS 112/26")
+    assert p.revogacao_total("Alterado pelo Prot. ICMS 31/14. Dispõe sobre") is None
+
+
+@pytest.mark.skipif(not (RAIZ / "dados" / "protocolos" / "protocolos.csv").exists(), reason="dados ainda não gerados")
+def test_protocolos_sp_rj_revogados_em_2025_e_2026():
+    with (RAIZ / "dados" / "protocolos" / "protocolos.csv").open(encoding="utf-8") as f:
+        rev = {r["protocolo"]: r["revogado_desde"] for r in csv.DictReader(f)}
+    assert {k: rev[k] for k in ("Prot. ICMS 29/14", "Prot. ICMS 34/14", "Prot. ICMS 76/14", "Prot. ICMS 77/14",
+                                 "Prot. ICMS 104/12", "Prot. ICMS 136/13")} == {
+        "Prot. ICMS 29/14": "2026-01-01", "Prot. ICMS 34/14": "2026-08-01", "Prot. ICMS 76/14": "2026-01-01",
+        "Prot. ICMS 77/14": "2026-10-01", "Prot. ICMS 104/12": "2026-04-01", "Prot. ICMS 136/13": ""}

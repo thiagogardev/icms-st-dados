@@ -60,17 +60,47 @@
       "protocolo": "Prot. ICMS 41/08",
       "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt041_08",
       "sha256": "64c2bf5feee78146665917fd8def9cda3c196f1fc87f077277cda1446057ee92"
+    },
+    {
+      "protocolo": "Prot. ICMS 29/14",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt029_14",
+      "sha256": "9459427fa4a1120454c1049dd5f19f9846f0ca7a0c09a85e99726cd778501865"
+    },
+    {
+      "protocolo": "Prot. ICMS 34/14",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt034_14",
+      "sha256": "47bfec0011f979e552fbc3b0ffc5392c57a1ba90fe37e6d45f57d339926be6b8"
+    },
+    {
+      "protocolo": "Prot. ICMS 76/14",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt076_14",
+      "sha256": "f277c5e572cf2aae8e5c899f69d8e69cb255c661c2d532fc5f655d516596beb5"
+    },
+    {
+      "protocolo": "Prot. ICMS 77/14",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt077_14",
+      "sha256": "dfcb562ca509e044ae6d43060045ec6ce5b2771e120270ae842add4c2d056368"
+    },
+    {
+      "protocolo": "Prot. ICMS 104/12",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2012/pt104_12",
+      "sha256": "3ac9301f06229cd1fc1a04fb5fd395445173d669cfd94e748a19ac718122f821"
+    },
+    {
+      "protocolo": "Prot. ICMS 136/13",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2013/pt136_13",
+      "sha256": "112515009ec24d4da7e7623808aaf1679a19de74922dcf1b9af6d57ddaf0a157"
     }
   ],
-  "obtido_em": "2026-11-10T11:23:56+00:00",
+  "obtido_em": "2026-11-10T12:44:38+00:00",
   "data_referencia": "2026-11-10",
   "escopo": "materiais de construção, protocolos com SP; matriz no sentido SP -> destino",
   "contagens": {
-    "protocolos": 12,
-    "redacoes": 2520,
-    "itens_vigentes": 486,
-    "linhas_matriz": 2547,
-    "divergencias_da_fonte": 3,
+    "protocolos": 18,
+    "redacoes": 2811,
+    "itens_vigentes": 587,
+    "linhas_matriz": 2648,
+    "divergencias_da_fonte": 14,
     "notas_nao_associadas": 0
   }
 }

@@ -485,3 +485,104 @@ protocolo,item,ncm_sh,ncms,descricao,mva_original,origem,vigencia_inicio,vigenci
 128/10,85,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",62,vigente_no_texto,,,False,,,,,vigente
 128/10,86,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",60,vigente_no_texto,,,False,,,,,vigente
 128/10,88,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",47,vigente_no_texto,,,False,,,,,vigente
+136/13,1,7321.11.00 7321.81.00 7321.90.00,73211100;73218100;73219000,Fogões de cozinha de uso doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,12,8421.19.90,84211990,Outras secadoras de roupas e centrífugas para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,13,8418.69.31,84186931,Bebedouros refrigerados para água,,vigente_no_texto,,,False,,,,,vigente
+136/13,14,8421.9,84219,"Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nas subposições 8421.12, 8421.19.90 e 8418.69.31",,vigente_no_texto,,,False,,,,,vigente
+136/13,16,8443.31,844331,"Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+136/13,17,8443.32,844332,"Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+136/13,18,8443.99,844399,"Outras máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, suas partes e acessórios",,vigente_no_texto,,,False,,,,,vigente
+136/13,19,8450.11.00,84501100,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade não superior a 10 kg, em peso de roupa seca, inteiramente automáticas",,vigente_no_texto,,,False,,,,,vigente
+136/13,20,8450.12.00,84501200,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, com secador centrífugo incorporado",,vigente_no_texto,,,False,,,,,vigente
+136/13,21,8450.19.00,84501900,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+136/13,22,8450.20,845020,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade superior a 10 kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+136/13,23,8450.90,845090,"Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+136/13,24,8451.21.00,84512100,"Máquinas de secar de uso doméstico, de capacidade não superior a 10kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+136/13,25,8451.29.90,84512990,Outras máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,26,8451.90,845190,Partes de máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,27,8452.10.00,84521000,Máquinas de costura de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,28,8471.30,847130,"Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela",,vigente_no_texto,,,False,,,,,vigente
+136/13,29,8471.4,84714,Outras máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+136/13,30,8471.50.10,84715010,"Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49.00, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída; baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (""slots""), e valor FOB inferior ou igual a US$ 12.500,00, por unidade",,vigente_no_texto,,,False,,,,,vigente
+136/13,31,8471.60.5,8471605,"Unidades de entrada, exceto as das subposições 8471.60.54",,vigente_no_texto,,,False,,,,,vigente
+136/13,32,8471.60.90,84716090,"Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória",,vigente_no_texto,,,False,,,,,vigente
+136/13,33,8471.70,847170,Unidades de memória,,vigente_no_texto,,,False,,,,,vigente
+136/13,34,8471.90,847190,"Outras máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições.",,vigente_no_texto,,,False,,,,,vigente
+136/13,35,8473.30,847330,Partes e acessórios das máquinas da posição 84.71,,vigente_no_texto,,,False,,,,,vigente
+136/13,36,8504.3,85043,"Outros transformadores, exceto os produtos classificados nas subposições 8504.33.00 e 8504.34.00",,vigente_no_texto,,,False,,,,,vigente
+136/13,37,8504.40.10,85044010,Carregadores de acumuladores,,vigente_no_texto,,,False,,,,,vigente
+136/13,38,8504.40.40,85044040,"Equipamentos de alimentação ininterrupta de energia (UPS ou ""no break"")",,vigente_no_texto,,,False,,,,,vigente
+136/13,39,8508,8508,Aspiradores,,vigente_no_texto,,,False,,,,,vigente
+136/13,40,8509,8509,"Aparelhos eletromecânicos de motor elétrico incorporado, de uso doméstico e suas partes",,vigente_no_texto,,,False,,,,,vigente
+136/13,41,8509.80.10,85098010,Enceradeiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,42,8516.10.00,85161000,Chaleiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+136/13,43,8516.40.00,85164000,Ferros elétricos de passar,,vigente_no_texto,,,False,,,,,vigente
+136/13,44,8516.50.00,85165000,Fornos de micro-ondas,,vigente_no_texto,,,False,,,,,vigente
+136/13,45,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, exceto os portáteis",,vigente_no_texto,,,False,,,,,vigente
+136/13,46,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, portáteis",,vigente_no_texto,,,False,,,,,vigente
+136/13,47,8516.71.00,85167100,Outros aparelhos eletrotérmicos para uso doméstico – Cafeteiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,48,8516.72.00,85167200,Outros aparelhos eletrotérmicos para uso doméstico – Torradeiras,,vigente_no_texto,,,False,,,,,vigente
+136/13,49,8516.79,851679,Outros aparelhos eletrotérmicos para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+136/13,50,8516.90.00,85169000,"Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos itens 8516.10.00, 8516.40.00, 8516.50.00, 8516.60.00, 8516.71.00, 8516.72.00 e 8516.79",,vigente_no_texto,,,False,,,,,vigente
+136/13,51,8517.11.00,85171100,Aparelhos telefônicos por fio com unidade auscultador-microfone sem fio,,vigente_no_texto,,,False,,,,,vigente
+136/13,52,8517.12,851712,"Telefones para redes celulares e para outras redes sem fio, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,53,8517.18.9,8517189,Outros aparelhos telefônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,54,8517.62.5,8517625,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os das subposições 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+136/13,55,8518,8518,"Microfones e seus suportes; alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofreqüência, aparelhos elétricos de amplificação de som; suas partes e acessórios. Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,56,8519 8522 8527.1,8519;8522;85271,Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo. Aparelhos de radiodifusão suscetíveis de funcionarem sem fonte externa de energia.,,vigente_no_texto,,,False,,,,,vigente
+136/13,57,8519.81.90,85198190,Outros aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,58,8521.90.90,85219090,"Aparelhos videofônicos de gravação ou reprodução, exceto de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,59,8523.51.10,85235110,"Cartões de memória (""memory cards"")",,vigente_no_texto,,,False,,,,,vigente
+136/13,60,8523.52.00,85235200,Cartões inteligentes (“smart cards”),,vigente_no_texto,,,False,,,,,vigente
+136/13,61,8525.80.29,85258029,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,62,8527,8527,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na subposição 8527.2 que sejam de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,63,8528.49.29 8528.59.20 8528.61.00 8528.69,85284929;85285920;85286100;852869,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+136/13,64,8528.51.20,85285120,"Outros monitores dos tipos utilizados exclusiva ou principalmente com uma máquina automática para processamento de dados da posição 84.71, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+136/13,65,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de ráios catódicos)",,vigente_no_texto,,,False,,,,,vigente
+136/13,66,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de LCD (Display de Cristal Líquido)",,vigente_no_texto,,,False,,,,,vigente
+136/13,67,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",,vigente_no_texto,,,False,,,,,vigente
+136/13,68,8528.7,85287,Outros,,vigente_no_texto,,,False,,,,,vigente
+136/13,69,9006.10,900610,Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão,,vigente_no_texto,,,False,,,,,vigente
+136/13,70,9006.40.00,90064000,Câmeras fotográficas para filmes de revelação e copiagem instantâneas,,vigente_no_texto,,,False,,,,,vigente
+136/13,71,9018.90.50,90189050,Aparelhos de diatermia,,vigente_no_texto,,,False,,,,,vigente
+136/13,72,9019.10.00,90191000,Aparelhos de massagem,,vigente_no_texto,,,False,,,,,vigente
+136/13,73,9032.89.11,90328911,Reguladores de voltagem eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,74,9504.50.00,95045000,Jogos de vídeo dos tipos utilizáveis com receptor de televisão,,vigente_no_texto,,,False,,,,,vigente
+136/13,75,8517.62.1,8517621,Multiplexadores e concentradores,,vigente_no_texto,,,False,,,,,vigente
+136/13,76,8517.62.22,85176222,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",,vigente_no_texto,,,False,,,,,vigente
+136/13,77,8517.62.39,85176239,Outros aparelhos para comutação,,vigente_no_texto,,,False,,,,,vigente
+136/13,78,8517.62.4,8517624,"Roteadores digitais, em redes com ou sem fio",,vigente_no_texto,,,False,,,,,vigente
+136/13,79,8517.62.62,85176262,"Aparelhos emissores com receptor incorporado de sistema troncalizado (""trunking""), de tecnologia celular",,vigente_no_texto,,,False,,,,,vigente
+136/13,80,8517.62.9,8517629,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",,vigente_no_texto,,,False,,,,,vigente
+136/13,81,8517.70.21,85177021,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",,vigente_no_texto,,,False,,,,,vigente
+136/13,82,8214.90 e 8510,821490;8510,"Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, e suas partes",,vigente_no_texto,2014-09-01,,False,,Prot. ICMS 31/14,"Itens 82 a 97 acrescidos pelo Prot. ICMS 31/14, efeitos a partir de 01.09.14",,vigente
+136/13,83,8414.5,84145,"Ventiladores, exceto os destinados à sustentação de silos (armazéns) infláveis, desde que as saídas, ocorram simultaneamente e em conjunto com compressores de ar e coifas (exaustores)",,vigente_no_texto,,,False,,,,,vigente
+136/13,84,8414.60.00,84146000,Coifas com dimensão horizontal máxima não superior a 120 cm,,vigente_no_texto,,,False,,,,,vigente
+136/13,85,8414.90.20,84149020,Partes de ventiladores ou coifas aspirantes,,vigente_no_texto,,,False,,,,,vigente
+136/13,86,8415.10 e 8415.8,841510;84158,"Máquinas e aparelhos de ar condicionado contendo um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluídos as máquinas e aparelhos em que a umidade não seja regulável separadamente e suas partes e peças",,vigente_no_texto,,,False,,,,,vigente
+136/13,87,8415.10.11,84151011,Aparelhos de ar-condicionado tipo Split System (sistema com elementos separados) com unidade externa e interna,,vigente_no_texto,,,False,,,,,vigente
+136/13,88,8415.10.19,84151019,Aparelhos de ar-condicionado com capacidade inferior ou igual a 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+136/13,89,8415.10.90,84151090,Aparelhos de ar-condicionado com capacidade acima de 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+136/13,90,8415.90.10,84159010,"Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+136/13,91,8415.90.20,84159020,"Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+136/13,92,8421.21.00,84212100,Aparelhos elétricos para filtrar ou depurar água (purificadores de água refrigerados),,vigente_no_texto,,,False,,,,,vigente
+136/13,93,"8424.30.10, 8424.30.90 e 8424.90.90",84243010;84243090;84249090,Lavadora de alta pressão e suas partes,,vigente_no_texto,,,False,,,,,vigente
+136/13,94,8467.21.00,84672100,Furadeiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+136/13,95,8516.2,85162,Aparelhos elétricos para aquecimento de ambientes,,vigente_no_texto,,,False,,,,,vigente
+136/13,96,8516.31.00,85163100,Secadores de cabelo,,vigente_no_texto,,,False,,,,,vigente
+136/13,97,8516.32.00,85163200,Outros aparelhos para arranjos do cabelo,,vigente_no_texto,,,False,,,,,vigente
+136/13,98,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio, tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo, os classificados nos códigos NCM/SH 8517.62.51, 8517.62.52 e 8517.62.53 e no código CEST 21.127.00",,vigente_no_texto,2026-10-01,,False,,Prot. ICMS 104/26,"Acrescidos os itens 98 a 112 pelo Prot. ICMS 104/26, efeitos a partir de 01.10.26.",,vigente
+136/13,99,8517,8517,"Interfones, seus acessórios, tomadas e plugs",,vigente_no_texto,,,False,,,,,vigente
+136/13,100,8529,8529,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528; exceto as de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,101,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio); exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.",,vigente_no_texto,,,False,,,,,vigente
+136/13,102,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,103,8531.80.00,85318000,Outros aparelhos de sinalização acústica ou visual - exceto os produtos de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,104,8534.00.00,85340000,Circuitos impressos - exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+136/13,105,8541.41.11 8541.41.21,85414111;85414121,Diodos emissores de luz (LED) - exceto diodos “laser”,,vigente_no_texto,,,False,,,,,vigente
+136/13,106,8543.70.92,85437092,Eletrificadores de cercas eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+136/13,107,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador - exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+136/13,108,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",,vigente_no_texto,,,False,,,,,vigente
+136/13,109,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",,vigente_no_texto,,,False,,,,,vigente
+136/13,110,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00",,vigente_no_texto,,,False,,,,,vigente
+136/13,111,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+136/13,112,9405.2 9405.9,94052;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",,vigente_no_texto,,,False,,,,,vigente

@@ -61,6 +61,13 @@ PROTOCOLOS = [
     {"protocolo": "41/08", "pagina": "2008/pt041_08", "segmento": "01",
      "signatarios": ["AP", "AM", "BA", "MA", "MT", "MG", "PA", "PR", "PI", "RS", "SC", "SP", "DF"],
      "destinos_de_sp": ["AC", "AL", "AM", "AP", "BA", "DF", "MA", "MG", "MT", "PA", "PB", "PI", "PR", "RJ", "RR"]},
+    # Bilaterais SP-RJ de outros segmentos (destino de SP: RJ).
+    {"protocolo": "29/14", "pagina": "2014/pt029_14", "segmento": "02", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
+    {"protocolo": "34/14", "pagina": "2014/pt034_14", "segmento": "11", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
+    {"protocolo": "76/14", "pagina": "2014/pt076_14", "segmento": "13", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
+    {"protocolo": "77/14", "pagina": "2014/pt077_14", "segmento": "08", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
+    {"protocolo": "104/12", "pagina": "2012/pt104_12", "segmento": "20", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
+    {"protocolo": "136/13", "pagina": "2013/pt136_13", "segmento": "21", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
 ]
 SEGMENTO = {p["protocolo"]: p.get("segmento", "10") for p in PROTOCOLOS}
 
@@ -246,6 +253,20 @@ def ufs_destino(clausula: str) -> list[str]:
     return sorted(achados)
 
 
+_REVOGACAO = re.compile(r"Revogad[oa] pel[oa] Prot(?:ocolo)?\.?\s*ICMS\s*(?:n[ºo°]\s*)?(\d+\s*/\s*\d{2,4})\s*,?\s*"
+                        r"efeitos? a partir de\s*(\d{1,2})[./](\d{1,2})[./](\d{2,4})", re.I)
+
+
+def revogacao_total(cabecalho: str) -> tuple[date, str] | None:
+    """Nota do cabeçalho 'Revogado pelo Prot. ICMS 112/26, efeitos a partir de 01.10.26' -> (2026-10-01, 'Prot. ICMS 112/26')."""
+    m = _REVOGACAO.search(cabecalho)
+    if not m:
+        return None
+    d, mes, a = int(m.group(2)), int(m.group(3)), int(m.group(4))
+    numero = re.sub(r"\s", "", m.group(1))
+    return date(a + 2000 if a < 100 else a, mes, d), f"Prot. ICMS {numero}"
+
+
 def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
     from lxml import html
 
@@ -253,6 +274,14 @@ def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
     if not conteudo:
         raise SystemExit(f"Prot. {prot}: estrutura da página mudou (#content não encontrado)")
     clausula = ler_clausula_primeira(conteudo[0])
+    # Revogação do protocolo inteiro: fica no cabeçalho, antes da cláusula primeira
+    for lixo in conteudo[0].xpath(".//script"):
+        lixo.drop_tree()
+    corpo = re.sub(r"\s+", " ", conteudo[0].text_content())
+    fim_cab = corpo.find("Cláusula primeira")
+    fim_cab = fim_cab if fim_cab >= 0 else 3000
+    rev = revogacao_total(corpo[:fim_cab])
+    clausula["revogado_desde"], clausula["revogado_por"] = (rev if rev else (None, None))
     revogacao_anexo = None
     if clausula["modelo"] != "lista_propria":
         for p in conteudo[0].xpath(".//p[not(ancestor::table)]"):
@@ -285,6 +314,12 @@ def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
     esperado = 1 if clausula["modelo"] == "lista_propria" else 0
     if tabelas_atuais != esperado:
         divergencias.append({"protocolo": prot, "item": "", "problema": f"{tabelas_atuais} tabelas tratadas como anexo vigente"})
+    if rev:
+        for i in itens:
+            if i.vigencia_fim is None or i.vigencia_fim >= rev[0]:
+                i.vigencia_fim = rev[0] - timedelta(days=1)
+                i.revogado_em = i.revogado_em or rev[0]
+                i.norma_alteradora = i.norma_alteradora or rev[1]
     for i in itens:
         i.calcular_situacao(ref)
     return {"itens": itens, "notas_soltas": notas_soltas, "divergencias": divergencias, "clausula": clausula}
@@ -437,6 +472,8 @@ def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None
     for prot, cl in (clausulas or {}).items():
         if not cl["modelo"].startswith("conv142_anexo_"):
             continue
+        if cl.get("revogado_desde") and cl["revogado_desde"] <= date.today():
+            continue
         anexo = cl["modelo"].rsplit("_", 1)[1].upper()
         for r in conv:
             if r["anexo"] != anexo or r["cest"] in cl["cests_excluidos"]:
@@ -510,7 +547,7 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             w.writerows(linhas)
     with (destino / "protocolos.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["protocolo", "signatarios", "destinos_de_sp", "modelo", "clausula_desde",
-                                          "cests_excluidos", "destinos_na_clausula", "url", "itens_vigentes",
+                                          "cests_excluidos", "destinos_na_clausula", "revogado_desde", "revogado_por", "url", "itens_vigentes",
                                           "com_mva_no_protocolo"])
         w.writeheader()
         for p in PROTOCOLOS:
@@ -520,6 +557,7 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
                         "destinos_de_sp": ";".join(p["destinos_de_sp"]), "modelo": cl["modelo"],
                         "clausula_desde": _iso(cl["desde"]), "cests_excluidos": ";".join(cl["cests_excluidos"]),
                         "destinos_na_clausula": ";".join(cl.get("destinos_na_clausula", [])),
+                        "revogado_desde": _iso(cl.get("revogado_desde")), "revogado_por": cl.get("revogado_por") or "",
                         "url": BASE_URL + p["pagina"],
                         "itens_vigentes": len(vig), "com_mva_no_protocolo": sum(i.mva_original is not None for i in vig)})
     meta = dict(meta)
