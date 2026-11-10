@@ -1,0 +1,18 @@
+{
+  "fonte": "SEFAZ-BA, RICMS-BA (Decreto 13.780/2012), Anexo 1, redação vigente",
+  "url": "https://mbusca.sefaz.ba.gov.br/DITRI/normas_complementares/decretos/decreto_2012_13780_ricms_anexo_1_vigente_2026.pdf",
+  "sha256": "d009df80b3897e04377adc82a1a7c0f1ddbec3547a1da1cb69fef54516663b8e",
+  "obtido_em": "2026-11-10T00:20:17+00:00",
+  "data_referencia": "2026-11-09",
+  "vigencia_do_arquivo": "2026-01-01",
+  "contagens": {
+    "redacoes": 311,
+    "vigentes": 284,
+    "vigentes_com_mva_original": 272,
+    "cruzamento_prot_104_09": {
+      "coerente": 77,
+      "ba_sim_protocolo_nao": 2,
+      "protocolo_sim_ba_nao": 4
+    }
+  }
+}

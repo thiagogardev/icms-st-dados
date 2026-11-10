@@ -253,11 +253,43 @@ número; as datas das próximas mudanças vêm do monitor.
 .venv/Scripts/python scripts/estado_rs.py   # baixa da Receita Estadual e grava em dados/estados/RS
 ```
 
+## Bahia: lista estadual e MVA
+
+O sexto conjunto, em `dados/estados/BA/`, lê o Anexo 1 do RICMS-BA (Decreto
+13.780/2012), que a SEFAZ-BA publica em um PDF por período ("redação vigente
+ano 2026, a partir de 01/01/2026"): **311 redações, 284 vigentes**, cada uma
+com CEST, NCM, o acordo interestadual com os estados signatários ("Prot. ICMS
+104/09 - BA e SP"), as MVAs ajustadas por alíquota e a MVA original.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens_historico.csv` / `itens_vigentes.csv` | Item, CEST, NCM/SH, descrição, acordo, MVA original, MVAs ajustadas, vigência e situação (`vigente`, `anterior` ou `revogada`) |
+| `cruzamento_prot_104_09.csv` | Construção (CEST 10.x): o acordo da BA com SP x a matriz do Prot. ICMS 104/09 |
+
+As células são centralizadas na vertical e as redações anteriores vêm entre
+aspas no meio da tabela; a leitura usa a posição das palavras e as notas
+"A redação atual do item ... efeitos a partir de" e "Redação anterior, efeitos
+até". Exemplo: os vidros (CEST 10.033.00 a 10.038.00) tinham o Prot. 104/09
+(SP) no acordo até 31/12/2025 e deixaram de ter em 2026, junto com o
+protocolo.
+
+Cruzamento com o Prot. 104/09 em 09/11/2026: 77 coerentes, 4 que casam só pelo
+NCM (os mesmos de MG) e **2 conflitos reais**: a BA ainda cita SP para tubos de
+cobre (10.064.00), que o protocolo revogou em 01/08/2026 (Prot. 60/26), e para
+outros vergalhões (10.043.00, NCM 7213), que o protocolo não lista. Em bebidas,
+combustíveis e medicamentos ficam casos para revisão (linhas sem número de
+item, MVAs por condição e marcas de "Revogado" que caem na faixa do item
+vizinho); o segmento de construção sai limpo.
+
+```bash
+.venv/Scripts/python scripts/estado_ba.py   # baixa da SEFAZ-BA e grava em dados/estados/BA
+```
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
 Os próximos são os protocolos dos demais segmentos e origens e as listas e
-MVAs de BA e AP/PA, que completam as MVAs que os protocolos com SP não fixam.
+MVAs de AP e PA, que completam as MVAs que os protocolos com SP não fixam.
 
 ## Licença
 
@@ -298,3 +330,7 @@ position on the page because the plain text scrambles the columns.
 A fifth dataset reads Rio Grande do Sul's ST list (RICMS, Appendix II, Section
 III: 288 items with original and adjusted MVA) and matches the SP -> RS
 protocol exclusions exactly.
+
+A sixth dataset reads Bahia's Annex 1 (311 wordings, with the interstate
+agreements and original MVA per item) and finds two real conflicts with the
+SP -> BA protocol.

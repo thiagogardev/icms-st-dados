@@ -1,0 +1,84 @@
+item,cest,ncm_sh,descricao,acordo_ba,ba_cita_sp,no_prot_104_09,itens_do_protocolo,situacao
+8.1,10.001.00,2522,Cal,"Prot. ICMS 104/09 - BA e SP Prot. ICMS 26/10 - AP, BA, ES, PA e RJ",sim,sim,2,coerente
+8.2,10.002.00,3824.5,Argamassas,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,3,coerente
+8.3,10.003.00,3214.9,Outras argamassas,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,3,coerente
+8.4,10.004.00,3910,"em formas primárias, para uso na construção","Prot. ICMS 104/09 - BA e SP Prot. ICMS 26/10 - AP, BA, ES, PA e decreto_2012_13780_ricms_anexo_1_vigente_2026",sim,sim,4,coerente
+8.5,10.005.00,3916,"de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,5,coerente
+8.6,10.006.00,3917,"e seus acessórios (por exemplo, juntas, cotovelos, uniões), de plásticos, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,6,coerente
+8.7,10.007.00,3918,de pavimento de PVC e outros plásticos,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,7,coerente
+8.8,10.008.00,3919,"folhas, tiras, fitas, películas e outras formas planas, de plásticos, mesmo em rolos, para uso na co","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,8;9,coerente
+8.9,10.009.00,3920 3921,"rosca, lona plástica para uso na construção, fitas isolantes e afins","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,9;10,coerente
+8.10,10.010.00,3921,"de plástico, mesmo reforçada com fibra de vidro","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,9;10,coerente
+8.11,10.011.00,3921,"de plástico, mesmo reforçada com fibra de vidro","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,9;10,coerente
+8.12,10.012.00,3921,"laminados plásticos em bobina, para uso na exceto os descritos nos CEST 10.010.00 e 10.011.00","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,9;10,coerente
+8.13,10.013.00,3922,"boxes para chuveiros, pias, lavatórios, bidês, e seus assentos e tampas, caixas de descarga e semelh","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,11,coerente
+8.14,10.014.00,3924,"de higiene / toucador de plástico, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,12,coerente
+8.15,10.015.00,3925.1,"inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,13,coerente
+8.16,10.016.00,3925.9,"telhas, cumeeira e caixa-d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vid","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,13,coerente
+8.17,10.017.00,3925.1 3925.9,"para apetrechamento de construções, de plásticos, nem compreendidos em outras posições, persianas, s","Prot. ICMS 26/10 - AP, BA, ES, PA e RJ",nao,sim,13,protocolo_sim_ba_nao
+8.18,10.018.00,3925.2,"Portas, janelas e seus caixilhos, alizares e soleiras","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,14,coerente
+8.19,10.019.00,3925.3,estores (incluídas as venezianas) e artefatos semelhantes e suas partes,"Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.20,10.020.00,3926.9,"Outras obras de plástico, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,16,coerente
+8.21,10.021.00,4814,de parede e revestimentos de parede semelhantes; papel para vitrais,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,27,coerente
+8.24,10.024.00,6811,"d’água, tanques e reservatórios e suas tampas, telhas, cumeeiras e afins, de fibrocimento, cimento-c","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,38;38.1,coerente
+8.25,10.025.00,6901,"placas (lajes), ladrilhos e outras peças cerâmicas de siliciosas fósseis, (tripolita, diatomita, por","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.26,10.026.00,6902,"placas (lajes), ladrilhos e peças cerâmicas para construção, refratários, que não sejam de siliciosa","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.27,10.027.00,6904,"para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica","Prot. ICMS 74/14 - BA e SE Prot. ICMS 26/10 - AP, BA, ES, PA e RJ",nao,nao,,coerente
+8.28,10.028.00,6905,"elementos de chaminés, condutores de fumaça, arquitetônicos, de cerâmica, e outros produtos cerâmico","Prot. ICMS 74/14 - BA e SE Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.29,10.029.00,6906,"calhas ou algerozes e acessórios para canalizações, de cerâmica","Prot. ICMS 74/14 - BA e SE Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,sim,43,protocolo_sim_ba_nao
+8.30.0,10.030.00,6907,"e placas de cerâmica, exclusivamente para pavimentação ou revestimentos","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,44,coerente
+8.30.1,10.030.01,6907,"pastilhas e artigos semelhantes de cerâmica, mesmo com suporte, exceto os descritos CEST 10.030.00","Prot. ICMS 26/10 - AP, BA, ES e PA",nao,sim,44,protocolo_sim_ba_nao
+8.31,10.031.00,6910,"lavatórios, colunas para lavatórios, banheiras, bidês, caixas de descarga, mictórios e aparelhos fix","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, PA e RJ",sim,sim,45,coerente
+8.32,10.032.00,6912,Artefatos de higiene/toucador de cerâmica,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,46,coerente
+8.33,10.033.00,7003,"vazado ou laminado, em chapas, folhas ou perfis, com camada absorvente, refletora ou não, mas sem qu","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.34,10.034.00,7004,"estirado ou soprado, em folhas, mesmo com camada refletora ou não, mas sem qualquer outro trabalho","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.35,10.035.00,7005,"flotado e vidro desbastado ou polido em uma ou em as faces, em chapas ou em folhas, mesmo com camada","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.36,10.036.00,7007.19,Vidros temperados,"Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.37,10.037.00,7007.29,Vidros laminados,"Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.38,10.038.00,7008,Vidros isolantes de paredes múltiplas,"Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.39,10.039.00,7016,"placas, tijolos, ladrilhos, telhas e outros artefatos, de ou moldado, mesmo armado, para construção;","Prot. ICMS 26/10 – AP, BA, ES, MG e PA",nao,nao,,coerente
+8.40,10.040.00,7214.2,"próprias para construções, excetos vergalhões","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,54;54.1,coerente
+8.41,10.041.00,7308.90.1,"barras próprias para construções, excetos vergalhões","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,54;54.1;59,coerente
+8.41.1,10.041.01,7308.90.1,Outros vergalhões,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,54;54.1;59,coerente
+8.42,10.042.00,7214.2,Vergalhões,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,54;54.1,coerente
+8.43,10.043.00,7213,Outros vergalhões,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,nao,,ba_sim_protocolo_nao
+8.44,10.044.00,7217.10.9,"de ferro ou aço não ligados, não revestidos, mesmo polidos;","Prot. ICMS 104/09 - BA e SP Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",sim,sim,55,coerente
+8.44.1,10.044.00,7312,"cabos, tranças (entrançados), lingas e artefatos de ferro ou aço, não isolados para usos elétricos","Prot. ICMS 104/09 - BA e SP Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",sim,sim,55,coerente
+8.45.0,10.045.00,7217.20.1,"fios de ferro ou aço, não ligados, galvanizados com um de carbono superior ou igual a 0,6%, em peso","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
+8.45.1,10.045.01,7217.20.9,"fios de ferro ou aço, não ligados, galvanizados","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,56,coerente
+8.46,10.046.00,7307,"para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,57,coerente
+8.47,10.047.00,7308.3,"e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,58,coerente
+8.48,10.048.00,7308.4 7308.9,"para andaimes, para armações (cofragens) e para (inclusive armações prontas, para estruturas de arma","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,54;54.1;59,coerente
+8.49,10.049.00,7308.4,Treliças de aço,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,59,coerente
+8.50,10.050.00,7308.90.9,Telhas metálicas,"Prot. ICMS 26/10 - AP, BA, ES e PA",nao,sim,59,protocolo_sim_ba_nao
+8.51,10.051.00,7310,"diversas (tais como caixa de correio, de entrada de energia, de instalação) de ferro fundido, ferro ","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,60,coerente
+8.52,10.052.00,7313,"farpado, de ferro ou aço arames ou tiras, retorcidos, farpados, de ferro ou aço, dos tipos utilizado","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,61,coerente
+8.53,10.053.00,7314,"metálicas, grades e redes, de fios de ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,62,coerente
+8.54,10.054.00,7315.11,"Correntes de rolos, de ferro fundido, ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,63,coerente
+8.55,10.055.00,7315.12.9,"correntes de elos articulados, de ferro fundido, ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,64,coerente
+8.56,10.056.00,7315.82,"de elos soldados, de ferro fundido, de ferro ou aço","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,65,coerente
+8.57,10.057.00,7317,"pregos, percevejos, escápulas, grampos ondulados ou e artefatos semelhantes, de ferro fundido, ferro","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,66,coerente
+8.58,10.058.00,7318,"pinos ou pernos, roscados, porcas, tira-fundos, roscados, rebites, chavetas, contrapinos ou troços, ","Prot. ICMS 104/09 - BA e SP Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",sim,sim,67,coerente
+8.59.0,10.059.00,7323,"de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,68,coerente
+8.59.1,10.059.01,7323,"esfregões, luvas e artefatos semelhantes para polimento e usos semelhantes, de ferro ou aço, os de u","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,68,coerente
+8.60,10.060.00,7324,"de higiene ou de toucador, e suas partes, de ferro ferro ou aço, incluídas as pias, banheiras, lavat","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,69,coerente
+8.61,10.061.00,7325,"obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,70,coerente
+8.62,10.062.00,7326,Abraçadeiras,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,71,coerente
+8.63,10.063.00,7407,Barras de cobre,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,72,coerente
+8.64,10.064.00,7411.10.1,"de cobre e suas ligas, para instalações de água quente e gás, de uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,nao,,ba_sim_protocolo_nao
+8.65,10.065.00,7412,"para tubos (por exemplo, uniões, cotovelos, luvas de cobre e suas ligas, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,74,coerente
+8.66,10.066.00,7415,"pregos, percevejos, escápulas e artefatos semelhantes, ou de ferro ou aço com cabeça de cobre, paraf","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,75,coerente
+8.67,10.067.00,7418.2,"de higiene/toucador de cobre, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,76,coerente
+8.68,10.068.00,7607.19.9,Manta de subcobertura aluminizada,"Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,77,coerente
+8.69,10.069.00,7608,"de alumínio e suas ligas, para refrigeração e ar condicionado, de uso na construção","Prot. ICMS 26/10 - AP, BA, ES, PA e RJ",nao,nao,,coerente
+8.70,10.070.00,7609.00.00,"para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na construção e ","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,78,coerente
+8.71,10.071.00,7610,"torres, pórticos ou pilones, pilares, colunas, armações, para telhados, portas e janelas, e seus cai","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,79,coerente
+8.72,10.072.00,7615.20.00,"construções de higiene / toucador de alumínio, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,80,coerente
+8.73,10.073.00,7616,"obras de alumínio, próprias para construções, incluídas as persianas","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,81;82,coerente
+8.74,10.074.00,8302.41.00,"guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive puxadores.","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,82,coerente
+8.75,10.075.00,8301,"e ferrolhos (de chave, de segredo ou elétricos), de comuns, incluídas as suas partes fechos e armaçõ","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,83,coerente
+8.76,10.076.00,8302.10.00,"Dobradiças de metais comuns, de qualquer tipo","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,84,coerente
+8.77,10.077.00,8307,"flexíveis de metais comuns, mesmo com acessórios, para uso na construção","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, decreto_2012_13780_ricms_anexo_1_vigente_2026",sim,sim,86,coerente
+8.78,10.078.00,8311,"comuns ou de carbonetos metálicos, revestidos ou interiormente de decapantes ou de fundentes, para (","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,87,coerente
+8.79,10.079.00,8481,"válvulas (incluídas as redutoras de pressão e as e dispositivos semelhantes, para canalizações, rese","Prot. ICMS 104/09 – BA e SP Prot. ICMS 26/10 – AP, BA, ES, MG, PA e RJ",sim,sim,89,coerente
+8.80,10.080.00,7009,"de vidro, mesmo emoldurados, exceto os de uso automotivo","Prot. ICMS 26/10 - AP, BA, ES, MG, PA e RJ",nao,nao,,coerente
