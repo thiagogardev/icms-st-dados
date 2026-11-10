@@ -285,6 +285,44 @@ vizinho); o segmento de construção sai limpo.
 .venv/Scripts/python scripts/estado_ba.py   # baixa da SEFAZ-BA e grava em dados/estados/BA
 ```
 
+## Mato Grosso: lista estadual e MVA
+
+O sétimo conjunto, em `dados/estados/MT/`, junta dois atos da SEFAZ-MT. O
+Apêndice do Anexo X do RICMS/MT (Decreto 2.212/2014) diz o que está na ST: 25
+segmentos, **1.046 itens (1.006 vigentes)**, com CEST, NCM e descrição, sem
+MVA. A Portaria 195/2019-SEFAZ divulga as MVAs, e de dois jeitos:
+
+- a tabela do Anexo Único, item a item, vale para quem usa o crédito outorgado
+  do Anexo XVII ou é do Simples (art. 1º, § 1º);
+- para os demais contribuintes, o art. 2º-B fixa uma MVA por segmento, por
+  faixa de CEST (materiais de construção, 10.001.00 a 10.080.00: 74,75%).
+
+O MT não usa MVA ajustada: a mesma MVA vale para qualquer origem (art. 3º).
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens.csv` | Apêndice: segmento, item, CEST, NCM/SH, descrição, situação (`vigente` ou `revogado`) e notas de alteração |
+| `mva_portaria_195.csv` | Anexo Único da portaria: cada linha com a MVA e a redação (`vigente` ou `anterior`); item com MVA "excluído" fica marcado |
+| `mva_demais_contribuintes.csv` | Art. 2º-B: MVA por segmento e faixa de CEST, só a redação vigente |
+| `itens_vigentes.csv` | Itens vigentes do Apêndice com `mva_credito_outorgado_ou_simples` (tabela) e `mva_demais_contribuintes` (art. 2º-B) |
+| `cruzamento_prot_11_08.csv` | Construção: as linhas do Prot. ICMS 11/08 (SP-MT) na matriz x o Apêndice do MT, pelo CEST provável |
+
+Na tabela da portaria as redações anteriores aparecem logo abaixo da vigente,
+marcadas com "(Redação original)" ou só repetindo o número do item: são 266.
+Combustíveis, energia e veículos não têm MVA na portaria (a base vem do PMPF e
+de outros artigos do RICMS). O texto da portaria na base da SEFAZ está
+consolidado até a Portaria 212/2022, e atos de 2026 ainda a citam como vigente.
+
+Cruzamento com o Prot. 11/08 em 09/11/2026: **39 coerentes e nenhum CEST do
+protocolo fora do Apêndice do MT**; 3 linhas do protocolo (tubos de aço e de
+cobre) não têm CEST provável, e 46 itens de construção estão só na lista do
+MT. Nesses 46, a ST não vem do protocolo: quem retém não é o remetente de SP,
+é o destinatário mato-grossense que antecipa o imposto.
+
+```bash
+.venv/Scripts/python scripts/estado_mt.py   # baixa da SEFAZ-MT e grava em dados/estados/MT
+```
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
@@ -334,3 +372,9 @@ protocol exclusions exactly.
 A sixth dataset reads Bahia's Annex 1 (311 wordings, with the interstate
 agreements and original MVA per item) and finds two real conflicts with the
 SP -> BA protocol.
+
+A seventh dataset joins Mato Grosso's two acts: the RICMS Annex X appendix
+(1,006 valid items, no MVA) and SEFAZ Ordinance 195/2019, which sets one MVA
+per item for taxpayers using the granted-credit regime or Simples, and a single
+MVA per segment for everyone else (construction: 74.75%). Every CEST of the
+SP -> MT protocol is on Mato Grosso's list.

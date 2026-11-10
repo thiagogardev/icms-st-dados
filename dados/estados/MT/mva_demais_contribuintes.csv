@@ -1,0 +1,24 @@
+inciso,segmento,nome,faixas_cest,mva
+I,01,autopeças,01.001.00-01.999.00,65.29
+II,02,"bebidas alcoólicas, exceto cerveja e chope",02.001.00-02.999.00,67.49
+III,03,"cervejas, chopes, refrigerantes, águas e outras bebidas",03.001.00-03.025.00,73.63
+IV,05,cimento,05.001.00-05.001.00,29.94
+V,08,ferramentas,08.001.00-08.019.00;08.020.00-08.023.00,55.61
+VI,08,ferramentas,08.019.01-08.019.01,65.29
+VII,09,"lâmpadas, reatores e “starter”",09.001.00-09.002.00,83.24
+VIII,09,"lâmpadas, reatores e “starter”",09.003.00-09.004.00,108.84
+IX,09,"lâmpadas, reatores e “starter”",09.005.00-09.005.00,64.06
+X,10,materiais de construção e congêneres,10.001.00-10.080.00,74.75
+XI,11,materiais de limpeza,11.001.00-11.012.00,75.80
+XII,12,materiais elétricos,12.001.00-12.009.00,63.28
+XII-A,13,medicamentos de uso humano e outros produtos farmacêuticos para uso humano ou veterinário,13.001.00-13.016.00,60.35
+XIII,14,"papéis, plásticos, produtos cerâmicos e vidros",14.001.00-14.013.00,66.52
+XIV,16,"pneumáticos, câmaras de ar e protetores de borracha",16.001.00-16.009.00,78.79
+XV,17,produtos alimentícios,17.001.00-17.117.00,59.75
+XVI,19,produtos de papelaria,19.001.00-19.033.00,73.90
+XVII,20,produtos de perfumaria e de higiene pessoal e cosméticos,20.001.00-20.065.00,75.80
+XVIII,21,"produtos eletrônicos, eletroeletrônicos e eletrodomésticos",21.001.00-21.126.00,53.86
+XIX,22,rações para animais domésticos,22.001.00-22.001.00,68.57
+XX,23,sorvetes e preparados para fabricação de sorvetes em máquinas,23.001.00-23.002.00,61.78
+XXI,24,tintas e vernizes,24.001.00-24.003.00,72.12
+XXII,04,cigarros e outros produtos derivados do fumo,04.001.00-04.001.00;04.002.00-04.002.00,94.70

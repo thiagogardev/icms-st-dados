@@ -1,0 +1,30 @@
+{
+  "fonte": "SEFAZ-MT: RICMS/MT (Decreto 2.212/2014), Apêndice do Anexo X; Portaria 195/2019-SEFAZ",
+  "urls": {
+    "apendice": "https://www.sefaz.mt.gov.br/legislacao/SubIndice.aspx?ID=214",
+    "portaria_195_2019": "https://app1.sefaz.mt.gov.br/Sistema/legislacao/legislacaotribut.nsf/5edf9c5193c58088032567580038916b/4c7283a0b4318486042584c4004436c1?OpenDocument"
+  },
+  "sha256": {
+    "apendice": "310b429e6bb9d78281d82624126817ff104c4bd5a3464c5a701dea1ee15fdd3c",
+    "portaria_195_2019": "0f01a1bb505531f47c099e0b64fe92b09c4c22e5d02873d22fdf50d5b2eb4e4b"
+  },
+  "portaria_consolidada_ate": "212/2022",
+  "obtido_em": "2026-11-10T02:36:35+00:00",
+  "data_referencia": "2026-11-09",
+  "contagens": {
+    "segmentos": 25,
+    "itens": 1046,
+    "itens_vigentes": 1006,
+    "itens_revogados": 40,
+    "linhas_portaria": 1303,
+    "redacoes_anteriores_portaria": 266,
+    "vigentes_com_mva_da_tabela": 914,
+    "faixas_art_2b": 23,
+    "cruzamento": {
+      "coerente": 39,
+      "cest_fora_do_apendice_mt": 0,
+      "sem_cest": 3,
+      "so_no_mt": 46
+    }
+  }
+}
