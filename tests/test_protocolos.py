@@ -171,3 +171,26 @@ def test_protocolos_sp_rj_revogados_em_2025_e_2026():
                                  "Prot. ICMS 104/12", "Prot. ICMS 136/13")} == {
         "Prot. ICMS 29/14": "2026-01-01", "Prot. ICMS 34/14": "2026-08-01", "Prot. ICMS 76/14": "2026-01-01",
         "Prot. ICMS 77/14": "2026-10-01", "Prot. ICMS 104/12": "2026-04-01", "Prot. ICMS 136/13": ""}
+
+
+def test_pares_pela_clausula():
+    assert p.pares("20/13", {"destinos_na_clausula": ["ES"]}) == [("SP", "ES")]
+    assert sorted(p.pares("32/09", {"destinos_na_clausula": ["MG", "SP"]})) == [("MG", "SP"), ("SP", "MG")]
+    assert p.ufs_destino("destinadas ao Distrito Federal, fica atribuída") == ["DF"]
+
+
+MATRIZ_GERAL = RAIZ / "dados" / "protocolos" / "matriz_origem_destino.csv"
+
+
+@pytest.mark.skipif(not MATRIZ_GERAL.exists(), reason="dados ainda não gerados")
+def test_matriz_de_outras_origens():
+    with MATRIZ_GERAL.open(encoding="utf-8") as f:
+        m = list(csv.DictReader(f))
+    cat = "38151210"  # catalisador, CEST 01.001.00 (autopeças)
+    assert p.consultar(m, cat, "BA", origem="MG")        # 41/08: MG assina, BA é destino
+    assert p.consultar(m, cat, "MG", origem="RS")        # RS assina, MG é destino
+    assert not p.consultar(m, cat, "RS", origem="SC")    # RS não é destino do 41/08
+    assert not p.consultar(m, "73261900", "BA", origem="MG")  # construção só tem protocolos com SP
+    para_sp = p.consultar(m, "73261900", "SP", origem="MG")    # 32/09 cita SP, mas SP não regulamentou
+    assert para_sp and all(r["efeito_no_destino"].startswith("depende de ato") for r in para_sp)
+    assert not any(r["efeito_no_destino"] for r in m if r["destino"] != "SP")

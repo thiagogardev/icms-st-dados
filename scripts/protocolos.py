@@ -44,7 +44,10 @@ BASE_URL = "https://www.confaz.fazenda.gov.br/legislacao/protocolos/"
 # Protocolos de materiais de construção com SP. "destinos_de_sp": estados para os
 # quais o remetente paulista retém a ST. Em vários deles a aplicação nas entradas em
 # SP depende de ato do Secretário da Fazenda que nunca foi editado (Comunicado CAT
-# 36/2009), por isso só o sentido SP -> destino entra na matriz.
+# 36/2009), por isso a matriz_sp_destino só tem o sentido SP -> destino. A matriz
+# origem -> destino lista todos os sentidos que a cláusula primeira cita, e marca as
+# linhas com destino SP em "efeito_no_destino".
+EFEITO_SP = "depende de ato do Secretário da Fazenda de SP não editado (Comunicado CAT 36/2009)"
 PROTOCOLOS = [
     {"protocolo": "11/08", "pagina": "2008/pt011_08", "signatarios": ["MT", "SP"], "destinos_de_sp": ["MT"]},
     {"protocolo": "20/13", "pagina": "2013/pt020_13", "signatarios": ["ES", "SP"], "destinos_de_sp": ["ES"]},
@@ -242,7 +245,7 @@ _UF_NOME = {"Acre": "AC", "Alagoas": "AL", "Amapá": "AP", "Amazonas": "AM", "Ba
 
 def ufs_destino(clausula: str) -> list[str]:
     """'destinadas aos Estados do Acre, ..., Roraima e o Distrito Federal, fica' -> ['AC', ..., 'DF']."""
-    m = re.search(r"destinad[ao]s? (?:aos?|às?) (?:Estados?|unidades).*?(?=, fica|\. |$)", clausula, re.I)
+    m = re.search(r"destinad[ao]s? (?:aos?|às?) (?:Estados?|Distrito|unidades).*?(?=, fica|\. |$)", clausula, re.I)
     if not m:
         return []
     trecho, achados = m.group(0), []
@@ -466,10 +469,19 @@ def cests_provaveis(ncms: list[str], conv: list[dict], segmento: str = "10") -> 
     return sorted(set(achados))
 
 
-def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None) -> list[dict]:
-    destinos = {p["protocolo"]: p["destinos_de_sp"] for p in PROTOCOLOS}
+def pares(prot: str, cl: dict | None) -> list[tuple[str, str]]:
+    """(origem, destino) que o protocolo cobre: cada signatário vendendo para os estados que a
+    cláusula primeira cita ("destinadas ao Estado de MG ou ao Estado de SP" vale nos dois sentidos;
+    "destinadas ao Estado do ES" só de SP para o ES). Sem destinos legíveis, usa a configuração."""
+    conf = next(p for p in PROTOCOLOS if p["protocolo"] == prot)
+    destinos = (cl or {}).get("destinos_na_clausula") or conf["destinos_de_sp"]
+    return [(o, d) for o in conf["signatarios"] for d in destinos if d != o]
+
+
+def matriz_geral(itens: list[Item], conv: list[dict], clausulas: dict | None = None) -> list[dict]:
+    clausulas = clausulas or {}
     linhas = []
-    for prot, cl in (clausulas or {}).items():
+    for prot, cl in clausulas.items():
         if not cl["modelo"].startswith("conv142_anexo_"):
             continue
         if cl.get("revogado_desde") and cl["revogado_desde"] <= date.today():
@@ -478,32 +490,38 @@ def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None
         for r in conv:
             if r["anexo"] != anexo or r["cest"] in cl["cests_excluidos"]:
                 continue
-            for uf in destinos[prot]:
+            for o, d in pares(prot, cl):
                 linhas.append({
-                    "origem": "SP", "destino": uf, "protocolo": f"Prot. ICMS {prot}", "item": f"CEST {r['cest']}",
+                    "origem": o, "destino": d, "protocolo": f"Prot. ICMS {prot}", "item": f"CEST {r['cest']}",
                     "ncm_sh": r["ncm_sh"], "ncms": ";".join(c.replace(".", "") for c in r["ncms"].split(";") if c),
                     "descricao": r["descricao"], "mva_original": "", "cests_provaveis": r["cest"],
                     "vigencia_inicio": _iso(cl["desde"]),
+                    "efeito_no_destino": EFEITO_SP if d == "SP" else "",
                 })
     for i in itens:
         if i.situacao != "vigente":
             continue
         ncms = separar_ncms(i.ncm_sh)
-        for uf in destinos[i.protocolo]:
+        cests = ";".join(cests_provaveis(ncms, conv, SEGMENTO[i.protocolo]))
+        for o, d in pares(i.protocolo, clausulas.get(i.protocolo)):
             linhas.append({
-                "origem": "SP", "destino": uf, "protocolo": f"Prot. ICMS {i.protocolo}", "item": i.item,
+                "origem": o, "destino": d, "protocolo": f"Prot. ICMS {i.protocolo}", "item": i.item,
                 "ncm_sh": i.ncm_sh, "ncms": ";".join(ncms), "descricao": i.descricao,
                 "mva_original": "" if i.mva_original is None else f"{i.mva_original:g}",
-                "cests_provaveis": ";".join(cests_provaveis(ncms, conv, SEGMENTO[i.protocolo])),
-                "vigencia_inicio": _iso(i.vigencia_inicio),
+                "cests_provaveis": cests, "vigencia_inicio": _iso(i.vigencia_inicio),
+                "efeito_no_destino": EFEITO_SP if d == "SP" else "",
             })
     return linhas
 
 
-def consultar(matriz: list[dict], ncm: str, uf: str) -> list[dict]:
-    """Itens da matriz que cobrem o NCM (código completo ou posição) no destino."""
+def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None) -> list[dict]:
+    return [r for r in matriz_geral(itens, conv, clausulas) if r["origem"] == "SP"]
+
+
+def consultar(matriz: list[dict], ncm: str, uf: str, origem: str = "SP") -> list[dict]:
+    """Itens da matriz que cobrem o NCM (código completo ou posição) da origem para o destino."""
     n = ncm.replace(".", "")
-    return [m for m in matriz if m["destino"] == uf and any(n.startswith(c) for c in m["ncms"].split(";") if c)]
+    return [m for m in matriz if m["destino"] == uf and m.get("origem", "SP") == origem and any(n.startswith(c) for c in m["ncms"].split(";") if c)]
 
 
 # ---------------------------------------------------------------- gravação
@@ -533,11 +551,13 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             for i in todos:
                 if filtro(i):
                     w.writerow(linha(i))
-    matriz = matriz_sp(todos, conv, {k: r["clausula"] for k, r in resultados.items()})
-    with (destino / "matriz_sp_destino.csv").open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(matriz[0].keys()))
-        w.writeheader()
-        w.writerows(matriz)
+    geral = matriz_geral(todos, conv, {k: r["clausula"] for k, r in resultados.items()})
+    for nome, linhas in (("matriz_origem_destino.csv", geral),
+                         ("matriz_sp_destino.csv", [r for r in geral if r["origem"] == "SP"])):
+        with (destino / nome).open("w", encoding="utf-8", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=list(geral[0].keys()))
+            w.writeheader()
+            w.writerows(linhas)
     for nome, chave in (("divergencias_da_fonte.csv", "divergencias"), ("notas_nao_associadas.csv", "notas_soltas")):
         linhas = [x for r in resultados.values() for x in r[chave]]
         with (destino / nome).open("w", encoding="utf-8", newline="") as f:
@@ -565,7 +585,7 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
         "protocolos": len(PROTOCOLOS),
         "redacoes": len(todos),
         "itens_vigentes": sum(i.situacao == "vigente" for i in todos),
-        "linhas_matriz": len(matriz),
+        "linhas_matriz": len([r for r in geral if r["origem"] == "SP"]), "linhas_matriz_origem_destino": len(geral),
         "divergencias_da_fonte": sum(len(r["divergencias"]) for r in resultados.values()),
         "notas_nao_associadas": sum(len(r["notas_soltas"]) for r in resultados.values()),
     }
@@ -601,7 +621,7 @@ def main(argv: list[str] | None = None) -> int:
     meta = {"fonte": "Confaz, textos consolidados dos protocolos ICMS", "fontes": fontes,
             "obtido_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "data_referencia": a.ref.isoformat(),
-            "escopo": "materiais de construção, protocolos com SP; matriz no sentido SP -> destino"}
+            "escopo": "protocolos de que SP é signatário (construção, autopeças e bilaterais SP-RJ); matriz SP -> destino e matriz origem -> destino de todos os signatários"}
     meta = gravar(resultados, a.saida, meta, carregar_conv142())
     print(json.dumps(meta["contagens"], ensure_ascii=False))
     return 0

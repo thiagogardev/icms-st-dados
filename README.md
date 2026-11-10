@@ -155,6 +155,23 @@ elétrica (8467.21.00) continua com retenção pelo 136/13, mas um alicate (8203
 não tem mais, porque o protocolo de ferramentas caiu. A matriz tem 2.648 linhas,
 e o gabarito tem 44 casos.
 
+**Matriz origem -> destino (10/11/2026).** `matriz_origem_destino.csv` responde a
+mesma pergunta para qualquer remetente signatário, não só para SP. O sentido
+vem da cláusula primeira de cada protocolo:
+
+- "destinadas ao Estado de Minas Gerais **ou** ao Estado de São Paulo" vale nos
+  dois sentidos (11/08, 32/09, 32/14, 92/09, 104/08, 104/09, 128/10 e 136/13);
+- "destinadas ao Estado do Espírito Santo" vale só de SP para lá (20/13, 25/11,
+  60/11 e 71/11);
+- no 41/08 (autopeças), cada um dos 13 signatários vende com retenção para os
+  15 destinos listados, menos ele mesmo: de MG para a BA sim, de SC para o RS
+  não, porque o RS assina mas não está entre os destinos.
+
+São 24.512 linhas. As 488 com destino SP ficam marcadas em `efeito_no_destino`:
+o texto do protocolo cita SP, mas a aplicação nas entradas em SP depende de ato
+do Secretário da Fazenda que não foi editado (Comunicado CAT 36/2009). A
+`matriz_sp_destino.csv` continua igual, só com a origem SP.
+
 | Arquivo | Conteúdo |
 | --- | --- |
 | `matriz_sp_destino.csv` | Uma linha por item vigente e estado de destino: protocolo, item, NCM/SH, descrição, MVA original (quando o protocolo a fixa) e os CESTs prováveis do Convênio 142 |

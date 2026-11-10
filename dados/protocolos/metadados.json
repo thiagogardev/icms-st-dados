@@ -92,14 +92,15 @@
       "sha256": "112515009ec24d4da7e7623808aaf1679a19de74922dcf1b9af6d57ddaf0a157"
     }
   ],
-  "obtido_em": "2026-11-10T12:44:38+00:00",
+  "obtido_em": "2026-11-10T19:44:24+00:00",
   "data_referencia": "2026-11-10",
-  "escopo": "materiais de construção, protocolos com SP; matriz no sentido SP -> destino",
+  "escopo": "protocolos de que SP é signatário (construção, autopeças e bilaterais SP-RJ); matriz SP -> destino e matriz origem -> destino de todos os signatários",
   "contagens": {
     "protocolos": 18,
     "redacoes": 2811,
     "itens_vigentes": 587,
     "linhas_matriz": 2648,
+    "linhas_matriz_origem_destino": 24512,
     "divergencias_da_fonte": 14,
     "notas_nao_associadas": 0
   }
