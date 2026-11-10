@@ -339,8 +339,33 @@ descrição.
 
 Cruzamento em 10/11/2026: 47 MVAs iguais, 7 iguais em um dos CESTs prováveis e
 **1 diferença real**: caixas d'água, telhas e calhas de fibrocimento (NCM 6811,
-CEST 10.024.00) têm 56% no protocolo e 41% no anexo do PE. Duas linhas do
+CEST 10.024.00). O protocolo traz duas MVAs, 41% com o frete na base de cálculo
+e 56% sem o frete, e o anexo do PE só tem os 41%. Duas linhas do
 protocolo (juntas de borracha e tapetes) não têm CEST provável.
+
+## Alagoas: lista estadual e MVA
+
+O nono conjunto, em `dados/estados/AL/`, lê o Anexo VIII do Decreto 90.309/2023,
+que reúne as regras de ST de Alagoas. A SEFAZ-AL publica a versão consolidada
+como PDF no seu sistema de documentos (gcs2.sefaz.al.gov.br), pela mesma API
+que o site usa para mostrar o documento. São **83 itens**, cada um com CEST, o
+acordo interestadual (Prot. ICMS 104/08 ou "Sem Acordo"), a MVA original e as
+ajustadas para 12%, 7% e 4%. Em três itens (fibrocimento, tijolos e telhas
+cerâmicas) a MVA muda conforme o frete esteja ou não na base de cálculo.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens.csv` | Item, CEST, acordo, `mva_original`, `mva_original_sem_frete_na_base`, ajustadas a 12/7/4%, descrição e NCM do Conv. 142 e o texto como saiu do PDF |
+| `cruzamento_prot_104_08.csv` | A MVA do Prot. ICMS 104/08 (SP-AL) x a do Anexo VIII, pelo CEST provável |
+
+O PDF é lido pela posição das palavras: as células são centralizadas e quebram
+em várias linhas, então descrição e NCM vêm do Conv. 142 pelo CEST. A SEFAZ-AL
+avisa que as ajustadas não constam da publicação no Diário Oficial: são cálculo
+dela, feito com a alíquota interna de 20,5% mais 1% de FCP (21,5%). O RJ, por
+exemplo, calcula sem o FCP.
+
+Cruzamento em 10/11/2026: **52 coerentes e nenhuma diferença de MVA**; duas
+linhas do protocolo (juntas de borracha e tapetes) não têm CEST provável.
 
 ### Estados sem fonte automática
 
@@ -350,6 +375,9 @@ protocolo (juntas de borracha e tapetes) não têm CEST provável.
 - **ES:** a Portaria 16-R/2019, que divulga as MVAs, está numa base de
   legislação (www2.sefaz.es.gov.br) que não resolve mais no DNS. A cobertura
   SP-ES vem do Prot. 20/13.
+- **DF:** o SINJ-DF, onde está o RICMS (Decreto 18.955/1997, Anexo IV, Caderno
+  I, item 41), responde com bloqueio de firewall a qualquer acesso que não seja
+  de navegador. A cobertura SP-DF vem do protocolo.
 - **AP e PA:** ver a seção dos protocolos (PA só atende navegadores; AP não
   tem texto consolidado oficial).
 
@@ -413,3 +441,8 @@ An eighth dataset reads Pernambuco's Annex 37-C (73 items keyed to Convênio 142
 Annex XI, one MVA each) and finds one real MVA difference from the SP -> PE
 protocol (fiber-cement products, 56% vs 41%). Rio de Janeiro and Espírito Santo
 have no source that can be collected automatically.
+
+A ninth dataset reads Alagoas' Annex VIII (83 items, original and adjusted MVA,
+with and without freight in the tax base) with no MVA differences from the
+SP -> AL protocol. The Federal District has no source that can be collected
+automatically.

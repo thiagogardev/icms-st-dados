@@ -1,0 +1,20 @@
+{
+  "fonte": "SEFAZ-AL, Decreto 90.309/2023 consolidado, Anexo VIII (Tabela Única)",
+  "url": "https://gcs2.sefaz.al.gov.br/sfz-gcs-api/api/documentos/visualizarDocumento?acess=1&key=dx9aIL23hOg=",
+  "nome_do_arquivo": "DECRETO Nº 90.309-2023 -RETIFICADO260523-COM MVAs AJUSTADAS-atualizado03-11-26.pdf",
+  "sha256": "70685f0fc16fbea9397ec3b280809300b5daf18aedbda663e44879e295b484c3",
+  "obtido_em": "2026-11-10T11:14:08+00:00",
+  "data_referencia": "2026-11-10",
+  "contagens": {
+    "itens": 83,
+    "com_mva_original": 83,
+    "com_acordo_104_08": 72,
+    "cruzamento": {
+      "coerente": 52,
+      "mva_diferente": 0,
+      "al_sem_acordo_com_sp": 0,
+      "cest_fora_do_anexo_viii": 0,
+      "sem_cest": 2
+    }
+  }
+}

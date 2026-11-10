@@ -1,0 +1,55 @@
+protocolo,item_protocolo,ncm_sh,descricao,cests_provaveis,mva_protocolo,mva_al,acordo_al,situacao
+Prot. ICMS 104/08,2,25.22,Cal para construção civil,10.001.00,43,43,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,3,39.16,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção civil",10.005.00,57,57,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,4,39.17,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso n",10.006.00,36,36,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,5,39.18,Revestimento de pavimento de PVC e outros plásticos,10.007.00,56,56,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,6,39.19,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo e",10.008.00;10.009.00,58,52;58,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,7,"39.19, 39.20,  39.21","Veda rosca, lona plástica, fitas isolantes e afins",10.008.00;10.009.00;10.010.00;10.011.00;10.012.00,52,52;53;58,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,8,39.21,"Telhas plásticas, chapas, laminados plásticos em bobina, para uso na construção civil",10.009.00;10.010.00;10.011.00;10.012.00,53,52;53,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,9,39.22,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixa",10.013.00,49,49,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,10,39.24,Artefatos de higiene / toucador de plástico,10.014.00,80,80,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,11,"3925.10.00, 3925.90.00","Telhas, cumeeiras e caixas d’água de polietileno e outros plásticos",10.015.00;10.016.00;10.017.00,46,46,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,12,3925.20.00,"Portas, janelas e afins, de plástico",10.018.00,43,43,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,14,3926.90,"Outras obras de plástico, para uso na construção civil",10.020.00,45,45,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,18,4016.93.00,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida",,74,,,sem_cest
+Prot. ICMS 104/08,25,48.14,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,10.021.00,79,79,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,26,57.03,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confecci",,54,,,sem_cest
+Prot. ICMS 104/08,35,68.11,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocim",10.024.00,41,41;56,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,35.1,68.11,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocim",10.024.00,56,41;56,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,40,6906.00.00,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",10.029.00,91,91,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,41,"69.07, 69.08","Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",10.030.00;10.030.01,53,53,Protocolo ICMS 104/08;Sem Acordo,coerente
+Prot. ICMS 104/08,42,69.10,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictóri",10.031.00,40,40,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,43,6912.00.00,Artefatos de higiene/toucador de cerâmica,10.032.00,83,83,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,51.1,7214.20.00,Vergalhões,10.040.00;10.042.00,41,39;41,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,52,"7217.10.90, 7312","Fios de ferro ou aço não ligados, não revestidos, mesmo polidos cordas, cabos, tranças (entrançados)",10.044.00,44,44,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,53,7217.20.90,"Outros fios de ferro ou aço, não ligados, galvanizados",10.045.01,42,42,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,54,73.07,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",10.046.00,37,37,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,55,7308.30.00,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",10.047.00,40,40,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,56,"7308.40.00, 7308.90","Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, ",10.041.00;10.041.01;10.048.00;10.049.00;10.050.00,65,38;39;55;65,Protocolo ICMS 104/08;Sem Acordo,coerente
+Prot. ICMS 104/08,56.1,7308.40.00,Treliças de aço,10.048.00;10.049.00,38,38;65,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,57,73.10,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro",10.051.00,89,89,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,58,7313.00.00,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tip",10.052.00,46,46,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,59,73.14,"Telas metálicas, grades e redes, de fios de ferro ou aço",10.053.00,39,39,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,60,7315.11.00,"Correntes de rolos, de ferro fundido, ferro ou aço",10.054.00,101,101,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,61,7315.12.90,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",10.055.00,101,101,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,62,7315.82.00,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",10.056.00,68,68,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,63,7317.00,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de fe",10.057.00,44,44,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,64,73.18,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavi",10.058.00,51,51,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,65,73.23,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de fe",10.059.00;10.059.01,101,101,Protocolo ICMS 104/08;e Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,66,73.24,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço",10.060.00,62,62,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,67,73.25,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção civil",10.061.00,86,86,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,68,73.26,Abraçadeiras,10.062.00,80,80,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,69,7411.10.10,"Tubos de cobre e suas ligas, para instalações de água quente e gás, de uso na construção civil",10.064.00,35,35,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,70,74.12,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para ",10.065.00,33,33,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,71,74.15,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabe",10.066.00,62,62,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,72,7418.20.00,Artefatos de higiene/toucador de cobre,10.067.00,46,46,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,73,7607.19.90,Manta de subcobertura aluminizada,10.068.00,59,59,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,74,7609.00.00,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na co",10.070.00,66,66,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,75,76.10,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, p",10.071.00,38,38,e Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,76,7615.20.00,Artefatos de higiene / toucador de alumínio,10.072.00,73,73,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,77,76.16,"Outras obras de alumínio, próprias para construções, incluídas as persianas",10.073.00,45,45,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,78,"76.16, 8302.4 83.01","Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive pux",10.073.00;10.074.00;10.075.00,47,45;47;54,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,80,8302.10.00,"Dobradiças de metais comuns, de qualquer tipo",10.076.00,58,58,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,82,83.07,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção civil",10.077.00,62,62,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,83,83.11,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos m",10.078.00,60,60,Protocolo ICMS 104/08,coerente
+Prot. ICMS 104/08,85,84.81,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhante",10.079.00,47,47,Protocolo ICMS 104/08,coerente
