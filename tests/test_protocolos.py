@@ -137,3 +137,20 @@ def test_gabarito_conferido_na_norma_e_na_econet():
         if ("sim" if achados else "nao") != c["tem_st"] or (c["mva_original"] and c["mva_original"] not in mvas):
             erros.append(f"{c['ncm']} {c['destino']}: esperado {c['tem_st']} {c['mva_original']}, obtido {mvas}")
     assert not erros, erros
+
+
+def test_destinos_lidos_da_clausula_do_41_08():
+    cl = ("Nas operações interestaduais com bens e mercadorias relacionadas no Anexo II do Convênio ICMS nº 142, "
+          "de 14 de dezembro de 2018, com exceção aos Códigos Especificadores da Substituição Tributária – CEST - "
+          "01.019.00, 01.062.01 e 01.999.00, destinadas aos Estados do Acre, Mato Grosso, Minas Gerais, Paraná, "
+          "Rio de Janeiro, Roraima e o Distrito Federal, fica atribuída ao estabelecimento remetente")
+    assert p.ufs_destino(cl) == ["AC", "DF", "MG", "MT", "PR", "RJ", "RR"]
+    assert p.cests_excluidos(cl) == ["01.019.00", "01.062.01", "01.999.00"]
+
+
+@pytest.mark.skipif(not (RAIZ / "dados" / "protocolos" / "protocolos.csv").exists(), reason="dados ainda não gerados")
+def test_destinos_configurados_batem_com_a_clausula_nos_multilaterais():
+    with (RAIZ / "dados" / "protocolos" / "protocolos.csv").open(encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if r["destinos_na_clausula"] and r["protocolo"] == "Prot. ICMS 41/08":
+                assert r["destinos_na_clausula"] == r["destinos_de_sp"], r

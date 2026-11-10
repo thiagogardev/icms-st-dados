@@ -122,6 +122,19 @@ cada item, e monta a matriz SP -> destino.
 > 486 itens vigentes e 672 linhas na matriz (12 destinos: AL, AP, BA, DF, ES,
 > MG, MT, PA, PE, PR, RJ, RS).
 
+**Autopeças (10/11/2026).** A matriz passou a incluir o Prot. ICMS 41/08, o
+protocolo multilateral de autopeças de que SP é signatário. Ele usa o modelo
+de referência: vale para o Anexo II do Conv. 142, menos 6 CESTs (01.019.00,
+01.062.01, 01.112.00, 01.127.00, 01.128.00 e 01.999.00), nas remessas para os
+15 destinos listados na cláusula primeira (AC, AL, AM, AP, BA, DF, MA, MG, MT,
+PA, PB, PI, PR, RJ e RR), redação em vigor desde 01/10/2024. São 125 CESTs e
+1.875 linhas novas na matriz, que agora tem 2.547 linhas e uma coluna de
+segmento implícita no CEST (01 = autopeças, 10 = construção). RS e SC assinam o
+protocolo, mas não estão entre os destinos: de SP para lá, autopeças não têm
+retenção pelo 41/08. O Prot. 97/10, o outro de autopeças, não tem SP entre os
+signatários. Os destinos lidos da cláusula são conferidos contra a configuração
+em teste, e o gabarito ganhou 7 casos de autopeças.
+
 | Arquivo | Conteúdo |
 | --- | --- |
 | `matriz_sp_destino.csv` | Uma linha por item vigente e estado de destino: protocolo, item, NCM/SH, descrição, MVA original (quando o protocolo a fixa) e os CESTs prováveis do Convênio 142 |

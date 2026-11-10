@@ -55,16 +55,21 @@
       "protocolo": "Prot. ICMS 128/10",
       "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2010/pt128_10",
       "sha256": "7a7284d2914d71c4ef605c9681a3fccf8e1aacaf51db15a9b9e4f4d7cb6be6c1"
+    },
+    {
+      "protocolo": "Prot. ICMS 41/08",
+      "url": "https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt041_08",
+      "sha256": "64c2bf5feee78146665917fd8def9cda3c196f1fc87f077277cda1446057ee92"
     }
   ],
-  "obtido_em": "2026-11-09T23:28:57+00:00",
-  "data_referencia": "2026-11-09",
+  "obtido_em": "2026-11-10T11:23:56+00:00",
+  "data_referencia": "2026-11-10",
   "escopo": "materiais de construção, protocolos com SP; matriz no sentido SP -> destino",
   "contagens": {
-    "protocolos": 11,
-    "redacoes": 2290,
+    "protocolos": 12,
+    "redacoes": 2520,
     "itens_vigentes": 486,
-    "linhas_matriz": 672,
+    "linhas_matriz": 2547,
     "divergencias_da_fonte": 3,
     "notas_nao_associadas": 0
   }

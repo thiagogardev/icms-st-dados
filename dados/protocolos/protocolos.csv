@@ -1,12 +1,13 @@
-protocolo,signatarios,destinos_de_sp,modelo,clausula_desde,cests_excluidos,url,itens_vigentes,com_mva_no_protocolo
-Prot. ICMS 11/08,MT;SP,MT,lista_propria,2009-02-01,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt011_08,42,0
-Prot. ICMS 20/13,ES;SP,ES,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2013/pt020_13,54,54
-Prot. ICMS 25/11,DF;SP,DF,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt025_11,51,51
-Prot. ICMS 32/09,MG;SP,MG,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt032_09,54,0
-Prot. ICMS 32/14,RJ;SP,RJ,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt032_14,59,59
-Prot. ICMS 60/11,AP;PA;SP,AP;PA,conv142_anexo_xi,2026-08-01,10.017.00;10.019.00;10.025.00;10.026.00;10.027.00;10.028.00;10.030.01;10.033.00;10.034.00;10.035.00;10.036.00;10.037.00;10.038.00;10.039.00;10.050.00;10.058.00;10.063.00;10.064.00;10.073.00;10.080.00,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt060_11,0,0
-Prot. ICMS 71/11,PR;SP,PR,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt071_11,54,0
-Prot. ICMS 92/09,RS;SP,RS,conv142_anexo_xi,2026-08-01,10.011.00;10.017.00;10.019.00;10.025.00;10.026.00;10.027.00;10.028.00;10.030.01;10.033.00;10.034.00;10.035.00;10.036.00;10.037.00;10.038.00;10.039.00;10.045.00;10.050.00;10.058.00;10.063.00;10.064.00;10.069.00;10.073.00;10.080.00,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt092_09,0,0
-Prot. ICMS 104/08,AL;SP,AL,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt104_08,54,54
-Prot. ICMS 104/09,BA;SP,BA,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt104_09,61,0
-Prot. ICMS 128/10,PE;SP,PE,lista_propria,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2010/pt128_10,57,57
+protocolo,signatarios,destinos_de_sp,modelo,clausula_desde,cests_excluidos,destinos_na_clausula,url,itens_vigentes,com_mva_no_protocolo
+Prot. ICMS 11/08,MT;SP,MT,lista_propria,2009-02-01,,MT;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt011_08,42,0
+Prot. ICMS 20/13,ES;SP,ES,lista_propria,,,ES,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2013/pt020_13,54,54
+Prot. ICMS 25/11,DF;SP,DF,lista_propria,,,,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt025_11,51,51
+Prot. ICMS 32/09,MG;SP,MG,lista_propria,,,MG;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt032_09,54,0
+Prot. ICMS 32/14,RJ;SP,RJ,lista_propria,,,RJ;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2014/pt032_14,59,59
+Prot. ICMS 60/11,AP;PA;SP,AP;PA,conv142_anexo_xi,2026-08-01,10.017.00;10.019.00;10.025.00;10.026.00;10.027.00;10.028.00;10.030.01;10.033.00;10.034.00;10.035.00;10.036.00;10.037.00;10.038.00;10.039.00;10.050.00;10.058.00;10.063.00;10.064.00;10.073.00;10.080.00,AP;PA,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt060_11,0,0
+Prot. ICMS 71/11,PR;SP,PR,lista_propria,,,PR,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2011/pt071_11,54,0
+Prot. ICMS 92/09,RS;SP,RS,conv142_anexo_xi,2026-08-01,10.011.00;10.017.00;10.019.00;10.025.00;10.026.00;10.027.00;10.028.00;10.030.01;10.033.00;10.034.00;10.035.00;10.036.00;10.037.00;10.038.00;10.039.00;10.045.00;10.050.00;10.058.00;10.063.00;10.064.00;10.069.00;10.073.00;10.080.00,RS;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt092_09,0,0
+Prot. ICMS 104/08,AL;SP,AL,lista_propria,,,AL;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt104_08,54,54
+Prot. ICMS 104/09,BA;SP,BA,lista_propria,,,BA;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2009/pt104_09,61,0
+Prot. ICMS 128/10,PE;SP,PE,lista_propria,,,PE;SP,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2010/pt128_10,57,57
+Prot. ICMS 41/08,AP;AM;BA;MA;MT;MG;PA;PR;PI;RS;SC;SP;DF,AC;AL;AM;AP;BA;DF;MA;MG;MT;PA;PB;PI;PR;RJ;RR,conv142_anexo_ii,2024-10-01,01.019.00;01.062.01;01.112.00;01.127.00;01.128.00;01.999.00,AC;AL;AM;AP;BA;DF;MA;MG;MT;PA;PB;PI;PR;RJ;RR,https://www.confaz.fazenda.gov.br/legislacao/protocolos/2008/pt041_08,0,0

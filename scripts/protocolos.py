@@ -57,7 +57,12 @@ PROTOCOLOS = [
     {"protocolo": "104/08", "pagina": "2008/pt104_08", "signatarios": ["AL", "SP"], "destinos_de_sp": ["AL"]},
     {"protocolo": "104/09", "pagina": "2009/pt104_09", "signatarios": ["BA", "SP"], "destinos_de_sp": ["BA"]},
     {"protocolo": "128/10", "pagina": "2010/pt128_10", "signatarios": ["PE", "SP"], "destinos_de_sp": ["PE"]},
+    # Autopeças (segmento 01). Multilateral: SP assina e a cláusula primeira lista os destinos.
+    {"protocolo": "41/08", "pagina": "2008/pt041_08", "segmento": "01",
+     "signatarios": ["AP", "AM", "BA", "MA", "MT", "MG", "PA", "PR", "PI", "RS", "SC", "SP", "DF"],
+     "destinos_de_sp": ["AC", "AL", "AM", "AP", "BA", "DF", "MA", "MG", "MT", "PA", "PB", "PI", "PR", "RJ", "RR"]},
 ]
+SEGMENTO = {p["protocolo"]: p.get("segmento", "10") for p in PROTOCOLOS}
 
 _PROT = re.compile(r"Prot(?:ocolo)?\.?\s*ICMS\s*(?:n[ºo°]\s*)?(\d+)\s*/\s*(\d{2,4})", re.I)
 _NCM_CEL = re.compile(r"\d{2}\.?\d{2}")
@@ -210,11 +215,35 @@ def ler_clausula_primeira(raiz) -> dict:
                 if re.search(r"(?i)cl.usula primeira", tq) and "efeitos" in tq.lower():
                     nota = ler_nota(tq, False)
                     break
-            modelo = "conv142_anexo_xi" if re.search(r"Anexo XI do Conv", t, re.I) else "lista_propria"
+            ref = re.search(r"Anexo ([IVXL]+) do Conv[eê]nio ICMS n?.?\s*142", t, re.I)
+            modelo = f"conv142_anexo_{ref.group(1).lower()}" if ref else "lista_propria"
             return {"texto": t, "modelo": modelo, "desde": nota.inicio if nota else None,
                     "norma": nota.norma if nota else None,
-                    "cests_excluidos": cests_excluidos(t) if modelo == "conv142_anexo_xi" else []}
-    return {"texto": "", "modelo": "lista_propria", "desde": None, "norma": None, "cests_excluidos": []}
+                    "cests_excluidos": cests_excluidos(t) if modelo != "lista_propria" else [],
+                    "destinos_na_clausula": ufs_destino(t)}
+    return {"texto": "", "modelo": "lista_propria", "desde": None, "norma": None, "cests_excluidos": [],
+            "destinos_na_clausula": []}
+
+
+_UF_NOME = {"Acre": "AC", "Alagoas": "AL", "Amapá": "AP", "Amazonas": "AM", "Bahia": "BA", "Ceará": "CE",
+            "Distrito Federal": "DF", "Espírito Santo": "ES", "Goiás": "GO", "Maranhão": "MA", "Mato Grosso do Sul": "MS",
+            "Mato Grosso": "MT", "Minas Gerais": "MG", "Pará": "PA", "Paraíba": "PB", "Paraná": "PR", "Pernambuco": "PE",
+            "Piauí": "PI", "Rio de Janeiro": "RJ", "Rio Grande do Norte": "RN", "Rio Grande do Sul": "RS",
+            "Rondônia": "RO", "Roraima": "RR", "Santa Catarina": "SC", "São Paulo": "SP", "Sergipe": "SE",
+            "Tocantins": "TO"}
+
+
+def ufs_destino(clausula: str) -> list[str]:
+    """'destinadas aos Estados do Acre, ..., Roraima e o Distrito Federal, fica' -> ['AC', ..., 'DF']."""
+    m = re.search(r"destinad[ao]s? (?:aos?|às?) (?:Estados?|unidades).*?(?=, fica|\. |$)", clausula, re.I)
+    if not m:
+        return []
+    trecho, achados = m.group(0), []
+    for nome in sorted(_UF_NOME, key=len, reverse=True):
+        if nome in trecho:
+            achados.append(_UF_NOME[nome])
+            trecho = trecho.replace(nome, "")
+    return sorted(achados)
 
 
 def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
@@ -388,11 +417,11 @@ def carregar_conv142() -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def cests_provaveis(ncms: list[str], conv: list[dict]) -> list[str]:
-    """CESTs de materiais de construção (segmento 10) cujo NCM cobre o do item, ou é coberto por ele."""
+def cests_provaveis(ncms: list[str], conv: list[dict], segmento: str = "10") -> list[str]:
+    """CESTs do segmento do protocolo (10 = construção) cujo NCM cobre o do item, ou é coberto por ele."""
     achados = []
     for r in conv:
-        if not r["cest"].startswith("10."):
+        if not r["cest"].startswith(segmento + "."):
             continue
         for c in r["ncms"].split(";"):
             c = c.replace(".", "").strip()
@@ -406,10 +435,11 @@ def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None
     destinos = {p["protocolo"]: p["destinos_de_sp"] for p in PROTOCOLOS}
     linhas = []
     for prot, cl in (clausulas or {}).items():
-        if cl["modelo"] != "conv142_anexo_xi":
+        if not cl["modelo"].startswith("conv142_anexo_"):
             continue
+        anexo = cl["modelo"].rsplit("_", 1)[1].upper()
         for r in conv:
-            if r["anexo"] != "XI" or r["cest"] in cl["cests_excluidos"]:
+            if r["anexo"] != anexo or r["cest"] in cl["cests_excluidos"]:
                 continue
             for uf in destinos[prot]:
                 linhas.append({
@@ -427,7 +457,7 @@ def matriz_sp(itens: list[Item], conv: list[dict], clausulas: dict | None = None
                 "origem": "SP", "destino": uf, "protocolo": f"Prot. ICMS {i.protocolo}", "item": i.item,
                 "ncm_sh": i.ncm_sh, "ncms": ";".join(ncms), "descricao": i.descricao,
                 "mva_original": "" if i.mva_original is None else f"{i.mva_original:g}",
-                "cests_provaveis": ";".join(cests_provaveis(ncms, conv)),
+                "cests_provaveis": ";".join(cests_provaveis(ncms, conv, SEGMENTO[i.protocolo])),
                 "vigencia_inicio": _iso(i.vigencia_inicio),
             })
     return linhas
@@ -480,7 +510,8 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             w.writerows(linhas)
     with (destino / "protocolos.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["protocolo", "signatarios", "destinos_de_sp", "modelo", "clausula_desde",
-                                          "cests_excluidos", "url", "itens_vigentes", "com_mva_no_protocolo"])
+                                          "cests_excluidos", "destinos_na_clausula", "url", "itens_vigentes",
+                                          "com_mva_no_protocolo"])
         w.writeheader()
         for p in PROTOCOLOS:
             vig = [i for i in resultados[p["protocolo"]]["itens"] if i.situacao == "vigente"]
@@ -488,6 +519,7 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             w.writerow({"protocolo": f"Prot. ICMS {p['protocolo']}", "signatarios": ";".join(p["signatarios"]),
                         "destinos_de_sp": ";".join(p["destinos_de_sp"]), "modelo": cl["modelo"],
                         "clausula_desde": _iso(cl["desde"]), "cests_excluidos": ";".join(cl["cests_excluidos"]),
+                        "destinos_na_clausula": ";".join(cl.get("destinos_na_clausula", [])),
                         "url": BASE_URL + p["pagina"],
                         "itens_vigentes": len(vig), "com_mva_no_protocolo": sum(i.mva_original is not None for i in vig)})
     meta = dict(meta)
