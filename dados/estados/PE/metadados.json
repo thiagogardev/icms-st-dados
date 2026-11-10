@@ -1,0 +1,20 @@
+{
+  "fonte": "SEFAZ-PE, Decreto 44.650/2017 consolidado, Anexo 37-C",
+  "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/legislacao/44650/texto/Dec44650_2017.htm",
+  "cabecalho_do_anexo": "ANEXO 37-C (Dec. 58.019/2025 – efeitos a partir de 1°.02.2025) MATERIAL DE CONSTRUÇÃO E CONGÊNERES SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 119 e 120 do Anexo 37) (Dec. 61.284/2026 – efeitos a partir de 1°.01.2027) Redação anterior, efeitos até 31.12.2026: MATERIAL DE CONSTRUÇÃO E CONGÊNERES SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 119 e 120)",
+  "sha256": "a1ca550045ca66bc94a3c0754d30394f1dc765fcafa64c8e87daec47bbc05d65",
+  "obtido_em": "2026-11-10T10:40:35+00:00",
+  "data_referencia": "2026-11-10",
+  "contagens": {
+    "itens": 73,
+    "itens_com_cest": 73,
+    "cruzamento": {
+      "mva_igual": 47,
+      "mva_igual_em_um_dos_cests": 7,
+      "mva_diferente": 1,
+      "protocolo_sem_mva": 0,
+      "cest_fora_do_anexo_37c": 0,
+      "sem_cest": 2
+    }
+  }
+}

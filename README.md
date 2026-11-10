@@ -323,6 +323,36 @@ MT. Nesses 46, a ST não vem do protocolo: quem retém não é o remetente de SP
 .venv/Scripts/python scripts/estado_mt.py   # baixa da SEFAZ-MT e grava em dados/estados/MT
 ```
 
+## Pernambuco: MVA de materiais de construção
+
+O oitavo conjunto, em `dados/estados/PE/`, lê o Anexo 37-C do Decreto
+44.650/2017 (criado pelo Decreto 58.019/2025, efeitos desde 01/02/2025), no
+texto consolidado da SEFAZ-PE. A tabela só traz o número do item do Anexo XI do
+Convênio 142 e uma MVA única, para operação interna ou importação: **73 itens**.
+O script junta cada item ao conjunto do Conv. 142 para ter CEST, NCM e
+descrição.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens.csv` | Anexo e item do Conv. 142, MVA, CEST, NCM/SH e descrição |
+| `cruzamento_prot_128_10.csv` | A MVA do Prot. ICMS 128/10 (SP-PE) x a do Anexo 37-C, pelo CEST provável |
+
+Cruzamento em 10/11/2026: 47 MVAs iguais, 7 iguais em um dos CESTs prováveis e
+**1 diferença real**: caixas d'água, telhas e calhas de fibrocimento (NCM 6811,
+CEST 10.024.00) têm 56% no protocolo e 41% no anexo do PE. Duas linhas do
+protocolo (juntas de borracha e tapetes) não têm CEST provável.
+
+### Estados sem fonte automática
+
+- **RJ:** o portal de legislação da SEFAZ-RJ só responde a navegadores, e o
+  Anexo I do Livro II do RICMS (lista e MVAs) é um arquivo .doc. Fica fora da
+  coleta automática; a cobertura SP-RJ vem do Prot. 32/14, que traz MVA.
+- **ES:** a Portaria 16-R/2019, que divulga as MVAs, está numa base de
+  legislação (www2.sefaz.es.gov.br) que não resolve mais no DNS. A cobertura
+  SP-ES vem do Prot. 20/13.
+- **AP e PA:** ver a seção dos protocolos (PA só atende navegadores; AP não
+  tem texto consolidado oficial).
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
@@ -378,3 +408,8 @@ A seventh dataset joins Mato Grosso's two acts: the RICMS Annex X appendix
 per item for taxpayers using the granted-credit regime or Simples, and a single
 MVA per segment for everyone else (construction: 74.75%). Every CEST of the
 SP -> MT protocol is on Mato Grosso's list.
+
+An eighth dataset reads Pernambuco's Annex 37-C (73 items keyed to Convênio 142
+Annex XI, one MVA each) and finds one real MVA difference from the SP -> PE
+protocol (fiber-cement products, 56% vs 41%). Rio de Janeiro and Espírito Santo
+have no source that can be collected automatically.
