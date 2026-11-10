@@ -1,0 +1,19 @@
+{
+  "fonte": "Receita Estadual RS, RICMS (Decreto 37.699/1997), Apêndice II, Seção III",
+  "url": "https://legislacao.sefaz.rs.gov.br/Site/DocumentView.aspx?inpKey=109362&inpCodDispositive=0&inpStToValidateDoc=&inpForceEdit=&inpDtTimeTunnel=&inpDsKeywords=&Debug=",
+  "sha256": "1979849c3d141009c932b406b22adafd31ec3e4165671753af14903d484d9e51",
+  "obtido_em": "2026-11-10T00:00:28+00:00",
+  "data_referencia": "2026-11-09",
+  "contagens": {
+    "segmentos": 13,
+    "itens": 288,
+    "itens_com_mva_interna": 186,
+    "itens_com_excecao_de_origem": 29,
+    "cruzamento": {
+      "coerente": 77,
+      "so_rs_exclui": 0,
+      "so_protocolo_exclui": 0,
+      "excluido_no_protocolo_ausente_no_rs": 6
+    }
+  }
+}

@@ -197,6 +197,10 @@ A fonte é a versão consolidada sem histórico publicada pela SEF/MG, que traz
 só a redação vigente; as datas das mudanças passam a vir do monitor, que guarda
 cada versão da página.
 
+```bash
+.venv/Scripts/python scripts/estado_mg.py   # baixa da SEF/MG e grava em dados/estados/MG
+```
+
 ## Paraná: MVA original com vigência
 
 O quarto conjunto, em `dados/estados/PR/`, lê a Resolução SEFA 571/2019
@@ -224,16 +228,36 @@ condição; o segmento de construção sai sem aviso.
 .venv/Scripts/python scripts/estado_pr.py   # baixa do SEFANET e grava em dados/estados/PR
 ```
 
+## Rio Grande do Sul: lista estadual e MVA
+
+O quinto conjunto, em `dados/estados/RS/`, lê o RICMS/RS (Decreto 37.699/1997),
+Apêndice II, Seção III: 13 segmentos vigentes, **288 itens**, cada um com CEST,
+NCM, a MVA da operação interna (a original) e as já ajustadas para as operações
+interestaduais a 12% e a 4%, além das notas por item, como "Este número não se
+aplica às operações originárias do Estado de SP".
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens.csv` | Segmento, número, CEST, NCM/SH, descrição, `mva_interna`, `mva_inter_12`, `mva_inter_4`, `nao_se_aplica_origem` (estados excluídos pela nota do item) e as notas de alteração |
+| `cruzamento_prot_92_09.csv` | Construção (item XXVI): os CESTs que o RS diz não valer para SP x os que o Prot. ICMS 92/09 exclui |
+
+O cruzamento deu **coerência total** em 09/11/2026: os 77 itens de construção
+do RS concordam com o protocolo, e os 6 CESTs que o protocolo exclui nem
+constam da lista do RS. A Receita publica o regulamento inteiro numa página de
+cerca de 10 MB; o servidor não envia o certificado intermediário no TLS, que
+fica em `certs/` (baixado do endereço que o próprio certificado indica) para a
+verificação continuar ligada. A página só anota as alterações feitas número a
+número; as datas das próximas mudanças vêm do monitor.
+
 ```bash
-.venv/Scripts/python scripts/estado_mg.py   # baixa da SEF/MG e grava em dados/estados/MG
+.venv/Scripts/python scripts/estado_rs.py   # baixa da Receita Estadual e grava em dados/estados/RS
 ```
 
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
 Os próximos são os protocolos dos demais segmentos e origens e as listas e
-MVAs dos outros estados (RS, BA e AP/PA, que completam as MVAs que os
-protocolos com SP não fixam).
+MVAs de BA e AP/PA, que completam as MVAs que os protocolos com SP não fixam.
 
 ## Licença
 
@@ -270,3 +294,7 @@ between the state law and the protocol.
 A fourth dataset extracts Paraná's original MVA table (SEFA Resolution 571/2019,
 a ~590-page PDF) with effective dates for every wording, reading words by their
 position on the page because the plain text scrambles the columns.
+
+A fifth dataset reads Rio Grande do Sul's ST list (RICMS, Appendix II, Section
+III: 288 items with original and adjusted MVA) and matches the SP -> RS
+protocol exclusions exactly.

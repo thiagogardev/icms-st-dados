@@ -1,0 +1,84 @@
+cest,numero,descricao,rs_exclui_sp,prot_92_09_exclui,situacao
+10.001.00,1,Cal,nao,nao,coerente
+10.002.00,2,Argamassas,nao,nao,coerente
+10.003.00,3,Outras argamassas,nao,nao,coerente
+10.004.00,4,"Silicones em formas primárias, para uso na construção",nao,nao,coerente
+10.005.00,5,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC, para uso na construção",nao,nao,coerente
+10.006.00,6,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos, para uso n",nao,nao,coerente
+10.007.00,7,Revestimento de pavimento de PVC e outros plásticos,nao,nao,coerente
+10.008.00,8,"Chapas, folhas, tiras, fitas, películas e outras formas planas, autoadesivas, de plásticos, mesmo em",nao,nao,coerente
+10.009.00,9,"Veda rosca, lona plástica para uso na construção, fitas isolantes e afins",nao,nao,coerente
+10.010.00,10,"Telha de plástico, mesmo reforçada com fibra de vidro",nao,nao,coerente
+10.012.00,11,"Chapas, laminados plásticos em bobina, para uso na construção, exceto os descritos no CEST 10.010.00",nao,nao,coerente
+10.013.00,12,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixa",nao,nao,coerente
+10.014.00,13,"Artefatos de higiene/toucador de plástico, para uso na construção",nao,nao,coerente
+10.015.00,14,"Caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra de vidro",nao,nao,coerente
+10.016.00,15,"Outras telhas, cumeeira e caixa d’água, inclusive sua tampa, de plástico, mesmo reforçadas com fibra",nao,nao,coerente
+10.018.00,16,"Portas, janelas e seus caixilhos, alizares e soleiras",nao,nao,coerente
+10.019.00,17,"Postigos, estores (incluídas as venezianas) e artefatos semelhantes e suas partes",sim,sim,coerente
+10.020.00,18,"Outras obras de plástico, para uso na construção",nao,nao,coerente
+10.021.00,19,Papel de parede e revestimentos de parede semelhantes; papel para vitrais,nao,nao,coerente
+10.022.00,20,Telhas de concreto,nao,nao,coerente
+10.024.00,21,"Caixas d'água, tanques e reservatórios e suas tampas, telhas, calhas, cumeeiras e afins, de fibrocim",nao,nao,coerente
+10.025.00,22,"Tijolos, placas (lajes), ladrilhos e outras peças cerâmicas de farinhas siliciosas fósseis (""kieselg",sim,sim,coerente
+10.026.00,23,"Tijolos, placas (lajes), ladrilhos e peças cerâmicas semelhantes, para uso na construção, refratário",sim,sim,coerente
+10.027.00,24,"Tijolos para construção, tijoleiras, tapa-vigas e produtos semelhantes, de cerâmica",sim,sim,coerente
+10.028.00,25,"Telhas, elementos de chaminés, condutores de fumaça, ornamentos arquitetônicos, de cerâmica, e outro",sim,sim,coerente
+10.029.00,26,"Tubos, calhas ou algerozes e acessórios para canalizações, de cerâmica",nao,nao,coerente
+10.030.00,27,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",nao,nao,coerente
+10.031.00,28,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictóri",nao,nao,coerente
+10.032.00,29,Artefatos de higiene/toucador de cerâmica,nao,nao,coerente
+10.033.00,30,"Vidro vazado ou laminado, em chapas, folhas ou perfis, mesmo com camada absorvente, refletora ou não",sim,sim,coerente
+10.034.00,31,"Vidro estirado ou soprado, em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualque",sim,sim,coerente
+10.035.00,32,"Vidro flotado e vidro desbastado ou polido em uma ou em ambas as faces, em chapas ou em folhas, mesm",sim,sim,coerente
+10.036.00,33,Vidros temperados,sim,sim,coerente
+10.037.00,34,Vidros laminados,sim,sim,coerente
+10.038.00,35,Vidros isolantes de paredes múltiplas,sim,sim,coerente
+10.039.00,36,"Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo a",sim,sim,coerente
+10.040.00,37,"Barras próprias para construções, exceto vergalhões",nao,nao,coerente
+10.041.00,38,"Outras barras próprias para construções, exceto vergalhões",nao,nao,coerente
+10.042.00,39,Vergalhões,nao,nao,coerente
+10.043.00,40,Outros vergalhões,nao,nao,coerente
+10.044.00,41,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos; cordas, cabos, tranças (entrançados",nao,nao,coerente
+10.045.01,42,"Outros fios de ferro ou aço, não ligados, galvanizados",nao,nao,coerente
+10.046.00,43,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",nao,nao,coerente
+10.047.00,44,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",nao,nao,coerente
+10.048.00,45,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, ",nao,nao,coerente
+10.049.00,46,Treliças de aço,nao,nao,coerente
+10.051.00,47,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro",nao,nao,coerente
+10.052.00,48,"Arame farpado, de ferro ou aço, arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos ti",nao,nao,coerente
+10.053.00,49,"Telas metálicas, grades e redes, de fios de ferro ou aço",nao,nao,coerente
+10.054.00,50,"Correntes de rolos, de ferro fundido, ferro ou aço",nao,nao,coerente
+10.055.00,51,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",nao,nao,coerente
+10.056.00,52,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",nao,nao,coerente
+10.057.00,53,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de fe",nao,nao,coerente
+10.058.00,54,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cont",sim,sim,coerente
+10.059.00,55,"Palha de ferro ou aço, exceto os de uso doméstico classificados na posição NCM 7323.10.00",nao,nao,coerente
+10.060.00,56,"Artefatos de higiene ou de toucador, e suas partes, de ferro fundido, ferro ou aço, incluídas as pia",nao,nao,coerente
+10.061.00,57,"Outras obras moldadas, de ferro fundido, ferro ou aço, para uso na construção",nao,nao,coerente
+10.062.00,58,Abraçadeiras,nao,nao,coerente
+10.063.00,59,Barras de cobre,sim,sim,coerente
+10.064.00,60,"Tubos de cobre e suas ligas, para instalações de água quente e gás, para uso na construção",sim,sim,coerente
+10.065.00,61,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas, para ",nao,nao,coerente
+10.066.00,62,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabe",nao,nao,coerente
+10.067.00,63,"Artefatos de higiene/toucador de cobre, para uso na construção",nao,nao,coerente
+10.068.00,64,Manta de subcobertura aluminizada,nao,nao,coerente
+10.070.00,65,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio, para uso na co",nao,nao,coerente
+10.071.00,66,"Construções e suas partes (por exemplo, pontes e elementos de pontes, torres, pórticos ou pilones, p",nao,nao,coerente
+10.072.00,67,"Artefatos de higiene/toucador de alumínio, para uso na construção",nao,nao,coerente
+10.073.00,68,"Outras obras de alumínio, próprias para construções, incluídas as persianas",sim,sim,coerente
+10.074.00,69,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construções, inclusive pux",nao,nao,coerente
+10.075.00,70,"Fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas part",nao,nao,coerente
+10.076.00,71,"Dobradiças de metais comuns, de qualquer tipo",nao,nao,coerente
+10.077.00,72,"Tubos flexíveis de metais comuns, mesmo com acessórios, para uso na construção",nao,nao,coerente
+10.078.00,73,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos m",nao,nao,coerente
+10.079.00,74,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhante",nao,nao,coerente
+10.080.00,75,"Espelhos de vidro, mesmo emoldurados, exceto os de uso automotivo",sim,sim,coerente
+10.059.01,76,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de fe",nao,nao,coerente
+10.041.01,77,Outros vergalhões,nao,nao,coerente
+10.011.00,,,,sim,excluido_no_protocolo_ausente_no_rs
+10.017.00,,,,sim,excluido_no_protocolo_ausente_no_rs
+10.030.01,,,,sim,excluido_no_protocolo_ausente_no_rs
+10.045.00,,,,sim,excluido_no_protocolo_ausente_no_rs
+10.050.00,,,,sim,excluido_no_protocolo_ausente_no_rs
+10.069.00,,,,sim,excluido_no_protocolo_ausente_no_rs
