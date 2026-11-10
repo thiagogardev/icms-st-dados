@@ -172,6 +172,13 @@ o texto do protocolo cita SP, mas a aplicação nas entradas em SP depende de at
 do Secretário da Fazenda que não foi editado (Comunicado CAT 36/2009). A
 `matriz_sp_destino.csv` continua igual, só com a origem SP.
 
+**Publicação e alterações (10/11/2026).** `protocolos.csv` traz, lidos do cabeçalho
+de cada página do Confaz: `publicado_dou` (data da publicação no DOU), `despacho`,
+`retificacoes_dou`, `alterado_por` (os protocolos que mudaram o texto, em ordem) e
+`notas_do_cabecalho`, as remissões "Vide" e "Ver" que o Confaz registra, como
+"Ver Despacho 30/08, quanto à aplicação no AP e DF" ou a inclusão de um estado
+por outro protocolo.
+
 | Arquivo | Conteúdo |
 | --- | --- |
 | `matriz_sp_destino.csv` | Uma linha por item vigente e estado de destino: protocolo, item, NCM/SH, descrição, MVA original (quando o protocolo a fixa) e os CESTs prováveis do Convênio 142 |

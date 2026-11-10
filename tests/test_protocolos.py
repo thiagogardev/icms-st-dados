@@ -194,3 +194,16 @@ def test_matriz_de_outras_origens():
     para_sp = p.consultar(m, "73261900", "SP", origem="MG")    # 32/09 cita SP, mas SP não regulamentou
     assert para_sp and all(r["efeito_no_destino"].startswith("depende de ato") for r in para_sp)
     assert not any(r["efeito_no_destino"] for r in m if r["destino"] != "SP")
+
+
+def test_cabecalho_de_publicacao():
+    cab = ("PROTOCOLO ICMS 60/11 Publicado no DOU de 18.08.11, pelo Despacho 147/11. Retificação no DOU de 19.08.11, "
+           "19.08.11 e 24.11.11. Alterado pelo Prot. ICMS 16/14 , 34/15, 19/16 e 55/26. PA incluído pelo Prot. ICMS 59/21, "
+           "além de outras alterações, efeitos a partir de 01.01.22. Vide, quanto à aplicação no Estado de AP, os Despachos "
+           "108/08 e 08/09. Dispõe sobre a substituição tributária")
+    c = p.cabecalho_publicacao(cab)
+    assert c["publicado_dou"] == "2011-08-18" and c["despacho"] == "147/11"
+    assert c["retificacoes_dou"] == ["2011-08-19", "2011-11-24"]
+    assert c["alterado_por"] == ["Prot. ICMS 16/14", "Prot. ICMS 34/15", "Prot. ICMS 19/16", "Prot. ICMS 55/26"]
+    assert any(n.startswith("Vide, quanto à aplicação no Estado de AP") for n in c["notas"])
+    assert any(n.endswith("efeitos a partir de 01.01.22") for n in c["notas"])

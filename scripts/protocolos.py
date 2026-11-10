@@ -270,6 +270,40 @@ def revogacao_total(cabecalho: str) -> tuple[date, str] | None:
     return date(a + 2000 if a < 100 else a, mes, d), f"Prot. ICMS {numero}"
 
 
+def _data_dou(d: str, m: str, a: str) -> str:
+    ano = int(a) + (2000 if len(a) == 2 and int(a) < 80 else 1900 if len(a) == 2 else 0)
+    return date(ano, int(m), int(d)).isoformat()
+
+
+def cabecalho_publicacao(texto: str) -> dict:
+    """Cabeçalho da página do Confaz: 'Publicado no DOU de 18.07.14, pelo Despacho 129/14. Retificação no
+    DOU de 21.08.14. Alterado pelos Prots. ICMS 9/15, 21/15 e 64/25. Vide Despacho 6/15, relativamente a
+    MVA do DF.' -> publicação, despacho, retificações, protocolos alteradores e as notas 'Vide'/'Ver'."""
+    i = texto.find("Publicado")
+    if i < 0:
+        return {"publicado_dou": "", "despacho": "", "retificacoes_dou": [], "alterado_por": [], "notas": []}
+    fim = texto.find("Dispõe sobre", i)
+    cab = texto[i:fim if fim > 0 else i + 3000]
+    pub = re.search(r"Publicado no DOU de (\d{1,2})\.(\d{1,2})\.(\d{2,4})", cab)
+    desp = re.search(r"p\s?elo Despacho (\d+\s*/\s*\d{2,4})", cab)
+    retif = []
+    for m in re.finditer(r"Retifica[çc][ãa]o no DOU de ([\d.,\se]+)", cab):
+        retif += [_data_dou(*d) for d in re.findall(r"(\d{1,2})\.(\d{1,2})\.(\d{2,4})", m.group(1))]
+    alteradores: list[str] = []
+    for m in re.finditer(r"Alterad[oa]s? pel[oa]s? (?:Prots?\.?|Protocolos?)\s*ICMS\s*(.+?)(?=\.\s+[A-Z]|\.$|Revogad|$)", cab):
+        for n in re.findall(r"(\d+)\s*/\s*(\d{2,4})", m.group(1)):
+            alteradores.append(f"Prot. ICMS {int(n[0])}/{n[1][-2:]}")
+    # "01.01.22" e "Prot. ICMS" têm ponto: a nota vai até o primeiro ponto seguido de espaço e maiúscula.
+    frase = r"(?:[^.]|\.(?=\d)|\.(?=\s*ICMS)|\.(?=\s[a-z]))+"
+    notas = [n.strip(" .,") for n in re.findall(rf"\b((?:Vide|Ver)\b{frase})", cab)]
+    notas += [n.strip(" .,") for n in re.findall(rf"\b([A-Z]{{2}} inclu[íi]d[oa] pel[oa] Prot{frase})", cab)]
+    return {
+        "publicado_dou": _data_dou(*pub.groups()) if pub else "",
+        "despacho": re.sub(r"\s", "", desp.group(1)) if desp else "",
+        "retificacoes_dou": sorted(set(retif)), "alterado_por": list(dict.fromkeys(alteradores)), "notas": notas,
+    }
+
+
 def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
     from lxml import html
 
@@ -285,6 +319,7 @@ def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
     fim_cab = fim_cab if fim_cab >= 0 else 3000
     rev = revogacao_total(corpo[:fim_cab])
     clausula["revogado_desde"], clausula["revogado_por"] = (rev if rev else (None, None))
+    clausula["publicacao"] = cabecalho_publicacao(corpo)
     revogacao_anexo = None
     if clausula["modelo"] != "lista_propria":
         for p in conteudo[0].xpath(".//p[not(ancestor::table)]"):
@@ -567,7 +602,8 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             w.writerows(linhas)
     with (destino / "protocolos.csv").open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["protocolo", "signatarios", "destinos_de_sp", "modelo", "clausula_desde",
-                                          "cests_excluidos", "destinos_na_clausula", "revogado_desde", "revogado_por", "url", "itens_vigentes",
+                                          "cests_excluidos", "destinos_na_clausula", "revogado_desde", "revogado_por", "publicado_dou", "despacho",
+                                          "retificacoes_dou", "alterado_por", "notas_do_cabecalho", "url", "itens_vigentes",
                                           "com_mva_no_protocolo"])
         w.writeheader()
         for p in PROTOCOLOS:
@@ -578,6 +614,11 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
                         "clausula_desde": _iso(cl["desde"]), "cests_excluidos": ";".join(cl["cests_excluidos"]),
                         "destinos_na_clausula": ";".join(cl.get("destinos_na_clausula", [])),
                         "revogado_desde": _iso(cl.get("revogado_desde")), "revogado_por": cl.get("revogado_por") or "",
+                        "publicado_dou": cl.get("publicacao", {}).get("publicado_dou", ""),
+                        "despacho": cl.get("publicacao", {}).get("despacho", ""),
+                        "retificacoes_dou": ";".join(cl.get("publicacao", {}).get("retificacoes_dou", [])),
+                        "alterado_por": ";".join(cl.get("publicacao", {}).get("alterado_por", [])),
+                        "notas_do_cabecalho": " | ".join(cl.get("publicacao", {}).get("notas", [])),
                         "url": BASE_URL + p["pagina"],
                         "itens_vigentes": len(vig), "com_mva_no_protocolo": sum(i.mva_original is not None for i in vig)})
     meta = dict(meta)
