@@ -153,7 +153,8 @@ def test_destinos_configurados_batem_com_a_clausula_nos_multilaterais():
     with (RAIZ / "dados" / "protocolos" / "protocolos.csv").open(encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if r["destinos_na_clausula"] and r["protocolo"] == "Prot. ICMS 41/08":
-                assert r["destinos_na_clausula"] == r["destinos_de_sp"], r
+                # SP saiu do 41/08 (Prot. ICMS 93/26, desde 01/10/2026): sem destinos de SP
+                assert "SP" not in r["signatarios"].split(";") and r["destinos_de_sp"] == "", r
 
 
 def test_revogacao_do_protocolo_inteiro():
@@ -188,7 +189,9 @@ def test_matriz_de_outras_origens():
         m = list(csv.DictReader(f))
     cat = "38151210"  # catalisador, CEST 01.001.00 (autopeças)
     assert p.consultar(m, cat, "BA", origem="MG")        # 41/08: MG assina, BA é destino
-    assert p.consultar(m, cat, "MG", origem="RS")        # RS assina, MG é destino
+    assert p.consultar(m, cat, "MG", origem="PR")        # PR assina, MG é destino
+    assert not p.consultar(m, cat, "MG", origem="RS")    # RS saiu do 41/08 (Prot. ICMS 32/24, desde 01/11/2024)
+    assert not p.consultar(m, cat, "MG", origem="SP")    # SP saiu do 41/08 (Prot. ICMS 93/26, desde 01/10/2026)
     assert not p.consultar(m, cat, "RS", origem="SC")    # RS não é destino do 41/08
     # Construção entre outros estados: Prot. ICMS 26/10 (BA e MG, com adesão de ES, AP e PA), conferido no Confaz
     assert {r["protocolo"] for r in p.consultar(m, "73261900", "BA", origem="MG")} == {"Prot. ICMS 26/10"}
@@ -229,10 +232,12 @@ def test_protocolos_sem_sp_conferidos_no_confaz():
     """Casos conferidos no texto do Confaz em 10/11/2026 (cláusula primeira, preâmbulo e adesões)."""
     with MATRIZ_GERAL.open(encoding="utf-8") as f:
         m = list(csv.DictReader(f))
-    # Prot. 91/07 (rações pet, PR, RS e SC): posição 2309 entre os signatários
-    assert {r["protocolo"] for r in p.consultar(m, "23091000", "SC", origem="PR")} >= {"Prot. ICMS 91/07"}
-    # Prot. 13/06 (vinhos, só industrial ou importador): MG -> MT
-    vinho = [r for r in p.consultar(m, "22042100", "MT", origem="MG") if r["protocolo"] == "Prot. ICMS 13/06"]
+    # Prot. 91/07 (rações pet, PR e RS; SC excluído pelo Prot. ICMS 83/19 desde 01/03/2020)
+    assert {r["protocolo"] for r in p.consultar(m, "23091000", "RS", origem="PR")} >= {"Prot. ICMS 91/07"}
+    assert "Prot. ICMS 91/07" not in {r["protocolo"] for r in p.consultar(m, "23091000", "SC", origem="PR")}
+    # Prot. 13/06 (vinhos, só industrial ou importador): PI -> MT; MG saiu pelo Prot. ICMS 61/11 (desde 31/08/2011)
+    assert not [r for r in p.consultar(m, "22042100", "MT", origem="MG") if r["protocolo"] == "Prot. ICMS 13/06"]
+    vinho = [r for r in p.consultar(m, "22042100", "MT", origem="PI") if r["protocolo"] == "Prot. ICMS 13/06"]
     assert vinho and vinho[0]["remetente"] == "industrial_ou_importador"
     # Prot. 14/06 (bebidas quentes): exceto aguardente, que está no 15/06 (MG não assina o 15/06)
     assert not [r for r in p.consultar(m, "22084000", "MT", origem="MG") if r["protocolo"] == "Prot. ICMS 15/06"]

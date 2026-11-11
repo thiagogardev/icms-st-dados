@@ -82,6 +82,51 @@ def signatarios(conteudo_texto: str) -> list[str]:
     return sorted(achados)
 
 
+_SIGLAS = set(p._UF_NOME.values())
+# Notas do cabeçalho que mudam quem participa: "Exclusão do MA pelo Prot. ICMS 161/13, efeitos a partir de
+# 01.01.14", "Exclusão de SE e outras alterações, pelo Prot. ICMS 12/23", "Denunciado por GO, conforme Despacho
+# 182/17", "Adesão do PA pelo Prot. ICMS 62/21". A ordem importa: um estado pode sair e voltar.
+_MUDANCA = re.compile(
+    r"(?P<tipo>Exclus[ãa]o|Exclu[íi]d[oa]s?|Den[uú]ncia|Denunciad[oa])\s+(?:d[oae]s?|por|pel[oa]s?)\s+(?P<quem>.{2,120}?)"
+    r"(?:,?\s*a partir de\s*(?P<d0>\d{1,2})[º°o]?\.(?P<m0>\d{1,2})\.(?P<a0>\d{2,4}),?)?"
+    r"(?:,?\s*(?:e outras altera[çc][õo]es,?\s*)?(?:pel[oa]s?|conforme)\s+(?P<norma>(?:Prot(?:ocolo)?\.?|Despacho|Conv[êe]nio)\s*(?:ICMS\s*)?(?:n[ºo°]\s*)?\d+\s*/\s*\d{2,4}))"
+    r"(?:\s*(?:e outras altera[çc][õo]es)?\s*,?\s*(?:com |produzindo )?efeitos? (?:a partir )?de\s*(?P<d>\d{1,2})[º°o]?\.(?P<m>\d{1,2})\.(?P<a>\d{2,4}))?",
+    re.I)
+_ADESAO = re.compile(r"Ades[ãa]o\s+d[oae]s?\s+(?P<quem>.{2,80}?)\s+pel[oa]s?\s+(?P<norma>Prot(?:ocolo)?\.?\s*(?:ICMS\s*)?\d+/\d{2,4})", re.I)
+
+
+def _ufs_em(trecho: str) -> list[str]:
+    achados = []
+    for nome in sorted(p._UF_NOME, key=len, reverse=True):
+        if nome in trecho:
+            achados.append(p._UF_NOME[nome])
+            trecho = trecho.replace(nome, "")
+    achados += [s for s in re.findall(r"\b([A-Z]{2})\b", trecho) if s in _SIGLAS]
+    return list(dict.fromkeys(achados))
+
+
+def mudancas_de_signatarios(cabecalho: str, ref: date) -> list[dict]:
+    """Saídas (exclusão, denúncia) e adesões nas notas do cabeçalho, na ordem do texto."""
+    eventos = []
+    for m in _MUDANCA.finditer(cabecalho):
+        desde = None
+        sufixo = "" if m.group("a") else "0"
+        if m.group("a" + sufixo):
+            a = int(m.group("a" + sufixo))
+            try:
+                desde = date(a + 2000 if a < 100 else a, int(m.group("m" + sufixo)), int(m.group("d" + sufixo)))
+            except ValueError:
+                desde = None
+        for uf in _ufs_em(m.group("quem")):
+            eventos.append({"pos": m.start(), "uf": uf, "tipo": "saida", "norma": re.sub(r"\s*/\s*", "/", re.sub(r"\s+", " ", m.group("norma"))),
+                            "desde": desde.isoformat() if desde else "", "valendo": desde is None or desde <= ref})
+    for m in _ADESAO.finditer(cabecalho):
+        for uf in _ufs_em(m.group("quem")):
+            eventos.append({"pos": m.start(), "uf": uf, "tipo": "adesao", "norma": re.sub(r"\s+", " ", m.group("norma")),
+                            "desde": "", "valendo": True})
+    return sorted(eventos, key=lambda e: e["pos"])
+
+
 def indice(ano: int, cliente) -> list[tuple[str, str, str, str]]:
     import httpx
 
@@ -144,6 +189,7 @@ def ler(pagina_html: str, ref: date) -> dict:
     rev = p.revogacao_total(corpo[:fim if fim >= 0 else 3000])
     preambulo = signatarios(corpo)
     destinos = cl["destinos_na_clausula"]
+    mud = mudancas_de_signatarios(corpo[:fim if fim >= 0 else 3000], ref)
     # "realizadas entre contribuintes situados nas unidades federadas signatárias": o destino são os signatários.
     # "entre contribuintes situados nas unidades federadas signatárias / nos seus territórios", "entre estabelecimentos
     # localizados em seus territórios", "destinadas aos Estados signatários": o destino são os signatários.
@@ -153,13 +199,28 @@ def ler(pagina_html: str, ref: date) -> dict:
     # Retenção só pelo industrial ou importador (atacadista que revende não retém por este protocolo).
     restrito = bool(re.search(r"fica atribu[íi]da ao (?:estabelecimento |contribuinte )?(?:industrial|importador)", cl["texto"], re.I))
     # Quem aderiu depois aparece na lista de destinos da cláusula sem estar no preâmbulo.
-    sig = sorted(set(preambulo) | set(destinos))
+    # O preâmbulo vigente pode ainda listar quem saiu depois (exclusão ou denúncia nas notas): aplica as notas
+    # na ordem; a lista de destinos da cláusula vigente vale por último.
+    atual = set(preambulo)
+    saiu = set()
+    for e in mud:
+        if not e["valendo"]:
+            continue
+        if e["tipo"] == "saida":
+            atual.discard(e["uf"])
+            saiu.add(e["uf"])
+        else:
+            atual.add(e["uf"])
+            saiu.discard(e["uf"])
+    sig = sorted(atual | set(destinos))
     if (entre or implicito) and not destinos:
         destinos = sig
     return {
         "signatarios": sig, "destinos_na_clausula": destinos, "regra_destino": ("entre_signatarios" if entre else "implicito_signatarios" if implicito else "lista_na_clausula" if cl["destinos_na_clausula"] else "nao_identificada"),
         "remetente": "industrial_ou_importador" if restrito else "qualquer",
         "modelo": cl["modelo"], "cests_excluidos": cl["cests_excluidos"], "clausula_desde": cl["desde"],
+        "saidas": [":".join(x for x in (e["uf"], e["norma"], e["desde"]) if x)
+                   for e in mud if e["tipo"] == "saida" and e["uf"] in saiu and e["uf"] not in sig],
         "revogado_desde": rev[0] if rev else None, "revogado_por": rev[1] if rev else "",
         "situacao": ("revogado" if rev[0] is None or rev[0] <= ref else "revogacao_futura") if rev else "vigente",
         "sp_signatario": "SP" in sig,
@@ -215,6 +276,7 @@ def main(argv: list[str] | None = None) -> int:
                     "segmento": ANEXO_SEGMENTO.get(info.get("modelo", "").rsplit("_", 1)[-1].upper(), "") if info.get("modelo", "").startswith("conv142") else segmento(titulo),
                     "signatarios": ";".join(info.get("signatarios", [])),
                     "destinos_na_clausula": ";".join(info.get("destinos_na_clausula", [])),
+                    "saidas": ";".join(info.get("saidas", [])),
                     "regra_destino": info.get("regra_destino", ""),
                     "remetente": info.get("remetente", ""),
                     "modelo": info.get("modelo", ""), "cests_excluidos": ";".join(info.get("cests_excluidos", [])),

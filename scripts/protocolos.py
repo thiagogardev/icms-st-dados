@@ -96,7 +96,36 @@ def carregar_catalogo(caminho: Path | None = None) -> list[dict]:
     return saida
 
 
+def aplicar_saidas_do_catalogo(protocolos: list[dict], caminho: Path | None = None) -> dict[str, list[str]]:
+    """Nos protocolos configurados à mão, tira quem saiu depois (exclusão ou denúncia nas notas do Confaz,
+    coluna "saidas" do catálogo, já filtrada pela data). Se SP saiu, SP deixa de ser origem: sem destinos de SP.
+    Devolve {protocolo: [UFs tiradas]}."""
+    caminho = caminho or RAIZ / "dados" / "protocolos" / "catalogo.csv"
+    if not caminho.exists():
+        return {}
+    with caminho.open(encoding="utf-8") as f:
+        saidas = {r["protocolo"].replace("Prot. ICMS ", ""): {s.split(":")[0] for s in r.get("saidas", "").split(";") if s}
+                  for r in csv.DictReader(f)}
+    tiradas = {}
+    for p in protocolos:
+        if p.get("do_catalogo"):
+            continue
+        fora = saidas.get(p["protocolo"], set()) & set(p["signatarios"])
+        if not fora:
+            continue
+        tiradas[p["protocolo"]] = sorted(fora)
+        p["signatarios"] = [u for u in p["signatarios"] if u not in fora]
+        if "SP" in fora:
+            p["destinos_de_sp"] = []
+        else:
+            p["destinos_de_sp"] = [u for u in p["destinos_de_sp"] if u not in fora]
+        if p.get("destinos"):
+            p["destinos"] = [u for u in p["destinos"] if u not in fora]
+    return tiradas
+
+
 PROTOCOLOS.extend(carregar_catalogo())
+SAIDAS_APLICADAS = aplicar_saidas_do_catalogo(PROTOCOLOS)
 SEGMENTO = {p["protocolo"]: p.get("segmento", "10") for p in PROTOCOLOS}
 REMETENTE = {p["protocolo"]: p.get("remetente", "") for p in PROTOCOLOS}
 

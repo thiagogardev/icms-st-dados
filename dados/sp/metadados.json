@@ -1,0 +1,15 @@
+{
+  "fonte": "SEFAZ-SP, Portaria CAT 68/2019 consolidada (legislacao.fazenda.sp.gov.br)",
+  "url": "https://legislacao.fazenda.sp.gov.br/Paginas/Portaria-CAT-68-de-2019.aspx",
+  "sha256": "10350284dcd72f434b78aacb74da089533ceda2b58470a9ab6c3e3178aaa4202",
+  "obtido_em": "2026-11-11T01:41:19+00:00",
+  "data_referencia": "2026-11-10",
+  "contagens": {
+    "anexos": 22,
+    "anexos_vigentes": 7,
+    "anexos_com_revogacao_futura": 1,
+    "itens": 839,
+    "itens_vigentes": 206,
+    "itens_com_revogacao_futura": 74
+  }
+}

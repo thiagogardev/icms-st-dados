@@ -33,9 +33,9 @@ ncm,destino,tem_st,mva_original,fonte
 73121090,AL,sim,44,Prot. ICMS 104/08 (Confaz) e Econet 09/11/2026
 84314390,MG,nao,,fora do Convênio 142
 84314390,RS,nao,,fora do Convênio 142
-38151210,MG,sim,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)
-38151210,RJ,sim,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)
-38151210,DF,sim,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)
+38151210,MG,nao,,Prot. ICMS 41/08: exclusão de SP pelo Prot. ICMS 93/26 desde 01/10/2026 (Confaz, 10/11/2026)
+38151210,RJ,nao,,Prot. ICMS 41/08: exclusão de SP pelo Prot. ICMS 93/26 desde 01/10/2026 (Confaz, 10/11/2026)
+38151210,DF,nao,,Prot. ICMS 41/08: exclusão de SP pelo Prot. ICMS 93/26 desde 01/10/2026 (Confaz, 10/11/2026)
 38151210,SC,nao,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)
 38151210,RS,nao,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)
 38151210,ES,nao,,Prot. ICMS 41/08 cl. primeira (Confaz, 10/11/2026)

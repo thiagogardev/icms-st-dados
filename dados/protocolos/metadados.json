@@ -297,15 +297,15 @@
       "sha256": "ac99b39f622c9de00d7ecfb8f7641d474b270ccef5d8740502ecc57aa4c5e047"
     }
   ],
-  "obtido_em": "2026-11-11T01:16:56+00:00",
+  "obtido_em": "2026-11-11T01:45:11+00:00",
   "data_referencia": "2026-11-10",
   "escopo": "todos os protocolos ICMS de ST vigentes no Confaz (catálogo) mais os revogados já lidos; matriz SP -> destino e matriz origem -> destino de todos os signatários",
   "contagens": {
     "protocolos": 59,
     "redacoes": 7330,
     "itens_vigentes": 1529,
-    "linhas_matriz": 3702,
-    "linhas_matriz_origem_destino": 102456,
+    "linhas_matriz": 1777,
+    "linhas_matriz_origem_destino": 90702,
     "divergencias_da_fonte": 35,
     "notas_nao_associadas": 30
   }

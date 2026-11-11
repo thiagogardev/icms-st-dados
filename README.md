@@ -193,6 +193,30 @@ ou implícita), segmento (pelo anexo do Convênio 142 ou pelo título) e
 (sorvetes, vinhos, bebidas quentes, aguardente, materiais elétricos e os
 Prots. 82/11 e 83/11); nesses, o atacadista que revende não retém.
 
+**Quem saiu depois.** O preâmbulo vigente de um protocolo continua listando
+os estados que o assinaram, mesmo os que saíram depois. As saídas ficam nas
+notas do cabeçalho ("Exclusão do MA pelo Prot. ICMS 161/13, efeitos a partir de
+01.01.14", "Denunciado por GO, conforme Despacho 182/17", "Exclusão de SP pelo
+Prot. ICMS 93/26 e outras alterações, efeitos a partir de 01.10.26"), junto com
+as adesões. O catálogo aplica essas notas na ordem (um estado pode sair e
+voltar), grava a coluna `saidas` (UF, norma e data) e tira esses estados dos
+signatários; a lista de destinos da cláusula vigente vale por último. Os
+protocolos configurados à mão recebem as mesmas saídas. Na leitura de
+10/11/2026 isso mudou 14 protocolos vigentes; os casos de maior efeito:
+
+- **Prot. 41/08 (autopeças): SP saiu pelo Prot. ICMS 93/26, desde 01/10/2026**
+  (a mesma data em que SP tirou autopeças da ST interna). RS saiu em 01/11/2024
+  e SC por denúncia em 2020. SP deixa de ser origem do 41/08.
+- **Prot. 96/09 (bebidas quentes):** RS e SP saíram pelo Prot. ICMS 55/25.
+- **Prot. 85/11 (construção):** RN (2012), MA (2014), GO (denúncia em 2017) e SE
+  (2023) saíram; a matriz não tem mais essas origens.
+- **Prot. 84/11 (materiais elétricos):** MA, GO e RS saíram.
+- SC saiu dos Prots. 91/07, 192/09, 193/09, 195/09, 196/09 e 198/09 entre 2018
+  e 2020.
+
+Com isso a matriz origem -> destino caiu para **90.702 linhas** e a SP ->
+destino para 1.777.
+
 O leitor de protocolos lê agora os 54 vigentes mais os revogados já
 configurados: **59 protocolos, 7.330 redações, 1.529 itens vigentes**, matriz
 SP -> destino com 3.702 linhas e matriz origem -> destino com **102.456 linhas**
@@ -533,6 +557,52 @@ protocolos com destino SC nos segmentos que SC não mantém na ST entram em
 (203/09) e ração pet (91/07). Na matriz, 110 linhas com destino SC ficam
 marcadas; as bebidas quentes (103/12) seguem valendo.
 
+## São Paulo: ST interna (Portaria CAT 68/2019)
+
+`scripts/sp_cat68.py` lê a Portaria CAT 68/2019 consolidada da SEFAZ-SP, que
+lista em 22 anexos (um por segmento, cada um ligado a um artigo do RICMS/SP) as
+mercadorias com ST em SP. A revogação de cada anexo está numa nota logo abaixo
+do título, com a portaria e a data de vigência; itens têm notas próprias, e a
+página repete o número do item para as redações anteriores.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `dados/sp/cat68_anexos.csv` | Anexo, segmento, artigo do RICMS, situação, revogado desde, portaria |
+| `dados/sp/cat68_itens.csv` | Item, CEST, NCM, descrição, `redacao` (atual ou anterior), situação do anexo e do item, nota |
+
+Na leitura de 10/11/2026: **só 7 dos 22 anexos seguem vigentes** (fumo,
+cimento, cervejas e refrigerantes, motos, veículos, alimentos e eletrônicos),
+com 206 itens; construção (Anexo XVII, 64 itens) e mais 10 itens têm revogação
+marcada para **01/02/2027** (Portaria SRE 52/26). Saíram em 2026: medicamentos,
+bebidas alcoólicas, lâmpadas e artefatos domésticos (01/01, SRE 64/25),
+perfumaria (01/04, SRE 94/25), sorvetes e papelaria (01/07, SRE 09/26), ração e
+limpeza (01/08, SRE 20/26), pneus, tintas, autopeças, ferramentas e elétricos
+(01/10, SRE 34/26). As MVAs (IVA-ST) de SP ficam nas Portarias SRE que o monitor
+já vigia; a leitura delas é o próximo passo deste conjunto.
+
+## Paraíba: segmentos na ST
+
+`scripts/estado_segmentos.py PB` lê o Anexo 05 do RICMS/PB (art. 390) no PDF
+mais recente da página da SEFAZ-PB (a página guarda todas as versões; vale a de
+maior "atualizado em" da redação mais nova) e grava os segmentos que a PB
+mantém na ST (`dados/estados/PB/segmentos.csv`, 21 segmentos em 10/11/2026).
+Ferramentas, limpeza, papelaria e papéis e plásticos não estão no anexo. Nenhum
+protocolo com destino PB cai nesses segmentos hoje, então não há efeito novo no
+destino; o script serve para os próximos estados com lista por segmento do
+Conv. 142.
+
+## Fontes estaduais: situação das 27 UFs
+
+`dados/estados/fontes_estaduais.csv` registra, para cada UF, se a lista
+estadual de ST já é lida por um script deste repositório (`lido`: SP, MG, PR,
+RS, BA, MT, PE, AL, GO, SC e PB), se a fonte oficial foi só levantada
+(`levantado`: AC, AM, MS, RN, RO, RR, SE, com a URL, o formato, os segmentos na
+ST e fora dela e a norma da retirada), se ela só atende navegador
+(`bloqueado`: RJ, DF, PA, CE, MA, PI e TO; não houve tentativa de contornar) ou
+se não há fonte oficial consolidada (`sem_fonte`: ES e AP). Os segmentos das
+UFs levantadas vieram da leitura do texto oficial em 10/11/2026, exceto onde a
+coluna `observacao` diz o contrário.
+
 ## Alíquotas internas e FCP dos 27 estados
 
 `dados/estados/aliquotas_internas.csv` traz, para cada UF, a alíquota interna
@@ -595,8 +665,10 @@ muda.
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
-Os próximos são os protocolos dos demais segmentos e origens e as listas e
-MVAs de AP e PA, que completam as MVAs que os protocolos com SP não fixam.
+Os próximos são as MVAs (IVA-ST) das Portarias SRE de SP, os leitores dos
+estados já levantados (AC, AM, MS, RN, RO, RR e SE) e as tabelas de MVA por
+estado dentro dos protocolos ("ALÍQUOTAS DOS ESTADOS / PERCENTUAL DE
+AGREGAÇÃO").
 
 ## Licença
 

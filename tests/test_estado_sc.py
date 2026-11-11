@@ -33,5 +33,8 @@ EFEITOS = RAIZ / "dados" / "estados" / "efeito_no_destino.csv"
 def test_protocolos_sem_efeito_em_sc():
     with EFEITOS.open(encoding="utf-8") as f:
         sc_ = {r["protocolo"] for r in csv.DictReader(f) if r["uf"] == "SC"}
-    assert {"Prot. ICMS 193/09", "Prot. ICMS 20/05", "Prot. ICMS 203/09", "Prot. ICMS 91/07"} <= sc_
+    # 193/09 e 91/07 saíram da lista: SC foi excluída desses protocolos (Prots. ICMS 10/19 e 83/19), então SC já
+    # não é destino na matriz e o efeito não precisa ser marcado.
+    assert {"Prot. ICMS 20/05", "Prot. ICMS 203/09"} <= sc_
+    assert not sc_ & {"Prot. ICMS 193/09", "Prot. ICMS 91/07"}
     assert "Prot. ICMS 103/12" not in sc_  # bebidas quentes seguem na ST em SC (Seção XLIV)
