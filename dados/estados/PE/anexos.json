@@ -1,0 +1,27 @@
+{
+  "fonte": "SEFAZ-PE, Decreto 44.650/2017 consolidado, Anexos 37-A, 37-B e 37-C",
+  "url": "https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/legislacao/44650/texto/Dec44650_2017.htm",
+  "cabecalhos": {
+    "37-A": "ANEXO 37-A (Dec. 56.411/2024 – efeitos a partir de 1°.05.2024) PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (art. 37 do Anexo 6 e arts. 80 e 82, I, do Anexo 37)",
+    "37-B": "ANEXO 37-B (Dec. 56.722/2024 – efeitos a partir de 1°.07.2024) MATERIAIS ELÉTRICOS SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 85 e 86 do Anexo 37) (Dec. 61.284/2026 – efeitos a partir de 1°.01.2027) Redação anterior, efeitos até 31.12.2026: MATERIAIS ELÉTRICOS SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 85 e 86)",
+    "37-C": "ANEXO 37-C (Dec. 58.019/2025 – efeitos a partir de 1°.02.2025) MATERIAL DE CONSTRUÇÃO E CONGÊNERES SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 119 e 120 do Anexo 37) (Dec. 61.284/2026 – efeitos a partir de 1°.01.2027) Redação anterior, efeitos até 31.12.2026: MATERIAL DE CONSTRUÇÃO E CONGÊNERES SUJEITOS AO REGIME DE SUBSTITUIÇÃO TRIBUTÁRIA DO ICMS (arts. 119 e 120)"
+  },
+  "sha256": "a8ed19c7f94d968014121fcb8012166ad2a44c5a49a1f46aaa38a8a1ecb2ced7",
+  "obtido_em": "2026-11-11T01:29:45+00:00",
+  "data_referencia": "2026-11-10",
+  "contagens": {
+    "itens_por_anexo": {
+      "37-A": 68,
+      "37-B": 25,
+      "37-C": 73
+    },
+    "itens_sem_cest": 0,
+    "cruzamento": {
+      "mva_igual": 54,
+      "mva_diferente": 11,
+      "protocolo_sem_mva": 72,
+      "pe_sem_tabela_propria": 145,
+      "sem_cest": 26
+    }
+  }
+}

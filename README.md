@@ -430,6 +430,23 @@ CEST 10.024.00). O protocolo traz duas MVAs, 41% com o frete na base de cálculo
 e 56% sem o frete, e o anexo do PE só tem os 41%. Duas linhas do
 protocolo (juntas de borracha e tapetes) não têm CEST provável.
 
+### Pernambuco: perfumaria e materiais elétricos
+
+`scripts/estado_pe_anexos.py` lê, do mesmo decreto consolidado, as três tabelas
+de MVA por item do Conv. 142: 37-A perfumaria e cosméticos (68 itens do Anexo
+XIX, desde 01/05/2024), 37-B materiais elétricos (25 itens dos Anexos XIII e XX,
+desde 01/07/2024) e 37-C construção (73 itens, igual ao `itens.csv`). Saída em
+`itens_todos_anexos.csv`, `cruzamento_protocolos.csv` e `anexos.json` (cabeçalho
+de cada anexo com a vigência).
+
+No cruzamento com todos os protocolos com destino PE, o Prot. ICMS 84/11
+(materiais elétricos, só industrial ou importador) tem MVA diferente da do 37-B
+em 10 itens: o protocolo vale para a operação interestadual que ele cobre, e a
+MVA do 37-B para a interna e a importação. `pe_sem_tabela_propria` quer dizer só
+que PE não tem tabela de MVA para aquele segmento (autopeças, por exemplo), não
+que o produto saiu da ST em PE. O Anexo 37-D (MVA por posição da NCM para o
+imposto antecipado, a partir de 01/01/2027) fica de fora.
+
 ## Alagoas: lista estadual e MVA
 
 O nono conjunto, em `dados/estados/AL/`, lê o Anexo VIII do Decreto 90.309/2023,
