@@ -473,6 +473,18 @@ na matriz (além da regra de SP do Comunicado CAT 36/2009). Exemplo: de SP para
 GO, as conexões 7307 aparecem pelo Prot. 82/11, com a observação de que GO tirou
 o segmento da ST; na matriz, são 557 linhas com destino GO marcadas assim.
 
+## Santa Catarina: segmentos que seguem na ST
+
+`dados/estados/SC/secoes.csv` lê o Anexo 3 do RICMS-SC (Decreto 2.870/2001),
+no texto consolidado da SEF-SC: das 35 seções, **só 12 seguem vigentes**
+(cerveja e bebidas frias, cimento, veículos, motocicletas, pneus, cigarros,
+venda porta a porta, combustíveis, energia elétrica, bebidas quentes e nafta);
+as outras 23 aparecem só como "REVOGADA", sem data no texto consolidado. Os
+protocolos com destino SC nos segmentos que SC não mantém na ST entram em
+`efeito_no_destino.csv`: ferramentas (193/09), sorvetes (20/05), bicicletas
+(203/09) e ração pet (91/07). Na matriz, 110 linhas com destino SC ficam
+marcadas; as bebidas quentes (103/12) seguem valendo.
+
 ## TIPI: alíquotas do IPI
 
 O décimo primeiro conjunto, em `dados/tipi/`, lê a **TIPI consolidada** (Decreto
