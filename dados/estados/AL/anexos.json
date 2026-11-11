@@ -1,0 +1,102 @@
+{
+  "fonte": "SEFAZ-AL, Decreto 90.309/2023 consolidado, todos os anexos de ST",
+  "url": "https://gcs2.sefaz.al.gov.br/sfz-gcs-api/api/documentos/visualizarDocumento?acess=1&key=dx9aIL23hOg=",
+  "nome_do_arquivo": "DECRETO Nº 90.309-2023 -RETIFICADO260523-COM MVAs AJUSTADAS-atualizado03-11-26.pdf",
+  "sha256": "70685f0fc16fbea9397ec3b280809300b5daf18aedbda663e44879e295b484c3",
+  "obtido_em": "2026-11-11T01:27:09+00:00",
+  "data_referencia": "2026-11-10",
+  "anexos": {
+    "I": {
+      "segmento": "AUTOPEÇAS",
+      "itens": 131
+    },
+    "II": {
+      "segmento": "BEBIDAS ALCOÓLICAS, EXCETO CERVEJA E CHOPE",
+      "itens": 25
+    },
+    "III": {
+      "segmento": "CERVEJAS, CHOPES, REFRIGERANTES, ÁGUAS E OUTRAS BEBIDAS",
+      "itens": 39
+    },
+    "IV": {
+      "segmento": "CIGARROS E OUTROS PRODUTOS DERIVADOS DO FUMO",
+      "itens": 2
+    },
+    "V": {
+      "segmento": "CIMENTO",
+      "itens": 1
+    },
+    "VI": {
+      "segmento": "FERRAMENTAS",
+      "itens": 24
+    },
+    "VII": {
+      "segmento": "LÂMPADAS, REATORES E “STARTER”",
+      "itens": 5
+    },
+    "VIII": {
+      "segmento": "MATERIAIS DE CONSTRUÇÃO E CONGÊNERES",
+      "itens": 83
+    },
+    "IX": {
+      "segmento": "MATERIAIS DE LIMPEZA",
+      "itens": 12
+    },
+    "X": {
+      "segmento": "MEDICAMENTOS DE USO HUMANO E OUTROS PRODUTOS FARMACÊUTICOS PARA USO HUMANO",
+      "itens": 33
+    },
+    "XI": {
+      "segmento": "PNEUMÁTICOS, CÂMARAS DE AR E PROTETORES DE BORRACHA",
+      "itens": 10
+    },
+    "XII": {
+      "segmento": "PRODUTOS ALIMENTÍCIOS",
+      "itens": 290
+    },
+    "XIII": {
+      "segmento": "PRODUTOS DE PAPELARIA",
+      "itens": 34
+    },
+    "XIV": {
+      "segmento": "PRODUTOS DE PERFUMARIA E DE HIGIENE PESSOAL E COSMÉTICOS",
+      "itens": 71
+    },
+    "XV": {
+      "segmento": "PRODUTOS ELETRÔNICOS, ELETROELETRÔNICOS E ELETRODOMÉSTICOS",
+      "itens": 127
+    },
+    "XVI": {
+      "segmento": "RAÇÕES PARA ANIMAIS DOMÉSTICOS",
+      "itens": 1
+    },
+    "XVII": {
+      "segmento": "SORVETES E PREPARADOS PARA FABRICAÇÃO DE SORVETES EM MÁQUINAS",
+      "itens": 2
+    },
+    "XVIII": {
+      "segmento": "TINTAS E VERNIZES",
+      "itens": 4
+    },
+    "XIX": {
+      "segmento": "VEÍCULOS AUTOMOTORES NOVOS",
+      "itens": 31
+    },
+    "XX": {
+      "segmento": "VEÍCULOS DE DUAS E TRÊS RODAS MOTORIZADOS",
+      "itens": 2
+    }
+  },
+  "contagens": {
+    "itens": 927,
+    "com_cest": 922,
+    "com_mva_original": 744,
+    "cruzamento": {
+      "coerente": 639,
+      "mva_diferente": 0,
+      "al_nao_cita_o_protocolo": 29,
+      "cest_fora_dos_anexos_de_al": 1,
+      "sem_cest": 2
+    }
+  }
+}

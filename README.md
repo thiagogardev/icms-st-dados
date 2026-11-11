@@ -454,6 +454,37 @@ exemplo, calcula sem o FCP.
 Cruzamento em 10/11/2026: **52 coerentes e nenhuma diferença de MVA**; duas
 linhas do protocolo (juntas de borracha e tapetes) não têm CEST provável.
 
+### Alagoas: todos os anexos de ST
+
+`scripts/estado_al_anexos.py` lê o mesmo PDF inteiro: um anexo por segmento
+(I autopeças, II e III bebidas, VI ferramentas, VII lâmpadas, VIII construção,
+IX limpeza, X medicamentos, XI pneus, XII alimentos, XIII papelaria, XIV
+perfumaria, XV eletrônicos, XVI rações, XVII sorvetes, XVIII tintas, XIX e XX
+veículos e motos, entre outros). As colunas mudam de lugar em cada anexo, então
+são medidas no cabeçalho de cada tabela; o CEST pode vir quebrado em duas linhas
+("04.00" e "1.00") e é colado na ordem vertical. Na leitura de 10/11/2026 são
+**927 itens em 20 anexos**, 922 com CEST e 744 com MVA original numérica. O
+Anexo VIII sai idêntico ao `itens.csv` acima (teste automático).
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `itens_todos_anexos.csv` | Anexo, capítulo, segmento, item, CEST, NCM e descrição do Conv. 142, acordo, protocolos citados, MVA original, `mva_texto` quando a MVA é um texto com condições, ajustadas a 12/7/4% |
+| `cruzamento_protocolos.csv` | Cada linha da matriz origem-destino com destino AL x os anexos de AL, pelo CEST provável |
+| `anexos.json` | Anexos lidos, itens por anexo, fonte, sha256 e contagens |
+
+Cruzamento com todos os protocolos com destino AL: **639 coerentes, nenhuma MVA
+diferente**, 29 linhas em que o anexo de AL não cita o protocolo (a maioria do
+Prot. 188/09, alimentos, em que AL cita outro acordo para aquele CEST; algumas são
+célula do acordo quebrada no PDF, por isso a situação é um aviso para conferir) e
+1 CEST fora dos anexos.
+
+Limites: no Anexo I (autopeças) a MVA é uma célula mesclada com condições
+(36,56% para saída de fabricante de veículos por índice de fidelidade, outra
+para os demais casos), então os itens ficam sem MVA numérica e o texto vai para
+`mva_texto` só no primeiro; no Anexo XII, 48 itens saem sem MVA. Anexos XXI
+(energia), XXII (combustíveis) e XXIII (porta a porta) não têm tabela no mesmo
+formato e ficam fora; XXV (calçados) e XXVI (não inscrito) não usam CEST.
+
 ## Goiás: segmentos fora da ST e efeito no destino
 
 O décimo conjunto, em `dados/estados/GO/`, lê o Apêndice II do Anexo VIII do
@@ -484,6 +515,30 @@ protocolos com destino SC nos segmentos que SC não mantém na ST entram em
 `efeito_no_destino.csv`: ferramentas (193/09), sorvetes (20/05), bicicletas
 (203/09) e ração pet (91/07). Na matriz, 110 linhas com destino SC ficam
 marcadas; as bebidas quentes (103/12) seguem valendo.
+
+## Alíquotas internas e FCP dos 27 estados
+
+`dados/estados/aliquotas_internas.csv` traz, para cada UF, a alíquota interna
+geral (modal) do ICMS, o adicional geral de fundo de pobreza (FCP), a carga geral
+(soma das duas), a alíquota anterior e a data de início, a base legal com artigo,
+as mercadorias com FCP específico e se o FCP alcança materiais de construção. É a
+alíquota que entra na MVA ajustada e no cálculo do ICMS ST no destino.
+
+Diferente dos outros conjuntos, este não sai de um script: as leis estaduais
+estão em formatos e sites diferentes em cada estado. Cada linha foi lida na lei
+estadual ou na Assembleia em 10/11/2026 e traz a URL oficial em `url_oficial`.
+`fonte_oficial_conferida` diz se o artigo foi lido no site oficial (`sim`), se a
+fonte oficial só confirmou parte (`parcial`) ou se o número veio de fontes de
+terceiros concordantes porque o site oficial não tinha o texto ou estava fora do
+ar (`nao`: DF, MS, PI, SE, TO); nesses casos `confianca` é média ou baixa. No DF o
+SINJ fica atrás de firewall e não foi contornado.
+
+Na leitura de 10/11/2026: o FCP geral só existe no RJ (2%, LC 210/2023, carga de
+22%), em AL (1% residual do FECOEP, carga de 21,5%, a mesma que a SEFAZ-AL usa
+nas MVAs ajustadas do Decreto 90.309) e em SE (1%, carga de 20%). Nos demais o
+FCP é seletivo (bebidas, fumo, armas, perfumes, joias) e não pega materiais de
+construção. Para vigiar: MS prepara projeto para subir o modal em 2027 e o FEM de
+MG vence em 31/12/2026.
 
 ## TIPI: alíquotas do IPI
 
