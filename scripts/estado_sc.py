@@ -59,6 +59,9 @@ def ler_secoes(texto: str) -> list[dict]:
     for m in _SECAO.finditer(texto):
         revogada = m.group(2).upper().startswith("REVOGADA") or bool(m.group("rev"))
         titulo = "" if revogada else m.group(2).strip()
+        # o título de veículos continua numa remissão à seção seguinte ("..., Exceto os Tratados na Seção V"),
+        # que o recorte corta no meio: tira o pedaço solto
+        titulo = re.sub(r",?\s*Exceto os Tratados n[ao]s?$", "", titulo, flags=re.I)
         normas = []
         for tipo, nums in _NORMA.findall(texto[m.start():m.start() + 400]):
             prefixo = "Conv. ICMS" if tipo.lower().startswith("conv") else "Prot. ICMS"
