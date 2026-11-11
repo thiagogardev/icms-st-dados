@@ -190,7 +190,8 @@ def test_matriz_de_outras_origens():
     assert p.consultar(m, cat, "BA", origem="MG")        # 41/08: MG assina, BA é destino
     assert p.consultar(m, cat, "MG", origem="RS")        # RS assina, MG é destino
     assert not p.consultar(m, cat, "RS", origem="SC")    # RS não é destino do 41/08
-    assert not p.consultar(m, "73261900", "BA", origem="MG")  # construção só tem protocolos com SP
+    # Construção entre outros estados: Prot. ICMS 26/10 (BA e MG, com adesão de ES, AP e PA), conferido no Confaz
+    assert {r["protocolo"] for r in p.consultar(m, "73261900", "BA", origem="MG")} == {"Prot. ICMS 26/10"}
     para_sp = p.consultar(m, "73261900", "SP", origem="MG")    # 32/09 cita SP, mas SP não regulamentou
     assert para_sp and all(r["efeito_no_destino"].startswith("depende de ato") for r in para_sp)
     assert not any(r["efeito_no_destino"] for r in m if r["destino"] != "SP")
@@ -207,3 +208,29 @@ def test_cabecalho_de_publicacao():
     assert c["alterado_por"] == ["Prot. ICMS 16/14", "Prot. ICMS 34/15", "Prot. ICMS 19/16", "Prot. ICMS 55/26"]
     assert any(n.startswith("Vide, quanto à aplicação no Estado de AP") for n in c["notas"])
     assert any(n.endswith("efeitos a partir de 01.01.22") for n in c["notas"])
+
+
+
+def test_lista_na_propria_clausula():
+    assert p.ncms_da_clausula("Nas operações interestaduais com vinhos, sidras e outras bebidas fermentadas, classificados "
+                              "nas posições 2204 e subposições 2206.00.10 e 2206.00.90 da NCM, entre contribuintes") == (
+        "vinhos, sidras e outras bebidas fermentadas", ["2204", "22060010", "22060090"], "")
+    produto, codigos, excecao = p.ncms_da_clausula(
+        "Nas operações interestaduais com bebidas quentes, classificadas nas posições 2204, 2205, 2206 e 2208, da NCM, "
+        "exceto aguardente de cana e de melaço, entre contribuintes")
+    assert codigos == ["2204", "2205", "2206", "2208"] and excecao == "aguardente de cana e de melaço"
+    assert p.ncms_da_clausula("Nas operações interestaduais com rações tipo pet, classificadas na posição 2309 da NBM")[1] == ["2309"]
+
+
+@pytest.mark.skipif(not MATRIZ_GERAL.exists(), reason="dados ainda não gerados")
+def test_protocolos_sem_sp_conferidos_no_confaz():
+    """Casos conferidos no texto do Confaz em 10/11/2026 (cláusula primeira, preâmbulo e adesões)."""
+    with MATRIZ_GERAL.open(encoding="utf-8") as f:
+        m = list(csv.DictReader(f))
+    # Prot. 91/07 (rações pet, PR, RS e SC): posição 2309 entre os signatários
+    assert {r["protocolo"] for r in p.consultar(m, "23091000", "SC", origem="PR")} >= {"Prot. ICMS 91/07"}
+    # Prot. 13/06 (vinhos, só industrial ou importador): MG -> MT
+    vinho = [r for r in p.consultar(m, "22042100", "MT", origem="MG") if r["protocolo"] == "Prot. ICMS 13/06"]
+    assert vinho and vinho[0]["remetente"] == "industrial_ou_importador"
+    # Prot. 14/06 (bebidas quentes): exceto aguardente, que está no 15/06 (MG não assina o 15/06)
+    assert not [r for r in p.consultar(m, "22084000", "MT", origem="MG") if r["protocolo"] == "Prot. ICMS 15/06"]

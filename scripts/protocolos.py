@@ -72,7 +72,33 @@ PROTOCOLOS = [
     {"protocolo": "104/12", "pagina": "2012/pt104_12", "segmento": "20", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
     {"protocolo": "136/13", "pagina": "2013/pt136_13", "segmento": "21", "signatarios": ["RJ", "SP"], "destinos_de_sp": ["RJ"]},
 ]
+CONFIGURADOS = {p["protocolo"] for p in PROTOCOLOS}
+
+
+def carregar_catalogo(caminho: Path | None = None) -> list[dict]:
+    """Protocolos vigentes de dados/protocolos/catalogo.csv (scripts/catalogo_protocolos.py) que ainda não
+    estão na lista configurada à mão. Signatários e destinos vêm do catálogo (preâmbulo, adesões e a regra
+    de destino da cláusula primeira); o segmento, do anexo do Convênio 142 ou do título."""
+    caminho = caminho or RAIZ / "dados" / "protocolos" / "catalogo.csv"
+    if not caminho.exists():
+        return []
+    with caminho.open(encoding="utf-8") as f:
+        linhas = [r for r in csv.DictReader(f) if r["situacao"] == "vigente"]
+    saida = []
+    for r in linhas:
+        prot = r["protocolo"].replace("Prot. ICMS ", "")
+        if prot in CONFIGURADOS:
+            continue
+        saida.append({"protocolo": prot, "pagina": r["pagina"], "segmento": r["segmento"],
+                      "signatarios": [u for u in r["signatarios"].split(";") if u],
+                      "destinos_de_sp": [], "destinos": [u for u in r["destinos_na_clausula"].split(";") if u],
+                      "remetente": r.get("remetente", ""), "do_catalogo": True})
+    return saida
+
+
+PROTOCOLOS.extend(carregar_catalogo())
 SEGMENTO = {p["protocolo"]: p.get("segmento", "10") for p in PROTOCOLOS}
+REMETENTE = {p["protocolo"]: p.get("remetente", "") for p in PROTOCOLOS}
 
 _PROT = re.compile(r"Prot(?:ocolo)?\.?\s*ICMS\s*(?:n[ºo°]\s*)?(\d+)\s*/\s*(\d{2,4})", re.I)
 _NCM_CEL = re.compile(r"\d{2}\.?\d{2}")
@@ -179,17 +205,23 @@ def _colunas(cabecalho: list[str]) -> dict | None:
 
 def _nota_da_tabela(tabela) -> tuple[str, Nota | None]:
     """Vigência do anexo inteiro: a nota de remissão mais próxima antes da tabela."""
-    for p in tabela.xpath("preceding::p[not(ancestor::table)][position()<=4]")[::-1]:
+    # Entre a nota e a tabela pode haver o título ("ANEXO ÚNICO") e observações sobre a MVA ("Nota 1 - A
+    # MVA-ST...", "MVA-ST deste Anexo..."): passa por cima delas e para numa cláusula. A nota da redação
+    # antiga também aparece como "Redação original em vigor (...) até 31.10.14" (Prot. 45/13, 31/12).
+    for p in tabela.xpath("preceding::p[not(ancestor::table)][position()<=6]")[::-1]:
         t = texto(p)
         if not re.search(r"[A-Za-zÀ-ú]{3}", t) or t.upper().startswith("ANEXO"):
             continue
         classe = p.get("class") or ""
         baixo = t.lower()
-        if "Remiss" in classe or "Remisso" in classe or "efeitos" in baixo:
+        redacao = baixo.startswith(("redação original", "redação anterior", "redação dada", "nova redação", "nova redada"))
+        if "Remiss" in classe or "Remisso" in classe or "efeitos" in baixo or (redacao and "vigor" in baixo):
             ant = "Ant" in classe or baixo.startswith(("redação original", "redação anterior", "redação dada"))
             if baixo.startswith("revogad") and "anexo" in baixo:
                 return "revogada", ler_nota(t, False)
             return ("anterior" if ant else "atual"), ler_nota(t, ant)
+        if re.match(r"(nota\b|mva)", baixo):
+            continue
         break
     return "atual", None
 
@@ -256,18 +288,40 @@ def ufs_destino(clausula: str) -> list[str]:
     return sorted(achados)
 
 
-_REVOGACAO = re.compile(r"Revogad[oa] pel[oa] Prot(?:ocolo)?\.?\s*ICMS\s*(?:n[ºo°]\s*)?(\d+\s*/\s*\d{2,4})\s*,?\s*"
-                        r"efeitos? a partir de\s*(\d{1,2})[./](\d{1,2})[./](\d{2,4})", re.I)
+# "Revogado pelo Prot. ICMS 112/26, efeitos a partir de 01.10.26"; "Revogado pelo Prot. ICMS 52/19, com efeitos a
+# partir de 01.01.20"; "Revogado pelo Prot. ICMS 60/25, efeitos a partir de 2026"; "Revogado, a partir de 01.01.18,
+# pelo Prot. ICMS 54/17"; "Revogado, a partir de 01.10.22, e alterado pelo Prot. ICMS 54/22"; "Revogado tacitamente
+# pelo Convênio ICMS 155/15" (sem data: revogação tácita).
+_REVOGACAO = re.compile(
+    r"Revogad[oa](?P<tacito>\s+tacitamente)?,?\s*"
+    r"(?:a partir de\s*(?P<d1>\d{1,2})[./](?P<m1>\d{1,2})[./](?P<a1>\d{2,4}),?\s*)?(?:e alterad[oa]\s*)?"
+    r"pel[oa]\s*(?P<tipo>Prot(?:ocolo)?\.?|Conv[êe]nio)\s*ICMS\s*(?:n[ºo°]\s*)?(?P<num>\d+\s*/\s*\d{2,4})"
+    r"(?:\s*,?\s*(?:com\s+)?efeitos?\s+a partir de\s*(?:(?P<d2>\d{1,2})[./](?P<m2>\d{1,2})[./](?P<a2>\d{2,4})|(?P<ano>\d{4})))?",
+    re.I)
 
 
-def revogacao_total(cabecalho: str) -> tuple[date, str] | None:
-    """Nota do cabeçalho 'Revogado pelo Prot. ICMS 112/26, efeitos a partir de 01.10.26' -> (2026-10-01, 'Prot. ICMS 112/26')."""
+def _ano4(a: str) -> int:
+    n = int(a)
+    return n + 2000 if n < 100 else n
+
+
+def revogacao_total(cabecalho: str) -> tuple[date | None, str] | None:
+    """Revogação do protocolo inteiro no cabeçalho -> (data dos efeitos, norma). A data é None quando a
+    fonte não a dá (revogação tácita por convênio). Ex.: (2026-10-01, 'Prot. ICMS 112/26')."""
     m = _REVOGACAO.search(cabecalho)
     if not m:
         return None
-    d, mes, a = int(m.group(2)), int(m.group(3)), int(m.group(4))
-    numero = re.sub(r"\s", "", m.group(1))
-    return date(a + 2000 if a < 100 else a, mes, d), f"Prot. ICMS {numero}"
+    if m.group("d1"):
+        quando = date(_ano4(m.group("a1")), int(m.group("m1")), int(m.group("d1")))
+    elif m.group("d2"):
+        quando = date(_ano4(m.group("a2")), int(m.group("m2")), int(m.group("d2")))
+    elif m.group("ano"):
+        quando = date(int(m.group("ano")), 1, 1)
+    else:
+        quando = None
+    tipo = "Conv. ICMS" if m.group("tipo").lower().startswith("conv") else "Prot. ICMS"
+    norma = f"{tipo} {m.group('num').replace(' ', '')}"
+    return quando, norma + (" (revogação tácita)" if m.group("tacito") else "")
 
 
 def _data_dou(d: str, m: str, a: str) -> str:
@@ -302,6 +356,25 @@ def cabecalho_publicacao(texto: str) -> dict:
         "despacho": re.sub(r"\s", "", desp.group(1)) if desp else "",
         "retificacoes_dou": sorted(set(retif)), "alterado_por": list(dict.fromkeys(alteradores)), "notas": notas,
     }
+
+
+# Segmento do CEST -> anexo do Convênio 142 (para os protocolos sem lista, deduzida pelo segmento).
+SEGMENTO_ANEXO = {"01": "II", "02": "III", "03": "IV", "04": "V", "05": "VI", "06": "VII", "07": "VIII", "08": "IX",
+                  "09": "X", "10": "XI", "11": "XII", "12": "XIII", "13": "XIV", "14": "XV", "16": "XVI", "17": "XVII",
+                  "19": "XVIII", "20": "XIX", "21": "XX", "22": "XXI", "23": "XXII", "24": "XXIII", "25": "XXIV", "26": "XXV"}
+
+
+def ncms_da_clausula(clausula: str) -> tuple[str, list[str], str]:
+    """Produto, NCMs e exceção citados na própria cláusula primeira, quando o protocolo não tem tabela:
+    'com vinhos, sidras e outras bebidas fermentadas, classificados nas posições 2204 e subposições
+    2206.00.10 e 2206.00.90' -> ('vinhos, sidras e outras bebidas fermentadas', ['2204', '22060010', '22060090'], '')."""
+    produto = re.search(r"opera[çc][õo]es interestaduais com (.+?)(?:,?\s*(?:classificad|realizad|entre |destinad|relacionad)|,? fica atribu)", clausula, re.I)
+    codigos: list[str] = []
+    for m in re.finditer(r"(?:(?:sub)?posi[çc](?:[ãa]o|[õo]es)|c[óo]digos?|itens?)\s+((?:\d{4}(?:\.\d{2}(?:\.\d{2})?)?(?:\s*,\s*|\s+e\s+)?)+)", clausula, re.I):
+        codigos += [c.replace(".", "") for c in re.findall(r"\d{4}(?:\.\d{2}(?:\.\d{2})?)?", m.group(1))]
+    excecao = re.search(r"exceto ([^,;]+?)(?:,|;|\.|$)", clausula, re.I)
+    return (produto.group(1).strip() if produto else "", list(dict.fromkeys(codigos)),
+            excecao.group(1).strip() if excecao else "")
 
 
 def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
@@ -349,12 +422,31 @@ def ler_protocolo(pagina: str, prot: str, ref: date) -> dict:
             _ler_atual(linhas, col, prot, itens, notas_soltas, divergencias)
         else:
             _ler_anexo_anterior(linhas, col, prot, nota_tab, estado, itens)
+    if clausula["modelo"] == "lista_propria" and tabelas_atuais == 0 and not rev:
+        produto, codigos, excecao = ncms_da_clausula(clausula["texto"])
+        if codigos:
+            itens.append(Item(protocolo=prot, item="cláusula 1ª", ncm_sh=" ".join(codigos), descricao=produto,
+                              mva_original=None, origem="clausula_primeira", vigencia_inicio=clausula["desde"],
+                              vigencia_fim=None, sem_efeitos=False, revogado_em=None, norma_alteradora=None,
+                              nota_alteracao=f"exceto {excecao}" if excecao else None,
+                              nota_vigencia="lista na própria cláusula primeira (o protocolo não tem tabela de itens)"))
+            tabelas_atuais = 1
+        else:
+            anexo = SEGMENTO_ANEXO.get(SEGMENTO.get(prot, ""), "")
+            if anexo:
+                clausula["modelo"] = f"conv142_anexo_{anexo.lower()}"
+                divergencias.append({"protocolo": prot, "item": "", "problema":
+                                     f"sem tabela e sem NCM na cláusula: lista deduzida pelo segmento (Anexo {anexo} do Convênio 142)"})
     esperado = 1 if clausula["modelo"] == "lista_propria" else 0
-    if tabelas_atuais != esperado:
+    if tabelas_atuais != esperado and not rev and not (tabelas_atuais > 1 and clausula["modelo"] == "lista_propria"):
         divergencias.append({"protocolo": prot, "item": "", "problema": f"{tabelas_atuais} tabelas tratadas como anexo vigente"})
     if rev:
         for i in itens:
-            if i.vigencia_fim is None or i.vigencia_fim >= rev[0]:
+            if rev[0] is None:  # revogação tácita, sem data na fonte: o item deixa de valer
+                i.sem_efeitos = i.sem_efeitos or False
+                i.vigencia_fim = i.vigencia_fim or ref - timedelta(days=1)
+                i.norma_alteradora = i.norma_alteradora or rev[1]
+            elif i.vigencia_fim is None or i.vigencia_fim >= rev[0]:
                 i.vigencia_fim = rev[0] - timedelta(days=1)
                 i.revogado_em = i.revogado_em or rev[0]
                 i.norma_alteradora = i.norma_alteradora or rev[1]
@@ -494,7 +586,7 @@ def cests_provaveis(ncms: list[str], conv: list[dict], segmento: str = "10") -> 
     """CESTs do segmento do protocolo (10 = construção) cujo NCM cobre o do item, ou é coberto por ele."""
     achados = []
     for r in conv:
-        if not r["cest"].startswith(segmento + "."):
+        if segmento and not r["cest"].startswith(segmento + "."):
             continue
         for c in r["ncms"].split(";"):
             c = c.replace(".", "").strip()
@@ -509,7 +601,7 @@ def pares(prot: str, cl: dict | None) -> list[tuple[str, str]]:
     cláusula primeira cita ("destinadas ao Estado de MG ou ao Estado de SP" vale nos dois sentidos;
     "destinadas ao Estado do ES" só de SP para o ES). Sem destinos legíveis, usa a configuração."""
     conf = next(p for p in PROTOCOLOS if p["protocolo"] == prot)
-    destinos = (cl or {}).get("destinos_na_clausula") or conf["destinos_de_sp"]
+    destinos = conf.get("destinos") or (cl or {}).get("destinos_na_clausula") or conf["destinos_de_sp"]
     return [(o, d) for o in conf["signatarios"] for d in destinos if d != o]
 
 
@@ -532,6 +624,7 @@ def matriz_geral(itens: list[Item], conv: list[dict], clausulas: dict | None = N
                     "descricao": r["descricao"], "mva_original": "", "cests_provaveis": r["cest"],
                     "vigencia_inicio": _iso(cl["desde"]),
                     "efeito_no_destino": EFEITO_SP if d == "SP" else "",
+                    "remetente": REMETENTE.get(prot, ""),
                 })
     for i in itens:
         if i.situacao != "vigente":
@@ -545,6 +638,7 @@ def matriz_geral(itens: list[Item], conv: list[dict], clausulas: dict | None = N
                 "mva_original": "" if i.mva_original is None else f"{i.mva_original:g}",
                 "cests_provaveis": cests, "vigencia_inicio": _iso(i.vigencia_inicio),
                 "efeito_no_destino": EFEITO_SP if d == "SP" else "",
+                "remetente": REMETENTE.get(i.protocolo, ""),
             })
     return linhas
 
@@ -601,7 +695,7 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
             w.writeheader()
             w.writerows(linhas)
     with (destino / "protocolos.csv").open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["protocolo", "signatarios", "destinos_de_sp", "modelo", "clausula_desde",
+        w = csv.DictWriter(f, fieldnames=["protocolo", "segmento", "remetente", "signatarios", "destinos_de_sp", "modelo", "clausula_desde",
                                           "cests_excluidos", "destinos_na_clausula", "revogado_desde", "revogado_por", "publicado_dou", "despacho",
                                           "retificacoes_dou", "alterado_por", "notas_do_cabecalho", "url", "itens_vigentes",
                                           "com_mva_no_protocolo"])
@@ -609,10 +703,11 @@ def gravar(resultados: dict, destino: Path, meta: dict, conv: list[dict]) -> dic
         for p in PROTOCOLOS:
             vig = [i for i in resultados[p["protocolo"]]["itens"] if i.situacao == "vigente"]
             cl = resultados[p["protocolo"]]["clausula"]
-            w.writerow({"protocolo": f"Prot. ICMS {p['protocolo']}", "signatarios": ";".join(p["signatarios"]),
+            w.writerow({"protocolo": f"Prot. ICMS {p['protocolo']}", "segmento": p.get("segmento", "10"),
+                        "remetente": p.get("remetente", "") or "qualquer", "signatarios": ";".join(p["signatarios"]),
                         "destinos_de_sp": ";".join(p["destinos_de_sp"]), "modelo": cl["modelo"],
                         "clausula_desde": _iso(cl["desde"]), "cests_excluidos": ";".join(cl["cests_excluidos"]),
-                        "destinos_na_clausula": ";".join(cl.get("destinos_na_clausula", [])),
+                        "destinos_na_clausula": ";".join(p.get("destinos") or cl.get("destinos_na_clausula", [])),
                         "revogado_desde": _iso(cl.get("revogado_desde")), "revogado_por": cl.get("revogado_por") or "",
                         "publicado_dou": cl.get("publicacao", {}).get("publicado_dou", ""),
                         "despacho": cl.get("publicacao", {}).get("despacho", ""),
@@ -662,7 +757,7 @@ def main(argv: list[str] | None = None) -> int:
     meta = {"fonte": "Confaz, textos consolidados dos protocolos ICMS", "fontes": fontes,
             "obtido_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "data_referencia": a.ref.isoformat(),
-            "escopo": "protocolos de que SP é signatário (construção, autopeças e bilaterais SP-RJ); matriz SP -> destino e matriz origem -> destino de todos os signatários"}
+            "escopo": "todos os protocolos ICMS de ST vigentes no Confaz (catálogo) mais os revogados já lidos; matriz SP -> destino e matriz origem -> destino de todos os signatários"}
     meta = gravar(resultados, a.saida, meta, carregar_conv142())
     print(json.dumps(meta["contagens"], ensure_ascii=False))
     return 0

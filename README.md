@@ -172,6 +172,36 @@ o texto do protocolo cita SP, mas a aplicação nas entradas em SP depende de at
 do Secretário da Fazenda que não foi editado (Comunicado CAT 36/2009). A
 `matriz_sp_destino.csv` continua igual, só com a origem SP.
 
+**Todos os protocolos de ST do Confaz (10/11/2026).** `scripts/catalogo_protocolos.py`
+percorre os índices anuais do Confaz (2004 a 2026) e grava `catalogo.csv`: são
+**156 protocolos-base de ST** (título que começa com "Dispõe sobre a substituição
+tributária nas operações"; os que só alteram ou revogam outro ficam de fora), dos
+quais **54 vigentes e 102 revogados**. A situação sai de duas conferências:
+
+1. a nota de revogação no cabeçalho da página, em todas as formas encontradas
+   ("Revogado pelo Prot. ICMS 52/19, com efeitos a partir de 01.01.20", "efeitos a
+   partir de 2026", "Revogado, a partir de 01.01.18, pelo Prot. ICMS 54/17",
+   "Revogado tacitamente pelo Convênio ICMS 155/15");
+2. os 110 protocolos revogadores ("Revoga o Protocolo ICMS nº X..."), que marcam
+   o protocolo citado com a data de efeitos do revogador.
+
+Conferido contra os 18 protocolos lidos à mão: 18 de 18. Para cada protocolo o
+catálogo registra signatários (preâmbulo mais as adesões que aparecem na lista
+de destinos), destinos, `regra_destino` (lista na cláusula, "entre signatários"
+ou implícita), segmento (pelo anexo do Convênio 142 ou pelo título) e
+`remetente`: 7 protocolos só atribuem a retenção ao **industrial ou importador**
+(sorvetes, vinhos, bebidas quentes, aguardente, materiais elétricos e os
+Prots. 82/11 e 83/11); nesses, o atacadista que revende não retém.
+
+O leitor de protocolos lê agora os 54 vigentes mais os revogados já
+configurados: **59 protocolos, 7.330 redações, 1.529 itens vigentes**, matriz
+SP -> destino com 3.702 linhas e matriz origem -> destino com **102.456 linhas**
+(17,8 MB), com a coluna nova `remetente`. Protocolos sem tabela de itens que
+descrevem o produto na própria cláusula ("vinhos, sidras ... classificados nas
+posições 2204 e subposições 2206.00.10 e 2206.00.90") viram um item
+"cláusula 1ª"; o Prot. 20/05 (sorvetes), sem tabela e sem NCM, usa o Anexo
+XXII do Convênio 142 e fica registrado em `divergencias_da_fonte.csv`.
+
 **Publicação e alterações (10/11/2026).** `protocolos.csv` traz, lidos do cabeçalho
 de cada página do Confaz: `publicado_dou` (data da publicação no DOU), `despacho`,
 `retificacoes_dou`, `alterado_por` (os protocolos que mudaram o texto, em ordem) e

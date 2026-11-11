@@ -586,3 +586,945 @@ protocolo,item,ncm_sh,ncms,descricao,mva_original,origem,vigencia_inicio,vigenci
 136/13,110,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00",,vigente_no_texto,,,False,,,,,vigente
 136/13,111,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",,vigente_no_texto,,,False,,,,,vigente
 136/13,112,9405.2 9405.9,94052;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",,vigente_no_texto,,,False,,,,,vigente
+13/06,cláusula 1ª,2204 22060010 22060090,2204;22060010;22060090,"vinhos, sidras e outras bebidas fermentadas",,clausula_primeira,2008-01-01,,False,,,,lista na própria cláusula primeira (o protocolo não tem tabela de itens),vigente
+14/06,cláusula 1ª,2204 2205 2206 2208,2204;2205;2206;2208,bebidas quentes,,clausula_primeira,2016-04-01,,False,,,exceto aguardente de cana e de melaço,lista na própria cláusula primeira (o protocolo não tem tabela de itens),vigente
+15/06,cláusula 1ª,22084000,22084000,aguardente,,clausula_primeira,,,False,,,,lista na própria cláusula primeira (o protocolo não tem tabela de itens),vigente
+91/07,cláusula 1ª,2309,2309,"rações tipo ""pet"" para animais domésticos",,clausula_primeira,,,False,,,,lista na própria cláusula primeira (o protocolo não tem tabela de itens),vigente
+8/08,III,8415.10 8415.81.10 8415.82.10 8418.69.40,841510;84158110;84158210;84186940,Máquinas e aparelhos de ar-condicionado e depuradores,,vigente_no_texto,2008-11-01,,False,,Prot. ICMS 88/08,"Nova redação dada ao item III pelo Prot. ICMS 88/08, efeitos a partir de 01.11.08.",,vigente
+8/08,XII,8510.10.00 8510.20.00 8510.30.00,85101000;85102000;85103000,"Aparelhos de barbear, cortar cabelo ou tosquiar, depilar",,vigente_no_texto,,,False,,,,,vigente
+8/08,XIV,8519.81.10,85198110,Aparelho de reprodução de som,,vigente_no_texto,,,False,,,,,vigente
+8/08,XV,8521.90.10 8521.90.90 8527,85219010;85219090;8527,Aparelhos videofônicos de gravação ou reprodução,,vigente_no_texto,,,False,,,,,vigente
+8/08,XVI,8528,8528,"Aparelhos receptores de televisão, monitores e projetores de vídeo",,vigente_no_texto,,,False,,,,,vigente
+8/08,XVII,8471,8471,Máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+8/08,XVIII,8443.3,84433,Impressoras,,vigente_no_texto,,,False,,,,,vigente
+8/08,XIX,8525.80.2,8525802,Câmeras fotográficas digitais e câmeras de vídeo,,vigente_no_texto,,,False,,,,,vigente
+8/08,XX,7321.11.00,73211100,"Aparelhos para cozinhar e aquecedores de pratos, a gás",,vigente_no_texto,,,False,,,,,vigente
+8/08,XXI,8516.50.00,85165000,Fornos de micro-ondas,,vigente_no_texto,,,False,,,,,vigente
+8/08,XXII,8516.31.00,85163100,Secadores de cabelo,,vigente_no_texto,,,False,,,,,vigente
+8/08,XXIII,8516.32.00,85163200,Outros aparelhos para arranjos do cabelo,,vigente_no_texto,,,False,,,,,vigente
+31/09,1,7321.11.00 7321.81.00 7321.90.00,73211100;73218100;73219000,Fogões de cozinha de uso doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+31/09,16,8443.31,844331,"Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+31/09,17,8443.32,844332,"Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+31/09,18,8443.99,844399,"Outras máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, suas partes e acessórios",,vigente_no_texto,,,False,,,,,vigente
+31/09,23,8450.90,845090,"Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+31/09,28,8471.30,847130,"Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela",,vigente_no_texto,,,False,,,,,vigente
+31/09,29,8471.4,84714,Outras máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+31/09,30,8471.50.10,84715010,"Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49.00, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída; baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (""slots""), e valor FOB inferior ou igual a US$ 12.500,00, por unidade",,vigente_no_texto,,,False,,,,,vigente
+31/09,31,8471.60.5,8471605,"Unidades de entrada, exceto as das posições 8471.60.54",,vigente_no_texto,,,False,,,,,vigente
+31/09,32,8471.60.90,84716090,"Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória",,vigente_no_texto,,,False,,,,,vigente
+31/09,33,8471.70,847170,Unidades de memória,,vigente_no_texto,,,False,,,,,vigente
+31/09,34,8471.90,847190,"Outras máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições.",,vigente_no_texto,,,False,,,,,vigente
+31/09,35,8473.30,847330,Partes e acessórios das máquinas da posição 84.71,,vigente_no_texto,,,False,,,,,vigente
+31/09,36,8504.3,85043,"Outros transformadores, exceto os produtos classificados nas posições 8504.33.00 e 8504.34.00",,vigente_no_texto,,,False,,,,,vigente
+31/09,37,8504.40.10,85044010,Carregadores de acumuladores,,vigente_no_texto,,,False,,,,,vigente
+31/09,38,8504.40.40,85044040,"Equipamentos de alimentação ininterrupta de energia (UPS ou ""no break"")",,vigente_no_texto,,,False,,,,,vigente
+31/09,44,8516.50.00,85165000,Fornos de microondas,,vigente_no_texto,,,False,,,,,vigente
+31/09,50,8517.11,851711,Aparelhos telefônicos por fio com unidade auscultador-microfone sem fio,,vigente_no_texto,,,False,,,,,vigente
+31/09,51,8517.12,851712,"Telefones para redes sem fio, exceto celulares e os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+31/09,52,8517.18.9,8517189,Outros aparelhos telefônicos,,vigente_no_texto,,,False,,,,,vigente
+31/09,53,8517.62.5,8517625,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os das posições 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+31/09,54,85.18,8518,"Microfones e seus suportes; alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofreqüência, aparelhos elétricos de amplificação de som; suas partes e acessórios. Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+31/09,55,85.19 85.22,8519;8522,Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+31/09,56,8519.81.90,85198190,Outros aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+31/09,57,8521.90.90,85219090,"Outros aparelhos videofônicos de gravação ou de reprodução, mesmo incorporando um receptor de sinais videofônicos",,vigente_no_texto,,,False,,,,,vigente
+31/09,58,8523.51.10,85235110,"Cartões de memória (""memory cards"")",,vigente_no_texto,,,False,,,,,vigente
+31/09,59,8525.80.29,85258029,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,,vigente_no_texto,,,False,,,,,vigente
+31/09,60,85.27,8527,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na posição 8527.2 que sejam de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+31/09,61,8528.51.20,85285120,"Outros monitores dos tipos utilizados exclusiva ou principalmente com uma máquina automática para processamento de dados da posição 84.71, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+31/09,62,8528.49.29 8528.59.20 8528.61.00 8528.69.00,85284929;85285920;85286100;85286900,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+31/09,63,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de ráios catódicos)",,vigente_no_texto,,,False,,,,,vigente
+31/09,64,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",,vigente_no_texto,,,False,,,,,vigente
+31/09,65,8528.7,85287,Outros aparelhos receptores de televisão não dotados de monitores ou display de vídeo,,vigente_no_texto,,,False,,,,,vigente
+31/09,66,9006.10.00,90061000,Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão,,vigente_no_texto,,,False,,,,,vigente
+31/09,67,9006.40.00,90064000,Câmeras fotográficas para filmes de revelação e copiagem instantâneas,,vigente_no_texto,,,False,,,,,vigente
+31/09,68,9018.90.50,90189050,Aparelhos de diatermia,,vigente_no_texto,,,False,,,,,vigente
+31/09,69,9019.10.00,90191000,Aparelhos de massagem,,vigente_no_texto,,,False,,,,,vigente
+31/09,70,9032.89.11,90328911,Reguladores de voltagem eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+31/09,71,9504.10,950410,Jogos de vídeo dos tipos utilizáveis com receptor de televisão,,vigente_no_texto,,,False,,,,,vigente
+31/09,72,85.17.62.1,8517621,Multiplexadores e concentradores,,vigente_no_texto,,,False,,,,,vigente
+31/09,73,8517.62.22,85176222,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",,vigente_no_texto,,,False,,,,,vigente
+31/09,74,8517.62.39,85176239,Outros aparelhos para comutação,,vigente_no_texto,,,False,,,,,vigente
+31/09,75,85.17.62.4,8517624,"Roteadores digitais, em redes com ou sem fio",,vigente_no_texto,,,False,,,,,vigente
+31/09,76,8517.62.62,85176262,"Aparelhos emissores com receptor incorporado de sistema troncalizado (“trunking”), de tecnologia celular",,vigente_no_texto,,,False,,,,,vigente
+31/09,77,85.17.62.9,8517629,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",,vigente_no_texto,,,False,,,,,vigente
+31/09,78,85.17.70.21,85177021,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",,vigente_no_texto,,,False,,,,,vigente
+31/09,79,8523.52.00,85235200,"Cartões inteligentes (""smart cards"")",,vigente_no_texto,,,False,,,,,vigente
+31/09,80,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio, tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo, os classificados nos códigos NCM/SH 8517.62.51, 8517.62.52 e 8517.62.53 e no código CEST 21.127.00",,vigente_no_texto,2026-10-01,,False,,Prot. ICMS 101/26,"Acrescidos os itens 80 a 95 pelo Prot. ICMS 101/26, efeitos a partir de 01.10.26.",,vigente
+31/09,81,8517,8517,"Interfones, seus acessórios, tomadas e plugs",,vigente_no_texto,,,False,,,,,vigente
+31/09,82,8529,8529,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528; exceto as de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+31/09,83,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio); exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.",,vigente_no_texto,,,False,,,,,vigente
+31/09,84,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+31/09,85,8531.80.00,85318000,Outros aparelhos de sinalização acústica ou visual - exceto os produtos de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+31/09,86,8534.00.00,85340000,Circuitos impressos - exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+31/09,87,8541.41.11 8541.41.21,85414111;85414121,Diodos emissores de luz (LED) - exceto diodos “laser”,,vigente_no_texto,,,False,,,,,vigente
+31/09,88,8543.70.92,85437092,Eletrificadores de cercas eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+31/09,89,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador - exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+31/09,90,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",,vigente_no_texto,,,False,,,,,vigente
+31/09,91,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",,vigente_no_texto,,,False,,,,,vigente
+31/09,92,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições, com exceção dos itens classificados nos CEST 21.123.00, 21.124.00 e 21.125.00",,vigente_no_texto,,,False,,,,,vigente
+31/09,93,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+31/09,94,9405.2 9405.9,94052;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",,vigente_no_texto,,,False,,,,,vigente
+31/09,95,9405.4 9405.9,94054;94059,"Outras luminárias e aparelhos de iluminação, elétricos, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+96/09,1.0,2205 2208.90.00,2205;22089000,"Aperitivos, amargos, bitter e similares",,vigente_no_texto,,,False,,,,,vigente
+96/09,2.0,2208.90.00,22089000,Batida e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,3.0,2208.90.00,22089000,Bebida ice,,vigente_no_texto,,,False,,,,,vigente
+96/09,4.0,2207.20 2208.40.00,220720;22084000,Cachaça e aguardentes,,vigente_no_texto,,,False,,,,,vigente
+96/09,5.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Catuaba e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,6.0,2208.20.00,22082000,"Conhaque, brandy e similares",,vigente_no_texto,,,False,,,,,vigente
+96/09,7.0,2206.00.90 2208.90.00,22060090;22089000,Cooler,,vigente_no_texto,,,False,,,,,vigente
+96/09,8.0,2208.50.00,22085000,Gim (gin) e genebra,,vigente_no_texto,,,False,,,,,vigente
+96/09,9.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Jurubeba e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,10.0,2208.70.00,22087000,Licores e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,11.0,2208.20.00,22082000,Pisco,,vigente_no_texto,,,False,,,,,vigente
+96/09,12.0,2208.40.00,22084000,Rum,,vigente_no_texto,,,False,,,,,vigente
+96/09,13.0,2206.00.90,22060090,Saquê,,vigente_no_texto,,,False,,,,,vigente
+96/09,14.0,2208.90.00,22089000,Steinhaeger,,vigente_no_texto,,,False,,,,,vigente
+96/09,15.0,2208.90.00,22089000,Tequila,,vigente_no_texto,,,False,,,,,vigente
+96/09,16.0,2208.30,220830,Uísque,,vigente_no_texto,,,False,,,,,vigente
+96/09,17.0,2205,2205,Vermute e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,18.0,2208.60.00,22086000,Vodka,,vigente_no_texto,,,False,,,,,vigente
+96/09,19.0,2208.90.00,22089000,Derivados de vodka,,vigente_no_texto,,,False,,,,,vigente
+96/09,20.0,2208.90.00,22089000,Arak,,vigente_no_texto,,,False,,,,,vigente
+96/09,21.0,2208.20.00,22082000,Aguardente vínica / grappa,,vigente_no_texto,,,False,,,,,vigente
+96/09,22.0,2206.00.10,22060010,Sidra e similares,,vigente_no_texto,,,False,,,,,vigente
+96/09,23.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Sangrias e coquetéis,,vigente_no_texto,,,False,,,,,vigente
+96/09,24.0,2204,2204,"Vinhos de uvas frescas, incluindo os vinhos enriquecidos com álcool; mostos de uvas.",,vigente_no_texto,,,False,,,,,vigente
+96/09,999.0,2205 2206 2207 2208,2205;2206;2207;2208,Outras bebidas alcoólicas não especificadas nos itens anteriores,,vigente_no_texto,,,False,,,,,vigente
+199/09,1,3213.10.00,32131000,Tinta guache,,vigente_no_texto,,,False,,,,,vigente
+199/09,2,3703.10.10 3703.10.29 3703.20.00 3703.90.10 3704.00.00 4802.20,37031010;37031029;37032000;37039010;37040000;480220,"Papel fotográfico, exceto: (i) os papéis fotográficos emulsionados com haleto de prata tipo brilhante, matte ou lustre, em rolo e, com largura igual ou superior a 102 mm e comprimento igual ou inferior a 350 m , (ii) os papéis fotográficos emulsionados com haleto de prata tipo brilhante ou fosco, em folha e com largura igual ou superior a 152 mm e comprimento igual ou inferior a 307 mm , (iii) papel de qualidade fotográfica com tecnologia ""Thermo-autoChrome"", que submetido a um processo de aquecimento seja capaz de formar imagens por reação química e combinação das camadas cyan, magenta e amarela",,vigente_no_texto,,,False,,,,,vigente
+199/09,3,3824.90.29,38249029,Corretivo,,vigente_no_texto,,,False,,,,,vigente
+199/09,4,4016.92.00,40169200,"Borracha de apagar, inclusive caneta borracha e lápis borracha",,vigente_no_texto,,,False,,,,,vigente
+199/09,5,4202.1 4202.9,42021;42029,"Maletas e pastas para documentos e de estudante, e artefatos semelhantes",,vigente_no_texto,,,False,,,,,vigente
+199/09,6,4421.90.00 3926.90.90,44219000;39269090,Prancheta,,vigente_no_texto,,,False,,,,,vigente
+199/09,7,5509.53.00 5202.99.00,55095300;52029900,Barbante de algodão e de fibra sintética combinada com algodão,,vigente_no_texto,,,False,,,,,vigente
+199/09,8,8214.10.00,82141000,Apontador de lápis,,vigente_no_texto,,,False,,,,,vigente
+199/09,10,9603.30.00,96033000,Pincéis de escrever e desenhar,,vigente_no_texto,,,False,,,,,vigente
+199/09,11,96.08,9608,"Canetas esferográficas; canetas e marcadores, com ponta de feltro ou com outras pontas porosas; canetas-tinteiro e outras canetas; estiletes para duplicadores; lapiseiras; canetas porta-penas, porta-lápis e artigos semelhantes; suas partes (incluindo as tampas e prendedores), exceto os artigos da posição 96.09",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Nova redação dada ao item 11 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,11,96.08,9608,"Canetas-tinteiro e outras canetas, estiletes para duplicadores, canetas porta-penas, porta-lápis e artigos semelhantes, suas partes (incluídas as tampas e prendedores)",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 11 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,12,9608.10.00,96081000,Canetas esferográficas,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 12 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,13,9608.20.00,96082000,"Canetas e marcadores, com ponta de feltro ou com outras pontas porosas",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 13 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,14,9608.40.00,96084000,Lapiseiras,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 14 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,15,9609,9609,"Lápis, minas, pastéis, carvões, gizes para escrever ou desenhar e gizes de alfaiate",,vigente_no_texto,,,False,,,,,vigente
+199/09,16,3407.00.10,34070010,"Massas ou pastas para modelar, próprias para recreação de crianças",,vigente_no_texto,,,False,,,,,vigente
+199/09,17,3901 a 3914 3916.20.00,3901;3914;39162000,"Espiral - perfil para encadernação, de plástico e outros materiais das posições 39.01 a 39.14, 3916.20.00",,vigente_no_texto,,,False,,,,,vigente
+199/09,18,3920.20.19,39202019,Papel celofane e tipo celofane,,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Nova redação dada ao item 18 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,18,3920.20.19,39202019,Papel celofane,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 18 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,19,3926.10.00,39261000,"Artigos de escritório e artigos escolares de plástico e outros materiais das posições 39.01 a 39.14, exceto estojos",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Nova redação dada ao item 19 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,19,3901 a 3914,3901;3914,"Artigos de escritório e artigos escolares de plástico e outros materiais das posições 39.01 a 39.14, exceto estojos, 3926.10.00",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 19 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,20,4802.54.9,4802549,Papel seda,,vigente_no_texto,,,False,,,,,vigente
+199/09,21,4421.90.00,44219000,"Quadro branco, verde e cortiça",,vigente_no_texto,,,False,,,,,vigente
+199/09,22,4802.20.90 4811.90.90,48022090;48119090,Bobina para fax,,vigente_no_texto,,,False,,,,,vigente
+199/09,23,4802.54.99 4802.57.99 4816.20.00,48025499;48025799;48162000,Bobina para máquina de calcular ou PDV,,vigente_no_texto,,,False,,,,,vigente
+199/09,24,4802.56.9 4802.57.9 4802.58.9,4802569;4802579;4802589,"Cartolina escolar e papel cartão, brancos e coloridos; recados auto adesivos (LP note); papéis de presente",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Nova redação dada ao item 24 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,24,4802.56.9 4802.57.9 4802.58.9,4802569;4802579;4802589,"Cartolina escolar e papel cartão, brancos e coloridos; recados auto adesivos (LP note); papéis de presente - todos cortados em tamanho prontos para uso escolar e doméstico",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 24 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,25,4806.20.00,48062000,Papel impermeável,,vigente_no_texto,,,False,,,,,vigente
+199/09,26,4808.10.00,48081000,Papel crepon,,vigente_no_texto,,,False,,,,,vigente
+199/09,27,4810.13.90,48101390,Papel almaço,,vigente_no_texto,,,False,,,,,vigente
+199/09,28,4810.22.90,48102290,Papel fantasia,,vigente_no_texto,,,False,,,,,vigente
+199/09,29,4809 4816,4809;4816,"papel-carbono, papel autocopiativo (exceto os vendidos em rolos de diâmetro igual ou maior do que 60 cm e os vendidos em folhas de formato igual ou maior do que 60 cm de altura e igual ou maior que 90 cm de largura) e outros papéis para cópia ou duplicação (incluídos os papéis para estênceis ou para chapas ofsete), estênceis completos e chapas ofsete, de papel, em folhas, mesmo acondicionados em caixas",,vigente_no_texto,,,False,,,,,vigente
+199/09,30,4816.90.10,48169010,Papel hectográfico,,vigente_no_texto,,,False,,,,,vigente
+199/09,31,4817,4817,"envelopes, aerogramas, bilhetes-postais não ilustrados e cartões para correspondência, de papel ou cartão, caixas, sacos e semelhantes, de papel ou cartão, contendo um sortido de artigos para correspondência",,vigente_no_texto,,,False,,,,,vigente
+199/09,32,4820,4820,"livros de registro e de contabilidade, blocos de notas, de encomendas, de recibos, de apontamentos, de papel para cartas, agendas e artigos semelhantes, cadernos, pastas para documentos, classificadores, capas para encadernação (de folhas soltas ou outras), capas de processos e outros artigos escolares, de escritório ou de papelaria, incluídos os formulários em blocos tipo ""manifold"", mesmo com folhas intercaladas de papel-carbono, de papel ou cartão, álbuns para amostras ou para coleções e capas para livros, de papel ou cartão",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 32 pelo Prot. ICMS 135/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+199/09,33,4909.00.00,49090000,"cartões postais impressos ou ilustrados, cartões impressos com votos ou mensagens pessoais, mesmo ilustrados, com ou sem envelopes, guarnições ou aplicações (conhecidos como cartões de expressão social - de época / sentimento)",,vigente_no_texto,,,False,,,,,vigente
+199/09,34,5210.59.90,52105990,Papel camurça,,vigente_no_texto,,,False,,,,,vigente
+199/09,35,7607.11.90,76071190,Papel laminado e papel espelho,,vigente_no_texto,,,False,,,,,vigente
+199/09,36,9603.90.00,96039000,Apagador para quadro,,vigente_no_texto,,,False,,,,,vigente
+199/09,37,9610.00.00,96100000,"Lousas e quadros para escrever ou desenhar, mesmo emoldurados",,vigente_no_texto,,,False,,,,,vigente
+199/09,38,4802.56,480256,"Papel cortado ""cutsize"" (tipo A3, A4, ofício I e II, carta e outros)",,vigente_no_texto,,,False,,,,,vigente
+199/09,39,3926.10.00 4420.90.00 4202.3,39261000;44209000;42023,Estojo escolar; estojo para objetos de escrita,,vigente_no_texto,,,False,,,,,vigente
+199/09,40,8304.00.00,83040000,Porta-canetas,,vigente_no_texto,,,False,,,,,vigente
+199/09,41,3506.10.90 3506.91.90,35061090;35069190,"Colas escolares branca e colorida, em bastão ou líquida",,vigente_no_texto,,,False,,,,,vigente
+199/09,42,4820.10.00,48201000,"Livros de registro e de contabilidade, blocos de notas, de encomendas, de recibos, de apontamentos, de papel para cartas, agendas e artigos semelhantes",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 42 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,43,4820.20.00,48202000,Cadernos,,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 43 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,44,4820.30.00,48203000,"Classificadores, capas para encadernação (exceto as capas para livros) e capas de processos",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 44 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,45,4820.40.00,48204000,"Formulários em blocos tipo ""manifold"", mesmo com folhas intercaladas de papel-carbono",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 45 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,46,4820.50.00,48205000,Álbuns para amostras ou para coleções,,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 46 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+199/09,47,4820.90.00,48209000,"Outros produtos da posição 48.20, excetuados os previstos nos códigos 4820.10.00, 4820.20.00, 4820.30.00, 4820.40.00 e 4820.50.00""",,vigente_no_texto,,,False,,Prot. ICMS 155/13,"Acrescido o item 47 pelo Prot. ICMS 155/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+189/09,1,3924.10.00,39241000,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plástico, não descartáveis",,vigente_no_texto,,,False,,Prot. ICMS 149/13,"Nova redação dada ao item 1 pelo Prot. ICMS 149/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+189/09,1,3924.10.00,39241000,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plástico, inclusive os descartáveis",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 1 pelo Prot. ICMS 204/12, efeitos até a data prevista em Decreto do Poder Executivo.",vigente
+189/09,1.1,3924.10.00,39241000,"Serviços de mesa e outros utensílios de mesa ou de cozinha, de plástico, descartáveis",,vigente_no_texto,,,False,,Prot. ICMS 149/13,"Acrescido o item 1.1 pelo Prot. ICMS 149/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+189/09,2,4419.00.00,44190000,Artefatos de madeira para mesa ou cozinha,,vigente_no_texto,,,False,,,,,vigente
+189/09,3,4823.20.9,4823209,Filtros descartáveis para coar café ou chá,,vigente_no_texto,,,False,,,,,vigente
+189/09,4,4823.6,48236,"Bandejas, travessas, pratos, xícaras ou chávenas, taças, copos e artigos semelhantes, de papel ou cartão",,vigente_no_texto,,,False,,,,,vigente
+189/09,5,6911.10.10,69111010,"Artigos para serviço de mesa ou de cozinha, de louça, inclusive os descartáveis - Estojos",,vigente_no_texto,,,False,,,,,vigente
+189/09,6,6911.10.90,69111090,"Artigos para serviço de mesa ou de cozinha, de louça, inclusive os descartáveis - Avulsos",,vigente_no_texto,,,False,,,,,vigente
+189/09,7,6911.10 6912.00.00,691110;69120000,"Artigos para serviço de mesa ou de cozinha, de porcelana e de cerâmica",,vigente_no_texto,,,False,,,,,vigente
+189/09,8,6912.00.00,69120000,Velas para filtros,,vigente_no_texto,,,False,,,,,vigente
+189/09,9,70.13,7013,Objetos de vidro para serviço de mesa ou de cozinha,,vigente_no_texto,,,False,,,,,vigente
+189/09,10,7013.37.00,70133700,Outros copos exceto de vitrocerâmica,,vigente_no_texto,,,False,,,,,vigente
+189/09,11,7013.42.90,70134290,"Objetos para serviço de mesa (exceto copos) ou de cozinha, exceto de vitrocerâmica - outros - pratos",,vigente_no_texto,,,False,,,,,vigente
+189/09,12,7323.93.00,73239300,"Artefatos de uso doméstico, e suas partes, de ferro fundido, ferro ou aço; esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento ou usos semelhantes, de aço inoxidável",,vigente_no_texto,,,False,,,,,vigente
+189/09,13,7323.9 7418 7615,73239;7418;7615,"Artigos para serviço de mesa ou de cozinha e suas partes, de ferro fundido, ferro, aço, cobre e alumínio",,vigente_no_texto,,,False,,Prot. ICMS 83/14,"Nova redação dada ao item 13, pelo Prot. ICMS 83/14, efeitos conforme Decreto do Poder Executivo.",,vigente
+189/09,13,7323.9 7418.19.00 7615.19.00,73239;74181900;76151900,"Artigos para serviço de mesa ou de cozinha e suas partes, de ferro fundido, ferro, aço, cobre e alumínio",,anterior_no_texto,,,False,,,,"Redação anterior, efeitos conforme Decreto do Poder Executivo.",vigente
+189/09,14,7615.10.00,76151000,"Outros artefatos de uso doméstico e suas partes, de alumínio; esponjas, esfregões, luvas e artefatos semelhantes, para limpeza, polimento ou usos semelhantes, de alumínio. Formas comercializadas individualmente e em conjunto.",,vigente_no_texto,,,False,,Prot. ICMS 83/14,"Nova redação dada ao item 14, pelo Prot. ICMS 83/14, efeitos conforme Decreto do Poder Executivo.",,vigente
+189/09,14,7615.19.00,76151900,"Outros artefatos de uso doméstico, de higiene ou de toucador, e suas partes, de alumínio; esponjas, esfregões, luvas e artefatos semelhantes, para limpeza, polimento ou usos semelhantes, de alumínio",,anterior_no_texto,,,False,,,,"Redação anterior, efeitos conforme Decreto do Poder Executivo.",vigente
+189/09,15,7615.10.00,76151000,"Outros artefatos de uso doméstico de alumínio: panelas, inclusive de pressão, frigideiras, caçarolas e assadeiras""",,vigente_no_texto,,,False,,Prot. ICMS 83/14,"Nova redação dada ao item 15, pelo Prot. ICMS 83/14, efeitos conforme Decreto do Poder Executivo.",,vigente
+189/09,15,7615.19.00,76151900,"Outros artefatos de uso doméstico de alumínio: panelas, inclusive de pressão, frigideiras, caçarolas e assadeiras",,anterior_no_texto,,,False,,,,"Redação anterior, efeitos conforme Decreto do Poder Executivo.",vigente
+189/09,16,82.11,8211,"Facas de lâmina cortante ou serrilhada, incluídas as podadeiras de lâmina móvel, e suas lâminas, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+189/09,17,8211.91.00,82119100,Facas de mesa de lâmina fixa,,vigente_no_texto,,,False,,,,,vigente
+189/09,18,8211.92.10,82119210,"Facas de lâmina cortante ou serrilhada, incluídas as podadeiras de lâmina móvel, e suas lâminas, para cozinha ou açougue",,vigente_no_texto,,,False,,,,,vigente
+189/09,19,82.15,8215,"Colheres, garfos, conchas, escumadeiras, pás para tortas, facas especiais para peixe ou manteiga, pinças para açúcar e artefatos semelhantes",,vigente_no_texto,,,False,,,,,vigente
+189/09,20,9617.00,961700,"Garrafas térmicas e outros recipientes isotérmicos montados, com isolamento produzido pelo vácuo, e suas partes (exceto ampolas de vidro)",,vigente_no_texto,,,False,,,,,vigente
+192/09,1,7321.11.00 7321.81.00 7321.90.00,73211100;73218100;73219000,Fogões de cozinha de uso doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+192/09,2,8418.10.00,84181000,"Combinações de refrigeradores e congeladores (""freezers""), munidos de portas exteriores separadas",,vigente_no_texto,,,False,,,,,vigente
+192/09,3,8418.21.00,84182100,"Refrigeradores do tipo doméstico, de compressão",,vigente_no_texto,,,False,,,,,vigente
+192/09,4,8418.29.00,84182900,Outros refrigeradores do tipo doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,5,8418.30.00,84183000,"Congeladores (""freezers"") horizontais tipo arca, de capacidade não superior a 800 litros",,vigente_no_texto,,,False,,,,,vigente
+192/09,6,8418.40.00,84184000,"Congeladores (""freezers"") verticais tipo armário, de capacidade não superior a 900 litros",,vigente_no_texto,,,False,,,,,vigente
+192/09,7,8418.50.10 8418.50.90,84185010;84185090,"Outros congeladores (""freezers"")",,vigente_no_texto,,,False,,,,,vigente
+192/09,8,8418.69.31,84186931,Bebedouros refrigerados para água,,vigente_no_texto,,,False,,,,,vigente
+192/09,9,8418.69.9,8418699,Mini Adega e similares,,vigente_no_texto,,,False,,,,,vigente
+192/09,10,8418.69.99,84186999,Máquinas para produção de gelo,,vigente_no_texto,,,False,,,,,vigente
+192/09,11,8418.99.00,84189900,"Partes de refrigeradores, congeladores, mini adegas e similares, máquinas para produção de gelo e bebedouros, descritos nos itens 8418.10.00, 8418.21.00, 8418.29.00, 8418.30.00, 8418.40.00, 8418.50.10, 8418.50.90, 8418.69.31, 8418.69.9 e 8418.69.99",,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 11 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,11,8418.99.00,84189900,"Partes dos Refrigeradores, Congeladores e Mini Adegas, descritos nos itens 8418.10.00, 8418.21.00, 8418.29.00, 8418.30.00, 8418.40.00, 8418.50.10, 8418.50.90, 8418.69.9 e 8418.69.99",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 11 pelo Prot. ICMS 134/12, efeitos da data prevista em decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,12,8421.12,842112,Secadoras de roupa de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,13,8421.19.90,84211990,Outras secadoras de roupas e centrífugas para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,14,8421.9,84219,"Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nas subposições 8421.12, 8421.19.90 e 8421.21.00",,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 14 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,14,8421.9,84219,"Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nas subposições 8421.12, 8421.19.90 e 8418.69.31",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 14 pelo Prot. ICMS 134/12, efeitos da data prevista em decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,15,8422.11.00 8422.90.10,84221100;84229010,Máquinas de lavar louça do tipo doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+192/09,16,8443.31,844331,"Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+192/09,17,8443.32,844332,"Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+192/09,18,8443.9,84439,"Partes e acessórios de máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si",,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 18 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,18,8443.99,844399,"Outras máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 84.42; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, suas partes e acessórios",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 18 pelo Prot. ICMS 134/12, efeitos da data prevista em decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,19,8450.11,845011,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade não superior a10 kg, em peso de roupa seca, inteiramente automáticas",,vigente_no_texto,,,False,,,,,vigente
+192/09,20,8450.12,845012,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, com secador centrífugo incorporado",,vigente_no_texto,,,False,,,,,vigente
+192/09,21,8450.19,845019,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+192/09,22,8450.20,845020,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade superior a10 kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+192/09,23,8450.90,845090,"Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+192/09,24,8451.21.00,84512100,"Máquinas de secar de uso doméstico, de capacidade não superior a 10kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+192/09,25,8451.29.90,84512990,Outras máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,26,8451.90,845190,Partes de máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,27,8452.10.00,84521000,Máquinas de costura de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,28,8471.30,847130,"Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela",,vigente_no_texto,,,False,,,,,vigente
+192/09,29,8471.4,84714,Outras máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+192/09,30,8471.50.10,84715010,"Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49.00, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída; baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (""slots""), e valor FOB inferior ou igual a US$ 12.500,00, por unidade",,vigente_no_texto,,,False,,,,,vigente
+192/09,31,8471.60.5,8471605,"Unidades de entrada, exceto as das subposições8471.60.54",,vigente_no_texto,,,False,,,,,vigente
+192/09,32,8471.60.90,84716090,"Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória",,vigente_no_texto,,,False,,,,,vigente
+192/09,33,8471.70,847170,Unidades de memória,,vigente_no_texto,,,False,,,,,vigente
+192/09,34,8471.90,847190,"Outras máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições.",,vigente_no_texto,,,False,,,,,vigente
+192/09,35,8473.30,847330,Partes e acessórios das máquinas da posição 84.71,,vigente_no_texto,,,False,,,,,vigente
+192/09,36,8504.3,85043,"Outros transformadores, exceto os produtos classificados nas subposições 8504.33.00 e 8504.34.00",,vigente_no_texto,,,False,,,,,vigente
+192/09,37,8504.40.10,85044010,Carregadores de acumuladores,,vigente_no_texto,,,False,,,,,vigente
+192/09,38,8504.40.40,85044040,"Equipamentos de alimentação ininterrupta de energia (UPS ou ""no break"")",,vigente_no_texto,,,False,,,,,vigente
+192/09,39,8508,8508,Aspiradores,,vigente_no_texto,,,False,,,,,vigente
+192/09,40,8509,8509,"Aparelhos eletromecânicos de motor elétrico incorporado, de uso doméstico e suas partes",,vigente_no_texto,,,False,,,,,vigente
+192/09,41,8509.80.10,85098010,Enceradeiras,,vigente_no_texto,,,False,,,,,vigente
+192/09,42,8516.10.00,85161000,Chaleiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+192/09,43,8516.40.00,85164000,Ferros elétricos de passar,,vigente_no_texto,,,False,,,,,vigente
+192/09,44,8516.50.00,85165000,Fornos de micro-ondas,,vigente_no_texto,,,False,,,,,vigente
+192/09,45,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras",,vigente_no_texto,,,False,,,,,vigente
+192/09,46,8516.71.00,85167100,Outros aparelhos eletrotérmicos para uso doméstico - Cafeteiras,,vigente_no_texto,,,False,,,,,vigente
+192/09,47,8516.72.00,85167200,Outros aparelhos eletrotérmicos para uso doméstico -Torradeiras,,vigente_no_texto,,,False,,,,,vigente
+192/09,48,8516.79,851679,Outros aparelhos eletrotérmicos para uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+192/09,49,8516.90.00,85169000,"Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos itens 8516.10.00, 8516.40.00, 8516.50.00, 8516.60.00, 8516.71.00, 8516.72.00 e 8516.79",,vigente_no_texto,,,False,,,,,vigente
+192/09,50,8517.11,851711,Aparelhos telefônicos por fio com unidade auscultador-microfone sem fio,,vigente_no_texto,,,False,,,,,vigente
+192/09,51,8517.12,851712,"Telefones para redes sem fio, exceto celulares e os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+192/09,52,8517.18.9,8517189,Outros aparelhos telefônicos,,vigente_no_texto,,,False,,,,,vigente
+192/09,53,8517.62.5,8517625,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os das subposições 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+192/09,54,8518,8518,"Microfones e seus suportes; alto-falantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofreqüência, aparelhos elétricos de amplificação de som; suas partes e acessórios. Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+192/09,55,8519 8522 8527.1,8519;8522;85271,Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; aparelhos de radiodifusão suscetíveis de funcionarem sem fonte externa de energia; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 55 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,55,8519 8522,8519;8522,Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 55 pelo Prot. ICMS 134/12, efeitos da data prevista em decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,56,8519.81.90,85198190,Outros aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios. Exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+192/09,57,8521.90.90,85219090,"Outros aparelhos videofônicos de gravação ou de reprodução, mesmo incorporando um receptor de sinais videofônicos",,vigente_no_texto,,,False,,,,,vigente
+192/09,58,8523.51.10,85235110,"Cartões de memória (""memorycards"")",,vigente_no_texto,,,False,,,,,vigente
+192/09,59,8525.80.29,85258029,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,,vigente_no_texto,,,False,,,,,vigente
+192/09,60,8527.9,85279,"Outros aparelhos receptores para radiodifusão, mesmo combinados num invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, inclusive caixa acústica para Home Theaters classificados na posição 8518",,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 60 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,60,8527,8527,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na subposição 8527.2 que sejam de uso automotivo",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 60 pelo Prot. ICMS 134/12, efeitos da data prevista em decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,61,8528.51.20,85285120,"Outros monitores dos tipos utilizados exclusiva ou principalmente com uma máquina automática para processamento de dados da posição 84.71, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+192/09,62,8528.49.29 8528.59.20 8528.61.00 8528.69,85284929;85285920;85286100;852869,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+192/09,63,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de ráios catódicos)",,vigente_no_texto,,,False,,,,,vigente
+192/09,64,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",,vigente_no_texto,,,False,,,,,vigente
+192/09,65,8528.7,85287,Outros aparelhos receptores de televisão não dotados de monitores ou display de vídeo,,vigente_no_texto,,,False,,,,,vigente
+192/09,65.1,8528.7,85287,Outros aparelhos receptores de televisão não relacionados em outros itens deste Protocolo,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 65.1 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,66,9006.10,900610,Câmeras fotográficas dos tipos utilizados para preparação de clichês ou cilindros de impressão,,vigente_no_texto,,,False,,Prot. ICMS 150/13,Nova redação dada ao item 66 pelo Prot. ICMS 150/13 a partir da data prevista em Decreto do Poder Executivo.,,vigente
+192/09,66,9006.10.00,90061000,Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 66 pelo Prot. ICMS 134/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+192/09,67,9006.40.00,90064000,Câmeras fotográficas para filmes de revelação e copiagem instantâneas,,vigente_no_texto,,,False,,,,,vigente
+192/09,68,9018.90.50,90189050,Aparelhos de diatermia,,vigente_no_texto,,,False,,,,,vigente
+192/09,69,9019.10.00,90191000,Aparelhos de massagem,,vigente_no_texto,,,False,,,,,vigente
+192/09,70,9032.89.11,90328911,Reguladores de voltagem eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+192/09,71,9504.50.00,95045000,"Consoles e máquinas de jogos de vídeo, bem como suas peças e partes",,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Nova redação dada ao item 71 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,71,9504.10,950410,Jogos de vídeo dos tipos utilizáveis com receptor de televisão,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 71 pelo Prot. ICMS 134/12, efeitos, até a data prevista em Decreto do Poder Executivo.",vigente
+192/09,72,8517.62.1,8517621,Multiplexadores e concentradores,,vigente_no_texto,,,False,,,,,vigente
+192/09,73,8517.62.22,85176222,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",,vigente_no_texto,,,False,,,,,vigente
+192/09,74,8517.62.39,85176239,Outros aparelhos para comutação,,vigente_no_texto,,,False,,,,,vigente
+192/09,75,8517.62.4,8517624,"Roteadores digitais, em redes com ou sem fio",,vigente_no_texto,,,False,,,,,vigente
+192/09,76,8517.62.62,85176262,"Aparelhos emissores com receptor incorporado de sistema troncalizado (""trunking""), de tecnologia celular",,vigente_no_texto,,,False,,,,,vigente
+192/09,77,8517.62.9,8517629,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",,vigente_no_texto,,,False,,,,,vigente
+192/09,78,8517.70.21,85177021,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",,vigente_no_texto,,,False,,,,,vigente
+192/09,79,8523.52.00,85235200,"Cartões inteligentes (""smartcards"")",,vigente_no_texto,,,False,,,,,vigente
+192/09,80,8414.5,84145,Ventiladores,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 80 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,81,8414.60.00,84146000,Coifas com dimensão horizontal máxima não superior a 120cm,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 81 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,82,8414.90.20,84149020,Partes de ventiladores ou coifas aspirantes,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 82 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,83,8415.10 8415.8 8415.90.90,841510;84158;84159090,"Máquinas e aparelhos de ar-condicionado contendo um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluídos as máquinas e aparelhos em que a umidade não seja regulável separadamente e suas partes e peças",,vigente_no_texto,,,False,,,,,vigente
+192/09,83.1,8415.90.90,84159090,"Outras partes para máquinas e aparelhos de ar condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente",,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Acrescido o item 83.1 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,84,8415.10.11,84151011,Aparelhos de ar-condicionado tipo Split System (elementos separados) com unidade externa e interna,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 84 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,85,8415.10.19,84151019,Aparelhos de ar-condicionado com capacidade inferior ou igual a 30.000 frigorias/hora,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 85 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,86,8415.10.90,84151090,Aparelhos de ar-condicionado com capacidade acima de 30.000 frigorias/hora,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 86 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,87,8421.21.00,84212100,Aparelhos para filtrar ou depurar água - Depuradores de água elétricos,,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Nova redação dada ao item 87 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+192/09,87,8421.29.90,84212990,Aparelhos para filtrar ou depurar água - Depuradores de água elétricos,,anterior_no_texto,,,False,,,,"Redação anterior do item 87, efeitos até a data prevista em Decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 93/14.",vigente
+192/09,88,8424.30.90 8424.30.10 8424.90.90,84243090;84243010;84249090,Lavadora de alta pressão e suas partes,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 88 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,89,8467.21.00,84672100,Furadeiras elétricas,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 89 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,90,8214.90 85.10,821490;8510,"Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar e suas partes",,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 90 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,91,8516.2,85162,Aparelhos elétricos para aquecimento de ambientes,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 91 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,92,8516.31.00,85163100,Secadores de cabelo,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 92 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,93,8516.32.00,85163200,Outros aparelhos para arranjos do cabelo,,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 93 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,94,8415.90.10,84159010,"Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora.",,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 94 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,95,8415.90.20,84159020,"Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora.",,vigente_no_texto,,,False,,Prot. ICMS 150/13,"Acrescido o item 95 pelo Prot. ICMS 150/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+192/09,96,8479.60.00,84796000,Climatizadores de ar.,,vigente_no_texto,,,False,,Prot. ICMS 93/14,"Acrescido o item 96 pelo Prot. ICMS 93/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+195/09,1,8421.21.00,84212100,"Aparelhos para filtrar ou depurar água, exceto os elétricos e os filtros de barro",,vigente_no_texto,,,False,,Prot. ICMS 88/14,"Nova redação dada ao item 1 pelo Prot. ICMS 88/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+195/09,1,8421.21.00,84212100,Aparelhos para filtrar ou depurar água - Purificadores de água,,anterior_no_texto,,,False,,,,"Redação anterior, efeitos até a data prevista em decreto do Poder Executivo",vigente
+195/09,2,8421.21.00,84212100,Aparelhos para filtrar ou depurar água - Filtros de barro,,vigente_no_texto,,,False,,,,,vigente
+195/09,3,8421.39.30,84213930,"Concentradores de oxigênio por depuração do ar, com capacidade de saída inferior ou igual a 6 litros por minuto",,vigente_no_texto,,,False,,,,,vigente
+195/09,4,8423.10.00,84231000,"Balanças para pessoas, incluídas as balanças para bebês; balanças de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+195/09,5,8424.20.00,84242000,Pistolas aerográficas e aparelhos semelhantes,,vigente_no_texto,,,False,,,,,vigente
+195/09,6,8424.30.10 8424.30.90 8424.90.90,84243010;84243090;84249090,"Máquinas e aparelhos de jato de água e vapor e aparelhos de jato semelhantes e suas partes, exceto lavadoras de alta pressão",,vigente_no_texto,,,False,,Prot. ICMS 88/14,"Nova redação dada ao item 6 pelo Prot. ICMS 88/14, efeitos a partir da data prevista em decreto do Poder Executivo.",,vigente
+195/09,6,8424.30.10 8424.30.90 8424.90.90,84243010;84243090;84249090,Máquinas e aparelhos de jato de água e vapor e aparelhos de jato semelhantes e suas partes,,anterior_no_texto,,,False,,,,"Redação anterior, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+195/09,7,8443.12.00,84431200,"Máquinas e aparelhos de impressão, por ofsete, dos tipos utilizados em escritórios, alimentados por folhas de formato não superior a 22cm x 36cm, quando não dobradas",,vigente_no_texto,,,False,,,,,vigente
+195/09,8,84.67,8467,"Ferramentas pneumáticas, hidráulicas ou com motor (elétrico ou não elétrico) incorporado, de uso manual",,vigente_no_texto,,,False,,,,,vigente
+195/09,9,8468.10.00 8468.90.10,84681000;84689010,Maçaricos de uso manual e suas partes,,vigente_no_texto,,,False,,,,,vigente
+195/09,10,8468.20.00 8468.90.90,84682000;84689090,Máquinas e aparelhos a gás e suas partes,,vigente_no_texto,,,False,,,,,vigente
+195/09,11,8515.1,85151,Máquinas e aparelhos para soldadura forte ou fraca,,vigente_no_texto,,,False,,,,,vigente
+195/09,12,8515.2,85152,Máquinas e aparelhos para soldar metais por resistência,,vigente_no_texto,,,False,,,,,vigente
+195/09,13,84.25,8425,"Talhas, cadernais e moitões",,vigente_no_texto,,,False,,,,,vigente
+195/09,14,8515.90,851590,"Partes de máquinas e aparelhos para soldadura forte ou fraca da posição 8515.1, e de máquinas e aparelhos para soldar metais por resistência da posição 8515.2 - Exceto dos produtos destinados à construção civil",,vigente_no_texto,,,False,,,,,vigente
+195/09,28,8515.90,851590,"Partes de máquinas e aparelhos para soldadura forte ou fraca da posição 8515.1, e de máquinas e aparelhos para soldar metais por resistência da posição 8515.2 - Exceto dos produtos destinados à construção civil",,anterior_no_texto,,,False,,,,"Redação dada ao item 28 pelo Prot. ICMS 178/13, efeitos a partir da data prevista em decreto do Poder Executivo.",vigente
+198/09,1,8413.70.10,84137010,Eletrobombas submersíveis,,vigente_no_texto,,,False,,,,,vigente
+198/09,2,8504,8504,"Transformadores, conversores, retificadores, bobinas de reatância e de auto indução, exceto os transformadores de potência superior a 16 KVA, classificados nas subposições 8504.33.00 e 8504.34.00, os da subposição 8504.3, os reatores para lâmpadas elétricas de descarga classificados na subposição 8504.10.00, os carregadores de acumuladores NCM 8504.40.10, os equipamentos de alimentação ininterrupta de energia (UPS ou “no break”), subposição 8504.40.40 e os produtos de uso automotivo.",,vigente_no_texto,,,False,,,,,vigente
+198/09,3,8513,8513,"Lanternas elétricas portáteis destinadas a funcionar por meio de sua própria fonte de energia (por exemplo: de pilhas, de acumuladores, de magnetos) - Exceto os aparelhos de iluminação utilizados em ciclos e automóveis",,vigente_no_texto,,,False,,,,,vigente
+198/09,4,8516,8516,"Aquecedores elétricos de água, incluídos os de imersão, chuveiros ou duchas elétricos, torneiras elétricas, resistências de aquecimento, inclusive as de duchas e chuveiros elétricos e suas partes, exceto outros fornos, fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, 8516.60.00",,vigente_no_texto,,,False,,,,,vigente
+198/09,5,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (WAN)), incluídas suas partes, exceto os de uso automotivo e os das subposições 8517.62.51, 8517.62.52, 8517.62.53",,vigente_no_texto,,,False,,Prot. ICMS 154/13,"Nova redação dada ao item 5 pelo Prot. ICMS 154/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+198/09,5,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como um rede local (LAN) ou uma rede de área estendida (WAN)), incluídas suas partes, exceto os de uso automotivo e os das subposições 8517.62.51, 8517.62.52, 8527.62.53",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 5 pelo Prot. ICMS 136/12, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+198/09,6,8517,8517,"Interfones, seus acessórios, tomadas e plugs",,vigente_no_texto,,,False,,,,,vigente
+198/09,7,8517.18.99,85171899,"Outros aparelhos telefônicos e videofones, exceto telefone celular",,vigente_no_texto,,,False,,,,,vigente
+198/09,8,8529,8529,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições85.25 a85.28 - Exceto as de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+198/09,9,8529.10.11,85291011,"Antenas com refletor parabólico, exceto para telefone celular - Exceto as de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,10,8529.10.19,85291019,"Outras antenas, exceto para telefones celulares - Exceto as de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,11,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual, exceto os previstos nos códigos 8531.10 e 8531.80.00- Exceto os de uso automotivo",,vigente_no_texto,,,False,,Prot. ICMS 154/13,"Nova redação dada ao item 11 pelo Prot. ICMS 154/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+198/09,11,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio) - Exceto os produtos de uso automotivo",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 11 pelo Prot. ICMS 136/12, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+198/09,12,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,13,8531.80.00,85318000,Outros aparelhos de sinalização acústica ou visual - Exceto os produtos de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+198/09,14,8533,8533,Resistências elétricas (incluídos os reostatos e os potenciômetros) - Exceto de aquecimento,,vigente_no_texto,,,False,,,,,vigente
+198/09,15,8534.00,853400,Circuitos impressos - Exceto os de uso automotivo,,vigente_no_texto,,,False,,Prot. ICMS 154/13,"Nova redação dada ao item 15 pelo Prot. ICMS 154/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+198/09,15,8534.00.00,85340000,Circuitos impressos - Exceto os de uso automotivo,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 15 pelo Prot. ICMS 136/12, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+198/09,16,8535,8535,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, pára-raios, limitadores de tensão, eliminadores de onda, tomadas de corrente e outros conectores, caixas de junção), para tensão superior a 1.000V - Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,17,8536,8536,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, eliminadores de onda, plugues e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas - Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,18,8537,8537,"Quadros, painéis, consoles, cabinas, armários e outros suportes com dois ou mais aparelhos das posições 85.35 ou 85.36, para comando elétrico ou distribuição de energia elétrica, incluídos os que incorporem instrumentos ou aparelhos do Capítulo 90 da NBM/SH, bem como os aparelhos de comando numérico",,vigente_no_texto,,,False,,,,,vigente
+198/09,19,8538,8538,"Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.35, 85.36 ou 85.37",,vigente_no_texto,,,False,,,,,vigente
+198/09,20,8541.40.11 8541.40.21 8541.40.22,85414011;85414021;85414022,Diodos emissores de luz (LED) - Exceto diodos “laser”,,vigente_no_texto,,,False,,,,,vigente
+198/09,21,8543.70.92,85437092,Eletrificadores de cercas,,vigente_no_texto,,,False,,,,,vigente
+198/09,22,7413.00.00,74130000,"Cabos, tranças e semelhantes, de cobre, não isolados para usos elétricos - exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,23,8544 7605 7614,8544;7605;7614,"Fios, cabos (incluídos os cabos coaxiais) e outros condutores, isolados ou não, para usos elétricos (incluídos os de cobre ou alumínio, envernizados ou oxidados anodicamente), mesmo com peças de conexão; fios e cabos telefônicos e para transmissão de dados; cabos de fibras ópticas, constituídos de fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão; cordas, cabos, tranças e semelhantes, de alumínio, não isolados para uso elétricos - Exceto para uso automotivo",,vigente_no_texto,,,False,,Prot. ICMS 154/13,"Nova redação dada ao item 23 pelo Prot. ICMS 154/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+198/09,23,8544 7413.00.00 7605 7614,8544;74130000;7605;7614,"Fios, cabos (incluídos os cabos coaxiais) e outros condutores, isolados ou não, para usos elétricos (incluídos os de cobre ou alumínio, envernizados ou oxidados anodicamente), mesmo com peças de conexão; fios e cabos telefônicos e para transmissão de dados; cabos de fibras ópticas, constituídos de fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão; cordas, cabos, tranças e semelhantes, de alumínio, não isolados para uso elétricos - Exceto para uso automotivo",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 23 pelo Prot. ICMS 136/12, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+198/09,24,8544.49.00,85444900,"Fios e cabos elétricos, para tensão não superior a 1000V, de uso na construção civil - Exceto para uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,25,8546,8546,"Isoladores de qualquer matéria, para usos elétricos",,vigente_no_texto,,,False,,,,,vigente
+198/09,26,8547,8547,"Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente",,vigente_no_texto,,,False,,,,,vigente
+198/09,27,9032 9033.00.00,9032;90330000,"Instrumentos e aparelhos para regulação ou controle, automáticos, suas partes e acessórios - exceto os classificados na posição 9032.89.2, os de uso automotivo e os reguladores de voltagem eletrônicos classificados na posição 9032.89.11",,vigente_no_texto,,,False,,Prot. ICMS 154/13,"Nova redação dada ao item 27 pelo Prot. ICMS 154/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+198/09,27,9032 9033.00.00,9032;90330000,"Instrumentos e aparelhos para regulação ou controle, automáticos, suas partes e acessórios – exceto os reguladores de voltagem eletrônicos classificados na posição 9032.89.11 e os controladores eletrônicos da posição 9032.89.2",,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 27 pelo Prot. ICMS 136/12, efeitos até a data prevista em decreto do Poder Executivo.",vigente
+198/09,28,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador - Exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+198/09,29,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",,vigente_no_texto,,,False,,,,,vigente
+198/09,30,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",,vigente_no_texto,,,False,,,,,vigente
+198/09,31,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições",,vigente_no_texto,,,False,,,,,vigente
+198/09,32,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+198/09,33,9405.20.00 9405.9,94052000;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",,vigente_no_texto,,,False,,,,,vigente
+198/09,34,9405.40 9405.9,940540;94059,Outros aparelhos elétricos de iluminação e suas partes,,vigente_no_texto,,,False,,,,,vigente
+198/09,35,8532,8532,"Condensadores elétricos, fixos, variáveis ou ajustáveis",,anterior_no_texto,,,False,,,,"Acrescido o item 35 pelo Prot. ICMS 154/13, efeitos da data prevista em Decreto do Poder Executivo até a data anterior à referida no Prot. ICMS 89/14.",vigente
+203/09,1,8712.00,871200,Bicicletas e outros ciclos (incluídos os triciclos) sem motor.,,vigente_no_texto,,,False,,,,,vigente
+203/09,2,4011.50.00,40115000,Pneus novos de borracha dos tipos utilizados em bicicletas,,vigente_no_texto,,,False,,,,,vigente
+203/09,3,4013.20.00,40132000,Câmaras de ar de borracha novas dos tipos utilizados em bicicletas,,vigente_no_texto,,,False,,,,,vigente
+203/09,4,8512.10.00,85121000,Aparelhos de iluminação ou de sinalização visual dos tipos utilizados em bicicletas,,vigente_no_texto,,,False,,,,,vigente
+203/09,5,8714.9,87149,Partes e acessórios das bicicletas e de outros ciclos (incluindo os triciclos) da subposição 8712.00,,vigente_no_texto,,,False,,Prot. ICMS 156/13,"Nova redação dada ao item 5 pelo Prot. ICMS 156/13, efeitos a partir da data prevista em Decreto do Poder Executivo.",,vigente
+203/09,5,8714.9,87149,Partes e acessórios das bicicletas,,anterior_no_texto,,,False,,,,"Redação anterior dada ao item 5 pelo Prot. ICMS 14/13, efeitos até a data prevista em Decreto do Poder Executivo.",vigente
+84/11,1,8413.70.10,84137010,Eletrobombas submersíveis,31,vigente_no_texto,,,False,,,,,vigente
+84/11,2,85.04,8504,"Transformadores, bobinas de reatância e de auto indução, inclusive os transformadores de potência superior a 16 KVA, classificados nas posições 8504.33.00 e 8504.34.00; exceto os demais transformadores da subposição 8504.3, os reatores para lâmpadas elétricas de descarga classificados no código 8504.10.00, os carregadores de acumuladores do código 8504.40.10, os equipamentos de alimentação ininterrupta de energia (UPS ou “no break”), no código 8504.40.40 e os de uso automotivo",48,vigente_no_texto,2016-09-01,,False,,Prot. ICMS 34/16,"Nova redação dada ao item 2 pelo Prot. ICMS 34/16, efeitos a partir de 01.09.16",,vigente
+84/11,3,85.13,8513,"Lanternas elétricas portáteis destinadas a funcionar por meio de sua própria fonte de energia (por exemplo: de pilhas, de acumuladores, de magnetos), exceto os aparelhos de iluminação utilizados em ciclos e automóveis",39,vigente_no_texto,,,False,,,,,vigente
+84/11,4,85.16,8516,"Aquecedores elétricos de água, incluídos os de imersão, chuveiros ou duchas elétricos, torneiras elétricas, resistências de aquecimento, inclusive as de duchas e chuveiros elétricos e suas partes, exceto outros fornos, fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, 8516.60.00",37,vigente_no_texto,,,False,,,,,vigente
+84/11,5,85.17,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como um rede local (LAN) ou uma rede de área estendida (WAN)), incluídas suas partes, exceto os de uso automotivos e os das subposições 8517.62.51, 8517.62.52, 8527.62.53",37,vigente_no_texto,,,False,,,,,vigente
+84/11,6,85.17,8517,"Interfones, seus acessórios, tomadas e plugs",36,vigente_no_texto,,,False,,,,,vigente
+84/11,7,8517.18.99,85171899,"Outros aparelhos telefônicos e videofones, exceto telefone celular",38,vigente_no_texto,,,False,,,,,vigente
+84/11,8,85.29,8529,"Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições85.25 a85.28, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+84/11,9,8529.10.11,85291011,"Antenas com refletor parabólico, exceto para telefone celular, exceto as de uso automotivo",38,vigente_no_texto,,,False,,,,,vigente
+84/11,10,8529.10.19,85291019,"Outras antenas, exceto para telefones celulares",46,vigente_no_texto,,,False,,,,,vigente
+84/11,11,85.31,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio), exceto os de uso automotivo",33,vigente_no_texto,,,False,,,,,vigente
+84/11,12,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto os de uso automotivo",40,vigente_no_texto,,,False,,,,,vigente
+84/11,13,8531.80.00,85318000,"Outros aparelhos de sinalização acústica ou visual, exceto os de uso automotivo",34,vigente_no_texto,,,False,,,,,vigente
+84/11,14,85.33,8533,"Resistências elétricas (incluídos os reostatos e os potenciômetros), exceto de aquecimento",39,vigente_no_texto,,,False,,,,,vigente
+84/11,15,8534.00.00,85340000,"Circuitos impressos, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+84/11,16,85.35,8535,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, pára-raios, limitadores de tensão, eliminadores de onda, tomadas de corrente e outros conectores, caixas de junção), para tensão superior a 1.000V, exceto os de uso automotivo",42,vigente_no_texto,,,False,,,,,vigente
+84/11,17,8536,8536,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, eliminadores de onda, plugues e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas, exceto “starter” classificado na subposição 8536.50 e os de uso automotivo",38,vigente_no_texto,2012-07-01,,False,,Prot. ICMS 59/12,"Nova redação dada ao item 17 pelo Prot. ICMS 59/12, efeitos a partir de 01.07.12.",,vigente
+84/11,18,85.37,8537,"Quadros, painéis, consoles, cabinas, armários e outros suportes com dois ou mais aparelhos das posições 85.35 ou 85.36, para comando elétrico ou distribuição de energia elétrica, incluídos os que incorporem instrumentos ou aparelhos do Capítulo 90 da NCM/SH, bem como os aparelhos de comando numérico",29,vigente_no_texto,,,False,,,,,vigente
+84/11,19,85.38,8538,"Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.35, 85.36 ou 85.37",41,vigente_no_texto,,,False,,,,,vigente
+84/11,20,8541.40.11 8541.40.21 8541.40.22,85414011;85414021;85414022,"Diodos emissores de luz (LED),exceto diodos “laser”",30,vigente_no_texto,,,False,,,,,vigente
+84/11,21,8543.70.92,85437092,Eletrificadores de cercas,38,vigente_no_texto,,,False,,,,,vigente
+84/11,22,7413.00.00,74130000,"Cabos, tranças e semelhantes, de cobre, não isolados para usos elétricos, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+84/11,23,85.44 7413.00.00 76.05 761.4,8544;74130000;7605;7614,"Fios, cabos (incluídos os cabos coaxiais) e outros condutores, isolados ou não, para usos elétricos (incluídos os de cobre ou alumínio, envernizados ou oxidados anodicamente), mesmo com peças de conexão; fios e cabos telefônicos e para transmissão de dados; cabos de fibras ópticas, constituídos de fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão; cordas, cabos, tranças e semelhantes, de alumínio, não isolados para uso elétricos, exceto os de uso automotivo",36,vigente_no_texto,,,False,,,,,vigente
+84/11,24,8544.49.00,85444900,"Fios e cabos elétricos, para tensão não superior a 1000V, exceto os de uso automotivo",36,vigente_no_texto,,,False,,,,,vigente
+84/11,25,85.46,8546,"Isoladores de qualquer matéria, para usos elétricos",46,vigente_no_texto,,,False,,,,,vigente
+84/11,26,85.47,8547,"Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente",38,vigente_no_texto,,,False,,,,,vigente
+84/11,27,90.32 9033.00.00,9032;90330000,"Instrumentos e aparelhos para regulação ou controle, automáticos, suas partes e acessórios - exceto os reguladores de voltagem eletrônicos classificados no código 9032.89.11 e os controladores eletrônicos da subposição 9032.89.2",38,vigente_no_texto,,,False,,,,,vigente
+84/11,28,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador, exceto os de uso automotivo",33,vigente_no_texto,,,False,,,,,vigente
+84/11,29,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",31,vigente_no_texto,,,False,,,,,vigente
+84/11,30,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",37,vigente_no_texto,,,False,,,,,vigente
+84/11,31,94.05,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições",39,vigente_no_texto,,,False,,,,,vigente
+84/11,32,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",35,vigente_no_texto,,,False,,,,,vigente
+84/11,33,9405.20.00 9405.9,94052000;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",39,vigente_no_texto,,,False,,,,,vigente
+84/11,34,9405.40 9405.9,940540;94059,Outros aparelhos elétricos de iluminação e suas partes,32,vigente_no_texto,,,False,,,,,vigente
+57/11,1.0,7321.11.00 7321.81.00 7321.90.00,73211100;73218100;73219000,Fogões de cozinha de uso doméstico e suas partes,,vigente_no_texto,,,False,,,,,vigente
+57/11,12.0,8421.19.90,84211990,Outras secadoras de roupas e centrífugas de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,13.0,8418.69.31,84186931,Bebedouros refrigerados para água,,vigente_no_texto,,,False,,,,,vigente
+57/11,14.0,8421.9,84219,"Partes das secadoras de roupas e centrífugas de uso doméstico e dos aparelhos para filtrar ou depurar água, descritos nos itens 11.0, 12.0 e 98.0",,vigente_no_texto,,,False,,,,,vigente
+57/11,16.0,8443.31,844331,"Máquinas que executem pelo menos duas das seguintes funções: impressão, cópia ou transmissão de telecópia (fax), capazes de ser conectadas a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+57/11,17.0,8443.32,844332,"Outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si, capazes de ser conectados a uma máquina automática para processamento de dados ou a uma rede",,vigente_no_texto,,,False,,,,,vigente
+57/11,18.0,8443.9,84439,"Partes e acessórios de máquinas e aparelhos de impressão por meio de blocos, cilindros e outros elementos de impressão da posição 8442; e de outras impressoras, máquinas copiadoras e telecopiadores (fax), mesmo combinados entre si",,vigente_no_texto,,,False,,,,,vigente
+57/11,19.0,8450.11.00,84501100,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade não superior a 10 kg, em peso de roupa seca, inteiramente automáticas",,vigente_no_texto,,,False,,,,,vigente
+57/11,20.0,8450.12.00,84501200,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, com secador centrífugo incorporado",,vigente_no_texto,,,False,,,,,vigente
+57/11,21.0,8450.19.00,84501900,"Outras máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+57/11,22.0,8450.20,845020,"Máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico, de capacidade superior a 10 kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+57/11,23.0,8450.90,845090,"Partes de máquinas de lavar roupa, mesmo com dispositivos de secagem, de uso doméstico",,vigente_no_texto,,,False,,,,,vigente
+57/11,24.0,8451.21.00,84512100,"Máquinas de secar de uso doméstico de capacidade não superior a 10 kg, em peso de roupa seca",,vigente_no_texto,,,False,,,,,vigente
+57/11,25.0,8451.29.90,84512990,Outras máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,26.0,8451.90,845190,Partes de máquinas de secar de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,27.0,8452.10.00,84521000,Máquinas de costura de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,28.0,8471.30,847130,"Máquinas automáticas para processamento de dados, portáteis, de peso não superior a 10 kg, contendo pelo menos uma unidade central de processamento, um teclado e uma tela",,vigente_no_texto,,,False,,,,,vigente
+57/11,29.0,8471.4,84714,Outras máquinas automáticas para processamento de dados,,vigente_no_texto,,,False,,,,,vigente
+57/11,30.0,8471.50.10,84715010,"Unidades de processamento, de pequena capacidade, exceto as das subposições 8471.41 ou 8471.49, podendo conter, no mesmo corpo, um ou dois dos seguintes tipos de unidades: unidade de memória, unidade de entrada e unidade de saída;baseadas em microprocessadores, com capacidade de instalação, dentro do mesmo gabinete, de unidades de memória da subposição 8471.70, podendo conter múltiplos conectores de expansão (""slots""), e valor FOB inferior ou igual a US$ 12.500,00, por unidade",,vigente_no_texto,,,False,,,,,vigente
+57/11,31.0,8471.60.5,8471605,"Unidades de entrada, exceto as classificadas no código 8471.60.54",,vigente_no_texto,,,False,,,,,vigente
+57/11,32.0,8471.60.90,84716090,"Outras unidades de entrada ou de saída, podendo conter, no mesmo corpo, unidades de memória",,vigente_no_texto,,,False,,,,,vigente
+57/11,33.0,8471.70,847170,Unidades de memória,,vigente_no_texto,,,False,,,,,vigente
+57/11,34.0,8471.90,847190,"Outras máquinas automáticas para processamento de dados e suas unidades; leitores magnéticos ou ópticos, máquinas para registrar dados em suporte sob forma codificada, e máquinas para processamento desses dados, não especificadas nem compreendidas em outras posições",,vigente_no_texto,,,False,,,,,vigente
+57/11,35.0,8473.30,847330,Partes e acessórios das máquinas da posição 84.71,,vigente_no_texto,,,False,,,,,vigente
+57/11,36.0,8504.3,85043,"Outros transformadores, exceto os classificados nos códigos 8504.33.00 e 8504.34.00",,vigente_no_texto,,,False,,,,,vigente
+57/11,37.0,8504.40.10,85044010,Carregadores de acumuladores,,vigente_no_texto,,,False,,,,,vigente
+57/11,38.0,8504.40.40,85044040,"Equipamentos de alimentação ininterrupta de energia (UPS ou ""no break"")",,vigente_no_texto,,,False,,,,,vigente
+57/11,40.0,8508,8508,Aspiradores,,vigente_no_texto,,,False,,,,,vigente
+57/11,41.0,8509,8509,"Aparelhos eletromecânicos de motor elétrico incorporado, de uso doméstico e suas partes",,vigente_no_texto,,,False,,,,,vigente
+57/11,42.0,8509.80.10,85098010,Enceradeiras,,vigente_no_texto,,,False,,,,,vigente
+57/11,43.0,8516.10.00,85161000,Chaleiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+57/11,44.0,8516.40.00,85164000,Ferros elétricos de passar,,vigente_no_texto,,,False,,,,,vigente
+57/11,45.0,8516.50.00,85165000,Fornos de microondas,,vigente_no_texto,,,False,,,,,vigente
+57/11,46.0,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, exceto os portáteis",,vigente_no_texto,,,False,,,,,vigente
+57/11,47.0,8516.60.00,85166000,"Outros fornos; fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, portáteis",,vigente_no_texto,,,False,,,,,vigente
+57/11,48.0,8516.71.00,85167100,Outros aparelhos eletrotérmicos de uso doméstico - Cafeteiras,,vigente_no_texto,,,False,,,,,vigente
+57/11,49.0,8516.72.00,85167200,Outros aparelhos eletrotérmicos de uso doméstico - Torradeiras,,vigente_no_texto,,,False,,,,,vigente
+57/11,50.0,8516.79,851679,Outros aparelhos eletrotérmicos de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,51.0,8516.90.00,85169000,"Partes das chaleiras, ferros, fornos e outros aparelhos eletrotérmicos da posição 85.16, descritos nos itens 43.0, 44.0, 45.0, 46.0, 47.0, 48.0, 49.0 e 50.0",,vigente_no_texto,,,False,,,,,vigente
+57/11,52.0,8517.11.00,85171100,Aparelhos telefônicos por fio com unidade auscultador - microfone sem fio,,vigente_no_texto,,,False,,,,,vigente
+57/11,53.0,8517.12.3,8517123,"Telefones para redes celulares, exceto por satélite e os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,54.0,8517.12,851712,"Outros telefones para outras redes sem fio, exceto para redes de celulares e os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,55.0,8517.18.9,8517189,Outros aparelhos telefônicos,,vigente_no_texto,,,False,,,,,vigente
+57/11,56.0,8517.62.5,8517625,"Aparelhos para transmissão ou recepção de voz, imagem ou outros dados em rede com fio, exceto os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+57/11,57.0,8518,8518,"Microfones e seus suportes; altofalantes, mesmo montados nos seus receptáculos, fones de ouvido (auscultadores), mesmo combinados com microfone e conjuntos ou sortidos constituídos por um microfone e um ou mais alto-falantes, amplificadores elétricos de audiofreqüência, aparelhos elétricos de amplificação de som; suas partes e acessórios; exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,58.0,8519 8522 8527.1,8519;8522;85271,Aparelhos de radiodifusão suscetíveis de funcionarem sem fonte externa de energia. Aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios; exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+57/11,59.0,8519.81.90,85198190,Outros aparelhos de gravação de som; aparelhos de reprodução de som; aparelhos de gravação e de reprodução de som; partes e acessórios; exceto os de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+57/11,61.0,8521.90.90,85219090,"Outros aparelhos videofônicos de gravação ou reprodução, mesmo incorporando um receptor de sinais videofônicos, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,62.0,8523.51.10,85235110,"Cartões de memória (""memory cards"")",,vigente_no_texto,,,False,,,,,vigente
+57/11,63.0,8523.52.00,85235200,"Cartões inteligentes (""smart cards"")",,vigente_no_texto,,,False,,,,,vigente
+57/11,65.0,8525.80.2,8525802,Câmeras fotográficas digitais e câmeras de vídeo e suas partes,,vigente_no_texto,,,False,,,,,vigente
+57/11,66.0,8527.9,85279,"Outros aparelhos receptores para radiodifusão, mesmo combinados num invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, inclusive caixa acústica para Home Theaters classificados na posição 8518",,vigente_no_texto,,,False,,,,,vigente
+57/11,67.0,8528.49.29 8528.59.20 8528.69 8528.61.00,85284929;85285920;852869;85286100,"Monitores e projetores que não incorporem aparelhos receptores de televisão, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+57/11,68.0,8528.51.20,85285120,"Outros monitores dos tipos utilizados exclusiva ou principalmente com uma máquina automática para processamento de dados da posição 84.71, policromáticos",,vigente_no_texto,,,False,,,,,vigente
+57/11,69.0,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de CRT (tubo de raios catódicos)",,vigente_no_texto,,,False,,,,,vigente
+57/11,70.0,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de LCD (Display de Cristal Líquido)",,vigente_no_texto,,,False,,,,,vigente
+57/11,71.0,8528.7,85287,"Aparelhos receptores de televisão, mesmo que incorporem um aparelho receptor de radiodifusão ou um aparelho de gravação ou reprodução de som ou de imagens - Televisores de Plasma",,vigente_no_texto,,,False,,,,,vigente
+57/11,72.0,8528.7,85287,Outros aparelhos receptores de televisão não dotados de monitores ou display de vídeo,,vigente_no_texto,,,False,,,,,vigente
+57/11,73.0,8528.7,85287,Outros aparelhos receptores de televisão não relacionados em outros itens deste anexo,,vigente_no_texto,,,False,,,,,vigente
+57/11,74.0,9006.10,900610,Câmeras fotográficas dos tipos utilizadas para preparação de clichês ou cilindros de impressão,,vigente_no_texto,,,False,,,,,vigente
+57/11,75.0,9006.40.00,90064000,Câmeras fotográficas para filmes de revelação e copiagem instantâneas,,vigente_no_texto,,,False,,,,,vigente
+57/11,76.0,9018.90.50,90189050,Aparelhos de diatermia,,vigente_no_texto,,,False,,,,,vigente
+57/11,77.0,9019.10.00,90191000,Aparelhos de massagem,,vigente_no_texto,,,False,,,,,vigente
+57/11,78.0,9032.89.11,90328911,Reguladores de voltagem eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+57/11,79.0,9504.50.00,95045000,"Consoles e máquinas de jogos de vídeo, exceto os classificados na subposição 9504.30",,vigente_no_texto,,,False,,,,,vigente
+57/11,80.0,8517.62.1,8517621,Multiplexadores e concentradores,,vigente_no_texto,,,False,,,,,vigente
+57/11,81.0,8517.62.22,85176222,"Centrais automáticas privadas, de capacidade inferior ou igual a 25 ramais",,vigente_no_texto,,,False,,,,,vigente
+57/11,82.0,8517.62.39,85176239,Outros aparelhos para comutação,,vigente_no_texto,,,False,,,,,vigente
+57/11,83.0,8517.62.4,8517624,"Roteadores digitais, em redes com ou sem fio",,vigente_no_texto,,,False,,,,,vigente
+57/11,84.0,8517.62.62,85176262,"Aparelhos emissores com receptor incorporado de sistema troncalizado (""trunking""), de tecnologia celular",,vigente_no_texto,,,False,,,,,vigente
+57/11,85.0,8517.62.9,8517629,"Outros aparelhos de recepção, conversão e transmissão ou regeneração de voz, imagens ou outros dados, incluindo os aparelhos de comutação e roteamento",,vigente_no_texto,,,False,,,,,vigente
+57/11,86.0,8517.70.21,85177021,"Antenas próprias para telefones celulares portáteis, exceto as telescópicas",,vigente_no_texto,,,False,,,,,vigente
+57/11,87.0,8214.90 8510,821490;8510,"Aparelhos ou máquinas de barbear, máquinas de cortar o cabelo ou de tosquiar e aparelhos de depilar, e suas partes",,vigente_no_texto,,,False,,,,,vigente
+57/11,88.0,8414.5,84145,"Ventiladores, exceto os de uso agrícola",,vigente_no_texto,,,False,,,,,vigente
+57/11,90.0,8414.60.00,84146000,Coifas com dimensão horizontal máxima não superior a 120 cm,,vigente_no_texto,,,False,,,,,vigente
+57/11,91.0,8414.90.20,84149020,Partes de ventiladores ou coifas aspirantes,,vigente_no_texto,,,False,,,,,vigente
+57/11,92.0,8415.10 8415.8,841510;84158,"Máquinas e aparelhos de ar condicionado contendo um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluídos as máquinas e aparelhos em que a umidade não seja regulável separadamente",,vigente_no_texto,,,False,,,,,vigente
+57/11,93.0,8415.10.11,84151011,Aparelhos de ar-condicionado tipo Split System (sistema com elementos separados) com unidade externa e interna,,vigente_no_texto,,,False,,,,,vigente
+57/11,94.0,8415.10.19,84151019,Aparelhos de ar-condicionado com capacidade inferior ou igual a 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+57/11,95.0,8415.10.90,84151090,Aparelhos de ar-condicionado com capacidade acima de 30.000 frigorias/hora,,vigente_no_texto,,,False,,,,,vigente
+57/11,96.0,8415.90.10,84159010,"Unidades evaporadoras (internas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+57/11,97.0,8415.90.20,84159020,"Unidades condensadoras (externas) de aparelho de ar-condicionado do tipo Split System (sistema com elementos separados), com capacidade inferior ou igual a 30.000 frigorias/hora",,vigente_no_texto,,,False,,,,,vigente
+57/11,98.0,8421.21.00,84212100,Aparelhos elétricos para filtrar ou depurar água,,vigente_no_texto,,,False,,,,,vigente
+57/11,99.0,8424.30.10 8424.30.90 8424.90.90,84243010;84243090;84249090,Lavadora de alta pressão e suas partes,,vigente_no_texto,,,False,,,,,vigente
+57/11,100.0,8467.21.00,84672100,Furadeiras elétricas,,vigente_no_texto,,,False,,,,,vigente
+57/11,101.0,8516.2,85162,Aparelhos elétricos para aquecimento de ambientes,,vigente_no_texto,,,False,,,,,vigente
+57/11,102.0,8516.31.00,85163100,Secadores de cabelo,,vigente_no_texto,,,False,,,,,vigente
+57/11,103.0,8516.32.00,85163200,Outros aparelhos para arranjos do cabelo,,vigente_no_texto,,,False,,,,,vigente
+57/11,104.0,8527,8527,"Aparelhos receptores para radiodifusão, mesmo combinados num mesmo invólucro, com um aparelho de gravação ou de reprodução de som, ou com um relógio, exceto os classificados na posição 8527.1, 8527.2 e 8527.9 que sejam de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,105.0,8479.60.00,84796000,Climatizadores de ar,,vigente_no_texto,,,False,,,,,vigente
+57/11,106.0,8415.90.90,84159090,"Outras partes para máquinas e aparelhos de ar-condicionado que contenham um ventilador motorizado e dispositivos próprios para modificar a temperatura e a umidade, incluindo as máquinas e aparelhos em que a umidade não seja regulável separadamente",,vigente_no_texto,,,False,,,,,vigente
+57/11,107.0,8525.80.19,85258019,Câmeras de televisão e suas partes,,vigente_no_texto,,,False,,,,,vigente
+57/11,108.0,8423.10.00,84231000,Balanças de uso doméstico,,vigente_no_texto,,,False,,,,,vigente
+57/11,109.0,8540,8540,"Tubos e válvulas, eletrônicos, de cátodo quente, cátodo frio ou fotocátodo (por exemplo, tubos e válvulas, de vácuo, de vapor ou de gás, ampolas retificadoras de vapor de mercúrio, tubos catódicos, tubos e válvulas para câmeras de televisão)",,vigente_no_texto,,,False,,,,,vigente
+57/11,110.0,8517,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como uma rede local (LAN) ou uma rede de área estendida (WAN), incluídas suas partes, exceto os de uso automotivo e os classificados nos códigos 8517.62.51, 8517.62.52 e 8517.62.53",,vigente_no_texto,,,False,,,,,vigente
+57/11,111.0,8517,8517,"Interfones, seus acessórios, tomadas e ""plugs""",,vigente_no_texto,,,False,,,,,vigente
+57/11,112.0,8529,8529,Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 8525 a 8528; exceto as de uso automotivo,,vigente_no_texto,,,False,,,,,vigente
+57/11,113.0,8531,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio); exceto os de uso automotivo e os classificados nas posições 8531.10 e 8531.80.00.",,vigente_no_texto,,,False,,,,,vigente
+57/11,114.0,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,115.0,8531.80.00,85318000,"Outros aparelhos de sinalização acústica ou visual, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,116.0,8534.00,853400,"Circuitos impressos, exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,117.0,8541.40.11 8541.40.21 8541.40.22,85414011;85414021;85414022,"Diodos emissores de luz (LED), exceto diodos ""laser""",,vigente_no_texto,,,False,,,,,vigente
+57/11,118.0,8543.70.92,85437092,Eletrificadores de cercas eletrônicos,,vigente_no_texto,,,False,,,,,vigente
+57/11,119.0,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador; exceto os de uso automotivo",,vigente_no_texto,,,False,,,,,vigente
+57/11,120.0,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",,vigente_no_texto,,,False,,,,,vigente
+57/11,121.0,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",,vigente_no_texto,,,False,,,,,vigente
+57/11,122.0,9405,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições",,vigente_no_texto,,,False,,,,,vigente
+80/11,1,"2828.90.11, 2828.90.19, 3206. 41.00, 3808.94.19",28289011;28289019;3206;4100;38089419,"água sanitária, branqueador ou alvejante",,vigente_no_texto,,,False,,,,,vigente
+80/11,2,"3307.41.00, 3307.49.00, 3307.90.00, 3808.94.19",33074100;33074900;33079000;38089419,odorizantes / desodorizantes de ambiente e superfície,,vigente_no_texto,,,False,,,,,vigente
+80/11,3,3401.19.00,34011900,"sabões em barras, pedaços ou figuras moldados",,vigente_no_texto,,,False,,,,,vigente
+80/11,4,3401.20.90 3808.94.19,34012090;38089419,"Sabões, desinfetantes e sanitizantes, todos em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas.",,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 32/22,"Nova redação dada ao item 4 pelo Prot. ICMS 32/22, efeitos a partir de 01.09.22.",,vigente
+80/11,4.1,3401.20.90 3808.94.19,34012090;38089419,"Sabões, desinfetantes e sanitizantes, todos líquidos para lavar roupas.",,vigente_no_texto,,,False,,,,,vigente
+80/11,5,3402.20.00,34022000,"Detergentes líquidos, exceto para lavar roupa",,vigente_no_texto,,,False,,,,,vigente
+80/11,5.1,3402.20.00,34022000,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 32/22,"Nova redação dada ao item 5.1 pelo Prot. ICMS 32/22, efeitos a partir de 01.09.22.",,vigente
+80/11,5.2,3402.20.00,34022000,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",,vigente_no_texto,,,False,,,,,vigente
+80/11,6,3402,3402,"Outros agentes orgânicos de superfície (exceto sabões); preparações tensoativas, preparações para lavagem (incluídas as preparações auxiliares para lavagem) e preparações para limpeza (inclusive multiuso e limpadores), mesmo contendo sabão, exceto as da posição 34.01 e os produtos descritos nos itens 4, 5 e 5.1",,vigente_no_texto,,,False,,,,,vigente
+80/11,7,3405.10.00,34051000,"pomadas, cremes e preparações semelhantes, para calçados ou para couros",,vigente_no_texto,,,False,,,,,vigente
+80/11,8,3405.40.00,34054000,"pastas, pós, saponáceos e outras preparações para arear",,vigente_no_texto,,,False,,,,,vigente
+80/11,9,3505.10.00 3506.91.20 3809.91.90 3905.12.00,35051000;35069120;38099190;39051200,Facilitadores e goma para passar roupa,,vigente_no_texto,,,False,,,,,vigente
+80/11,10,"3808.50.10, 3808.91, 3808.92.1, 3808.99",38085010;380891;3808921;380899,"inseticidas, rodenticidas, fungicidas, raticidas, repelentes e outros produtos semelhantes, apresentados em formas ou embalagens exclusivamente para uso domissanitário direto",,vigente_no_texto,,,False,,,,,vigente
+80/11,11,3808.94,380894,desinfetantes apresentados em quaisquer formas ou embalagens,,vigente_no_texto,,,False,,,,,vigente
+80/11,12,3809.91.90,38099190,amaciante/suavizante,,vigente_no_texto,,,False,,,,,vigente
+80/11,13,"3924.10.00 3924.90.00, 6805.30.10, 6805.30.90",39241000;39249000;68053010;68053090,esponjas para limpeza,,vigente_no_texto,,,False,,,,,vigente
+80/11,14,2207,2207,Álcool etílico para limpeza,,vigente_no_texto,,,False,,,,,vigente
+80/11,15,2710.12.90,27101290,Óleo para conservação e limpeza de móveis e outros artigos de madeira,,vigente_no_texto,,,False,,,,,vigente
+80/11,16,2801.10.00 2828.10.00 2828 2933.69.11 2933.69.19 3808.94,28011000;28281000;2828;29336911;29336919;380894,"Dicloro estabilizado; ácido tricloro isocianúrico; hipocloritos, hipoclorito de cálcio comercial, cloritos, hipobromitos, nas formas líquida, sólida, gasosa, em tabletes pó, granulado, pastilhas ou em tabletes e demais desinfetantes para uso em piscinas; cloradores flutuantes de qualquer tipo, tamanho ou composição",,vigente_no_texto,,,False,,,,,vigente
+80/11,17,2803.00.90,28030090,carbonato de sódio 99%,,vigente_no_texto,,,False,,,,,vigente
+80/11,18,2806.10.20 2806.20.00,28061020;28062000,"cloreto de hidrogênio (ácido clorídrico) ácido clossulfúrico, em solução aquosa",,vigente_no_texto,,,False,,,,,vigente
+80/11,19,2815,2815,Limpador abrasivo e/ou soda cáustica em forma ou embalagem para uso direto de conteúdo igual ou inferior a 25 litros ou 25 kg,,vigente_no_texto,,,False,,,,,vigente
+80/11,20,2827.20.90,28272090,desumidificador de ambiente,,vigente_no_texto,,,False,,,,,vigente
+80/11,21,2827.32.00 2827.49.21 2833.22.00 2924.1,28273200;28274921;28332200;29241,"Floculantes clarificantes, decantadores à base de cloretos, oxicloretos, hidrocloretos; sulfatos de alumínio e outros sais de alumínio; todos na forma líquida, granulada, em pó, pastilhas, tabletes, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg",,vigente_no_texto,,,False,,,,,vigente
+80/11,22,2832.20.00 2901.10.00,28322000;29011000,tira-manchas e produtos para pré-lavagem de roupas,,vigente_no_texto,,,False,,,,,vigente
+80/11,23,2836.20.10 2836.30.00 2836.50.00,28362010;28363000;28365000,"Barrilha leve, carbonatos de sódio, carbonato de cálcio; hidrogeno carbonato de sódio ou bicarbonado de sódio; todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 kg",,vigente_no_texto,,,False,,,,,vigente
+80/11,24,2902.90.20,29029020,naftalina,,vigente_no_texto,,,False,,,,,vigente
+80/11,25,2917.11.10,29171110,antiferrugem,,vigente_no_texto,,,False,,,,,vigente
+80/11,26,2923.90.90,29239090,Clarificante em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+80/11,27,2931.00.79 2931.90.79,29310079;29319079,Controlador de metais em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+80/11,28,2933.69.19,29336919,flutuador 4x1,,vigente_no_texto,,,False,,,,,vigente
+80/11,29,3402.90.39,34029039,Limpa-bordas em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+80/11,30,34.03,3403,"preparações lubrificantes e preparações dos tipos utilizados para lubrificar e amaciar matérias têxteis, para untar couros, peleteria e outras matérias",,vigente_no_texto,,,False,,,,,vigente
+80/11,31,38.02,3802,neutralizador/eliminador de odor,,vigente_no_texto,,,False,,,,,vigente
+80/11,32,2815.30.00 2842.10.90 2922.13 2923.90.90 3808.92 3808.93 3808.94 3808.99,28153000;28421090;292213;29239090;380892;380893;380894;380899,"Algicidas; removedores de gordura e oleosidade, à base de sais, peróxido-sulfato de sódio ou potássio; todos utilizados em piscinas e em embalagens de conteúdo igual ou inferior a 25 litros",,vigente_no_texto,,,False,,,,,vigente
+80/11,33,3822.00.90,38220090,"kit teste ph/cloro, fita-teste",,vigente_no_texto,,,False,,,,,vigente
+80/11,34,3824.90.49,38249049,Produtos para limpeza pesada em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg,,vigente_no_texto,,,False,,,,,vigente
+80/11,35,2806.10.20 2807.00.10 2809.20.1 3824.90.79,28061020;28070010;2809201;38249079,"Redutor de pH: produtos em solução aquosa ou não, de ácidos clorídricos, sulfúrico, fosfórico, e outros redutores de pH da posição 3824.90.79, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 5 litros",,vigente_no_texto,,,False,,,,,vigente
+80/11,36,3923.2,39232,sacos de lixo de conteúdo igual ou inferior a 100 litros,,vigente_no_texto,,,False,,,,,vigente
+80/11,37,6307.10.00,63071000,"rodilhas, esfregões, panos de prato ou de cozinha, flanelas e artefatos de limpeza semelhantes",,vigente_no_texto,,,False,,,,,vigente
+80/11,38,"8424.89, 8516.79.90",842489;85167990,"aparelhos mecânicos ou elétricos odorizantes, desinfetantes e afins",,vigente_no_texto,,,False,,,,,vigente
+80/11,39,9603.10.00,96031000,"vassouras e escovas, constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",,vigente_no_texto,,,False,,,,,vigente
+80/11,40,9603.90.00,96039000,"vassouras, rodos, cabos e afins",,vigente_no_texto,,,False,,,,,vigente
+80/11,41,7323.10.00,73231000,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço",,vigente_no_texto,,,False,,,,,vigente
+82/11,1,3816.00.1 3824.50.00,3816001;38245000,Argamassas,37,vigente_no_texto,,,False,,,,,vigente
+82/11,2,39.16,3916,"Revestimentos de PVC e outros plásticos; forro, sancas e afins de PVC",44,vigente_no_texto,,,False,,,,,vigente
+82/11,3,39.17,3917,"Tubos, e seus acessórios (por exemplo, juntas, cotovelos, flanges, uniões), de plásticos",33,vigente_no_texto,,,False,,,,,vigente
+82/11,4,39.18,3918,Revestimento de pavimento de PVC e outros plásticos,38,vigente_no_texto,,,False,,,,,vigente
+82/11,5,39.19,3919,"Chapas, folhas, tiras, fitas, películas e outras formas planas, auto-adesivas, de plásticos, mesmo em rolos",39,vigente_no_texto,,,False,,,,,vigente
+82/11,6,39.19 39.20 39.21,3919;3920;3921,"Veda rosca, lona plástica, fitas isolantes e afins",28,vigente_no_texto,,,False,,,,,vigente
+82/11,7,39.21,3921,"Chapas, laminados plásticos em bobina",42,vigente_no_texto,,,False,,,,,vigente
+82/11,8,39.22,3922,"Banheiras, boxes para chuveiros, pias, lavatórios, bidês, sanitários e seus assentos e tampas, caixas de descarga e artigos semelhantes para usos sanitários ou higiênicos, de plásticos.",41,vigente_no_texto,,,False,,,,,vigente
+82/11,9,39.24,3924,Artefatos de higiene / toucador de plástico,52,vigente_no_texto,,,False,,,,,vigente
+82/11,10,3925.20.00,39252000,"Portas, janelas e afins, de plástico",37,vigente_no_texto,,,False,,,,,vigente
+82/11,11,3925.30.00,39253000,"Postigos, estores (incluídas as venezianas) e artefatos semelhantes e suas partes",48,vigente_no_texto,,,False,,,,,vigente
+82/11,12,3926.90,392690,Outras obras de plástico,36,vigente_no_texto,,,False,,,,,vigente
+82/11,13,4005.91.90,40059190,Fitas emborrachadas,27,vigente_no_texto,,,False,,,,,vigente
+82/11,14,40.09,4009,"Tubos de borracha vulcanizada não endurecida, mesmo providos dos respectivos acessórios (por exemplo, juntas, cotovelos, flanges, uniões)",43,vigente_no_texto,,,False,,,,,vigente
+82/11,15,4016.91.00,40169100,Revestimentos para pavimentos (pisos) e capachos de borracha vulcanizada não endurecida,69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,16,4016.93.00,40169300,"Juntas, gaxetas e semelhantes, de borracha vulcanizada não endurecida, para uso não automotivo",47,vigente_no_texto,,,False,,,,,vigente
+82/11,17,44.08,4408,"Folhas para folheados (incluídas as obtidas por corte de madeira estratificada), folhas para compensados (contraplacados) ou para outras madeiras estratificadas semelhantes e outras madeiras, serradas longitudinalmente, cortadas em folhas ou desenroladas, mesmo aplainadas, polidas, unidas pelas bordas ou pelas extremidades, de espessura não superior a 6mm",69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,18,44.09,4409,Pisos de madeira,36,vigente_no_texto,,,False,,,,,vigente
+82/11,19,4410.11.21,44101121,"Painéis de partículas, painéis denominados “orientedstrandboard” (OSB) e painéis semelhantes (por exemplo, “waferboard”), de madeira ou de outras matérias lenhosas, recobertos na superfície com papel impregnado de melamina, mesmo aglomeradas com resinas ou com outros aglutinantes orgânicos, em ambas as faces, com película protetora na face superior e trabalho de encaixe nas quatro laterais, dos tipos utilizados para pavimentos",38,vigente_no_texto,,,False,,,,,vigente
+82/11,20,44.11,4411,Pisos laminados com base de MDF (Médium DensityFiberboard) e/ou madeira,37,vigente_no_texto,,,False,,,,,vigente
+82/11,21,44.18,4418,"Obras de marcenaria ou de carpintaria, incluídos os painéis celulares, os painéis montados para revestimento de pavimentos (pisos) e as fasquias para telhados “shingles e shakes”, de madeira",38,vigente_no_texto,,,False,,,,,vigente
+82/11,22,48.14,4814,Papel de parede e revestimentos de parede semelhantes; papel para vitrais.,51,vigente_no_texto,,,False,,,,,vigente
+82/11,23,57.03,5703,"Tapetes e outros revestimentos para pavimentos (pisos), de matérias têxteis, tufados, mesmo confeccionados",49,vigente_no_texto,,,False,,,,,vigente
+82/11,24,57.04,5704,"Tapetes e outros revestimentos para pavimentos (pisos), de feltro, exceto os tufados e os flocados, mesmo confeccionados",44,vigente_no_texto,,,False,,,,,vigente
+82/11,25,59.04,5904,"Linóleos, mesmo recortados, revestimentos para pavimentos (pisos) constituídos por um induto ou recobrimento aplicado sobre suporte têxtil, mesmo recortados",63,vigente_no_texto,,,False,,,,,vigente
+82/11,26,63.03,6303,Persianas de materiais têxteis,47,vigente_no_texto,,,False,,,,,vigente
+82/11,27,68.02,6802,"Ladrilhos de mármores, travertinos, lajotas, quadrotes, alabastro, ônix e outras rochas carbonáticas, e ladrilhos de granito, cianito, charnokito, diorito, basalto e outras rochas silicáticas, com área de até 2m2",44,vigente_no_texto,,,False,,,,,vigente
+82/11,28,68.05,6805,"Abrasivos naturais ou artificiais, em pó ou em grãos, aplicados sobre matérias têxteis, papel, cartão ou outras matérias, mesmo recortados, costurados ou reunidos de outro modo.",41,vigente_no_texto,,,False,,,,,vigente
+82/11,29,6808.00.00,68080000,"Painéis, chapas, ladrilhos, blocos e semelhantes, de fibras vegetais, de palha ou de aparas, partículas, serragem (serradura) ou de outros desperdícios de madeira, aglomerados com cimento, gesso ou outros aglutinantes minerais",69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,30,68.09,6809,"Obras de gesso ou de composições à base de gesso exceto as imagens religiosas, decorativas e estatuetas, classificadas no NCM/SH 6809.90.00",30,vigente_no_texto,2015-04-14,,False,,Prot. ICMS 11/15,"Nova redação dada ao item 30 pelo Prot. ICMS 11/15, efeitos a partir de 14.4.15.",,vigente
+82/11,31,68.10,6810,"Obras de cimento, de concreto ou de pedra artificial, mesmo armadas, exceto poste acima de 3 m de altura e tubos, laje, pré laje e mourões",33,vigente_no_texto,,,False,,,,,vigente
+82/11,32,69.07 69.08,6907;6908,"Ladrilhos e placas de cerâmica, exclusivamente para pavimentação ou revestimento",39,vigente_no_texto,,,False,,,,,vigente
+82/11,33,69.10,6910,"Pias, lavatórios, colunas para lavatórios, banheiras, bidês, sanitários, caixas de descarga, mictórios e aparelhos fixos semelhantes para usos sanitários, de cerâmica",40,vigente_no_texto,,,False,,,,,vigente
+82/11,34,6912.00.00,69120000,Artefatos de higiene/toucador de cerâmica,54,vigente_no_texto,,,False,,,,,vigente
+82/11,35,70.03,7003,"Vidro vazado ou laminado, em chapas, folhas ou perfis, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",39,vigente_no_texto,,,False,,,,,vigente
+82/11,36,70.04,7004,"Vidro estirado ou soprado, em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,37,70.05,7005,"Vidro flotado e vidro desbastado ou polido em uma ou em ambas as faces, em chapas ou em folhas, mesmo com camada absorvente, refletora ou não, mas sem qualquer outro trabalho",39,vigente_no_texto,,,False,,,,,vigente
+82/11,38,7007.19.00,70071900,Vidros temperados,36,vigente_no_texto,,,False,,,,,vigente
+82/11,39,7007.29.00,70072900,Vidros laminados,39,vigente_no_texto,,,False,,,,,vigente
+82/11,40,7008.00.00,70080000,Vidros isolantes de paredes múltiplas,50,vigente_no_texto,,,False,,,,,vigente
+82/11,41,70.09,7009,"Espelhos de vidro, mesmo emoldurados, excluídos os de uso automotivo",37,vigente_no_texto,,,False,,,,,vigente
+82/11,42,70.16,7016,"Blocos, placas, tijolos, ladrilhos, telhas e outros artefatos, de vidro prensado ou moldado, mesmo armado; cubos, pastilhas e outros artigos semelhantes",61.2,vigente_no_texto,,,False,,,,,vigente
+82/11,43,70.19 90.19,7019;9019,Banheira de hidromassagem,34,vigente_no_texto,,,False,,,,,vigente
+82/11,44,72.13 7214.20.00 7308.90.10,7213;72142000;73089010,Vergalhões,33,vigente_no_texto,,,False,,,,,vigente
+82/11,45,"7214.20.00, 7308.90.10",72142000;73089010,"Barras próprias para construções, exceto os vergalhões",40,vigente_no_texto,,,False,,,,,vigente
+82/11,46,7217.10.90 73.12,72171090;7312,"Fios de ferro ou aço não ligados, não revestidos, mesmo polidos, cordas, cabos, tranças (entrançados), lingas e artefatos semelhantes, de ferro ou aço, não isolados para usos elétricos",42,vigente_no_texto,,,False,,,,,vigente
+82/11,47,7217.20.90,72172090,"Outros fios de ferro ou aço, não ligados, galvanizados",40,vigente_no_texto,,,False,,,,,vigente
+82/11,48,73.07,7307,"Acessórios para tubos (inclusive uniões, cotovelos, luvas ou mangas), de ferro fundido, ferro ou aço",33,vigente_no_texto,,,False,,,,,vigente
+82/11,49,7308.30.00,73083000,"Portas e janelas, e seus caixilhos, alizares e soleiras de ferro fundido, ferro ou aço",34,vigente_no_texto,,,False,,,,,vigente
+82/11,50,7308.40.00 7308.90,73084000;730890,"Material para andaimes, para armações (cofragens) e para escoramentos, (inclusive armações prontas, para estruturas de concreto armado ou argamassa armada), eletrocalhas e perfilados de ferro fundido, ferro ou aço, próprios para construção civil",39,vigente_no_texto,,,False,,,,,vigente
+82/11,51,73.10,7310,"Caixas diversas (tais como caixa de correio, de entrada de água, de energia, de instalação) de ferro ou aço próprias para construção civil; de ferro fundido, ferro ou aço",59,vigente_no_texto,,,False,,,,,vigente
+82/11,52,7313.00.00,73130000,"Arame farpado, de ferro ou aço arames ou tiras, retorcidos, mesmo farpados, de ferro ou aço, dos tipos utilizados em cercas",42,vigente_no_texto,,,False,,,,,vigente
+82/11,53,73.14,7314,"Telas metálicas, grades e redes, de fios de ferro ou aço",33,vigente_no_texto,,,False,,,,,vigente
+82/11,54,7315.11.00,73151100,"Correntes de rolos, de ferro fundido, ferro ou aço",69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,55,7315.12.90,73151290,"Outras correntes de elos articulados, de ferro fundido, ferro ou aço",69.43,vigente_no_texto,,,False,,,,,vigente
+82/11,56,7315.82.00,73158200,"Correntes de elos soldados, de ferro fundido, de ferro ou aço",42,vigente_no_texto,,,False,,,,,vigente
+82/11,57,7317.00,731700,"Tachas, pregos, percevejos, escápulas, grampos ondulados ou biselados e artefatos semelhantes, de ferro fundido, ferro ou aço, mesmo com a cabeça de outra matéria, exceto cobre",41,vigente_no_texto,,,False,,,,,vigente
+82/11,58,73.18,7318,"Parafusos, pinos ou pernos, roscados, porcas, tira-fundos, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão) e artefatos semelhantes, de ferro fundido, ferro ou aço",46,vigente_no_texto,,,False,,,,,vigente
+82/11,59,7323,7323,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço, exceto as esponjas de lã de aço ou ferro para limpeza doméstica, classificadas na posição 7323.10.00 da NCM/SH",69.13,vigente_no_texto,2012-10-01,,False,,,"Nova redação dada ao item 59 pelo Prot. 120/12, com efeitos a partir de 01.10.12",,vigente
+82/11,60,73.24,7324,"Artefatos de higiene ou de toucador, e suas partes; pias, banheiras, lavatórios, cubas, mictórios, tanques e afins de ferro fundido, ferro ou aço",57,vigente_no_texto,,,False,,,,,vigente
+82/11,61,73.25,7325,"Outras obras moldadas, de ferro fundido, ferro ou aço",57,vigente_no_texto,,,False,,,,,vigente
+82/11,62,73.26,7326,Abraçadeiras,52,vigente_no_texto,,,False,,,,,vigente
+82/11,63,74.07,7407,Barra de cobre,38,vigente_no_texto,,,False,,,,,vigente
+82/11,64,7411.10.10,74111010,"Tubos de cobre e suas ligas, para instalações de água quente e gás",32,vigente_no_texto,,,False,,,,,vigente
+82/11,65,74.12,7412,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas) de cobre e suas ligas",31,vigente_no_texto,,,False,,,,,vigente
+82/11,66,74.15,7415,"Tachas, pregos, percevejos, escápulas e artefatos semelhantes, de cobre, ou de ferro ou aço com cabeça de cobre, parafusos, pinos ou pernos, roscados, porcas, ganchos roscados, rebites, chavetas, cavilhas, contrapinos, arruelas (incluídas as de pressão), e artefatos semelhantes, de cobre",37,vigente_no_texto,,,False,,,,,vigente
+82/11,67,7418.20.00,74182000,Artefatos de higiene/toucador de cobre,44,vigente_no_texto,,,False,,,,,vigente
+82/11,68,7607.19.90,76071990,Manta de subcobertura aluminizada,34,vigente_no_texto,,,False,,,,,vigente
+82/11,69,7609.00.00,76090000,"Acessórios para tubos (por exemplo, uniões, cotovelos, luvas ou mangas), de alumínio",40,vigente_no_texto,,,False,,,,,vigente
+82/11,70,76.10,7610,"Construções e suas partes (inclusive pontes e elementos de pontes, torres, pórticos, pilares, colunas, armações, estruturas para telhados, portas e janelas, e seus caixilhos, alizares e soleiras, balaustradas, e estruturas de box), de alumínio, exceto as construções, pré-fabricadas da posição 94.06; chapas, barras, perfis, tubos e semelhantes, de alumínio, próprios para construção civil",32,vigente_no_texto,,,False,,,,,vigente
+82/11,71,7615.20.00,76152000,Artefatos de higiene/toucador de alumínio,46,vigente_no_texto,,,False,,,,,vigente
+82/11,72,76.16,7616,"Outras obras de alumínio, próprias para construção civil, incluídas as persianas",37,vigente_no_texto,,,False,,,,,vigente
+82/11,73,8302.4 76.16,83024;7616,"Outras guarnições, ferragens e artigos semelhantes de metais comuns, para construção civil, inclusive puxadores, exceto persianas de alumínio constantes do item 76.",36,vigente_no_texto,,,False,,,,,vigente
+82/11,74,83.01,8301,"Cadeados, fechaduras e ferrolhos (de chave, de segredo ou elétricos), de metais comuns, incluídas as suas partes fechos e armações com fecho, com fechadura, de metais comuns chaves para estes artigos, de metais comuns, excluídos os de uso automotivo",41,vigente_no_texto,,,False,,,,,vigente
+82/11,75,8302.10.00,83021000,"Dobradiças de metais comuns, de qualquer tipo.",46,vigente_no_texto,,,False,,,,,vigente
+82/11,76,8302.50.00,83025000,"Pateras, porta-chapéus, cabides, e artigos semelhantes de metais comuns",50,vigente_no_texto,,,False,,,,,vigente
+82/11,77,83.07,8307,"Tubos flexíveis de metais comuns, mesmo com acessórios",37,vigente_no_texto,,,False,,,,,vigente
+82/11,78,83.11,8311,"Fios, varetas, tubos, chapas, eletrodos e artefatos semelhantes, de metais comuns ou de carbonetos metálicos, revestidos exterior ou interiormente de decapantes ou de fundentes, para soldagem (soldadura) ou depósito de metal ou de carbonetos metálicos fios e varetas de pós de metais comuns aglomerados, para metalização por projeção",41,vigente_no_texto,,,False,,,,,vigente
+82/11,79,8419.1,84191,"Aquecedores de água não elétricos, de aquecimento instantâneo ou de acumulação",33,vigente_no_texto,,,False,,,,,vigente
+82/11,80,84.81,8481,"Torneiras, válvulas (incluídas as redutoras de pressão e as termostáticas) e dispositivos semelhantes, para canalizações, caldeiras, reservatórios, cubas e outros recipientes",34,vigente_no_texto,,,False,,,,,vigente
+82/11,81,8515.90.00 8515.1 8515.2,85159000;85151;85152,Partes de máquinas e aparelhos para soldadura forte ou fraca e de máquinas e aparelhos para soldar metais por resistência,39,vigente_no_texto,,,False,,,,,vigente
+83/11,1,8413.70.10,84137010,Eletrobombas submersíveis,31,vigente_no_texto,,,False,,,,,vigente
+83/11,2,85.04,8504,"Transformadores, bobinas de reatância e de auto indução, inclusive os transformadores de potência superior a 16 KVA, classificados nas posições 8504.33.00 e 8504.34.00; exceto os demais transformadores da subposição 8504.3, os reatores para lâmpadas elétricas de descarga classificados no código 8504.10.00, os carregadores de acumuladores do código 8504.40.10, os equipamentos de alimentação ininterrupta de energia (UPS ou “no break”), no código 8504.40.40 e os de uso automotivo",48,vigente_no_texto,2016-06-01,,False,,Prot. ICMS 10/16,"Nova redação dada ao item 2 pelo Prot. ICMS 10/16, efeitos a partir de 01.06.16.",,vigente
+83/11,3,85.13,8513,"Lanternas elétricas portáteis destinadas a funcionar por meio de sua própria fonte de energia (por exemplo: de pilhas, de acumuladores, de magnetos), exceto os aparelhos de iluminação utilizados em ciclos e automóveis",39,vigente_no_texto,,,False,,,,,vigente
+83/11,4,85.16,8516,"Aquecedores elétricos de água, incluídos os de imersão, chuveiros ou duchas elétricos, torneiras elétricas, resistências de aquecimento, inclusive as de duchas e chuveiros elétricos e suas partes, exceto outros fornos, fogareiros (incluídas as chapas de cocção), grelhas e assadeiras, 8516.60.00",37,vigente_no_texto,,,False,,,,,vigente
+83/11,5,85.17,8517,"Aparelhos elétricos para telefonia; outros aparelhos para transmissão ou recepção de voz, imagens ou outros dados, incluídos os aparelhos para comunicação em redes por fio ou redes sem fio (tal como um rede local (LAN) ou uma rede de área estendida (WAN)), incluídas suas partes, exceto os de uso automotivos e os das subposições 8517.62.51, 8517.62.52, 8517.62.53",37,vigente_no_texto,2014-01-01,,False,,Prot. ICMS 159/13,"Nova redação dada ao item 5 pelo Prot. ICMS 159/13, efeitos a partir de 01.01.14.",,vigente
+83/11,6,85.17,8517,"Interfones, seus acessórios, tomadas e plugs",36,vigente_no_texto,,,False,,,,,vigente
+83/11,7,8517.18.99,85171899,"Outros aparelhos telefônicos e videofones, exceto telefone celular",38,vigente_no_texto,,,False,,,,,vigente
+83/11,8,85.29,8529,"Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.25 a 85.28, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+83/11,9,8529.10.11,85291011,"Antenas com refletor parabólico, exceto para telefone celular, exceto as de uso automotivo",38,vigente_no_texto,,,False,,,,,vigente
+83/11,10,8529.10.19,85291019,"Outras antenas, exceto para telefones celulares",46,vigente_no_texto,,,False,,,,,vigente
+83/11,11,85.31,8531,"Aparelhos elétricos de sinalização acústica ou visual (por exemplo, campainhas, sirenes, quadros indicadores, aparelhos de alarme para proteção contra roubo ou incêndio), exceto os de uso automotivo",33,vigente_no_texto,,,False,,,,,vigente
+83/11,12,8531.10,853110,"Aparelhos elétricos de alarme, para proteção contra roubo ou incêndio e aparelhos semelhantes, exceto os de uso automotivo",40,vigente_no_texto,,,False,,,,,vigente
+83/11,13,8531.80.00,85318000,"Outros aparelhos de sinalização acústica ou visual, exceto os de uso automotivo",34,vigente_no_texto,,,False,,,,,vigente
+83/11,14,85.33,8533,"Resistências elétricas (incluídos os reostatos e os potenciômetros), exceto de aquecimento",39,vigente_no_texto,,,False,,,,,vigente
+83/11,15,8534.00.00,85340000,"Circuitos impressos, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+83/11,16,85.35,8535,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, corta-circuitos, pára-raios, limitadores de tensão, eliminadores de onda, tomadas de corrente e outros conectores, caixas de junção), para tensão superior a 1.000V, exceto os de uso automotivo",42,vigente_no_texto,,,False,,,,,vigente
+83/11,17,85.36,8536,"Aparelhos para interrupção, seccionamento, proteção, derivação, ligação ou conexão de circuitos elétricos (por exemplo, interruptores, comutadores, relés, corta-circuitos, eliminadores de onda, plugues e tomadas de corrente, suportes para lâmpadas e outros conectores, caixas de junção), para uma tensão não superior a 1.000V; conectores para fibras ópticas, feixes ou cabos de fibras ópticas, exceto “sta r ter” classificado na subposição 8536.50 e os de uso automotivo",38,vigente_no_texto,2012-07-01,,False,,Prot. ICMS 58/12,"Nova redação dada ao item 17 pelo Prot. ICMS 58/12, efeitos a partir de 01.07.12.",,vigente
+83/11,18,85.37,8537,"Quadros, painéis, consoles, cabinas, armários e outros suportes com dois ou mais aparelhos das posições 85.35 ou 85.36, para comando elétrico ou distribuição de energia elétrica, incluídos os que incorporem instrumentos ou aparelhos do Capítulo 90 da NCM/SH, bem como os aparelhos de comando numérico",29,vigente_no_texto,,,False,,,,,vigente
+83/11,19,85.38,8538,"Partes reconhecíveis como exclusiva ou principalmente destinadas aos aparelhos das posições 85.35, 85.36 ou 85.37",41,vigente_no_texto,,,False,,,,,vigente
+83/11,20,8541.40.11 8541.40.21 8541.40.22,85414011;85414021;85414022,"Diodos emissores de luz (LED),exceto diodos “laser”",30,vigente_no_texto,,,False,,,,,vigente
+83/11,21,8543.70.92,85437092,Eletrificadores de cercas,38,vigente_no_texto,,,False,,,,,vigente
+83/11,22,7413.00.00,74130000,"Cabos, tranças e semelhantes, de cobre, não isolados para usos elétricos, exceto os de uso automotivo",39,vigente_no_texto,,,False,,,,,vigente
+83/11,23,85.44 7413.00.00 76.05 761.4,8544;74130000;7605;7614,"Fios, cabos (incluídos os cabos coaxiais) e outros condutores, isolados ou não, para usos elétricos (incluídos os de cobre ou alumínio, envernizados ou oxidados anodicamente), mesmo com peças de conexão; fios e cabos telefônicos e para transmissão de dados; cabos de fibras ópticas, constituídos de fibras embainhadas individualmente, mesmo com condutores elétricos ou munidos de peças de conexão; cordas, cabos, tranças e semelhantes, de alumínio, não isolados para uso elétricos, exceto os de uso automotivo",36,vigente_no_texto,,,False,,,,,vigente
+83/11,24,8544.49.00,85444900,"Fios e cabos elétricos, para tensão não superior a 1000V, exceto os de uso automotivo",36,vigente_no_texto,,,False,,,,,vigente
+83/11,25,85.46,8546,"Isoladores de qualquer matéria, para usos elétricos",46,vigente_no_texto,,,False,,,,,vigente
+83/11,26,85.47,8547,"Peças isolantes inteiramente de matérias isolantes, ou com simples peças metálicas de montagem (suportes roscados, por exemplo) incorporadas na massa, para máquinas, aparelhos e instalações elétricas; tubos isoladores e suas peças de ligação, de metais comuns, isolados interiormente",38,vigente_no_texto,,,False,,,,,vigente
+83/11,27,90.32 9033.00.00,9032;90330000,"Instrumentos e aparelhos para regulação ou controle, automáticos, suas partes e acessórios – exceto os reguladores de voltagem eletrônicos classificados no código 9032.89.11 e os controladores eletrônicos da subposição 9032.89.2",38,vigente_no_texto,,,False,,,,,vigente
+83/11,28,9030.3,90303,"Aparelhos e instrumentos para medida ou controle da tensão, intensidade, resistência ou da potência, sem dispositivo registrador, exceto os de uso automotivo",33,vigente_no_texto,,,False,,,,,vigente
+83/11,29,9030.89,903089,"Analisadores lógicos de circuitos digitais, de espectro de frequência, frequencímetros, fasímetros, e outros instrumentos e aparelhos de controle de grandezas elétricas e detecção",31,vigente_no_texto,,,False,,,,,vigente
+83/11,30,9107.00,910700,"Interruptores horários e outros aparelhos que permitam acionar um mecanismo em tempo determinado, munidos de maquinismo de aparelhos de relojoaria ou de motor síncrono",37,vigente_no_texto,,,False,,,,,vigente
+83/11,31,94.05,9405,"Aparelhos de iluminação (incluídos os projetores) e suas partes, não especificados nem compreendidos em outras posições; anúncios, cartazes ou tabuletas e placas indicadoras luminosos, e artigos semelhantes, contendo uma fonte luminosa fixa permanente, e suas partes não especificadas nem compreendidas em outras posições",39,vigente_no_texto,,,False,,,,,vigente
+83/11,32,9405.10 9405.9,940510;94059,"Lustres e outros aparelhos elétricos de iluminação, próprios para serem suspensos ou fixados no teto ou na parede, exceto os dos tipos utilizados na iluminação pública, e suas partes",35,vigente_no_texto,,,False,,,,,vigente
+83/11,33,9405.20.00 9405.9,94052000;94059,"Abajures de cabeceira, de escritório e lampadários de interior, elétricos e suas partes",39,vigente_no_texto,,,False,,,,,vigente
+83/11,34,9405.40 9405.9,940540;94059,Outros aparelhos elétricos de iluminação e suas partes,32,vigente_no_texto,,,False,,,,,vigente
+31/12,1,"2828.90.11, 2828.90.19, 3206. 41.00, 3808.94.19",28289011;28289019;3206;4100;38089419,"água sanitária, branqueador ou alvejante",,vigente_no_texto,,,False,,,,,vigente
+31/12,2,"3307.41.00, 3307.49.00, 3307.90.00, 3808.94.19",33074100;33074900;33079000;38089419,odorizantes / desodorizantes de ambiente e superfície,,vigente_no_texto,,,False,,,,,vigente
+31/12,3,3401.19.00,34011900,"sabões em barras, pedaços ou figuras moldados",,vigente_no_texto,,,False,,,,,vigente
+31/12,4,3401.20.90 3808.94.19,34012090;38089419,"Sabões, desinfetantes e sanitizantes, todos em pó, flocos, palhetas, grânulos ou outras formas semelhantes, para lavar roupas.",,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 31/22,"Nova redação dada ao item 4 pelo Prot. ICMS 31/22, efeitos a partir de 01.09.22.",,vigente
+31/12,4.1,3401.20.90 3808.94.19,34012090;38089419,"Sabões, desinfetantes e sanitizantes, todos líquidos para lavar roupas.",,vigente_no_texto,,,False,,,,,vigente
+31/12,5,3402.20.00,34022000,"Detergentes líquidos, exceto para lavar roupa",,vigente_no_texto,,,False,,,,,vigente
+31/12,5.1,3402.20.00,34022000,"Detergente líquido para lavar roupa, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 31/22,"Nova redação dada ao item 5.1 pelo Prot. ICMS 31/22, efeitos a partir de 01.09.22.",,vigente
+31/12,5.2,3402.20.00,34022000,"Detergentes em pó, flocos, palhetas, grânulos ou outras formas semelhantes, inclusive adicionados de propriedades desinfetantes ou sanitizantes.",,vigente_no_texto,,,False,,,,,vigente
+31/12,6,3402,3402,"Outros agentes orgânicos de superfície (exceto sabões); preparações tensoativas, preparações para lavagem (incluídas as preparações auxiliares para lavagem) e preparações para limpeza (inclusive multiuso e limpadores), mesmo contendo sabão, exceto as da posição 34.01 e os produtos descritos nos itens 4, 5 e 5.1",,vigente_no_texto,,,False,,,,,vigente
+31/12,7,3405.10.00,34051000,"pomadas, cremes e preparações semelhantes, para calçados ou para couros",,vigente_no_texto,,,False,,,,,vigente
+31/12,8,3405.40.00,34054000,"pastas, pós, saponáceos e outras preparações para arear",,vigente_no_texto,,,False,,,,,vigente
+31/12,9,3505.10.00 3506.91.20 3809.91.90 3905.12.00,35051000;35069120;38099190;39051200,Facilitadores e goma para passar roupa,,vigente_no_texto,,,False,,,,,vigente
+31/12,10,"3808.50.10, 3808.91, 3808.92.1, 3808.99",38085010;380891;3808921;380899,"inseticidas, rodenticidas, fungicidas, raticidas, repelentes e outros produtos semelhantes, apresentados em formas ou embalagens exclusivamente para uso domissanitário direto",,vigente_no_texto,,,False,,,,,vigente
+31/12,11,3808.94,380894,desinfetantes apresentados em quaisquer formas ou embalagens,,vigente_no_texto,,,False,,,,,vigente
+31/12,12,3809.91.90,38099190,amaciante/suavizante,,vigente_no_texto,,,False,,,,,vigente
+31/12,13,"3924.10.00 3924.90.00, 6805.30.10, 6805.30.90",39241000;39249000;68053010;68053090,esponjas para limpeza,,vigente_no_texto,,,False,,,,,vigente
+31/12,14,2207,2207,Álcool etílico para limpeza,,vigente_no_texto,,,False,,,,,vigente
+31/12,15,2710.12.90,27101290,Óleo para conservação e limpeza de móveis e outros artigos de madeira,,vigente_no_texto,,,False,,,,,vigente
+31/12,16,2801.10.00 2828.10.00 2828 2933.69.11 2933.69.19 3808.94,28011000;28281000;2828;29336911;29336919;380894,"Dicloro estabilizado; ácido tricloro isocianúrico; hipocloritos, hipoclorito de cálcio comercial, cloritos, hipobromitos, nas formas líquida, sólida, gasosa, em tabletes pó, granulado, pastilhas ou em tabletes e demais desinfetantes para uso em piscinas; cloradores flutuantes de qualquer tipo, tamanho ou composição",,vigente_no_texto,,,False,,,,,vigente
+31/12,17,2803.00.90,28030090,carbonato de sódio 99%,,vigente_no_texto,,,False,,,,,vigente
+31/12,18,2806.10.20 2806.20.00,28061020;28062000,"cloreto de hidrogênio (ácido clorídrico) ácido clossulfúrico, em solução aquosa",,vigente_no_texto,,,False,,,,,vigente
+31/12,19,2815,2815,Limpador abrasivo e/ou soda cáustica em forma ou embalagem para uso direto de conteúdo igual ou inferior a 25 litros ou 25 kg,,vigente_no_texto,,,False,,,,,vigente
+31/12,20,2827.20.90,28272090,desumidificador de ambiente,,vigente_no_texto,,,False,,,,,vigente
+31/12,21,2827.32.00 2827.49.21 2833.22.00 2924.1,28273200;28274921;28332200;29241,"Floculantes clarificantes, decantadores à base de cloretos, oxicloretos, hidrocloretos; sulfatos de alumínio e outros sais de alumínio; todos na forma líquida, granulada, em pó, pastilhas, tabletes, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg",,vigente_no_texto,,,False,,,,,vigente
+31/12,22,2832.20.00 2901.10.00,28322000;29011000,tira-manchas e produtos para pré-lavagem de roupas,,vigente_no_texto,,,False,,,,,vigente
+31/12,23,2836.20.10 2836.30.00 2836.50.00,28362010;28363000;28365000,"Barrilha leve, carbonatos de sódio, carbonato de cálcio; hidrogeno carbonato de sódio ou bicarbonado de sódio; todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 25 kg",,vigente_no_texto,,,False,,,,,vigente
+31/12,24,2902.90.20,29029020,naftalina,,vigente_no_texto,,,False,,,,,vigente
+31/12,25,2917.11.10,29171110,antiferrugem,,vigente_no_texto,,,False,,,,,vigente
+31/12,26,2923.90.90,29239090,Clarificante em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+31/12,27,2931.00.79 2931.90.79,29310079;29319079,Controlador de metais em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+31/12,28,2933.69.19,29336919,flutuador 4x1,,vigente_no_texto,,,False,,,,,vigente
+31/12,29,3402.90.39,34029039,Limpa-bordas em embalagem de conteúdo igual ou inferior a 25 litros,,vigente_no_texto,,,False,,,,,vigente
+31/12,30,34.03,3403,"preparações lubrificantes e preparações dos tipos utilizados para lubrificar e amaciar matérias têxteis, para untar couros, peleteria e outras matérias",,vigente_no_texto,,,False,,,,,vigente
+31/12,31,38.02,3802,neutralizador/eliminador de odor,,vigente_no_texto,,,False,,,,,vigente
+31/12,32,2815.30.00 2842.10.90 2922.13 2923.90.90 3808.92 3808.93 3808.94 3808.99,28153000;28421090;292213;29239090;380892;380893;380894;380899,"Algicidas; removedores de gordura e oleosidade, à base de sais, peróxido-sulfato de sódio ou potássio; todos utilizados em piscinas e em embalagens de conteúdo igual ou inferior a 25 litros",,vigente_no_texto,,,False,,,,,vigente
+31/12,33,3822.00.90,38220090,"kit teste ph/cloro, fita-teste",,vigente_no_texto,,,False,,,,,vigente
+31/12,34,3824.90.49,38249049,Produtos para limpeza pesada em embalagem de conteúdo igual ou inferior a 25 litros ou 25 kg,,vigente_no_texto,,,False,,,,,vigente
+31/12,35,2806.10.20 2807.00.10 2809.20.1 3824.90.79,28061020;28070010;2809201;38249079,"Redutor de pH: produtos em solução aquosa ou não, de ácidos clorídricos, sulfúrico, fosfórico, e outros redutores de pH da posição 3824.90.79, todos utilizados em piscinas e em embalagem de conteúdo igual ou inferior a 5 litros",,vigente_no_texto,,,False,,,,,vigente
+31/12,36,3923.2,39232,sacos de lixo de conteúdo igual ou inferior a 100 litros,,vigente_no_texto,,,False,,,,,vigente
+31/12,37,6307.10.00,63071000,"rodilhas, esfregões, panos de prato ou de cozinha, flanelas e artefatos de limpeza semelhantes",,vigente_no_texto,,,False,,,,,vigente
+31/12,38,"8424.89, 8516.79.90",842489;85167990,"aparelhos mecânicos ou elétricos odorizantes, desinfetantes e afins",,vigente_no_texto,,,False,,,,,vigente
+31/12,39,9603.10.00,96031000,"vassouras e escovas, constituídas por pequenos ramos ou outras matérias vegetais reunidas em feixes, com ou sem cabo",,vigente_no_texto,,,False,,,,,vigente
+31/12,40,9603.90.00,96039000,"vassouras, rodos, cabos e afins",,vigente_no_texto,,,False,,,,,vigente
+31/12,41,7323.10.00,73231000,"Esponjas, esfregões, luvas e artefatos semelhantes para limpeza, polimento e usos semelhantes, de ferro ou aço {incluído neste protocolo}",,vigente_no_texto,,,False,,,,,vigente
+103/12,1.0,2205 2208.90.00,2205;22089000,"Aperitivos, amargos, bitter e similares",,vigente_no_texto,,,False,,,,,vigente
+103/12,2.0,2208.90.00,22089000,Batida e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,3.0,2208.90.00,22089000,Bebida ice,,vigente_no_texto,,,False,,,,,vigente
+103/12,4.0,2207.20 2208.40.00,220720;22084000,Cachaça e aguardentes,,vigente_no_texto,,,False,,,,,vigente
+103/12,5.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Catuaba e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,6.0,2208.20.00,22082000,"Conhaque, brandy e similares",,vigente_no_texto,,,False,,,,,vigente
+103/12,7.0,2206.00.90 2208.90.00,22060090;22089000,Cooler,,vigente_no_texto,,,False,,,,,vigente
+103/12,8.0,2208.50.00,22085000,Gim (gin) e genebra,,vigente_no_texto,,,False,,,,,vigente
+103/12,9.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Jurubeba e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,10.0,2208.70.00,22087000,Licores e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,11.0,2208.20.00,22082000,Pisco,,vigente_no_texto,,,False,,,,,vigente
+103/12,12.0,2208.40.00,22084000,Rum,,vigente_no_texto,,,False,,,,,vigente
+103/12,13.0,2206.00.90,22060090,Saquê,,vigente_no_texto,,,False,,,,,vigente
+103/12,14.0,2208.90.00,22089000,Steinhaeger,,vigente_no_texto,,,False,,,,,vigente
+103/12,15.0,2208.90.00,22089000,Tequila,,vigente_no_texto,,,False,,,,,vigente
+103/12,16.0,2208.30,220830,Uísque,,vigente_no_texto,,,False,,,,,vigente
+103/12,17.0,2205,2205,Vermute e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,18.0,2208.60.00,22086000,Vodka,,vigente_no_texto,,,False,,,,,vigente
+103/12,19.0,2208.90.00,22089000,Derivados de vodka,,vigente_no_texto,,,False,,,,,vigente
+103/12,20.0,2208.90.00,22089000,Arak,,vigente_no_texto,,,False,,,,,vigente
+103/12,21.0,2208.20.00,22082000,Aguardente vínica / grappa,,vigente_no_texto,,,False,,,,,vigente
+103/12,22.0,2206.00.10,22060010,Sidra e similares,,vigente_no_texto,,,False,,,,,vigente
+103/12,23.0,2205 2206.00.90 2208.90.00,2205;22060090;22089000,Sangrias e coquetéis,,vigente_no_texto,,,False,,,,,vigente
+103/12,24.0,2204,2204,"Vinhos de uvas frescas, incluindo os vinhos enriquecidos com álcool; mostos de uvas.",,vigente_no_texto,,,False,,,,,vigente
+103/12,999.0,2205 2206 2207 2208,2205;2206;2207;2208,Outras bebidas alcoólicas não especificadas nos itens anteriores,,vigente_no_texto,,,False,,,,,vigente
+217/12,1,1704.90.10,17049010,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate",,vigente_no_texto,,,False,,,,,vigente
+217/12,2,1806.31.10 1806.31.20,18063110;18063120,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,3,1806.32.10 1806.32.20,18063210;18063220,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,4,1806.90.00,18069000,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate",,vigente_no_texto,,,False,,,,,vigente
+217/12,6,1806.90.00,18069000,Ovos de páscoa de chocolate,,anterior_no_texto,,,False,,,,,vigente
+217/12,7,1806.90.00,18069000,"Achocolatados em pó, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,8,1806.90.00,18069000,"Caixas de bombons contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,9,1704.90.90,17049090,"Bombons, inclusive à base de chocolate branco sem cacau",,vigente_no_texto,,,False,,,,,vigente
+217/12,10,1806.90.00,18069000,"Bombons, balas, caramelos, confeitos, pastilhas e outros produtos de confeitaria, contendo cacau",,vigente_no_texto,,,False,,,,,vigente
+217/12,13,0402.1 0402.2 0402.9,04021;04022;04029,"Leite em pó, blocos ou grânulos, exceto creme de leite",,vigente_no_texto,,,False,,,,,vigente
+217/12,14,1901.10.20,19011020,Farinha láctea,,vigente_no_texto,,,False,,,,,vigente
+217/12,15,1901.10.10,19011010,Leite modificado para alimentação de crianças,,vigente_no_texto,,,False,,,,,vigente
+217/12,16,1901.10.90 1901.10.30,19011090;19011030,"Preparações para alimentação infantil à base de farinhas, grumos, sêmolas ou amidos e outros",,vigente_no_texto,,,False,,,,,vigente
+217/12,17,0401.40.2 0402.21.30 0402.29.30 0402.9,0401402;04022130;04022930;04029,"Creme de leite, em recipiente de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,18,0401.10 0401.20 0401.50 0402.10 0402.29.20,040110;040120;040150;040210;04022920,"Outros cremes de leite, em recipiente de conteúdo inferior ou igual a 1kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,19,0402.9,04029,"Leite condensado, em recipiente de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,20,0403,0403,Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros,,vigente_no_texto,,,False,,,,,vigente
+217/12,21,0406,0406,"Requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,22,0405.10.00,04051000,"Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,23,1517.10.00,15171000,"Margarina e creme vegetal, em recipiente de conteúdo inferior ou igual a 500 g, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,24,1517.10.00,15171000,"Margarina e creme vegetal, em recipiente de conteúdo superior a 500 g e inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,25,1517.90,151790,"Outras margarinas e cremes vegetais em recipiente de conteúdo inferior a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,30,2103.20.10,21032010,"Catchup em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,31,2103.90.21 2103.90.91,21039021;21039091,"Condimentos e temperos compostos, incluindo molho de pimenta e outros molhos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 3 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,32,2103.10.10,21031010,"Molhos de soja preparados em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,33,2103.30.10,21033010,Farinha de mostarda em embalagens de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+217/12,34,2103.30.21,21033021,"Mostarda preparada em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,35,2103.90.11,21039011,"Maionese em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+217/12,36,2002,2002,"Tomates preparados ou conservados, exceto em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+217/12,37,2103.20.10,21032010,Molhos de tomate em embalagens imediatas de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+217/12,40,1902.30.00,19023000,Massas alimentícias tipo instantânea,,vigente_no_texto,,,False,,,,,vigente
+217/12,41,1902,1902,"Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo, exceto as descritas nos CEST 17.047.00, 17.048.01 e 17.048.02",,vigente_no_texto,,,False,,,,,vigente
+217/12,42,1902.40.00,19024000,Cuscuz,,vigente_no_texto,,,False,,,,,vigente
+217/12,43,1902.1,19021,"Massas alimentícias do tipo comum, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.03",,vigente_no_texto,,,False,,,,,vigente
+217/12,44,1902.1,19021,"Massas alimentícias do tipo sêmola, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.04",,vigente_no_texto,,,False,,,,,vigente
+217/12,45,1902.1,19021,"Massas alimentícias do tipo granoduro, não cozidas, nem recheadas, nem preparadas de outro modo, exceto a descrita no CEST 17.049.05",,vigente_no_texto,,,False,,,,,vigente
+217/12,46,1905.20,190520,"Pães industrializados, inclusive de especiarias, exceto panetones e bolo de forma",,vigente_no_texto,,,False,,,,,vigente
+217/12,47,1905.20.90,19052090,"Bolo de forma, inclusive de especiarias",,vigente_no_texto,,,False,,,,,vigente
+217/12,48,1905.31.00,19053100,"Biscoitos e bolachas derivados de farinha de trigo; (exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"", ""maria"" e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)",,vigente_no_texto,,,False,,,,,vigente
+217/12,49,1905.31.00,19053100,"Biscoitos e bolachas não derivados de farinha de trigo; (exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"" e ""maria"" e outros de consumo popular que não sejam adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)",,vigente_no_texto,,,False,,,,,vigente
+217/12,50,1905.90.20,19059020,"Biscoitos e bolachas derivados de farinha de trigo dos tipos ""cream cracker"" e ""água e sal""",,vigente_no_texto,,,False,,,,,vigente
+217/12,51,1905.90.20,19059020,"Biscoitos e bolachas não derivados de farinha de trigo dos tipos ""cream cracker"" e ""água e sal""",,vigente_no_texto,,,False,,,,,vigente
+217/12,52,1905.90.20,19059020,"Outras bolachas, exceto casquinhas para sorvete e os biscoitos e bolachas relacionados nos CEST 17.056.00 e 17.056.01",,vigente_no_texto,,,False,,,,,vigente
+217/12,53,1905.32.00,19053200,“Waffles” e “wafers” - sem cobertura,,vigente_no_texto,,,False,,,,,vigente
+217/12,54,1905.32.00,19053200,“Waffles” e “wafers”- com cobertura,,vigente_no_texto,,,False,,,,,vigente
+217/12,55,1905.40.00,19054000,"Torradas, pão torrado e produtos semelhantes torrados",,vigente_no_texto,,,False,,,,,vigente
+217/12,56,1905.90.10,19059010,Outros pães de forma,,vigente_no_texto,,,False,,,,,vigente
+217/12,57,1905.90.90,19059090,Outros pães e bolos industrializados e produtos de panificação não especificados anteriormente; exceto casquinhas para sorvete e pão francês de até 200 g,,vigente_no_texto,,,False,,,,,vigente
+217/12,58,1905.10.00,19051000,Pão denominado knackebrot,,vigente_no_texto,,,False,,,,,vigente
+217/12,69,1601.00.00,16010000,Salsicha e linguiça,,vigente_no_texto,,,False,,,,,vigente
+217/12,70,1601.00.00,16010000,Mortadela,,vigente_no_texto,,,False,,,,,vigente
+217/12,71,1602,1602,"Outras preparações e conservas de carne, miudezas ou de sangue, exceto as descritas nos CEST 17.079.01, 17.079.02, 17.079.03, 17.079.04, 17.079.05, 17.079.06",,vigente_no_texto,,,False,,,,,vigente
+217/12,72,1604,1604,Preparações e conservas de peixes; caviar e seus sucedâneos preparados a partir de ovas de peixe; exceto sardinha em conserva; exceto os descritos nos CEST 17.080.01 e 17.081.00,,vigente_no_texto,,,False,,,,,vigente
+217/12,73,1604,1604,Sardinha em conserva,,vigente_no_texto,,,False,,,,,vigente
+217/12,74,1605,1605,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",,vigente_no_texto,,,False,,,,,vigente
+45/13,1.1,1704.90.10,17049010,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate.",38.89,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 34/22,"Nova redação dada ao item 1.1 pelo Prot. ICMS 34/22, efeitos a partir de 01.09.22.",,vigente
+45/13,1.2,1806.31.10 1806.31.20,18063110;18063120,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",40.29,vigente_no_texto,,,False,,,,,vigente
+45/13,1.3,1806.32.10 1806.32.20,18063210;18063220,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo igual ou inferior a 2 kg",,vigente_no_texto,,,False,,,,,vigente
+45/13,1.4,1806.90.00,18069000,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate.",42.65,vigente_no_texto,2022-09-01,,False,,Prot. ICMS 34/22,"Nova redação dada ao item 1.4 pelo Prot. ICMS 34/22, efeitos a partir de 01.09.22.",,vigente
+45/13,1.5,1806.90,180690,"Achocolatados em pó, em embalagens de conteúdo igual ou inferior a 1 kg",26.78,vigente_no_texto,,,False,,,,,vigente
+45/13,1.6,1806.90.00,18069000,"Caixas de bombons contendo cacau, em embalagens de conteúdo igual ou inferior a 1 kg",22.16,vigente_no_texto,,,False,,,,,vigente
+45/13,1.7,1704.90.20 1704.90.90,17049020;17049090,"Bombons, inclusive à base de chocolate branco, caramelos, confeitos, pastilhas e outros produtos de confeitaria, sem cacau",56.68,vigente_no_texto,,,False,,,,,vigente
+45/13,1.8,1704.10.00 2106.90.50,17041000;21069050,Gomas de mascar com ou sem açúcar,64.36,vigente_no_texto,,,False,,,,,vigente
+45/13,1.9,1806.90.00,18069000,"Bombons, balas, caramelos, confeitos, pastilhas e outros produtos de confeitaria, contendo cacau",29.01,vigente_no_texto,,,False,,,,,vigente
+45/13,1.10,2106.90.60 2106.90.90,21069060;21069090,"Balas, caramelos, confeitos, pastilhas e produtos semelhantes sem açúcar",60.38,vigente_no_texto,,,False,,,,,vigente
+45/13,1.11,1704.90.10,17049010,Ovos de páscoa de chocolate branco,38.89,vigente_no_texto,,,False,,,,,vigente
+45/13,1.12,1806.90.00,18069000,Ovos de páscoa de chocolate,42.65,vigente_no_texto,,,False,,,,,vigente
+45/13,2.1,2101.20 2202.90.00,210120;22029000,Bebidas prontas à base de mate ou chá,48.97,vigente_no_texto,,,False,,,,,vigente
+45/13,3.1,0402.1 0402.2 0402.9,04021;04022;04029,"Leite em pó, blocos ou grânulos, exceto creme de leite",18.75,vigente_no_texto,,,False,,,,,vigente
+45/13,.2,1702.90.00,17029000,"Preparações em pó para elaboração de bebidas instantâneas, em embalagens de conteúdo inferior a 1 kg",42.83,vigente_no_texto,,,False,,,,,vigente
+45/13,3.3,1901.10.20,19011020,Farinha láctea,32.64,vigente_no_texto,,,False,,,,,vigente
+45/13,3.4,1901.10.10,19011010,Leite modificado para alimentação de lactentes,35.81,vigente_no_texto,,,False,,,,,vigente
+45/13,3.5,1901.10.90 1901.10.30,19011090;19011030,"Preparações para alimentação infantil à base de farinhas, grumos, sêmolas ou amidos e outros",37.15,vigente_no_texto,,,False,,,,,vigente
+45/13,3.6,0401.10.10 0401.20.10,04011010;04012010,"Leite “longa vida” (UHT - “Ultra High Temperature”), em recipiente de conteúdo inferior ou igual a 2 litros",13.44,vigente_no_texto,,,False,,,,,vigente
+45/13,3.7,04.01 e 04.02,0401;0402,"Creme de leite, em recipiente de conteúdo inferior ou igual a 1 kg",33,vigente_no_texto,,,False,,,,,vigente
+45/13,3.7.1,04.02,0402,"Leite condensado, em recipiente de conteúdo inferior ou igual a 1 kg",27.81,vigente_no_texto,,,False,,,,,vigente
+45/13,3.8,04.03,0403,"Iogurte, leite fermentado e bebida láctea, em recipiente de conteúdo inferior ou igual a 2 litros",34.56,vigente_no_texto,,,False,,,,,vigente
+45/13,3.9,04.04 04.06,0404;0406,"requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",42.17,vigente_no_texto,,,False,,,,,vigente
+45/13,3.10,04.05,0405,"manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",38.09,vigente_no_texto,,,False,,,,,vigente
+45/13,3.11,15.17,1517,"Margarina e creme vegetal, em recipiente de conteúdo inferior a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",28.08,vigente_no_texto,,,False,,,,,vigente
+45/13,5.1,2103.20.10,21032010,"Catchup em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",56.04,vigente_no_texto,,,False,,,,,vigente
+45/13,5.2,2103.90.21 2103.90.91,21039021;21039091,"Condimentos e temperos compostos, incluindo molho de pimenta e outros molhos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 3 gramas",60.61,vigente_no_texto,,,False,,,,,vigente
+45/13,5.3,2103.10.10,21031010,"Molhos de soja preparados em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (saches) de conteúdo igual ou inferior a 10 gramas",73.16,vigente_no_texto,,,False,,,,,vigente
+45/13,5.4,2103.30.10,21033010,Farinha de mostarda em embalagens de conteúdo inferior ou igual a 1 kg,42.33,vigente_no_texto,,,False,,,,,vigente
+45/13,5.5,2103.30.21,21033021,"Mostarda preparada em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",66.5,vigente_no_texto,,,False,,,,,vigente
+45/13,5.6,2103.90.11,21039011,"Maionese em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",28.74,vigente_no_texto,,,False,,,,,vigente
+45/13,5.7,20.02,2002,"Tomates preparados ou conservados, exceto em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg",43.39,vigente_no_texto,,,False,,,,,vigente
+45/13,5.8,2103.20.10,21032010,Molhos de tomate em embalagens imediatas de conteúdo inferior ou igual a 1 kg,59.97,vigente_no_texto,,,False,,,,,vigente
+45/13,5.9,2209.00.00,22090000,"Vinagres e seus sucedâneos obtidos a partir do ácido acético, para usos alimentares, em embalagens imediatas de conteúdo inferior ou igual a 1 litro",51.9,vigente_no_texto,,,False,,,,,vigente
+45/13,7.1,19.023000,19023000,Massas alimentícias tipo instantânea,81.42,vigente_no_texto,,,False,,,,,vigente
+45/13,7.2,19.02,1902,"Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo",38.85,vigente_no_texto,,,False,,,,,vigente
+45/13,7.3,1905.10.00,19051000,Pão denominado knackebrot,30.69,vigente_no_texto,,,False,,,,,vigente
+45/13,7.4,1905.20,190520,"Bolo de forma, pães industrializados, inclusive de especiarias, exceto panetones classificados no código 1905.20.10",56.55,vigente_no_texto,,,False,,,,,vigente
+45/13,7.5,1905.31,190531,"Biscoitos e bolachas (exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"" e ""maria"" e outros de consumo popular, não adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)",37.59,vigente_no_texto,,,False,,,,,vigente
+45/13,7.6,1905.32,190532,“Waffles” e “wafers” - sem cobertura,50.51,vigente_no_texto,,,False,,,,,vigente
+45/13,7.6.1,1905.32,190532,“Waffles” e “wafers”- com cobertura,24.14,vigente_no_texto,,,False,,,,,vigente
+45/13,7.7,1905.40,190540,"Torradas, pão torrado e produtos semelhantes torrados",34.17,vigente_no_texto,,,False,,,,,vigente
+45/13,7.8,1905.90.10,19059010,Outros pães de forma,30.69,vigente_no_texto,,,False,,,,,vigente
+45/13,7.9,1905.90.20,19059020,"Outras bolachas, exceto casquinhas para sorvete",35.2,vigente_no_texto,,,False,,,,,vigente
+45/13,7.10,1905.90.90,19059090,"Outros pães e bolos industrializados e produtos de panificação não especificados anteriormente, exceto casquinhas para sorvete",30.93,vigente_no_texto,,,False,,,,,vigente
+45/13,9.1,1601.00.00,16010000,"Enchidos (embutidos) e produtos semelhantes, de carne, miudezas ou sangue",40.83,vigente_no_texto,,,False,,,,,vigente
+45/13,9.2,16.02,1602,"Outras preparações e conservas de carne, miudezas ou de sangue",37.01,vigente_no_texto,,,False,,,,,vigente
+45/13,9.3,16.04,1604,Preparações e conservas de peixes; caviar e seus sucedâneos preparados a partir de ovas de peixe,35.87,vigente_no_texto,,,False,,,,,vigente
+45/13,9.4,16.05,1605,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",47.68,vigente_no_texto,,,False,,,,,vigente
+175/13,1.1,1704.90.10,17049010,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.2,1806.31.10 1806.31.20,18063110;18063120,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.3,1806.32.10 1806.32.20,18063210;18063220,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo igual ou inferior a 2 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.4,1806.90,180690,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo igual ou inferior a 1 kg, excluídos os achocolatados em pó",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.5,1806.90,180690,"Achocolatados em pó, em embalagens de conteúdo igual ou inferior a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.6,1806.90.00,18069000,"Caixas de bombons contendo cacau, em embalagens de conteúdo entre 400g a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.7,1704.90.20 1704.90.90,17049020;17049090,"Bombons, inclusive à base de chocolate branco, caramelos, confeitos, pastilhas e outros produtos de confeitaria, sem cacau",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.8,1704.10.00 2106.90.50,17041000;21069050,Gomas de mascar com ou sem açúcar,,vigente_no_texto,,,False,,,,,vigente
+175/13,1.9,1806.90.00,18069000,"Bombons, balas, caramelos, confeitos, pastilhas e outros produtos de confeitaria, contendo cacau",,vigente_no_texto,,,False,,,,,vigente
+175/13,1.10,2106.90.60 2106.90.90,21069060;21069090,"Balas, caramelos, confeitos, pastilhas e produtos semelhantes sem açúcar",,vigente_no_texto,,,False,,,,,vigente
+175/13,3.1,0402.1 0402.2 0402.9,04021;04022;04029,"Leite em pó, blocos ou grânulos, exceto creme de leite",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.2,1702.90.00,17029000,"Preparações em pó para elaboração de bebidas instantâneas, em embalagens de conteúdo inferior a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,3.3,1901.10.20,19011020,Farinha láctea,,anterior_no_texto,,,False,,,,,vigente
+175/13,3.4,1901.10.10,19011010,Leite modificado para alimentação de lactentes,,anterior_no_texto,,,False,,,,,vigente
+175/13,3.5,1901.10.90 1901.10.30,19011090;19011030,"Preparações para alimentação infantil à base de farinhas, grumos, sêmolas ou amidos e outros",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.6,0401.10.10 0401.20.10,04011010;04012010,"Leite “longa vida” (UHT - “Ultra High Temperature”), em recipiente de conteúdo inferior ou igual a 2 litros",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.7,04.01 e 04.02,0401;0402,"Creme de leite, em recipiente de conteúdo inferior ou igual a 1 kg",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.7.1,04.02,0402,"Leite condensado, em recipiente de conteúdo inferior ou igual a 1 kg",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.8,04.03,0403,"Iogurte e leite fermentado, em recipiente de conteúdo inferior ou igual a 2 litros",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.9,04.04 04.06,0404;0406,"Requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.10,04.05,0405,"Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",,anterior_no_texto,,,False,,,,,vigente
+175/13,3.11,15.17,1517,"Margarina, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo igual ou inferior a 10 gramas",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.1,2103.20.10,21032010,"Catchup em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.2,2103.90.21 2103.90.91,21039021;21039091,"Condimentos e temperos compostos, incluindo molho de pimenta e outros molhos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.3,2103.10.10,21031010,"Molhos de soja preparados em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (saches) de conteúdo igual ou inferior a 10 gramas",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.4,2103.30.10,21033010,Farinha de mostarda em embalagens de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+175/13,5.5,2103.30.21,21033021,"Mostarda preparada em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.6,2103.90.11,21039011,"Maionese em embalagens imediatas de conteúdo inferior ou igual a 650 gramas, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo igual ou inferior a 10 gramas",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.7,20.02,2002,"Tomates preparados ou conservados, exceto em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+175/13,5.8,2103.20.10,21032010,Molhos de tomate em embalagens imediatas de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+175/13,5.9,2209.00.00,22090000,"Vinagres e seus sucedâneos obtidos a partir do ácido acético, para usos alimentares, em embalagens imediatas de conteúdo inferior ou igual a 1 litro",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.1,19.023000,19023000,Massas alimentícias tipo instantânea,,vigente_no_texto,,,False,,,,,vigente
+175/13,7.2,19.02,1902,"Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.3,1905.10.00,19051000,Pão denominado knackebrot,,vigente_no_texto,,,False,,,,,vigente
+175/13,7.4,1905.20,190520,"Bolo de forma, pães industrializados, inclusive de especiarias, exceto panetones classificados no código 1905.20.10",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.5,1905.31,190531,"Biscoitos e bolachas (exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"" e ""maria"" e outros de consumo popular, não adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial)",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.6,1905.32,190532,“Waffles” e “wafers” - sem cobertura,,vigente_no_texto,,,False,,,,,vigente
+175/13,7.6.1,1905.32,190532,“Waffles” e “wafers”- com cobertura,,vigente_no_texto,,,False,,,,,vigente
+175/13,7.7,1905.40,190540,"Torradas, pão torrado e produtos semelhantes torrados",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.8,1905.90.10,19059010,Outros pães de forma,,vigente_no_texto,,,False,,,,,vigente
+175/13,7.9,1905.90.20,19059020,"Outras bolachas, exceto casquinhas para sorvete",,vigente_no_texto,,,False,,,,,vigente
+175/13,7.10,1905.90.90,19059090,"Outros pães e bolos industrializados e produtos de panificação não especificados anteriormente, exceto casquinhas para sorvete",,vigente_no_texto,,,False,,,,,vigente
+175/13,9.1,1601.00.00,16010000,"Enchidos (embutidos) e produtos semelhantes, de carne, miudezas ou sangue",,vigente_no_texto,,,False,,,,,vigente
+175/13,9.2,16.02,1602,"Outras preparações e conservas de carne, miudezas ou de sangue",,vigente_no_texto,,,False,,,,,vigente
+175/13,9.3,16.04,1604,Preparações e conservas de peixes; caviar e seus sucedâneos preparados a partir de ovas de peixe,,vigente_no_texto,,,False,,,,,vigente
+175/13,9.4,16.05,1605,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",,vigente_no_texto,,,False,,,,,vigente
+14/16,1.0,1704.90.10,17049010,"Chocolate branco, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os ovos de páscoa de chocolate.",,vigente_no_texto,,,False,,,,,vigente
+14/16,2.0,1806.31.10 1806.31.20,18063110;18063120,"Chocolates contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg.",,vigente_no_texto,,,False,,,,,vigente
+14/16,3.0,1806.32.10 1806.32.20,18063210;18063220,"Chocolate em barras, tabletes ou blocos ou no estado líquido, em pasta, em pó, grânulos ou formas semelhantes, em recipientes ou embalagens imediatas de conteúdo inferior ou igual a 2 kg.",,vigente_no_texto,,,False,,,,,vigente
+14/16,4.0,1806.90.00,18069000,"Chocolates e outras preparações alimentícias contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg, excluídos os achocolatados em pó e ovos de páscoa de chocolate.",,vigente_no_texto,,,False,,,,,vigente
+14/16,6.0,1806.90.00,18069000,"Achocolatados em pó, em embalagens de conteúdo inferior ou igual a 1 kg.",,vigente_no_texto,,,False,,,,,vigente
+14/16,7.0,1806.90.00,18069000,"Caixas de bombons contendo cacau, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,8.0,1704.90.90,17049090,"Bombons, inclusive à base de chocolate branco sem cacau",,vigente_no_texto,,,False,,,,,vigente
+14/16,9.0,1806.90.00,18069000,"Bombons, balas, caramelos, confeitos, pastilhas e outros produtos de confeitaria, contendo cacau",,vigente_no_texto,,,False,,,,,vigente
+14/16,12.0,0402.1 0402.2 0402.9,04021;04022;04029,"Leite em pó, blocos ou grânulos, exceto creme de leite",,vigente_no_texto,,,False,,,,,vigente
+14/16,13.0,1901.10.20,19011020,Farinha láctea,,vigente_no_texto,,,False,,,,,vigente
+14/16,14.0,1901.10.10,19011010,Leite modificado para alimentação de crianças,,vigente_no_texto,,,False,,,,,vigente
+14/16,15.0,1901.10.90 1901.10.30,19011090;19011030,"Preparações para alimentação infantil à base de farinhas, grumos, sêmolas ou amidos e outros",,vigente_no_texto,,,False,,,,,vigente
+14/16,16.0,0401.10.10 0401.20.10,04011010;04012010,"Leite “longa vida” (UHT - “Ultra High Temperature”), em recipiente de conteúdo inferior ou igual a 2 litros",,vigente_no_texto,,,False,,,,,vigente
+14/16,19.0,0401.40.2 0402.21.30 0402.29.30 0402.9,0401402;04022130;04022930;04029,"Creme de leite, em recipiente de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,19.2,0401.10 0401.20 0401.50 0402.10 0402.29.20,040110;040120;040150;040210;04022920,"Outros cremes de leite, em recipiente de conteúdo inferior ou igual a 1kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,20.0,0402.9,04029,"Leite condensado, em recipiente de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,21.0,0403,0403,Iogurte e leite fermentado em recipiente de conteúdo inferior ou igual a 2 litros,,vigente_no_texto,,,False,,,,,vigente
+14/16,23.0,0406,0406,"Requeijão e similares, em recipiente de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,25.0,0405.10.00,04051000,"Manteiga, em embalagem de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,26.0,1517.10.00,15171000,"Margarina em recipiente de conteúdo inferior ou igual a 500 g, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,27.0,1517.10.00,15171000,"Margarina, em recipiente de conteúdo superior a 500 g e inferior a 1 kg, creme vegetal em recipiente de conteúdo inferior a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,31.0,1905.90.90,19059090,Salgadinhos diversos,,vigente_no_texto,,,False,,,,,vigente
+14/16,34.0,2103.20.10,21032010,"Catchup em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,35.0,2103.90.21 2103.90.91,21039021;21039091,"Condimentos e temperos compostos, incluindo molho de pimenta e outros molhos, em embalagens imediatas de conteúdo inferior ou igual a 1 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 3 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,36.0,2103.10.10,21031010,"Molhos de soja preparados em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,37.0,2103.30.10,21033010,Farinha de mostarda em embalagens de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+14/16,38.0,2103.30.21,21033021,"Mostarda preparada em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,39.0,2103.90.11,21039011,"Maionese em embalagens imediatas de conteúdo inferior ou igual a 650 g, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,40.0,2002,2002,"Tomates preparados ou conservados, exceto em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,41.0,2103.20.10,21032010,Molhos de tomate em embalagens imediatas de conteúdo inferior ou igual a 1 kg,,vigente_no_texto,,,False,,,,,vigente
+14/16,47.0,1902.30.00,19023000,Massas alimentícias tipo instantânea,,vigente_no_texto,,,False,,,,,vigente
+14/16,48.0,1902,1902,"Massas alimentícias, cozidas ou recheadas (de carne ou de outras substâncias) ou preparadas de outro modo, exceto as massas alimentícias tipo instantânea",,vigente_no_texto,,,False,,,,,vigente
+14/16,50.0,1905.20,190520,"Pães industrializados, inclusive de especiarias, exceto panetones e bolo de forma",,vigente_no_texto,,,False,,,,,vigente
+14/16,51.0,1905.20.90,19052090,"Bolo de forma, inclusive de especiarias",,vigente_no_texto,,,False,,,,,vigente
+14/16,52.0,1905.20.10,19052010,Panetones,,vigente_no_texto,,,False,,,,,vigente
+14/16,53.0,1905.31,190531,"Biscoitos e bolachas derivados de farinha de trigo; exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"", ""maria"" e outros de consumo popular, não adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial",,vigente_no_texto,,,False,,,,,vigente
+14/16,54.0,1905.31,190531,"Biscoitos e bolachas não derivados de farinha de trigo; exceto dos tipos ""cream cracker"", ""água e sal"", ""maisena"" e ""maria"" e outros de consumo popular, não adicionados de cacau, nem recheados, cobertos ou amanteigados, independentemente de sua denominação comercial",,vigente_no_texto,,,False,,,,,vigente
+14/16,57.0,1905.32,190532,“Waffles” e “wafers” - sem cobertura,,vigente_no_texto,,,False,,,,,vigente
+14/16,58.0,1905.32,190532,“Waffles” e “wafers”- com cobertura,,vigente_no_texto,,,False,,,,,vigente
+14/16,59.0,1905.40,190540,"Torradas, pão torrado e produtos semelhantes torrados",,vigente_no_texto,,,False,,,,,vigente
+14/16,60.0,1905.90.10,19059010,Outros pães de forma,,vigente_no_texto,,,False,,,,,vigente
+14/16,61.0,1905.90.20,19059020,"Outras bolachas, exceto casquinhas para sorvete",,vigente_no_texto,,,False,,,,,vigente
+14/16,62.0,1905.90.90,19059090,Outros pães e bolos industrializados e produtos de panificação não especificados anteriormente; exceto casquinhas para sorvete e pão francês de até 200 g,,vigente_no_texto,,,False,,,,,vigente
+14/16,63.0,1905.10.00,19051000,Pão denominado knackebrot,,vigente_no_texto,,,False,,,,,vigente
+14/16,66.0,1508,1508,"Óleo de amendoim refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,67.0,1509,1509,"Azeites de oliva, em recipientes com capacidade inferior ou igual a 2 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,68.0,1510.00.00,15100000,"Outros óleos e respectivas frações, obtidos exclusivamente a partir de azeitonas, mesmo refinados, mas não quimicamente modificados, e misturas desses óleos ou frações com óleos ou frações da posição 15.09, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,69.0,1512.19.11 1512.29.10,15121911;15122910,"Óleo de girassol ou de algodão refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,70.0,1514.1,15141,"Óleo de canola, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,71.0,1515.19.00,15151900,"Óleo de linhaça refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,72.0,1515.29.10,15152910,"Óleo de milho refinado, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,73.0,1512.29.90,15122990,"Outros óleos refinados, em recipientes com capacidade inferior ou igual a 5 litros, exceto as embalagens individuais de conteúdo inferior ou igual a 15 mililitros",,vigente_no_texto,,,False,,,,,vigente
+14/16,76.0,1601.00.00,16010000,"Enchidos (embutidos) e produtos semelhantes, de carne, miudezas ou sangue; exceto salsicha, linguiça e mortadela",,vigente_no_texto,,,False,,,,,vigente
+14/16,77.0,1601.00.00,16010000,Salsicha e linguiça,,vigente_no_texto,,,False,,,,,vigente
+14/16,78.0,1601.00.00,16010000,Mortadela,,vigente_no_texto,,,False,,,,,vigente
+14/16,79.0,1602,1602,"Outras preparações e conservas de carne, miudezas ou de sangue",,vigente_no_texto,,,False,,,,,vigente
+14/16,80.0,1604,1604,Preparações e conservas de peixes; caviar e seus sucedâneos preparados a partir de ovas de peixe; exceto sardinha em conserva,,vigente_no_texto,,,False,,,,,vigente
+14/16,81.0,1604,1604,Sardinha em conserva,,vigente_no_texto,,,False,,,,,vigente
+14/16,82.0,1605,1605,"Crustáceos, moluscos e outros invertebrados aquáticos, preparados ou em conservas",,vigente_no_texto,,,False,,,,,vigente
+14/16,89.0,0811,0811,"Frutas, não cozidas ou cozidas em água ou vapor, congeladas, mesmo adicionadas de açúcar ou de outros edulcorantes, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,90.0,2001,2001,"Produtos hortícolas, frutas e outras partes comestíveis de plantas, preparados ou conservados em vinagre ou em ácido acético, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,91.0,2004,2004,"Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, congelados, com exceção dos produtos da posição 20.06, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,92.0,2005,2005,"Outros produtos hortícolas preparados ou conservados, exceto em vinagre ou em ácido acético, não congelados, com exceção dos produtos da posição 20.06, excluídos batata, inhame e mandioca fritos, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,93.0,2006.00.00,20060000,"Produtos hortícolas, frutas, cascas de frutas e outras partes de plantas, conservados com açúcar (passados por calda, glaceados ou cristalizados), em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,94.0,2007,2007,"Doces, geléias, “marmelades”, purês e pastas de frutas, obtidos por cozimento, com ou sem adição de açúcar ou de outros edulcorantes, em embalagens de conteúdo inferior ou igual a 1 kg, exceto as embalagens individuais de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,95.0,2008,2008,"Frutas e outras partes comestíveis de plantas, preparadas ou conservadas de outro modo, com ou sem adição de açúcar ou de outros edulcorantes ou de álcool, não especificadas nem compreendidas em outras posições, excluídos os amendoins e castanhas tipo aperitivo, da posição 2008.1, em embalagens de conteúdo inferior ou igual a 1 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,96.0,0901,0901,"Café torrado e moído, em embalagens de conteúdo inferior ou igual a 2 kg",,vigente_no_texto,,,False,,,,,vigente
+14/16,97.0,0902 1211.90.90 2106.90.90,0902;12119090;21069090,"Chá, mesmo aromatizado",,vigente_no_texto,,,False,,,,,vigente
+14/16,98.0,0903.00,090300,Mate,,vigente_no_texto,,,False,,,,,vigente
+14/16,99.0,1701.1 1701.99.00,17011;17019900,"Açúcar refinado, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,101.0,1701.1 1701.99.00,17011;17019900,"Açúcar cristal, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,103.0,1701.1 1701.99.00,17011;17019900,"Outros tipos de açúcar, em embalagens de conteúdo inferior ou igual a 2 kg, exceto as embalagens contendo envelopes individualizados (sachês) de conteúdo inferior ou igual a 10 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,106.0,2008.19.00,20081900,Milho para pipoca (micro-ondas),,vigente_no_texto,,,False,,,,,vigente
+14/16,107.0,2101.1,21011,"Extratos, essências e concentrados de café e preparações à base destes extratos, essências ou concentrados ou à base de café, em embalagens de conteúdo inferior ou igual a 500 g",,vigente_no_texto,,,False,,,,,vigente
+14/16,108.0,2101.20,210120,"Extratos, essências e concentrados de chá ou de mate e preparações à base destes extratos, essências ou concentrados ou à base de chá ou de mate, em embalagens de conteúdo inferior ou igual a 500 g, exceto as bebidas prontas à base de mate ou chá",,vigente_no_texto,,,False,,,,,vigente
