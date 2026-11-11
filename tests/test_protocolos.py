@@ -194,7 +194,9 @@ def test_matriz_de_outras_origens():
     assert {r["protocolo"] for r in p.consultar(m, "73261900", "BA", origem="MG")} == {"Prot. ICMS 26/10"}
     para_sp = p.consultar(m, "73261900", "SP", origem="MG")    # 32/09 cita SP, mas SP não regulamentou
     assert para_sp and all(r["efeito_no_destino"].startswith("depende de ato") for r in para_sp)
-    assert not any(r["efeito_no_destino"] for r in m if r["destino"] != "SP")
+    # fora de SP, só os estados com lei lida que tirou o segmento da ST (dados/estados/efeito_no_destino.csv)
+    efeitos = {(e["uf"], e["protocolo"]) for e in csv.DictReader((RAIZ / "dados" / "estados" / "efeito_no_destino.csv").open(encoding="utf-8"))}
+    assert all((r["destino"], r["protocolo"]) in efeitos for r in m if r["efeito_no_destino"] and r["destino"] != "SP")
 
 
 def test_cabecalho_de_publicacao():

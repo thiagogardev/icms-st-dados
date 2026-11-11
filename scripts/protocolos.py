@@ -596,6 +596,23 @@ def cests_provaveis(ncms: list[str], conv: list[dict], segmento: str = "10") -> 
     return sorted(set(achados))
 
 
+def carregar_efeitos(caminho: Path | None = None) -> dict[tuple[str, str], str]:
+    """dados/estados/efeito_no_destino.csv: protocolos sem efeito num estado de destino, lidos da lei do
+    próprio estado (ex.: GO tirou construção da ST em 2018). Chave (UF, 'Prot. ICMS 82/11')."""
+    caminho = caminho or RAIZ / "dados" / "estados" / "efeito_no_destino.csv"
+    if not caminho.exists():
+        return {}
+    with caminho.open(encoding="utf-8") as f:
+        return {(r["uf"], r["protocolo"]): r["efeito"] for r in csv.DictReader(f)}
+
+
+EFEITOS = carregar_efeitos()
+
+
+def efeito(prot: str, destino: str) -> str:
+    return EFEITOS.get((destino, f"Prot. ICMS {prot}")) or (EFEITO_SP if destino == "SP" else "")
+
+
 def pares(prot: str, cl: dict | None) -> list[tuple[str, str]]:
     """(origem, destino) que o protocolo cobre: cada signatário vendendo para os estados que a
     cláusula primeira cita ("destinadas ao Estado de MG ou ao Estado de SP" vale nos dois sentidos;
@@ -623,7 +640,7 @@ def matriz_geral(itens: list[Item], conv: list[dict], clausulas: dict | None = N
                     "ncm_sh": r["ncm_sh"], "ncms": ";".join(c.replace(".", "") for c in r["ncms"].split(";") if c),
                     "descricao": r["descricao"], "mva_original": "", "cests_provaveis": r["cest"],
                     "vigencia_inicio": _iso(cl["desde"]),
-                    "efeito_no_destino": EFEITO_SP if d == "SP" else "",
+                    "efeito_no_destino": efeito(prot, d),
                     "remetente": REMETENTE.get(prot, ""),
                 })
     for i in itens:
@@ -637,7 +654,7 @@ def matriz_geral(itens: list[Item], conv: list[dict], clausulas: dict | None = N
                 "ncm_sh": i.ncm_sh, "ncms": ";".join(ncms), "descricao": i.descricao,
                 "mva_original": "" if i.mva_original is None else f"{i.mva_original:g}",
                 "cests_provaveis": cests, "vigencia_inicio": _iso(i.vigencia_inicio),
-                "efeito_no_destino": EFEITO_SP if d == "SP" else "",
+                "efeito_no_destino": efeito(i.protocolo, d),
                 "remetente": REMETENTE.get(i.protocolo, ""),
             })
     return linhas

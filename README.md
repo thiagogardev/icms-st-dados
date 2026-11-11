@@ -454,6 +454,25 @@ exemplo, calcula sem o FCP.
 Cruzamento em 10/11/2026: **52 coerentes e nenhuma diferença de MVA**; duas
 linhas do protocolo (juntas de borracha e tapetes) não têm CEST provável.
 
+## Goiás: segmentos fora da ST e efeito no destino
+
+O décimo conjunto, em `dados/estados/GO/`, lê o Apêndice II do Anexo VIII do
+RCTE de Goiás (Decreto 4.852/1997) na redação vigente (Decreto 8.819, desde
+01/01/2017), na página consolidada da SEFAZ-GO (cerca de 57 MB, com todo o
+histórico). `segmentos.csv` traz um inciso por linha, com as normas e a
+situação: 12 segmentos seguem na ST e 4 foram **tirados da ST desde 01/03/2018
+pelo Decreto 9.108/2017**: autopeças (Prots. 41/08 e 97/10), ração pet (26/04 e
+39/11), materiais de construção (82/11 e 85/11) e material elétrico (83/11 e
+84/11). Esses protocolos continuam vigentes no Confaz, sem nota de revogação:
+é um conflito entre a lei estadual e o protocolo.
+
+`dados/estados/efeito_no_destino.csv` é compartilhado entre os estados: cada
+linha diz que um protocolo não tem efeito num destino, com o motivo, a data e a
+fonte. O leitor de protocolos usa o arquivo para preencher `efeito_no_destino`
+na matriz (além da regra de SP do Comunicado CAT 36/2009). Exemplo: de SP para
+GO, as conexões 7307 aparecem pelo Prot. 82/11, com a observação de que GO tirou
+o segmento da ST; na matriz, são 557 linhas com destino GO marcadas assim.
+
 ### Estados sem fonte automática
 
 - **RJ:** o portal de legislação da SEFAZ-RJ só responde a navegadores, e o
