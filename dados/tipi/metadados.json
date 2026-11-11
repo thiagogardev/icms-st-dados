@@ -1,0 +1,33 @@
+{
+  "fonte": "Receita Federal, TIPI consolidada (Decreto 11.158/2022 e atualizações), planilha oficial",
+  "url": "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/legislacao/documentos-e-arquivos/tipi.xlsx",
+  "sha256": "d155f1baafb4039dcb74f97bb5abc1aec69f6760da9bd3f94a90bd40b33a2e9a",
+  "atualizacoes_citadas": [
+    "Decreto nº 11.182, de 24 de agosto de 2022",
+    "Ato Declaratório Executivo RFB nº 5, de 29 de agosto de 2022",
+    "Ato Declaratório Executivo RFB nº 6, de 20 de dezembro de 2022",
+    "Ato Declaratório Executivo RFB nº 2, de 22 de março de 2023",
+    "Ato Declaratório Executivo RFB nº 3, de 03 de outubro de 2023",
+    "Decreto nº 11.764, de 31 de outubro de 2023",
+    "Decreto nº 11.970, de 1º de abril de 2024",
+    "Ato Declaratório Executivo RFB nº 3, de 02 de abril de 2024",
+    "Ato Declaratório Executivo RFB nº 4, de 08 de abril de 2024",
+    "Ato Declaratório Executivo RFB nº 5, de 24 de junho de 2024",
+    "Ato Declaratório Executivo RFB nº 6, de 30 de julho de 2024",
+    "Ato Declaratório Executivo RFB nº 7, de 24 de setembro de 2024",
+    "Ato Declaratório Executivo RFB nº 8, de 05 de novembro de 2024",
+    "Ato Declaratório Executivo RFB nº 9, de 20 de dezembro de 2024",
+    "Ato Declaratório Executivo RFB nº 3, de 23 de setembro de 2025",
+    "Decreto nº 12.665, de 10 de outubro de 2025",
+    "Ato Declaratório Executivo RFB nº 1, de 30 de janeiro de 2026 (Retificado: DOU de 12/02/2026)"
+  ],
+  "obtido_em": "2026-11-11T01:12:38+00:00",
+  "data_referencia": "2026-11-10",
+  "contagens": {
+    "linhas": 15620,
+    "codigos_8_digitos": 10521,
+    "ex": 582,
+    "nao_tributados": 832,
+    "aliquota_zero": 6404
+  }
+}

@@ -473,6 +473,27 @@ na matriz (além da regra de SP do Comunicado CAT 36/2009). Exemplo: de SP para
 GO, as conexões 7307 aparecem pelo Prot. 82/11, com a observação de que GO tirou
 o segmento da ST; na matriz, são 557 linhas com destino GO marcadas assim.
 
+## TIPI: alíquotas do IPI
+
+O décimo primeiro conjunto, em `dados/tipi/`, lê a **TIPI consolidada** (Decreto
+11.158/2022 e atualizações) da planilha oficial da Receita Federal (`tipi.xlsx`,
+lida em 10/11/2026). São **15.620 linhas**: 10.521 códigos de 8 dígitos, 582
+"Ex", 832 linhas "NT" (não tributado) e 6.404 com alíquota zero.
+
+| Arquivo | Conteúdo |
+| --- | --- |
+| `tipi.csv` | Todas as linhas na ordem da tabela: NCM, dígitos, Ex, descrição, alíquota (número e texto) e nível (posição, subposição, item, subitem) |
+| `tipi_ncm8.csv` | Só os códigos de 8 dígitos e os Ex, com a alíquota aplicável |
+| `metadados.json` | Fonte, sha256 e os 17 atos de atualização citados no cabeçalho (o último, ADE RFB nº 1/2026, retificado no DOU de 12/02/2026) |
+
+A planilha não traz a vigência por linha: a redação é a do dia da leitura, e o
+histórico fica nas versões deste repositório. O monitor avisa quando o arquivo
+muda.
+
+```bash
+.venv/Scripts/python scripts/tipi.py   # baixa da Receita e grava em dados/tipi
+```
+
 ### Estados sem fonte automática
 
 - **RJ:** o portal de legislação da SEFAZ-RJ só responde a navegadores, e o
