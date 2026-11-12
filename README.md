@@ -662,6 +662,31 @@ muda.
 - **AP e PA:** ver a seção dos protocolos (PA só atende navegadores; AP não
   tem texto consolidado oficial).
 
+## TEC: alíquota do Imposto de Importação
+
+`scripts/tec.py` lê a planilha "Anexos I a X da Resolução Gecex 272/2021" da
+página Tarifas Vigentes do MDIC/Camex (o nome do arquivo muda a cada
+atualização; o script acha o link na página) e grava `dados/tec/tec.csv`, um
+NCM de 8 dígitos por linha:
+
+| Coluna | Conteúdo |
+| --- | --- |
+| `ii_tec` | Alíquota da TEC do Mercosul (Anexo I), em % |
+| `ii_aplicada` | Alíquota brasileira diferente da TEC (Anexo II), quando existe |
+| `ii_vigente` | A que vale hoje: exceção vigente para o NCM inteiro (sem Ex e sem quota) > Anexo II > Anexo I |
+| `fonte_ii_vigente` | Anexo de onde veio, com a resolução e o término quando é exceção temporária |
+| `bit_bk` | Marca BIT ou BK do Anexo I |
+| `excecoes` | Exceções com Ex ou com quota, em texto: não mudam a alíquota do NCM, só avisam |
+| `vigencia_planilha` | "Atualizado até" dos Anexos I e II |
+
+A regra de prevalência vem da nota do Anexo X (as exceções temporárias
+prevalecem). Exceções com data de início futura ou já vencidas ficam de fora.
+Na leitura de 12/11/2026 são **10.516 NCMs**; 9.404 têm alíquota no Anexo II,
+1.515 têm exceção vigente para o NCM inteiro e 254 têm aviso de Ex ou quota. O
+Anexo III (setor aeronáutico) é regra de tributação por destinação, não
+alíquota por NCM, e fica fora. Gabarito: 4009.31.00 = 12,6% pelo Anexo II
+(conferido na TECnet em 09/11/2026).
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.
