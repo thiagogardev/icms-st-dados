@@ -687,6 +687,55 @@ Anexo III (setor aeronáutico) é regra de tributação por destinação, não
 alíquota por NCM, e fica fora. Gabarito: 4009.31.00 = 12,6% pelo Anexo II
 (conferido na TECnet em 09/11/2026).
 
+### TEC com vigência por data
+
+Para conferir o II de uma DI antiga vale a alíquota da data do registro.
+`scripts/tec_historico.py` monta `dados/tec/tec_historico.csv` a partir das
+versões que o MDIC/Camex publicou dos Anexos da Res. Gecex 272/2021. O nome de
+cada arquivo traz a data, e o MDIC ainda serve os antigos na mesma pasta. Cada
+versão vale da sua data até a véspera da seguinte, com a mesma regra do
+`tec.csv`: exceção vigente para o NCM inteiro > Anexo II > Anexo I.
+
+| Coluna | Conteúdo |
+| --- | --- |
+| `ncm` | 8 dígitos, sem pontos |
+| `aliquota_ii` | Alíquota do II no intervalo, em % |
+| `vigencia_inicio`, `vigencia_fim` | AAAA-MM-DD; fim vazio = vigente |
+| `origem` | Anexo I (TEC), Anexo II (aplicada) ou o anexo da exceção |
+| `ato` | Resolução Gecex e, no Anexo II, a fundamentação |
+| `observacao` | Exceções com Ex ou quota ativas no intervalo, só como aviso |
+
+Versões lidas (URL e sha256 em `dados/tec/historico_fontes.json`):
+
+- Anexo II de 01/09/2022. O MDIC não serve mais esse arquivo; a cópia é a do
+  web.archive.org de 08/10/2022 e fica guardada em `dados/tec/fontes/`.
+- Anexo I de 07/01/2023 e de 02/04/2023 (PDF).
+- Anexo II de 20/02/2024.
+- Exceções de 29/05/2024 (VI e IX) e de 13/06/2024 (IV e V).
+- Planilhas completas de 14/03/2025, 04/06/2025, 13/02/2026, 01/06/2026,
+  05/10/2026 e a vigente.
+
+**Cobertura: desde 01/09/2022.** O art. 7º da Res. Gecex 272/2021, na redação
+da Res. Gecex 353/2022, baixou temporariamente o II de 6.181 NCMs até
+31/12/2023 (de 12,6% para 11,2% na maioria). De 01/01/2024 até a versão de
+20/02/2024 vale a TEC da própria linha. Exemplo: a mangueira 4009.31.00 numa DI
+de 10/10/2023 dá 11,2%, hoje 12,6%. Uma exceção que reaparece corrigida numa
+versão seguinte (3903.11.20: 18% na de 05/10/2026, 20% na de 11/11/2026) fica
+com o valor mais novo. Datas futuras já publicadas entram, como o fim de uma
+exceção.
+
+Limites. Entre duas versões lidas a alíquota é tratada como constante, então uma
+mudança no Anexo I ou II que entrou e saiu nesse meio não aparece. O mesmo vale
+para exceções que começaram e acabaram entre duas versões. Antes de 07/01/2023
+os NCMs que estão só no Anexo I ficam sem linha. Na leitura de 12/11/2026 são
+**24.709 linhas para 10.562 NCMs** (46 extintos sem linha vigente). O intervalo
+que vale hoje bate com o `tec.csv` em todos os NCMs (teste automático).
+
+Atualização: o monitor vigia a página Tarifas Vigentes (fonte
+`mdic-tec-anexos-272`). Quando sai uma planilha nova, roda-se `tec.py` e
+`tec_historico.py`. A versão que era a vigente deve então entrar na lista
+`VERSOES` do script, para continuar no histórico.
+
 ## Próximos conjuntos
 
 Este é o começo de um projeto maior de monitoramento da legislação de ICMS ST.

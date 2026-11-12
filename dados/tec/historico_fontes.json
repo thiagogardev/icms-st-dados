@@ -1,0 +1,111 @@
+{
+  "fonte": "MDIC/Camex, versões publicadas dos Anexos da Res. Gecex 272/2021",
+  "inicio_da_cobertura": "2022-09-01",
+  "regra": "exceção vigente para o NCM inteiro > Anexo II (aplicada) > Anexo I (TEC); cada versão vale da sua data até a véspera da seguinte",
+  "versoes": [
+    {
+      "arquivo": "Anexo_II_Res_272_2021.xlsx",
+      "referencia": "2022-09-01",
+      "tipo": "anexo_ii_2022",
+      "url": "https://web.archive.org/web/20221008080332id_/https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/Anexo_II_Res_272_2021.xlsx",
+      "sha256": "7efe443c73a50e03a9ef15219559d9485b2866f06ae11ca8970b60e49dfa7364"
+    },
+    {
+      "arquivo": "anexo_i_20230107_vigente_res_412_e_413.pdf",
+      "referencia": "2023-01-07",
+      "tipo": "anexo_i_pdf",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/anexo_i_20230107_vigente_res_412_e_413.pdf",
+      "sha256": "b8336433521b41b4f9d91082ad841c5ef2bc308f6cdfa98ab65a1fcce6b5ed3f"
+    },
+    {
+      "arquivo": "anexo_i_20230402_vigente_res-_440_2022.pdf",
+      "referencia": "2023-04-02",
+      "tipo": "anexo_i_pdf",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/anexo_i_20230402_vigente_res-_440_2022.pdf",
+      "sha256": "089c89eabc2ca297cf7d1111cbd9d3f0e217e2802c524ac7e2caef436641002c"
+    },
+    {
+      "arquivo": "2024-02-20-anexo-ii.xlsx",
+      "referencia": "2024-02-20",
+      "tipo": "anexo_ii",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/2024-02-20-anexo-ii.xlsx",
+      "sha256": "9fbdcdb24b530d477034c82cff6443540d29c7e6f2ae52b8149d64949825f3e9"
+    },
+    {
+      "arquivo": "2024-05-29-anexo-ix-dcc-1.xlsx",
+      "referencia": "2024-05-29",
+      "tipo": "excecao:Anexo IX (DCC)",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/2024-05-29-anexo-ix-dcc-1.xlsx",
+      "sha256": "85c920292177c42cdb501097eb0a021e10764489bf0bf38a2f3dfa8f8459d5aa"
+    },
+    {
+      "arquivo": "2024-05-29-anexo_vi_lebit_bk.xlsx",
+      "referencia": "2024-05-29",
+      "tipo": "excecao:Anexo VI (LEBIT/BK)",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/2024-05-29-anexo_vi_lebit_bk.xlsx",
+      "sha256": "55bd3c029f9e35b55da9095f0d9228b95c261b85e0accbdca856ee789fd956b7"
+    },
+    {
+      "arquivo": "13-06-2024-anexo-iv-desabastecimento.xlsx",
+      "referencia": "2024-06-13",
+      "tipo": "excecao:Anexo IV (desabastecimento)",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/13-06-2024-anexo-iv-desabastecimento.xlsx",
+      "sha256": "75f210c0019f3fe721c7020409164340ec68c3958b5a48fe152dc5791f39208b"
+    },
+    {
+      "arquivo": "13-06-2024-anexo-v-letec.xlsx",
+      "referencia": "2024-06-13",
+      "tipo": "excecao:Anexo V (LETEC)",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/13-06-2024-anexo-v-letec.xlsx",
+      "sha256": "72b249974906f1376eabae7cb7566fa5a12884f98279c3e44709d25d35d73cfe"
+    },
+    {
+      "arquivo": "14-03-2025-anexos-i-a-ix-resolucao-gecex-272-21.xlsx",
+      "referencia": "2025-03-14",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/14-03-2025-anexos-i-a-ix-resolucao-gecex-272-21.xlsx",
+      "sha256": "810c45a348c8fbbb13bcdf5afe4696bfa970cf7613c90e5857393cea8a1c938a"
+    },
+    {
+      "arquivo": "04-06-2025-anexos-i-a-ix-resolucao-gecex-272-21.xlsx",
+      "referencia": "2025-06-04",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/04-06-2025-anexos-i-a-ix-resolucao-gecex-272-21.xlsx",
+      "sha256": "65215a57a62c771bb697a72a9bf29696fa3dd8f9f604019729138934f48e3327"
+    },
+    {
+      "arquivo": "13-02-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "referencia": "2026-02-13",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/13-02-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "sha256": "798d3fd99417d7ae80b8d3bd6c0addc02675a53dd6b542f567365991e5afc95c"
+    },
+    {
+      "arquivo": "01-06-2026-anexos-i-a-x-resolucao-gecex-272-21-1.xlsx",
+      "referencia": "2026-06-01",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/01-06-2026-anexos-i-a-x-resolucao-gecex-272-21-1.xlsx",
+      "sha256": "851e9b5dd7bb764bebcc614f4156f257d3630dd765b3a2d037d7f95ea0333bdf"
+    },
+    {
+      "arquivo": "05-10-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "referencia": "2026-10-05",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/05-10-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "sha256": "37954a6f4ee2b4aeeec8b44c93f25399a225690103a64d59b81389c0ec189716"
+    },
+    {
+      "arquivo": "11-11-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "referencia": "2026-11-11",
+      "tipo": "completa",
+      "url": "https://www.gov.br/mdic/pt-br/assuntos/camex/estrategia-comercial/arquivos-listas/11-11-2026-anexos-i-a-x-resolucao-gecex-272-21.xlsx",
+      "sha256": "dd33ad822566d9083f210cc873d278da266425fd734a3008fc1fd27b68f948ef"
+    }
+  ],
+  "obtido_em": "2026-11-12T23:57:25+00:00",
+  "data_referencia": "2026-11-12",
+  "contagens": {
+    "linhas": 24709,
+    "ncms": 10562
+  }
+}
