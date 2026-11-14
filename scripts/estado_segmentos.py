@@ -37,7 +37,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 
 ESTADOS = {
     "PB": {
+        # Em 13/11/2026 a SEFAZ-PB tirou do ar a página com a lista de PDFs (artigo 1519); o Anexo 05 passou a
+        # sair em planilhas por segmento (página 11601). O último PDF consolidado continua no mesmo endereço.
         "pagina": "https://www.sefaz.pb.gov.br/legislacao/99-regulamentos/anexos-icms/1519",
+        "pdf_conhecido": "https://www.sefaz.pb.gov.br/attachments/article/1519/ANEXO%20%2005%20REL.%20MERC.EF.%20SUBST.%20TRIB."
+                         "%20E%20RESP.%20TAX.%20VAL.%20%20AGREG.%20NR%20A%20PARTIR%20DE%2001.01.2024%20%20-%20ATUALIZADO%20EM%2009.07.2025.pdf",
         "fonte": "RICMS/PB (Decreto 18.930/97), Anexo 05 (art. 390), PDF atualizado da SEFAZ-PB",
         # título de bloco: "9) CEST 10. Materiais de construção e congêneres"
         "bloco": re.compile(r"^\s*\d+\)\s*CEST\s+(\d{2})\.\s*(.+?)\s*$", re.M),
@@ -119,8 +123,13 @@ def main(argv: list[str] | None = None) -> int:
 
         with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=300, follow_redirects=True) as cli:
             r = cli.get(cfg["pagina"])
-            r.raise_for_status()
-            url = escolher_pdf(r.text, cfg["pagina"])
+            try:
+                r.raise_for_status()
+                url = escolher_pdf(r.text, str(r.url))
+            except Exception:
+                if not cfg.get("pdf_conhecido"):
+                    raise
+                url = cfg["pdf_conhecido"]
             r = cli.get(url)
             r.raise_for_status()
             bruto = r.content
